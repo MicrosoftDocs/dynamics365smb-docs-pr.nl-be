@@ -10,13 +10,13 @@ ms.date: 09/14/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Werkelijke bedragen analyseren in vergelijking met budgetbedragen
+# Werkelijke bedragen analyseren in vergelijking met budgetbedragen
 
 Als onderdeel van het verzamelen, analyseren en delen van uw bedrijfsgegevens bekijkt u werkelijke bedragen in vergelijking met gebudgetteerde bedragen voor alle rekeningen en voor meerdere perioden.
 
 Als u gebudgetteerde bedragen wilt analyseren, moet u eerst grootboekbudgetten (GB) maken. Zie voor meer informatie [GB-budgetten maken](finance-how-create-budgets.md).
 
-## <a name="view-a-gl-budget"></a>Een grootboekbudget bekijken
+## Een grootboekbudget bekijken
 
 In een begroting met dimensies kunt u de posten filteren en zo bepaalde begrotingen bekijken.
 
@@ -33,7 +33,7 @@ In een begroting met dimensies kunt u de posten filteren en zo bepaalde begrotin
 > [!TIP]  
 > Gebruik de actie **Budget bewerken** om het budget te wijzigen. Kies op de pagina Budget een bedrag om de onderliggende grootboekbudgetposten weer te geven.
 
-## <a name="view-actual-and-budgeted-amounts-for-all-accounts"></a>Werkelijke en gebudgetteerde bedragen bekijken voor alle rekeningen
+## Werkelijke en gebudgetteerde bedragen bekijken voor alle rekeningen
 
 U kunt grootboekbudgetten bekijken en ze vergelijken met werkelijke cijfers in verschillende onderdelen van [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -50,7 +50,7 @@ Het rekeningschema wordt weergegeven in de kolommen aan de linkerzijde. In de ee
 > [!TIP]  
 > Met het veld **Weergeven per** op de pagina **Saldo/Budget (Grootboek)** kunt u de periodelengte selecteren. Gebruik het veld **Weergeven als** om te selecteren hoe bedragen worden berekend, **Mutatie** of **Saldo t/m datum**. Kies de actie **Vorige periode** of **Volgende periode** om de periode te wijzigen.  
 
-## <a name="to-view-actual-and-budgeted-amounts-for-several-periods"></a>Werkelijke en gebudgetteerde bedragen bekijken voor verschillende perioden
+## Werkelijke en gebudgetteerde bedragen bekijken voor verschillende perioden  
 
 In plaats van de werkelijke en de gebudgetteerde bedragen in een bepaalde periode te bekijken voor alle rekeningen, kunt u een aantal perioden voor een afzonderlijke rekening bekijken.  
 
@@ -59,7 +59,7 @@ In plaats van de werkelijke en de gebudgetteerde bedragen in een bepaalde period
 3. Vul op het sneltabblad **Opties** de benodigde velden in om te definiëren wat in de tabel wordt weergegeven.  
 4. Ga op het sneltabblad **Regels** met de muisaanwijzer op een veld in de tabel staan om een korte beschrijving van het weergegeven bedrag te lezen.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Financiële Business Intelligence](bi.md)  
 [Werken met financiële rapporten](bi-how-work-account-schedule.md)  

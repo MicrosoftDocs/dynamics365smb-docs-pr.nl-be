@@ -12,7 +12,7 @@ ms.date: 04/10/2024
 ms.custom: bap-template
 ---
 
-# <a name="map-e-documents-to-purchase-order-lines-with-copilot-preview"></a>E-documenten toewijzen aan inkooporderregels met Copilot (preview)
+# E-documenten toewijzen aan inkooporderregels met Copilot (preview)
 
 Naarmate inkoopprocessen digitaler worden, speelt de functie voor e-documenten in Business Central een sleutelrol bij het automatiseren van de ontvangst en verwerking van leveranciersfacturen. Copilot kan bij dit proces helpen door de toewijzing en afstemming van leveranciersfacturen met inkooporders te verbeteren. Dit vermindert de tijdrovende taken die normaal gesproken uitgebreid zoeken, opzoeken en gegevensinvoer omvatten. Het voordeel wordt nog vergroot door het feit dat leveranciersfacturen vaak niet precies overeenkomen met inkooporders, in welk geval Copilot beter toegerust is om de bijbehorende inkooporders te identificeren. Verbeterde afstemmingsmogelijkheden komen vooral ten goede aan kleine en middelgrote organisaties die behoefte hebben aan efficiënte documenttracering voor inkooporderregels. Copilot is de door AI aangestuurde assistent voor werk waarmee creativiteit wordt gestimuleerd en productiviteit wordt verbeterd voor Business Central-gebruikers.
 
@@ -30,7 +30,7 @@ U kunt nu een bestaande inkooporder in Business Central bijwerken met de informa
 > - This feature is available as a production-ready preview for production and sandbox environments in any country localization, with the exception of Canada. Production-ready previews are subject to supplemental terms of use. For more information, see [Supplemental terms of use for Dynamics 365 preview](https://go.microsoft.com/fwlink/?linkid=2105274).
 > - AI-generated content may be incorrect.-->
 
-## <a name="to-activate-copilot"></a>Copilot activeren
+## Copilot activeren  
 
 Als u de Copilot **Hulp bij afstemming van e-document** niet hebt geactiveerd, moet u dit handmatig doen. Als u de copilot **Hulp bij afstemming van e-document** wilt inschakelen, volgt u deze stappen: 
 
@@ -39,7 +39,7 @@ Als u de Copilot **Hulp bij afstemming van e-document** niet hebt geactiveerd, m
 
 U kunt Copilot gaan gebruiken zodra deze is geactiveerd. 
 
-## <a name="identify-purchase-orders"></a>Inkooporders identificeren
+## Inkooporders identificeren
 
 Ten eerste kunt u de inkooporders identificeren die u automatisch kunt afstemmen. Als uw **leverancier** het veld **E-document ontvangen om** heeft geconfigureerd om te werken met **Inkooporders**, doet [!INCLUDE[prod_short](includes/prod_short.md)] het volgende zodra het elektronische document wordt gemaakt in [!INCLUDE[prod_short](includes/prod_short.md)] (handmatig of vanaf een extern eindpunt):
 
@@ -47,7 +47,7 @@ Ten eerste kunt u de inkooporders identificeren die u automatisch kunt afstemmen
 Deze koppeling zal zichtbaar zijn in het veld **Document** veld van dit specifieke **e-document**. Als u de automatisch gekoppelde **inkooporder** moet wijzigen, kunt u dit doen met behulp van de actie **Koppeling van inkooporder bijwerken** en kiest u handmatig een van de bestaande inkooporders voor deze leverancier. U kunt dit alleen doen voordat u de regels tussen **E-document** en **Inkooporder** afstemt.  
 2. Als de **inkooporder** voor deze specifieke leverancier *bestaat, maar er geen inkoopordernummer* in het bestand van het ontvangen **e-document** staat, biedt [!INCLUDE[prod_short](includes/prod_short.md)] u, als u dit document handmatig hebt geüpload, de mogelijkheid een van de bestaande inkooporders te kiezen, waardoor de lijst **Inkooporders** wordt geopend met orders die u hebt gekregen van leveranciers en die alleen **E-document** bevatten. U moet daar dan de gewenste **Inkooporder** selecteren en **OK** selecteren. Als u niet de juiste **Inkooporder** selecteert of als u het **E-document** automatisch van een extern eindpunt hebt ontvangen met behulp van de **taakwachtrij**, wordt het nieuwe **E-document** niet gekoppeld aan enig inkoopdocument, wordt de **documentstatus** weergegeven als **Fout** en is de **E-documentstatus** op de subpagina **Servicestatus** **Verwerkingsfout met geïmporteerd document**. Als u de koppeling met de **Inkooporder** wilt voltooien, kiest u de actie **Koppeling van inkooporder bijwerken** en kiest u vervolgens een van de bestaande inkooporders voor deze leverancier.  
 
-## <a name="map-lines"></a>Regels toewijzen
+## Regels toewijzen
 
 Copilot helpt u bij het automatisch afstemmen van e-factuurregels met inkooporderregels en biedt extra afstemmingsinformatie om de overeenkomsten te verbeteren.
 
@@ -101,7 +101,7 @@ Als u een afstemming wilt uitvoeren vanaf de inkooporder, kiest u de actie **E-d
 > [!NOTE]
 > Prijs-/kostenanalyse en de controle van de beschikbare hoeveelheid maken deel uit van de voorverwerkingsactiviteit. 
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Overzicht van e-documenten](finance-edocuments-overview.md)    
 [E-documenten gebruiken bij verkoop](finance-how-use-edocuments.md)    

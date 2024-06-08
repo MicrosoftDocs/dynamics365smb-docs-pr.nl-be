@@ -11,13 +11,13 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="work-with-calendar-dates-and-times"></a>Werken met agendadatums en -tijden
+# Werken met agendadatums en -tijden
 
 U kunt op meerdere manieren datums en tijden invoeren. [!INCLUDE[prod_short](includes/prod_long.md)] bevat krachtige functies die gegevensinvoer versnellen of u helpen bij het schrijven van complexe agenda-uitdrukkingen. Er zijn verschillende plaatsen in de toepassing waar u datums en tijden in velden kunt invoeren. Bijvoorbeeld in een verkooporder kunt u de verzenddatum instellen. Wanneer u lijsten of rapportgegevens filtert, kunt u datums en tijden invoeren om alleen de gegevens te krijgen waarin u geïnteresseerd bent.
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="check-your-region-and-language-settings"></a>Uw regio- en taalinstellingen controleren
+## Uw regio- en taalinstellingen controleren
 
 De pagina **Mijn instellingen** geeft de **Regio** en **Taal** op die u in de toepassing gebruikt. Deze instellingen bepalen hoe u datums en tijden invoert.
 
@@ -32,7 +32,7 @@ De pagina **Mijn instellingen** geeft de **Regio** en **Taal** op die u in de to
 The following sections describe how you can enter dates, times, datetimes, durations, date ranges, and how you use date formulas.
 -->
 
-## <a name="entering-dates"></a>Datums invoeren
+## Datums invoeren
 
 In een datumveld kunt u een datum invoeren met de standaardnotatie voor uw regio-instelling. Verschillende regio's kunnen verschillende scheidingstekens hebben tussen de dagen, maanden en jaren. Sommige regio's gebruiken bijvoorbeeld streepjes (mm-dd-jjjj) en andere gebruiken voorwaartse schuine strepen (mm/dd/jjjj).  
 
@@ -44,7 +44,7 @@ In een datumveld kunt u een datum invoeren met de standaardnotatie voor uw regio
 
 Als u productiever met datums en tijden wilt werken, kunt u elke methode of notatie gebruiken die in de volgende gedeelten wordt beschreven.
 
-### <a name="picking-dates-from-the-calendar"></a>Datums ophalen uit de kalender
+### Datums ophalen uit de kalender
 
 Een veld waarbij een kalenderpictogram wordt weergegeven, kan worden ingesteld met de kalenderdatumkiezer. Als u de kalenderdatumkiezer wilt weergeven, activeert u het kalenderpictogram of selecteert u de sneltoets <kbd>Ctrl</kbd>+<kbd>Home</kbd> in het veld.
 
@@ -52,7 +52,7 @@ Een veld waarbij een kalenderpictogram wordt weergegeven, kan worden ingesteld m
 
 Zie ook [Sneltoetsen in de kalenderdatumkiezer](keyboard-shortcuts.md#calendarshortcuts).
 
-### <a name="day-week-year-pattern"></a>Dag\-week\-jaar patroon
+### Dag\-week\-jaar patroon
 
 U kunt een datum als dag van de week invoeren, gevolgd door een weeknummer en desgewenst een jaar. Bijvoorbeeld Maa25 of maa25 betekent maandag in week 25. Als u geen jaar invoert, wordt het jaar van de werkdatum gebruikt.
 
@@ -60,7 +60,7 @@ U kunt in plaats van het volledige woord voor de dag van de week een deel van he
 
 Het schema van het weeknummer is altijd ISO 8601, waar week 1 de week met 4 januari erin is of de week met de eerste donderdag van het jaar.
 
-### <a name="digit-patterns"></a>Cijferpatronen
+### Cijferpatronen
 
 Een datumveld kan twee, vier, zes of acht cijfers bevatten:
 
@@ -73,17 +73,17 @@ Een datumveld kan twee, vier, zes of acht cijfers bevatten:
   > [!NOTE]
   > Als u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises gebruikt, kan het tweecijferige jaarbereik verschillen. Beheerders kunnen het bereik wijzigen met de instelling **CalendarTwoDigitYearMax** van de [!INCLUDE[prod_short](includes/prod_short.md)]-server. Zie [Business Central Server configureren](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General) voor meer informatie.
  
-### <a name="today"></a>Vandaag
+### Vandaag
 
 Voer het woord in voor _vandaag_, in de taal vermeld op de pagina **Mijn instellingen**, om de datum in een record in te stellen op de datum van vandaag. U kunt in plaats van het volledige woord een deel van het woord invoeren, vanaf het begin. In het Engels kunt u bijvoorbeeld _t_ of _tod_ invoeren, zolang het niet ook het begin is van een ander woord.
 
-### <a name="period"></a>Periode
+### Periode
 
 Als u wilt filteren op een specifieke boekingsperiode, voert u in een datumveld de letter p of het woord periode in, gevolgd door een nummer dat de boekingsperiode aangeeft, zoals p2 of periode4. De boekhoudperiode is relatief aan het boekjaar van de huidige werkdatum die u instelt in uw rolcentrum. Als de werkdatum bijvoorbeeld **21-3-22** is, wordt met _p1_ of alleen _p_ gefilterd op de eerste boekingsperiode van het boekjaar 2022 (bijvoorbeeld 1-1-22..31-1-22). Met _p15_ wordt gefilterd op de vijftiende boekingsperiode vanaf het begin van het boekjaar 2022 (bijvoorbeeld 1-3-23..31-3-23).
 
 De boekhoudperioden worden gedefinieerd op de pagina **Boekingsperioden**. Als u de boekingsperioden wilt weergeven of wijzigen, opent u de pagina [hier](https://businesscentral.dynamics.com/?page=100).
 
-### <a name="work-date"></a>Werkdatum
+### Werkdatum
 
 Gebruik een werkdatum om een datum op te geven die niet de huidige datum in records is. Een werkdatum is bijvoorbeeld handig wanneer u een bepaalde datum voor meerdere records moet instellen. U geeft de werkdatum op de pagina **Mijn instellingen** op. 
 
@@ -91,13 +91,13 @@ Een snelle manier om de werkdatum in records in te voeren, is door een deel van 
 
 Als u geen werkdatum heeft opgegeven, wordt de datum van vandaag gebruikt. Zie voor meer informatie [Basisinstellingen wijzigen, zoals de werkdatum](ui-change-basic-settings.md#work-date).
 
-### <a name="closing-date"></a>Ultimodatum
+### Ultimodatum
 
 Als u een boekjaar afsluit, kunt u ultimodatums gebruiken om aan te geven dat het om een ultimopost gaat. Een ultimodatum ligt technisch gezien tussen twee datums in, zoals tussen 31 december en 1 januari.
 
 Als u een datum wilt opgeven die een ultimodatum is, plaatst u U vlak vóór de datum, bijvoorbeeld U311201. Dit notatie kan in combinatie met alle datumpatronen worden gebruikt.
 
-### <a name="examples"></a>Voorbeelden
+### Voorbeelden
 
 De volgende tabel bevat voorbeelden van datums met alle indelingen. Er wordt uitgegaan van regio-instellingen die datums noteren volgens: **jaar.maand.dag.**, een week na maandag en de Engelse taal.
 
@@ -122,7 +122,7 @@ De volgende tabel bevat voorbeelden van datums met alle indelingen. Er wordt uit
 |d 23|Dinsdag van week 23 van het werkdatumjaar|
 |d-1|Dinsdag van week 1 van het werkdatumjaar|
 
-## <a name="setting-ranges"></a><a name="BKMK_SettingDateRanges"></a>Datumbereiken instellen
+##  <a name="BKMK_SettingDateRanges"></a> Datumbereiken instellen
 
 In lijsten, totalen en rapporten kunt u filters instellen op datum, tijden en datumtijden. De filters kunnen een begindatum en desgewenst een einddatum bevatten om alleen de gegevens uit dat bereik weer te geven. Voor het instellen van een datumbereik gelden de standaardregels.
 
@@ -134,7 +134,7 @@ In lijsten, totalen en rapporten kunt u filters instellen op datum, tijden en da
 
 U kunt iedere geldige indeling in datumbereikfilters gebruiken. Bijvoorbeeld maa14 3..v 4p, toegepast op een datum/tijd-veld leidt tot een filter van 3 uur 's morgens op maandag, in week 14 van het huidige werkdatumjaar tot en met vandaag om 4 uur 's middags.
 
-## <a name="use-date-formulas"></a>Datumformules gebruiken
+## Datumformules gebruiken
 
 Een datumformule is een korte, afgekorte combinatie van letters en cijfers op basis waarvan datums worden berekend. U kunt datumformules invoeren in verschillende datumberekeningsvelden of -filters.
 
@@ -198,7 +198,7 @@ In het volgende voorbeeld ziet u hoe u een minteken gebruikt om een datum in het
 > [!IMPORTANT]
 > Als de vestiging een basisagenda gebruikt, wordt de datumformule die u invoert in dit veld, bijvoorbeeld het veld **Verzendtijd** beschouwd als agendawerkdag. Bijvoorbeeld: 1W betekent zeven werkdagen.
 <!--
-# <a name="entering-date-ranges"></a>Entering Date Ranges
+# Entering Date Ranges
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
 
 ![Setting a date range in the request page for the Customer Top 10 list.](./media/ui-enter-date-ranges/customer-top10-list.png)
@@ -221,7 +221,7 @@ You can also combine the various format types.
 
 Note that we have used the US date format MMDDYY here. As [!INCLUDE[prod_short](includes/prod_short.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
 
-## <a name="use-date-formulas-1"></a>Use Date Formulas
+## Use Date Formulas
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
 
 > [!NOTE]
@@ -286,7 +286,7 @@ The following example shows how you can use a minus sign to indicate a date in t
 
 -->
 
-## <a name="entering-times"></a>Tijden invoeren
+## Tijden invoeren
 
 U kunt bij de invoer van tijden elk willekeurig niet-spatie scheidingsteken tussen de eenheden plaatsen. Als u dubbele cijfers gebruikt voor elke eenheid tot milliseconden, dan is dit niet vereist.
 
@@ -319,11 +319,11 @@ In de volgende tabel wordt aangegeven op welke manieren u tijden kunt invoeren e
 
 Het woord voor 'tijd' in de taal die [!INCLUDE[prod_short](includes/prod_long.md)] gebruikt, wordt geëvalueerd als de huidige tijd op uw computer of mobiele apparaat. U kunt elk deel van het woord invoeren, beginnend bij het begin, zoals t of TIJ.
 
-## <a name="entering-combined-dates-and-times"></a>Gecombineerde datums en tijden invoeren
+## Gecombineerde datums en tijden invoeren
 
 [!INCLUDE [datetimes](includes/datetimes.md)]
 
-## <a name="entering-duration"></a>Duur invoeren
+## Duur invoeren
 
 Sommige velden in toepassingsmodule vertegenwoordigen een duur of hoeveelheid verstreken tijd, in plaats van een specifieke datum of tijd. De duur moet worden ingevoerd als een getal gevolgd door de eenheid.
 
@@ -344,7 +344,7 @@ Voer een getal in om te zien welke maateenheid in een duurveld wordt gebruikt. V
 
 Als de maateenheid bijvoorbeeld uren is, wordt het getal 5 bijvoorbeeld naar 5 uur geconverteerd.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Werken met [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Datumberekening voor inkopen](purchasing-date-calculation-for-purchases.md)  

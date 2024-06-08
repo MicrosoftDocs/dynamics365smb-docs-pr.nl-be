@@ -10,7 +10,7 @@ ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="receive-and-convert-electronic-documents"></a>Elektronische documenten ontvangen en converteren
+# Elektronische documenten ontvangen en converteren
 
 > [!NOTE]
 > De inhoud in dit artikel is alleen van toepassing op versies van Dynamics 365 Business Central die zijn uitgebracht vóór releasewave 2 van 2023. In releasewave 2 van 2023 is nieuwe functionaliteit voor e-documenten opgenomen. Zie [E-documenten instellen](finance-how-setup-edocuments.md) voor meer informatie. 
@@ -37,7 +37,7 @@ U kunt de conversie van elektronische documenten handmatig starten, zoals in dez
 
 In de volgende procedure wordt beschreven hoe u een leveranciersfactuur ontvangt en converteert naar een inkooporder in [!INCLUDE[prod_short](includes/prod_short.md)]. Dezelfde procedure geldt wanneer u een leveranciersfactuur converteert naar een dagboekregel.  
 
-### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>Een elektronische factuur ontvangen en converteren naar een inkoopfactuur
+### Een elektronische factuur ontvangen en converteren naar een inkoopfactuur
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Inkomende documenten** in en kies vervolgens de gerelateerde koppeling.  
 
@@ -55,7 +55,7 @@ In de volgende procedure wordt beschreven hoe u een leveranciersfactuur ontvangt
 
     Eventuele validatiefouten, die meestal worden veroorzaakt door onjuiste of ontbrekende hoofdgegevens in [!INCLUDE[prod_short](includes/prod_short.md)], worden weergegeven op het sneltabblad **Foutmeldingen**.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
 [Inkomende documenten](across-income-documents.md)  

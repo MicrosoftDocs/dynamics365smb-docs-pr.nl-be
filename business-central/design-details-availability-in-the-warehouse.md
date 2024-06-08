@@ -9,7 +9,7 @@ ms.date: 02/22/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-availability-in-the-warehouse"></a>Ontwerpdetails: Beschikbaarheid in het magazijn
+# Ontwerpdetails: Beschikbaarheid in het magazijn
 
 Blijf op de hoogte van de artikelbeschikbaarheid om ervoor te zorgen dat uitgaande orders efficiënt stromen en dat uw levertijden optimaal zijn.  
 
@@ -22,13 +22,13 @@ Beschikbaarheid kan variëren, afhankelijk van verschillende factoren. Bijvoorbe
 
 Wanneer niet aan de voorwaarden wordt voldaan, worden foutmeldingen weergegeven. Een typische boodschap is de generieke "Niets te verwerken". bericht. Het bericht kan om allerlei redenen worden weergegeven, zowel in uitgaande als inkomende stromen, waar een direct of indirect betrokken documentregel het veld **Te verwerken aantal** bevat.
 
-## <a name="bin-content-and-reservations"></a>Inhoud van opslaglocatie en reserveringen
+## Inhoud van opslaglocatie en reserveringen  
 
 Artikelhoeveelheden bestaan als magazijnposten en als artikelposten in voorraad. Deze twee boekingssoorten bevatten verschillende informatie over waar artikelen zijn en of ze beschikbaar zijn. Met magazijnposten wordt de beschikbaarheid van een artikel per (soort) opslaglocatie gedefinieerd, wat opslaglocatie-inhoud wordt genoemd. Artikelposten definiëren de beschikbaarheid van een artikel op basis van de reservering hiervan voor uitgaande documenten.  
 
 [!INCLUDE [prod_short](includes/prod_short.md)] berekent de hoeveelheid die beschikbaar is om te picken wanneer opslaglocatie-inhoud is gekoppeld aan reserveringen.  
 
-## <a name="quantity-available-to-pick"></a>Beschikbaar aantal voor picken
+## Beschikbaar aantal voor picken  
 
 [!INCLUDE [prod_short](includes/prod_short.md)] reserveert artikelen voor wachtende verkooporderverzendingen zodat ze niet worden gepickt voor andere verkooporders die eerder worden verzonden. [!INCLUDE [prod_short](includes/prod_short.md)] trekt als volgt hoeveelheden af van artikelen die al worden verwerkt:
 
@@ -47,7 +47,7 @@ Het resultaat is in deze documenten beschikbaar in de hoeveelheidsvelden, zoals 
 > [!NOTE]  
 > Voor wat betreft de prioriteit van reserveringen wordt het te reserveren aantal afgetrokken van het aantal dat beschikbaar is voor picken. Als het beschikbare aantal in pickopslaglocaties bijvoorbeeld 5 eenheden is, maar 100 eenheden zich in opslaglocaties bevinden en u probeert meer dan 5 eenheden voor een andere order te reserveren, wordt een foutbericht weergegeven omdat het extra aantal in pickopslaglocaties beschikbaar moet zijn.  
 
-### <a name="calculating-the-quantity-available-to-pick"></a>Het aantal berekenen dat beschikbaar is voor picken
+### Het aantal berekenen dat beschikbaar is voor picken  
 
 [!INCLUDE [prod_short](includes/prod_short.md)] berekent het aantal dat beschikbaar is voor picken, als volgt:  
 
@@ -57,7 +57,7 @@ Het volgende diagram bevat de verschillende elementen van de berekening.
 
 ![Beschikbaar om te picken met reserveringoverlap.](media/design_details_warehouse_management_availability_2.png "Beschikbaar om te picken met reserveringoverlap")  
 
-## <a name="quantity-available-to-reserve"></a>Beschikbaar aantal voor reserveren
+## Beschikbaar aantal voor reserveren
 
 Omdat de concepten opslaglocatie en reservering naast elkaar bestaan, moet het aantal artikelen dat beschikbaar is om te reserveren, afgestemd zijn met toewijzingen aan uitgaande magazijndocumenten.  
 
@@ -74,11 +74,11 @@ Het resultaat wordt weergegeven in het veld **Totaal beschikbaar aantal** op de 
 
 Op een reserveringsregel wordt het aantal dat niet kan worden gereserveerd omdat het in het magazijn is toegewezen, weergegeven in het veld **Aant. toegewezen in magazijn** op de pagina **Reservering**.  
 
-## <a name="check-whether-items-are-available-for-picking"></a>Controleer of artikelen beschikbaar zijn om te picken
+## Controleer of artikelen beschikbaar zijn om te picken
 
 [!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
-### <a name="calculating-the-quantity-available-to-reserve"></a>Het aantal berekenen dat beschikbaar is voor reservering
+### Het aantal berekenen dat beschikbaar is voor reservering
 
 [!INCLUDE [prod_short](includes/prod_short.md)] berekent het aantal dat beschikbaar is voor reserveringen, als volgt:  
 
@@ -88,7 +88,7 @@ Het volgende diagram bevat de verschillende elementen van de berekening.
 
 ![Beschikbaar om te reserveren per magazijntoewijzing.](media/design_details_warehouse_management_availability_3.png "Beschikbaar om te reserveren per magazijntoewijzing")  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook  
 
 [Overzicht van magazijnbeheer](design-details-warehouse-management.md)
 [De beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md)

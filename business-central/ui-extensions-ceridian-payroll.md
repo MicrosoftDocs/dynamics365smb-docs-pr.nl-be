@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="the-ceridian-payroll-extension"></a>De extensie Ceridian Payroll
+# De extensie Ceridian Payroll
 
 Als u salarisbetalingen en gerelateerde transacties wilt verantwoorden, moet u financiële transacties die zijn uitgevoerd door uw leverancier van salarisverwerking, importeren en boeken naar het grootboek.
 
@@ -18,7 +18,7 @@ Hiervoor importeert u eerst een bestand dat u van de leverancier van salarisverw
 
 Met de extensie Ceridian Payroll kunt u loonlijsttransacties van de services Ceridian HR/Payroll (VS) en Ceridian PowerPay (Canada) importeren.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies ](ui-extensions.md)  
 [Financiën](finance.md)  

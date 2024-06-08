@@ -11,7 +11,7 @@ ms.date: 04/26/2023
 ms.custom: bap-template
 ---
 
-# <a name="set-up-nondeductible-vat"></a>Niet-aftrekbare btw instellen
+# Niet-aftrekbare btw instellen
 
 Niet-aftrekbare btw is de btw die een koper moet betalen, maar die niet aftrekbaar is van de eigen btw-aansprakelijkheid van de koper. Bedrijven kunnen btw meestal terugkrijgen op de aankoop van goederen en diensten die verband houden met hun bedrijfsactiviteiten. In sommige situaties betaalt een bedrijf echter btw die niet aftrekbaar is. Deze situaties houden meestal verband met de lokale regelgeving en kunnen tussen landen/regio's verschillen. Het model voor het gebruik van niet-aftrekbare of gedeeltelijk aftrekbare btw is echter vergelijkbaar. U kunt de proportionele btw gebruiken om de btw te berekenen wanneer er sprake is van aftrekbare en niet-aftrekbare btw.
 
@@ -25,7 +25,7 @@ Omdat het lastig kan zijn om te weten waar en hoe een artikel wordt gebruikt, ku
 > [!IMPORTANT]
 > Deze wereldwijde functie is beschikbaar in alle landen/regio's met ingeschakelde btw, **behalve in België, Italië en Noorwegen**. Deze lokalisaties hebben al een bestaande lokale functie en zullen in de toekomst worden bijgewerkt. Gebruik deze functie niet in deze landen/regio's omdat de upgradeprocedure niet bestaat.
 
-## <a name="use-nondeductible-vat"></a>Niet-aftrekbare btw gebruiken
+## Niet-aftrekbare btw gebruiken
 
 1. Selecteer het ![Lampje dat de functie Vertel me opent 3.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Btw-instelling** in en selecteer vervolgens de gerelateerde koppeling.
 2. Schakel het selectievakje **Niet-aftrekbare btw inschakelen** in.
@@ -40,7 +40,7 @@ Omdat het lastig kan zijn om te weten waar en hoe een artikel wordt gebruikt, ku
     3. Schakel het selectievakje **Gebruiken voor projectkosten** in om op te geven dat de niet-aftrekbare btw moet worden opgeteld bij de projectkosten wanneer u artikelen voor het project aanschaft. Anders heeft de niet-aftrekbare btw geen invloed op de projectkosten en wordt het volledige bedrag alleen op grootboekniveau geboekt.
     4. Schakel het selectievakje **Niet-aftrekbare btw weergeven op regels** in om op te geven dat de niet-aftrekbare btw op documentregelpagina's moet worden weergegeven om btw-bedragen gemakkelijker te manipuleren.
 
-## <a name="use-the-nondeductible-vat-percentage"></a>Het niet-aftrekbare btw-percentage gebruiken
+## Het niet-aftrekbare btw-percentage gebruiken
 
 1. Selecteer het ![Lampje dat de functie Vertel me opent 3.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Btw-boekingsgroepinstellingen** in en selecteer vervolgens de gerelateerde koppeling.
 2. Stel op de pagina **Btw-boekingsgroepinstellingen** de velden in, zoals is beschreven in de volgende tabel.
@@ -61,7 +61,7 @@ Omdat het lastig kan zijn om te weten waar en hoe een artikel wordt gebruikt, ku
 >
 > Gebruik niet dezelfde **Btw-identificatie** voor zowel normale btw waarbij het veld **Niet-aftrekbaar btw-percentage** is ingesteld op **0** (nul) als voor normale btw waarbij het veld **Niet-aftrekbaar btw-percentage** is ingesteld op een waarde die niet gelijk is aan nul. Anders wordt het totale niet-aftrekbare btw-bedrag verkeerd berekend.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Financieel beheer](finance.md)  
 [Ontwerpdetails: Niet-aftrekbare btw](design-details-nondeductible-vat.md)  

@@ -9,11 +9,11 @@ ms.date: 02/27/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="create-service-invoices-or-credit-memos"></a>Servicefacturen of creditnota's maken
+# Servicefacturen of creditnota's maken
 
 Gemakkelijke facturering van uw serviceorders is een van de belangrijkste kenmerken van [!INCLUDE[prod_short](includes/prod_short.md)]. U kunt uw [!INCLUDE[prod_short](includes/prod_short.md)] ook zo instellen dat een servicetechnicus op locatie een factuur kan maken voor een service die niet aan een contract of order is verbonden. U kunt [!INCLUDE[prod_short](includes/prod_short.md)] ook instellen zodat u periodiek servicecontracten factureert. Met de factuurperiode voor elk contract wordt bepaald hoe vaak u dit factureert.
 
-## <a name="to-invoice-several-service-contracts"></a>Meerdere servicecontracten factureren
+## Meerdere servicecontracten factureren
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Servicecontractfacturen maken** in en kies vervolgens de gerelateerde koppeling.  
 2. Stel de filters in die u wilt toepassen.  
@@ -24,7 +24,7 @@ Gemakkelijke facturering van uw serviceorders is een van de belangrijkste kenmer
   
 U kunt een servicecontract ook rechtstreeks factureren vanaf de pagina **Servicecontract**, als de volgende factuurdatum op het contract eerder is dan de werkdatum.
 
-## <a name="to-invoice-a-service-contract-from-the-service-contract-page"></a>Een servicecontract factureren via de pagina Servicecontract
+## Een servicecontract factureren via de pagina Servicecontract   
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Servicecontracten** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies het servicecontract waarvoor u wilt factureren en open de contractkaart.  
@@ -34,7 +34,7 @@ U kunt een servicecontract ook rechtstreeks factureren vanaf de pagina **Service
   > [!NOTE]  
   > U kunt geen servicefacturen maken voor het servicecontract als de waarde van het veld **Wijzigingsstatus** is ingesteld op **Open**.  
 
-## <a name="to-post-an-invoice-from-a-service-order"></a>Een factuur boeken vanuit een serviceorder
+## Een factuur boeken vanuit een serviceorder  
 
 In de volgende procedure wordt beschreven hoe u het servicedeel opgeeft dat u aan de klant in rekening brengt.  
 
@@ -54,7 +54,7 @@ In de volgende procedure wordt beschreven hoe u het servicedeel opgeeft dat u aa
   
  Wanneer u de order boekt met de optie **Factureren** wordt een geboekte servicefactuur gemaakt samen met de overeenkomende posten en updates van de relevante velden op de serviceregels van de order. Bovendien worden de eerder geboekte verzendingsdocumenten bijgewerkt met de gefactureerde aantallen. Als u de optie **Verzenden en factureren** selecteert, wordt een geboekte verzending gemaakt.
 
-## <a name="to-create-a-service-invoice-manually"></a>Een servicefactuur handmatig maken
+## Een servicefactuur handmatig maken  
 
 Normaal gesproken, wanneer u een serviceorder boekt met de optie **Factureren** of **Verzenden en factureren**, wordt automatisch een servicefactuur geboekt. Toch kan het nodig zijn dat u een factuur moet verzenden die niet is gekoppeld aan een servicecontract of aan een order. In deze procedure wordt uitgelegd hoe u een factuur verzendt op hetzelfde moment dat de klant de service ontvangt.  
 
@@ -73,7 +73,7 @@ Normaal gesproken, wanneer u een serviceorder boekt met de optie **Factureren** 
 6. Vul het veld **Documentdatum** een datum in die op de afgedrukte factuur wordt weergegeven en wordt gebruikt om de vervaldatum te bereken.  
 7. Vul de serviceregels van de factuur in. Vul de velden **Soort**, **Nr.** en **Aantal** in om artikelen, resources en kosten te registreren die zijn gebruikt voor de serviceverlening.
 
-## <a name="to-create-an-invoice-that-combines-posted-shipment-lines-from-one-or-more-service-orders"></a>Een factuur maken die geboekte verzendingsregels van een of meer serviceorders combineert
+## Een factuur maken die geboekte verzendingsregels van een of meer serviceorders combineert 
 
 Het kan voorkomen dat u een servicefactuur moet opstellen voor een service die al is geleverd, vanuit één of verschillende serviceorders, maar die nog niet is gefactureerd of verbruikt. U kunt de geselecteerde geboekte verzendregels voor een bepaalde klant automatisch laten invullen op de factuurregels.  
 
@@ -84,7 +84,7 @@ Het kan voorkomen dat u een servicefactuur moet opstellen voor een service die a
   
  De geboekte servicefactuur en de bijbehorende posten worden gemaakt. De eerder geboekte verzendingsdocumenten worden bijgewerkt met de gefactureerde aantallen, en de aantallen worden bijgewerkt op de serviceregels van de bronorders.  
 
-## <a name="to-create-a-service-credit-memo"></a>Een servicecreditnota maken
+## Een servicecreditnota maken  
 
 Normaal gesproken gebruikt u een document met een servicecreditnota wanneer een klant een artikel retourneert. U kunt ze echter ook gebruiken om een ​​klant terug te betalen of om een ​​foutieve factuur te corrigeren.  
 
@@ -93,7 +93,7 @@ Normaal gesproken gebruikt u een document met een servicecreditnota wanneer een 
 3. In de velden **Boekingsdatum** en **Documentdatum** wordt de werkdatum weergegeven. Indien nodig kunt u deze wijzigen.    
 4. Voer op de creditnotaregels gegevens in over de artikelen die zijn teruggestuurd of verwijderd of over de vergoeding die aan de klant zal worden gegeven.  
 
-## <a name="correct-errors-in-service-invoices"></a>Fouten corrigeren in servicefacturen
+## Fouten corrigeren in servicefacturen
 
 U kunt servicefacturen verwijderen waaraan serviceposten zijn gekoppeld. Dit betekent dat u fouten kunt corrigeren of servicefacturen kunt wijzigen zonder dat u vastloopt of gegevens verliest. Als u bijvoorbeeld vergeet om een productboekingsgroep aan een grootboekrekening toe te wijzen, kunt u deze later toevoegen en de servicefactuur opnieuw aanmaken.
 
@@ -109,7 +109,7 @@ Wanneer u een servicefactuur verwijdert, gebeurt het volgende:
 >
 > U kunt een servicefactuur niet verwijderen als de details ervan, zoals de factureringsperiode of de schakelaar **Vooraf betaald** zijn gewijzigd in het bijbehorende servicecontract. Zorg ervoor dat u facturen verwijdert voordat u instellingen in het servicecontract wijzigt.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Servicefacturen boeken](service-how-to-post-service-orders.md)  
 [CRM - Service instellen](service-setup-service.md)  

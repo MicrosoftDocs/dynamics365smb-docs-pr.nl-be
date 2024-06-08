@@ -10,7 +10,7 @@ ms.date: 06/22/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="reconcile-payments-using-automatic-application"></a>Betalingen reconciliëren met automatische vereffening
+# Betalingen reconciliëren met automatische vereffening
 
 De pagina **Betalingsreconciliatiedagboek** specificeert betalingen, zowel inkomend als uitgaand, die zijn geregistreerd als transacties op uw online bankrekening of op een betalingsservice. U kunt de betalingen vereffenen met gerelateerde openstaande klant-, leveranciers- en bankrekeningposten. Vul de regels in het dagboek in door een bankafschrift te importeren als een bankfeed of bestand of door handmatig transacties in te voeren die u via uw betalingsservice doet.
 
@@ -42,7 +42,7 @@ Voor elke dagboekregel op de pagina **Dagboek betalingsreconciliatie** kunt u de
 > [!NOTE]  
 > U kunt het importeren van banktransacties starten op het moment dat u de pagina **Betalingsreconciliatiedagboek** opent voor een bestaand dagboek. In de volgende procedure wordt beschreven hoe u banktransacties importeert op de pagina **Dagboek betalingsreconciliatie** nadat u een nieuw dagboek hebt gemaakt.
 
-## <a name="to-reconcile-payments-using-automatic-application"></a>Betalingen reconciliëren met automatische vereffening
+## Betalingen reconciliëren met automatische vereffening
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Betalingsreconciliatiedagboeken** in en kies vervolgens de gerelateerde koppeling.
 2. Als u in een nieuw betalingsreconciliatiedagboek wilt werken, kiest u de actie **Nieuw dagboek**.
 3. Selecteer op de pagina **Bankrekeninglijst betaling** de bankrekening waarvoor u betalingen wilt vereffenen en kies vervolgens de knop **OK**.
@@ -87,7 +87,7 @@ U kunt de waarde in het veld **Saldo op bankrekening na boeking** met de waarde 
 > [!NOTE]  
 >   Als u de bankrekening vanuit de pagina **Betalingsreconciliatiedagboek** niet wilt reconciliëren, moet u de pagina **Bankreconciliatie** gebruiken. Zie [Bankrekeningen reconciliëren](bank-how-reconcile-bank-accounts-separately.md) voor meer informatie.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Tegoeden beheren](receivables-manage-receivables.md)  
 [Verkoop](sales-manage-sales.md)  
