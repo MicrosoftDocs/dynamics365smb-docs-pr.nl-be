@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="ad-hoc-analysis-of-fixed-assets-data"></a>Adhoc-analyse van vaste-activagegevens
+# Adhoc-analyse van vaste-activagegevens
 
 In dit artikel leert u hoe u de functie **Gegevensanalyse** gebruikt om vaste-activagegevens te analyseren direct vanaf lijstpagina's en query's. U hoeft geen rapport uit te voeren of over te stappen naar een andere toepassing, zoals Excel. De functie biedt een interactieve en veelzijdige manier om gegevens te berekenen, samen te vatten en te onderzoeken. In plaats van rapporten uit te voeren met opties en filters, kunt u meerdere tabbladen toevoegen die verschillende taken of weergaven van de gegevens vertegenwoordigen. Enkele voorbeelden zijn 'Totale activa', 'Afschrijvingen in de loop van de tijd' of welke andere weergave dan ook die u maar kunt bedenken. Voor meer informatie over het gebruik van de functie **Gegevensanalyse** gaat u naar [Lijst- en querygegevens analyseren met de analysemodus](analysis-mode.md).
 
@@ -21,7 +21,7 @@ Gebruik de volgende lijstpagina's om te beginnen met ad-hocanalyse van vaste-act
 - [VA-posten](https://businesscentral.dynamics.com/?page=5604)
 - [Grootboekposten](https://businesscentral.dynamics.com/?page=20)
 
-## <a name="fixed-assets-ad-hoc-analysis-scenarios"></a>Scenario's voor adhoc-analyse van vaste-activa
+## Scenario's voor adhoc-analyse van vaste-activa
 
 Gebruik de functie **Gegevensanalyse** voor snelle feitencontrole en ad-hocanalyse:
 
@@ -37,7 +37,7 @@ In de volgende secties vindt u voorbeelden van vaste-activascenario's in [!INCLU
 | [De waarde van activa verandert in de loop van de tijd](#example-asset-value-changes-over-time) | Wijzigingen in de waarde van activa bijhouden in de loop van de tijd. | [VA-posten](https://businesscentral.dynamics.com/?page=5604) | Kies de velden **VA-boekingssoort**, **VA-boekingsdatum** en **Bedrag** |
 |[Afschrijvingen op vaste activa in de loop van de tijd](#example-fixed-asset-depreciations-over-time) | Volg afschrijvingen in de loop van de tijd, zowel voor alle activa als voor één enkel activum. | [VA-posten](https://businesscentral.dynamics.com/?page=5604) | **Afschrijvingsboek**, **VA-nr.**, **VA-boekingsjaar**, **VA-boekingsmaand**, en **Bedrag** en **VA-boekingssoort** |
 
-### <a name="example-fixed-assets-current-value"></a>Voorbeeld: vaste activa (huidige waarde)
+### Voorbeeld: vaste activa (huidige waarde)
 
 Volg deze stappen om de waarde van een of meer vaste activa bij te houden:
 
@@ -52,7 +52,7 @@ De volgende afbeelding toont het resultaat van deze stappen.
 
 :::image type="content" source="media/data-analysis-fa-ledger-entries-asset-overview-current-value.png" alt-text="Voorbeeld van hoe u gegevensanalyse uitvoert op de pagina VA-posten om de waarde van een activum te bekijken." lightbox="media/data-analysis-fa-ledger-entries-asset-overview-current-value.png":::
 
-### <a name="example-asset-value-changes-over-time"></a>Voorbeeld wijzigingen in de waarde van activa in de loop van de tijd
+### Voorbeeld wijzigingen in de waarde van activa in de loop van de tijd
 
 Volg deze stappen om veranderingen in de waarde van activa in de loop van de tijd bij te houden:
 
@@ -68,7 +68,7 @@ De volgende afbeelding toont het resultaat van deze stappen.
 
 :::image type="content" source="media/data-analysis-fa-ledger-entries-asset-changes-over-time.png" alt-text="Voorbeeld van hoe u gegevensanalyse uitvoert op de pagina VA-posten om wijzigingen van activawaarden in de loop van de tijd te bekijken." lightbox="media/data-analysis-fa-ledger-entries-asset-changes-over-time.png":::
 
-### <a name="example-fixed-asset-depreciations-over-time"></a>Voorbeeld: afschrijvingen op vaste activa in de loop van de tijd
+### Voorbeeld: afschrijvingen op vaste activa in de loop van de tijd
 
 Volg deze stappen om de afschrijving van een of meer vaste activa bij te houden:
 
@@ -85,17 +85,17 @@ De volgende afbeelding toont het resultaat van deze stappen.
 
 :::image type="content" source="media/data-analysis-fa-ledger-entries-depreciation-by-asset.png" alt-text="Voorbeeld van hoe u gegevensanalyse uitvoert op de pagina VA-posten om afschrijving in de loop van de tijd te bekijken." lightbox="media/data-analysis-fa-ledger-entries-depreciation-by-asset.png":::
 
-## <a name="data-foundation-for-ad-hoc-analysis-on-fixed-assets"></a>Gegevensbasis voor ad-hocanalyse van vaste activa
+## Gegevensbasis voor ad-hocanalyse van vaste activa
 
 Wanneer u vaste activa boekt, [!INCLUDE [prod_short](includes/prod_short.md)] worden er posten gemaakt in de tabel **VA-post**. Daarom wordt een ad-hocanalyse van vaste activa doorgaans uitgevoerd op de pagina [VA-posten](https://businesscentral.dynamics.com/?page=5604).
 
-## <a name="contributors"></a>Bijdragers
+## Bijdragers
 
 *Microsoft handhaaft dit artikel. Delen van de voorbeelden zijn oorspronkelijk geschreven door de volgende bijdrager.*
 
 * [Aldona Stec](https://www.linkedin.com/in/aldona-stec-25283bb1) | [!INCLUDE[prod_short](includes/prod_short.md)] Consulent
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Lijst- en querygegevens analyseren met de analysemodus](analysis-mode.md)  
 [Overzicht van analyses van vaste activa](fa-analytics-overview.md)  

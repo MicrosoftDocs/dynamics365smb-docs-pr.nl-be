@@ -9,14 +9,15 @@ ms.search.form: '11, 130'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="set-up-shipment-methods"></a>Verzendmethoden instellen
+# Verzendmethoden instellen
 
 Verzendmethoden zijn vaak afhankelijk van de artikelen, klanten en leveranciers. Een klant die op een eiland woont, zal aangeven dat artikelen altijd per vliegtuig of per boot moeten worden verzonden. Sommige klanten kunnen levering op de volgende dag vereisen. Sommigen willen de order ophalen. Op de klantenkaart en de leverancierskaart kunt u opgeven welke soort levering is gewenst.
 
 U stelt de omschrijving en de code voor elke verzendmethode in op de pagina **Verzendwijze**. U kunt bijvoorbeeld de code FOB instellen en Free on Board invoeren in het veld **Omschrijving**. Vervolgens kunt u de code invoeren in de velden **Code van verzendwijze**, elders in het systeem, bijvoorbeeld op een klantenkaart. Als u vervolgens orders, facturen, creditnota's, enzovoort maakt, wordt automatisch de omschrijving ingevoerd die bij de code hoort. U kunt het indien nodig in het document wijzigen.
 
-## <a name="to-set-up-a-shipment-method"></a>Een verzendwijze instellen
+## Een verzendwijze instellen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verzendmethoden** in en kies vervolgens de gerelateerde koppeling.
 2. Kies op de pagina **Verzendmethoden** de actie **Nieuw**.
@@ -25,7 +26,7 @@ U stelt de omschrijving en de code voor elke verzendmethode in op de pagina **Ve
 > [!TIP]
 > Als u Incoterms gebruikt, stelt u verzendmethoden in om de relevante Incoterms-regels weer te geven.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Expediteurs instellen](sales-how-to-set-up-shipping-agents.md)  
 [Pakketten traceren](sales-how-track-packages.md)  

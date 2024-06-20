@@ -9,15 +9,16 @@ ms.search.form: '359, 360, 6103, 6133'
 ms.date: 12/13/2023
 ms.author: altotovi
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# <a name="set-the-e-documents-connector-with-external-endpoints"></a>De connector voor e-documenten instellen met externe eindpunten
+# De connector voor e-documenten instellen met externe eindpunten
 
 In dit artikel wordt uitgelegd hoe u de functionaliteit van e-documenten instelt wanneer deze is verbonden met externe eindpunten.
 
 Voordat u de functionaliteit gebruikt die in dit artikel wordt beschreven, installeert u de app **Connector voor e-documenten met externe eindpunten** boven op de algemene app **E-documentkern**. Deze app kan voor standaardintegratie met de toegangspunten van de externe (derde) partij worden gebruikt om de e-documentstroom te automatiseren. Omdat deze app slechts enkele geselecteerde connectoren vertegenwoordigt, bent u niet beperkt tot bestaande integraties daarin. De meeste connectoren zullen in de toekomst beschikbaar zijn op AppSource .
 
-## <a name="set-up-the-connection"></a>De verbinding instellen
+## De verbinding instellen
 
 Om met de installatie te beginnen volgt u de stappen in [App E-documentkern](finance-how-setup-edocuments.md). Nadat u deze stappen heeft voltooid, gaat u terug naar dit artikel en voert u de volgende stappen uit:
 
@@ -44,7 +45,7 @@ Om met de installatie te beginnen volgt u de stappen in [App E-documentkern](fin
     > [!NOTE]
     > Vraag uw serviceprovider naar alle voorgaande details om verbinding te maken met hun toegangspunt.
 
-## <a name="set-up-company-information"></a>Bedrijfsgegevens instellen
+## Bedrijfsgegevens instellen
 
 Voordat u e-documenten gaat gebruiken, moet u uw pagina **Bedrijfsgegevens** bijwerken door de volgende stappen te voltooien:
 
@@ -59,7 +60,7 @@ Voordat u e-documenten gaat gebruiken, moet u uw pagina **Bedrijfsgegevens** bij
 
 3. De pagina sluiten.
 
-## <a name="set-up-customers-to-receive-e-documents"></a>Klanten instellen om e-documenten te ontvangen
+## Klanten instellen om e-documenten te ontvangen
 
 Om klanten in staat te stellen uw e-documenten te ontvangen, voert u de volgende stappen uit:
 
@@ -69,11 +70,11 @@ Om klanten in staat te stellen uw e-documenten te ontvangen, voert u de volgende
 4. Markeer het veld **GLN gebruiken in elektronische documenten** om aan te geven of het Global Location Number (GLN) wordt gebruikt als partij-identificatienummer in elektronische documenten.
 5. De pagina sluiten.
 
-## <a name="other-setup"></a>Overige instelling
+## Overige instelling
 
 Voordat u met e-documenten gaat werken, stelt u de **werkstromen** voor e-documenten en de **documentverzendprofielen** in om uw werkstromen te gebruiken. Nadat de serviceverbinding tot stand is gebracht, kunt u uw e-documentoplossing gaan gebruiken.
 
-## <a name="available-service-providers"></a>Beschikbare serviceproviders
+## Beschikbare serviceproviders
 
 Microsoft wil providers van toegangspunten aanmoedigen om hun connectoren boven op ons framework **E-documentkern** toe te voegen.
 
@@ -81,7 +82,7 @@ Momenteel is Pagero de enige toegangspuntprovider die onder dit systeem valt. Mi
 
 We zullen deze lijst bijwerken zodra we nieuwe aanbieders van toegangspunten voor de uitwisseling van e-documenten krijgen.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Hoe u belastingen instelt in Business Central](finance-how-setup-edocuments.md)  
 [Hoe u e-documenten gebruikt in Business Central](finance-how-use-edocuments.md)  

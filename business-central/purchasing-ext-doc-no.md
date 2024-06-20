@@ -8,14 +8,15 @@ ms.search.keywords: null
 ms.date: 04/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="external-document-numbers-on-purchase-documents"></a>Externe documentnummers op inkoopdocumenten
+# Externe documentnummers op inkoopdocumenten
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
 U kunt ook externe documentnummers opgeven op verkoopdocumenten. Zie voor meer informatie [Externe documentnummers](sales-how-invoice-sales.md#external-document-numbers)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Externe documentnummers invoeren](across-enter-external-document-numbers.md)  
 [Inkoop](purchasing-manage-purchasing.md)  

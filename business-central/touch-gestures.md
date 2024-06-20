@@ -8,9 +8,10 @@ ms.search.keywords: 'accessibility, shortcuts, charts, tiles'
 ms.date: 04/29/2021
 ms.author: jswymer
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 
-# <a name="touch-and-pen-gestures-for-tablet-and-phones"></a>Aanraak- en penbewegingen voor tablets en telefoons
+# Aanraak- en penbewegingen voor tablets en telefoons 
 
 Dit artikel bevat enkele van de speciale gebaren die u kunt gebruiken wanneer u met [!INCLUDE[prod_short](includes/prod_short.md)] werkt op een tablet of telefoon.
 
@@ -29,7 +30,7 @@ Business Central built-in charts display useful information about business data 
 
 -->
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Snelle toetsenbordnaslag - alleen pc](keyboard-shortcuts-cheatsheet.md)  
 [Assisterende functies](ui-accessibility.md)  

@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 02/13/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 > [!IMPORTANT]
 > Wanneer u een verkooporder boekt, kunt u zowel een verzending als een factuur maken. Deze documenten kunnen tegelijk of afzonderlijk worden uitgevoerd. U kunt ook een gedeeltelijke verzending en een gedeeltelijke factuur maken door de velden **Te verzenden aantal** en **Te factureren aantal** op de afzonderlijke verkooporderregels in te vullen voordat u de boeking uitvoert. Houd er rekening mee dat u geen factuur kunt maken vanuit de pagina **Verkooporders** voor iets dat niet is verzonden. U kunt dus pas factureren nadat u een verzending hebt geregistreerd, of u moet ervoor kiezen om tegelijkertijd te verzenden en factureren.

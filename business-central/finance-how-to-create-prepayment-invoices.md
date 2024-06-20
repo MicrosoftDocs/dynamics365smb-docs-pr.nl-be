@@ -3,14 +3,14 @@ title: Vooruitbetalingsfacturen maken
 description: 'Leer omgaan met situaties waarin u of uw leverancier vooruitbetaling vereist. Gebruik de standaardpercentages voor elke verkoop- of inkoopregel, of u kunt het bedrag naar wens aanpassen.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bhielse
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 10/04/2023
 ms.custom: bap-template
 ms.search.form: '42, 50, 9305, 9307'
 ms.service: dynamics-365-business-central
 ---
-# <a name="create-prepayment-invoices"></a>Vooruitbetalingsfacturen maken
+# Vooruitbetalingsfacturen maken
 
 Als u wilt dat klanten betalen voordat u hun order verzendt, kunt u de vooruitbetalingsfuncties gebruiken. Hetzelfde geldt als uw leverancier van u verlangt dat u een betaling doet voordat zij een order naar u verzenden.  
 
@@ -20,7 +20,7 @@ Nadat u een verkoop- of inkooporder hebt gemaakt, kunt u er een vooruitbetalings
 
 In de volgende procedure wordt beschreven hoe u een vooruitbetaling voor een verkooporder factureert. De stappen zijn vergelijkbaar voor inkooporders.  
 
-## <a name="to-create-a-prepayment-invoice"></a>Een vooruitbetalingsfactuur maken
+## Een vooruitbetalingsfactuur maken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
 2. Maak een nieuwe verkooporder voor de relevante klant. Zie [Producten verkopen](sales-how-sell-products.md) voor meer informatie.  
@@ -71,11 +71,11 @@ U kunt andere vooruitbetalingsfacturen verzenden voor de order. Als u nog een fa
 
  Als u klaar bent om de rest van de factuur te boeken, boekt u deze net zoals andere facturen. Het vooruitbetalingsbedrag wordt automatisch afgetrokken van het verschuldigde bedrag.  
 
-## <a name="update-the-status-of-prepaid-orders-and-invoices-automatically"></a>De status van vooruitbetaalde orders en facturen automatisch bijwerken
+## De status van vooruitbetaalde orders en facturen automatisch bijwerken
 
 U kunt de verwerking van orders en facturen versnellen door taakwachtrijen in te stellen die automatisch de status van die documenten bijwerken. Wanneer een vooruitbetalingsfactuur is betaald, kunnen de items in de wachtrij automatisch de documentstatus wijzigen van **In afwachting van vooruitbetaling** in **Vrijgegeven**. Wanneer u de opdrachten in de wachtrij instelt, zijn de codeunits die u moet gebruiken: **384 Verkopen wachtend op vooruitbetaling bijwerken** en **384 Inkopen wachtend op vooruitbetaling bijwerken**. We raden u aan de items zo te plannen dat ze regelmatig worden uitgevoerd, bijvoorbeeld elke minuut. Zie voor meer informatie [Gebruik van taakwachtrijen om taken te plannen](admin-job-queues-schedule-tasks.md).
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Vooruitbetalingen factureren](finance-invoice-prepayments.md)  
 [Procedure: Vooruitbetalingen verkoop instellen en factureren](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

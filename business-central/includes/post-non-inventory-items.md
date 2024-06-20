@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 09/21/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 Magazijnmedewerkers kunnen niet-voorraadartikelen samen met fysieke goederen op verkoop- en inkooporders verzenden en ontvangen. Niet-voorraadartikelen zijn immateriële activa, zoals verzekeringen of extra kosten.

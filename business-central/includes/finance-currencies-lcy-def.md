@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 03/04/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 Als uw bedrijf in meer dan één land of regio actief is, is het waarschijnlijk belangrijk dat u in meer dan één valuta zaken kunt doen. U definieert uw lokale valuta (LV) op de pagina **Grootboekinstellingen**. Daarna wordt uw lokale valuta weergegeven als een blanco valuta op documenten en transacties. Als het veld **Valuta** leeg is, is de valuta LV.
 

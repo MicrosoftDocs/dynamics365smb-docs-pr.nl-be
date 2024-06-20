@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 05/30/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 Wanneer u gebruikers instelt voor goedkeuringswerkstromen, is het belangrijk dat dezelfde gebruiker niet zowel een aanvrager als een fiatteur is in een werkstroomgebruikersgroep. Wanneer een gebruiker zowel een aanvrager als een fiatteur is, werken goedkeuringen voor de gebruiker als volgt:

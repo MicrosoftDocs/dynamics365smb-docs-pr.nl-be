@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 05/27/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 Op verkoopdocumenten en dagboeken kunt u een documentnummer opgeven dat verwijst naar het nummeringssysteem van de klant. <!--You can enter a maximum of ten characters, both numbers and letters.--> Gebruik dit veld om het nummer vast te leggen dat de klant aan de order, factuur of creditnota heeft toegewezen. U kunt dit externe documentnummer later gebruiken als u om de een of andere reden de geboekte post moet zoeken met dit nummer.  

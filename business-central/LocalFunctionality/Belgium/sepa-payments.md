@@ -8,12 +8,13 @@ ms.search.keywords: null
 ms.date: 11/27/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="sepa-payments-in-the-belgian-version"></a>SEPA-betalingen in de Belgische versie
+# SEPA-betalingen in de Belgische versie
 
 SEPA (Single Euro Payments Area) verenigt de betalingsmethoden in deelnemende Europese landen/regio´s. Hierdoor worden internationale betalingen even gemakkelijk te verwerken als binnenlandse betalingen. Ongeacht de locatie, kunnen Europese burgers en bedrijven betalingen in euro's verrichten en ontvangen, binnen of buiten nationale/regionale grenzen, onder dezelfde basisomstandigheden, -rechten en -verplichtingen.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Febelfin-website](https://go.microsoft.com/fwlink/?LinkId=275119)   
 [ISO 20022-website](https://go.microsoft.com/fwlink/?LinkId=275120)   

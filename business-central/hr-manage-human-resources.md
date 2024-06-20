@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="manage-human-resources"></a>Human Resources beheren
+# Human Resources beheren
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] kunt u gedetailleerde records van uw werknemers bijhouden. U kunt werknemergegevens vastleggen en onderhouden, waaronder gegevens over arbeidsovereenkomsten, contracten, vertrouwelijke informatie, kwalificaties en contactgegevens met betrekking tot werknemers.
 
@@ -25,7 +25,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Registreer nieuwe werknemers of bewerk records voor bestaande werknemers, en koppel gerelateerde informatie, zoals contracten en artikelen. |[Werknemers registreren](hr-how-register-employees.md) |
 | Leg afwezigheid van werknemers vast en geef afwezigheidsstatistieken weer met verschillende filters. |[Werknemersafwezigheid beheren](hr-how-manage-absence.md) |
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Financiën](finance.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

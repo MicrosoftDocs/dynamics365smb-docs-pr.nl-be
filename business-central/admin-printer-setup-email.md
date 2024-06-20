@@ -3,20 +3,20 @@ title: E-mailprinters instellen
 description: Beschrijving van gebruik
 author: jswymer
 ms.author: jswymer
-ms.reviewer: jswymer
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.date: 01/26/2023
 ms.custom: bap-template
 ---
-# <a name="set-up-email-printers"></a>E-mailprinters instellen
+# E-mailprinters instellen
 
 In dit artikel wordt uitgelegd hoe u printers met e-mail kunt instellen in [!INCLUDE[prod_short](includes/prod_short.md)]. Met deze printers stuurt [!INCLUDE[prod_short](includes/prod_short.md)] afdruktaken naar de printer met behulp van het e-mailadres van de printer.
 
 > [!TIP]
 > Ga voor meer informatie over andere printermogelijkheden naar [Overzicht printerbeheer](admin-printer-setup-overview.md). 
 
-## <a name="prerequisites"></a>Vereisten
+## Vereisten
 
 - [!INCLUDE[prod_short](includes/prod_short.md)] 2020 releasewave 1 of hoger
 - Extensie **Verzenden naar e-mailprinter** is geïnstalleerd
@@ -26,7 +26,7 @@ In dit artikel wordt uitgelegd hoe u printers met e-mail kunt instellen in [!INC
 
    Meer informatie op [E-mail instellen](admin-how-setup-email.md).
 
-## <a name="add-an-email-printer"></a>Een e-mailprinter toevoegen
+## Een e-mailprinter toevoegen
 
 Op de pagina **Printerbeheer** ziet u de printers die momenteel zijn ingesteld. De pagina geeft u ook toegang tot de pagina **Instellingen** voor elke printer om een bestaande instelling te bewerken of een nieuwe printer in te stellen.
 
@@ -39,17 +39,17 @@ Op de pagina **Printerbeheer** ziet u de printers die momenteel zijn ingesteld. 
     >
     > Houd er rekening mee dat de extensie E-mailprinter standaard is ingesteld op **A4**-papierformaat, dat bijvoorbeeld niet geschikt is in Noord-Amerika.
 
-## <a name="privacy-notice"></a>Privacyverklaring
+## Privacyverklaring
 
 Als u de extensie E-mailprinter gebruikt, worden alle of sommige afdruktaken verzonden naar het e-mailadres dat is geconfigureerd voor de printer. We raden ten zeerste aan om een unieke e-mail-id te koppelen aan een printerapparaat met alleen de officiële services van de hardwarefabrikant, zoals HP ePrint, KonicaMinolta EveryonePrint of Epson Email Print.
 
 Neem alle benodigde privacyvoorzorgsmaatregelen, inclusief ervoor zorgen dat de oplossing voor het afdrukken van e-mail goed geconfigureerde machtigingen, privacyinstellingen en bewaarbeleid heeft. Het is uw verantwoordelijkheid om een correct, geverifieerd en operationeel e-mailadres op te geven. Meer informatie op [Microsoft-privacyverklaring ](https://privacy.microsoft.com/privacystatement).
 
-## <a name="next-steps"></a>Volgende stappen
+## Volgende stappen
 
 [Standaardprinters instellen](ui-specify-printer-selection-reports.md)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Overzicht van printerbeheer](admin-printer-setup-overview.md)  
 [Universeel afdrukken instellen](admin-printer-setup-universal-print.md)

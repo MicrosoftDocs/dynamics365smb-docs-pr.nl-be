@@ -9,19 +9,19 @@ ms.date: 07/13/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="fixed-assets-reports-and-analytics-in-business-central"></a>Vaste-activarapporten en -analyses in Business Central
+# Vaste-activarapporten en -analyses in Business Central
 
 Om u te helpen bij het beheren van uw vaste activa in [!INCLUDE [prod_short](includes/prod_short.md)] zijn standaardrapporten en -analyses ingebouwd. Het gaat verder dan traditionele rapportagebeperkingen om u te helpen efficiënt verschillende soorten rapporten te ontwerpen.  
 
-## <a name="reports"></a>Rapporten
+## Rapporten
 [!INCLUDE [fa_reports](includes/fa-reports-include.md)]
 
 
-## <a name="explore-finance-reports-with-report-explorer"></a>Financiële rapporten verkennen met Rapportverkenner
+## Financiële rapporten verkennen met Rapportverkenner
 [!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
 
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Adhoc-analyse van vaste-activagegevens](ad-hoc-analysis-fa.md)     
 [Overzicht van VA-analyse](fa-analytics-overview.md)   

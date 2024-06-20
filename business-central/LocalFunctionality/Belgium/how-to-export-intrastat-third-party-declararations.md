@@ -8,14 +8,15 @@ ms.search.keywords: null
 ms.date: 11/22/2023
 ms.author: soalex
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="export-intrastat-third-party-declarations-in-the-belgian-version"></a>Intrastat-aangiftes van derden exporteren in de Belgische versie
+# Intrastat-aangiftes van derden exporteren in de Belgische versie
 
 [!INCLUDE[intrastat-2022w2](../../includes/intrastat-2022w2.md)]
 
 In België moet u de Intrastat-aangifte door een derde laten invullen. Dit moet een extern persoon of een bedrijf zijn.  
 
-## <a name="to-export-the-third-party-declaration"></a>De aangifte van derden exporteren
+## De aangifte van derden exporteren
 
 Voordat u het bestand exporteert, is het verstandig een voorbeeld van het rapport te bekijken. Zie voor meer informatie [Het rapport Intrastat - Formulier afdrukken](how-to-print-the-intrastat-form-report.md).  
 
@@ -33,7 +34,7 @@ Voordat u het bestand exporteert, is het verstandig een voorbeeld van het rappor
 
 Vervolgens moet de aangifte naar de OneGate-portal worden verzonden.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Belgische Intrastat-rapportage](belgian-intrastat-reporting.md)  
 [Aangiftesoorten instellen](how-to-set-up-declaration-types.md)  

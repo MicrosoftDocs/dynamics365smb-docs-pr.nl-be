@@ -4,8 +4,9 @@ ms.topic: include
 ms.date: 04/30/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-## <a name="check-data-in-documents-and-journals-while-you-work"></a>Gegevens in documenten en dagboeken controleren terwijl u werkt
+## Gegevens in documenten en dagboeken controleren terwijl u werkt
 
 Uw beheerder kan [!INCLUDE [prod_short](prod_short.md)] de mogelijkheid bieden de gegevens die u invoert in documenten en dagboeken in realtime te valideren.
 

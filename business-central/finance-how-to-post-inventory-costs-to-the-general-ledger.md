@@ -9,8 +9,9 @@ ms.search.form: 9297
 ms.date: 06/16/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Voorraadkosten reconciliëren met het grootboek
+# Voorraadkosten reconciliëren met het grootboek
 
 Als u voorraadtransacties (bijvoorbeeld verkoopverzendingen, inkoopfacturen of voorraadherwaarderingen) boekt, worden de gewijzigde artikelkosten vastgelegd in artikelwaardeposten. Om deze wijziging van voorraadwaarde door te voeren in uw financiële boeken, worden de voorraadkosten automatisch geboekt naar de gerelateerde voorraadrekeningen in het grootboek. Voor iedere voorraadtransactie die u boekt, worden overeenkomende waarden geboekt naar de voorraadrekening, de correctierekening en de KPV-rekening in het grootboek.
 
@@ -18,7 +19,7 @@ Automatisch voorraadwaarde boeken wordt gedefinieerd door het veld **Autom. voor
 
 Hoewel voorraadkosten automatisch naar het grootboek worden geboekt, moeten de kosten van goederen toch worden doorgestuurd naar de gerelateerde uitgaande verkooptransactie, vooral in situaties waarin u goederen verkoopt voordat u de inkoop van die goederen factureert. Dit wordt kostenwaardering genoemd. Artikelkosten worden automatisch aangepast als u artikeltransacties boekt, maar u kunt artikelkosten ook handmatig wijzigen. Zie [Artikelkosten herwaarderen](inventory-how-adjust-item-costs.md) voor meer informatie.
 
-## <a name="to-post-inventory-costs-manually"></a>Voorraadkosten handmatig boeken
+## Voorraadkosten handmatig boeken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Voorraadwaarde boeken naar GB** in en kies vervolgens de gerelateerde koppeling.
 2. Voorraadkosten handmatig naar het grootboek boeken door de batchverwerking. Als u deze batchverwerking uitvoert, worden grootboekposten op basis van de waardeposten gemaakt. U kunt de posten boeken, zodat deze per boekingsgroep worden samengevat.
@@ -30,7 +31,7 @@ Als u een lijst met de fouten wilt weergeven voordat u de boekingsbatchverwerkin
 
 Als u een overzicht wilt zien van de waarden die naar het grootboek kunnen worden geboekt zonder de boeking daadwerkelijk uit te voeren, voert u de batchverwerking **Voorraadwaarde boeken** uit. U doet dit door het selectievakje **Boeken** in het aanvraagvenster uit te schakelen. Wanneer u de batchverwerking dan uitvoert, wordt alleen een lijst gemaakt met de waarden die klaar zijn om naar het grootboek te worden geboekt. Deze worden echter niet geboekt.
 
-## <a name="to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger"></a>De reconciliatie controleren tussen het voorraadgrootboek en het grootboek
+## De reconciliatie controleren tussen het voorraadgrootboek en het grootboek
 De pagina **Reconciliatie Voorraadbeheer - GB** biedt de volgende opties:
 
 - De reconciliatieverschillen weer te geven door te vergelijken wat er in het grootboek is vastgelegd en wat er is vastgelegd in het voorraadjournaal (waardeposten).
@@ -63,7 +64,7 @@ In de volgende kolommen worden de totalen voor dezelfde rekeningsoorten weergege
 
 Kies het bedrag in een willekeurig totaalveld om de voorraadrapportposten te bekijken die voor het berekenen van de totalen zijn gebruikt. Voor de voorraadtotalen omvatten de voorraadrapportposten de som van de waardeposten voor de artikelen. Voor de grootboektotalen omvatten de voorraadrapportposten de som van de grootboekposten.
 
-## <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Kosten rapporteren en afstemmen met het grootboek
+## Kosten rapporteren en afstemmen met het grootboek
 Andere rapporten, traceerfuncties en een speciaal reconciliatie-instrument zijn beschikbaar voor de auditor of controller die verantwoordelijk is voor het rapporteren van een correcte en evenwichtige voorraadwaarde aan de financiële afdeling.
 
 De volgende tabel beschrijft ze.    
@@ -75,7 +76,7 @@ De volgende tabel beschrijft ze.
 |De voorraadwaarde te bekijken van geselecteerde artikelen, inclusief de werkelijke en verwachte kostprijs op de gespecificeerde datum.|Rapport **Voorraadwaard. - Kostenspec.**|  
 |Een lijst te gebruiken om de redenen voor kostenvariaties te analyseren of om inzicht te krijgen in de kostenaandelen van verkochte goederen (KPV).|Rapport **Analyse aandeel in kosten**|  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook  
 [Voorraadkosten beheren](finance-manage-inventory-costs.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
 [Verkoop](sales-manage-sales.md)    

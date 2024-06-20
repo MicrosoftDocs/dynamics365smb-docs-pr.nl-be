@@ -8,8 +8,9 @@ ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="design-details-posting-engine-structure"></a>Ontwerpdetails: boekingsenginestructuur
+# Ontwerpdetails: boekingsenginestructuur
 Boekingsinterface en enkele andere functies in codeunit 12 gebruiken boekingsenginefuncties om grootboekposten en btw-postrecords voor te bereiden en in te voegen. De boekingsengine is ook verantwoordelijk voor het maken van het grootboekjournaal.  
   
  De functies in de volgende tabel bieden een standaardkader voor het ontwerp van boekingsprocedures (zoals Code, CustPostApplyCustledgEntry, VendPostApplyVendLedgEntry, UnapplyCustLedgEntry, UnapplyVendLedgEntry en Reverse) en exclusieve toegang tot tabel 17, Grootboekpost.  
@@ -29,7 +30,7 @@ Boekingsinterface en enkele andere functies in codeunit 12 gebruiken boekingseng
 |CreateGLEntryVATCollectAdj|Hetzelfde als CreateGLEntry, maar met extra verzameling van aanpassingen en opslag in tijdelijke btw-buffer:<br /><br /> `CollectAdjustment(AdjAmount,GLEntry.Amount,GLEntry."Additional-Currency Amount",OriginalDateSet);`<br /><br /> `InsertVATEntriesFromTemp(DtldCVLedgEntryBuf,GLEntry);`|  
 |CreateGLEntryFromVATEntry|Hetzelfde als CreateGLEntry, maar er worden ook boekingsgroepen uit Btw-post gekopieerd.|  
   
-## <a name="see-also"></a>Zie ook
+## Zie ook  
  [Ontwerpdetails: boekingsinterfacestructuur](design-details-posting-interface-structure.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

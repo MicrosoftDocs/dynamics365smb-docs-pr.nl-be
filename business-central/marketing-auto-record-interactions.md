@@ -8,8 +8,9 @@ ms.search.keywords: 'marketing, relationship, prospect, contact, client, custome
 ms.date: 12/12/2023
 ms.author: jswymer
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
-# <a name="recording-interactions-with-contacts-automatically"></a>Interactie met contacten automatisch vastleggen
+# Interactie met contacten automatisch vastleggen
 U kunt de toepassing instellen om automatisch recordinteracties vast te leggen voor verkoop-, inkoop- en servicedocumenten, contactkaarten, e-mails, telefoongesprekken, zoals:
 
 * Verkoop- of inkoopoffertes, orders, facturen, creditnota's, contactkaarten afdrukken.
@@ -21,7 +22,7 @@ U kunt de toepassing instellen om automatisch recordinteracties vast te leggen v
 Als u automatisch vastleggen van deze interacties wilt instellen, geeft u interactiesjablonen voor deze documenten en acties op met behulp van de pagina **Interactiesjablooninstellingen**.  
 Om de pagina **Interactiesjablooninstellingen** te openen kiest u het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Interactiesjablooninstellingen** in en kies vervolgens de gerelateerde koppeling.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 [Interacties vastleggen met contacten](marketing-interactions.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

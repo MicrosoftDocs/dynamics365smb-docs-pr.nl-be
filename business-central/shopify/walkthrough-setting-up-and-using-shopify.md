@@ -5,18 +5,18 @@ ms.date: 06/21/2022
 ms.topic: article
 ms.service: dynamics-365-business-central
 ms.search.form: '30101, 30102, 30106, 30107, 30113, 30115, 30126, 30156, 30157'
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-set-up-and-use-the-shopify-connector"></a>Procedure: de Shopify Connector instellen en gebruiken
+# Procedure: de Shopify Connector instellen en gebruiken
 
 Dit gedeelte demonstreert enkele typische scenario's en leidt u door de stappen om gebruikers te testen of te trainen in de werkstroom van de geïntegreerde [!INCLUDE[prod_short](../includes/prod_short.md)] en de Shopify-winkel.
 
-## <a name="prerequisites"></a>Vereisten
+## Vereisten 
 
-### <a name="shopify"></a>Shopify
+### Shopify
 
 U moet over het volgende beschikken:
 
@@ -25,13 +25,13 @@ U moet over het volgende beschikken:
 
 Meer informatie over het maken van Shopify-proefversies en aanbevolen instellingen vindt u op [Een Shopify-account maken en instellen](shopify-account.md).
 
-### <a name="business-central"></a>Business Central
+### Business Central
 
 U hebt een [!INCLUDE[prod_short](../includes/prod_short.md)]-account nodig. 
 
 U kunt bijvoorbeeld een demo-account maken of een proefversie starten. Lees hier meer over [Demonstratieomgevingen voorbereiden van Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/administration/demo-environment) en [Aanmelden voor de proefperiode](../trial-signup.md). 
 
-## <a name="connect-business-central-to-the-shopify-shop"></a>Business Central verbinden met de online Shopify-winkel
+## Business Central verbinden met de online Shopify-winkel
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)] doet u het volgende:
 
@@ -62,13 +62,13 @@ Locatietoewijzing configureren:
 3. Voer in het **Vestigingsfilter** `''|EAST|MAIN` in.
 4. Selecteer *Gepland beschikbaar saldo vandaag* in het veld **Voorraadberekening** om een voorraadsynchronisatie in te schakelen voor een geselecteerde Shopify-vestiging.
 
-## <a name="walkthrough-start-selling-products-online"></a>Procedure: begin met het online verkopen van producten
+## Procedure: begin met het online verkopen van producten
 
-### <a name="scenario"></a>Scenario
+### Scenario
 
 Stel dat u Shopify als online winkel wilt proberen zonder veel tijd te besteden aan het opzetten van dingen, vooral omdat u uw artikelen al goed in [!INCLUDE[prod_short](../includes/prod_short.md)] onderhoudt. Nadat u uw online Shopify-winkel hebt gestart, krijgt u meteen nieuwe klanten die blij zijn met uw winkel en hun koopervaring. Dus besluiten ze om fooien te geven bij het afrekenen.
 
-### <a name="steps"></a>Stappen
+### Stappen
 
 Volg deze stappen in [!INCLUDE[prod_short](../includes/prod_short.md)]:
 
@@ -128,13 +128,13 @@ Nu worden fysieke en financiële gegevens geregistreerd [!INCLUDE[prod_short](..
 
 U ziet in **Shopify-beheer** dat de order nu is gemarkeerd als *Afgehandeld*. U kunt daar ook de verzendgegevens bekijken en de tracerings-URL zien. Als u **Orders synchroniseren vanuit Shopify** opnieuw uitvoert, wordt de order in beide systemen gearchiveerd.
 
-## <a name="walkthrough-add-your-customers-to-your-new-online-store"></a>Procedure: Uw klanten toevoegen aan uw nieuwe online winkel
+## Procedure: Uw klanten toevoegen aan uw nieuwe online winkel
 
-### <a name="scenario-1"></a>Scenario
+### Scenario
 
 Na een succesvolle snelle opening van uw nieuwe online winkel, wilt u dat uw huidige klanten deze bezoeken en beginnen met het plaatsen van orders. Afhankelijk van uw Shopify-plan en -proces kunt u B2B- en DTC-stromen proberen.
 
-### <a name="dtc-steps"></a>DTC-stappen
+### DTC-stappen
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)] doet u het volgende:
 
@@ -146,7 +146,7 @@ In [!INCLUDE[prod_short](../includes/prod_short.md)] doet u het volgende:
 
 U ziet in **Shopify-beheer** dat de klant is geïmporteerd. Open de klanten en zie dat de voor- en achternaam van de klant afkomstig zijn uit het veld **Contactnaam** van de **Klantenkaart**. De bedrijfsnaam is terug te vinden in het standaardadres, gekoppeld aan de klant. Als u *Klassieke klantrekeningen* gebruikt, kunt u **Accountuitnodiging verzenden** selecteren om de klant uit te nodigen. Met *Nieuwe klantrekeningen* is er geen wachtwoord vereist voor klanten om in te loggen, maar Shopify laat uw klanten inloggen met een eenmalige 6- cijferige verificatiecode, verzonden per e-mail. 
 
-### <a name="b2b-steps"></a>B2B-stappen
+### B2B-stappen
 
 [!INCLUDE [shopify-preview](../includes/shopify-preview.md)]
 
@@ -160,13 +160,13 @@ In [!INCLUDE[prod_short](../includes/prod_short.md)] doet u het volgende:
 
 In **Shopify-beheer** ziet u dat zowel het bedrijf als de klant zijn geïmporteerd. Open de klanten en bekijk het bedrijfsfeitenvak met een koppeling naar Bedrijf, vestiging en toegewezen machtigingen. Selecteer **[...]** in het feitenvak **Bedrijf en selecteer vervolgens **E-mail met B2B-toegang verzenden** om de klant uit te nodigen.
 
-## <a name="walkthrough-fine-tuning-of-item-management"></a>Procedure: Artikelbeheer fijn afstemmen
+## Procedure: Artikelbeheer fijn afstemmen
 
-### <a name="scenario-2"></a>Scenario
+### Scenario 
 
 U wilt graag meer flexibiliteit en controle toevoegen aan uw processen rondom artikelbeheer. U wilt productbeschrijvingen verbeteren en meer beoordelingsstappen toevoegen voordat producten beschikbaar komen voor alle klanten.
 
-### <a name="steps-1"></a>Stappen
+### Stappen
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)] doet u het volgende:
 
@@ -251,7 +251,7 @@ Merk op dat de voorraad voor ANTWERP Conference Table 100 is, omdat we het syste
 
 Open in de **online Shopify-winkel** de productcatalogus en zoek het product *ATHENS Desk*. Merk op dat er verschillende opties beschikbaar zijn. Voor verschillende opties zijn de prijzen verschillend. Let op kortingsinformatie.
 
-### <a name="additional-steps-for-b2b"></a>Extra stappen voor B2B
+### Extra stappen voor B2B
 
 [!INCLUDE [shopify-preview](../includes/shopify-preview.md)]
 
@@ -296,7 +296,7 @@ Bekijk in **Shopify-beheer** prijzen voor de *B2B*-catalogus.
 
 Open in de **online Shopify-winkel** de productcatalogus en zoek het product *ATHENS Desk*. Let op: prijzen zijn kortingsinformatie.
 
-## <a name="walkthrough-check-out-and-order-synchronization-for-individual-buyer-and-company-representative"></a>Procedure: Afrekenen en ordersynchronisatie voor individuele kopers en bedrijfsvertegenwoordigers
+## Procedure: Afrekenen en ordersynchronisatie voor individuele kopers en bedrijfsvertegenwoordigers
 Dit is een voortzetting van [Procedure: begin met het online verkopen van producten](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online). U kunt het ook proberen met uw eigen gegevens, bijvoorbeeld uw Shopify-winkel of sandbox.
 
 Individuele koper
@@ -344,19 +344,19 @@ De geïmporteerde order is klaar voor verwerking.
 3. In de order die namens het bedrijf is verzonden ziet u een waarde in het veld **Inkoopordernummer**, dat ook wordt overgebracht naar het veld **Extern documentnr.** van het gemaakte verkoopdocument.
 4. Omdat we B2B-bedrijf hebben geconfigureerd om betalingen buiten Shopify af te handelen, wordt de **Financiële status** ingesteld op *In behandeling*. Zodra u de betaling hebt ontvangen, selecteert u de actie **Markeren als betaald**. De financiële status wordt bijgewerkt in Shopify. 
 
-## <a name="walkthrough-import-items-customers-companies-from-shopify"></a>Procedure: Artikelen, klanten, bedrijven importeren uit Shopify
+## Procedure: Artikelen, klanten, bedrijven importeren uit Shopify
 
-### <a name="scenario-3"></a>Scenario
+### Scenario 
 
 U hebt al een succesvolle online winkel en wilt [!INCLUDE[prod_short](../includes/prod_short.md)] gebruiken als software voor bedrijfsbeheer. U wilt zoveel mogelijk gegevens importeren uit Shopify als mogelijk. 
 
-### <a name="steps-2"></a>Stappen
+### Stappen
 
 Dit is een vervolg op [Procedure: Beginnen met het online verkopen van producten](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online) en [Procedure: Uw klanten toevoegen aan uw nieuwe online winkel](walkthrough-setting-up-and-using-shopify.md#walkthrough-add-your-customers-to-your-new-online-store). U kunt het ook proberen met uw eigen gegevens, bijvoorbeeld uw Shopify-winkel of sandbox.
 
 Volg in [!INCLUDE[prod_short](../includes/prod_short.md)] de volgende stappen.
 
-#### <a name="prepare-data"></a>Gegevens voorbereiden
+#### Gegevens voorbereiden
 
 1. Schakel over naar een gratis proefperiode van 30 dagen zonder voorbeeldgegevens. Zie voor meer informatie [Uw eigen gegevens toevoegen aan een lege proefversie](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions#add-your-own-data-to-an-empty-trial-company).
 2. Selecteer het ![Lampje dat de functie Vertel me opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Shopify-winkels** in en selecteer vervolgens de gerelateerde koppeling.
@@ -379,7 +379,7 @@ Configureer de Shopify-winkel zoals hier beschreven:
 10. Selecteer *Alle klanten* bij **Bedrijf importeren uit Shopify**.
 11. Zet de schakelaar **Automatisch onbekend bedrijf maken** aan.
 
-#### <a name="run-the-synchronization"></a>De synchronisatie uitvoeren
+#### De synchronisatie uitvoeren
 
 1. Selecteer het ![Lampje dat de functie Vertel me opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Shopify-winkels** in en selecteer vervolgens de gerelateerde koppeling.
 2. Selecteer de *DEMO2*-winkel waarvoor u gegevens wilt synchroniseren om de pagina **Shopify-winkelkaart** te openen.
@@ -388,7 +388,7 @@ Configureer de Shopify-winkel zoals hier beschreven:
 5. Selecteer **Klanten synchroniseren**.
 6. Selecteer **Bedrijven synchroniseren**
 
-### <a name="results"></a>Resultaten
+### Resultaten
 
 * Shopify-producten worden geïmporteerd. Selecteer ter verificatie het pictogram ![Lampje dat de functie Vertel me opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Shopify-producten** in en selecteer vervolgens de gerelateerde koppeling.
 * Artikelen met afbeeldingen worden gemaakt. Selecteer ter verificatie het pictogram ![Lampje dat de functie Vertel me opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikel** in en selecteer de gerelateerde koppeling.
@@ -397,6 +397,6 @@ Configureer de Shopify-winkel zoals hier beschreven:
 * Er worden klanten gemaakt. Selecteer ter verificatie het pictogram ![Lampje dat de functie Vertel me opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en selecteer vervolgens de gerelateerde koppeling.
 
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Aan de slag met de Shopify-connector](get-started.md)  

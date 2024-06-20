@@ -9,8 +9,9 @@ ms.search.form: '9652, 9650'
 ms.date: 08/12/2022
 ms.author: jswymer
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
-# <a name="setting-the-layout-used-by-a-report"></a>De lay-out instellen die door een rapport wordt gebruikt
+# De lay-out instellen die door een rapport wordt gebruikt
 
 > **GELDT VOOR:** Business Central Online, Business Central on-premises releasewave 1 van 2022 en hoger. Ga voor eerdere versies naar [hier](ui-how-change-layout-currently-used-report.md).
 
@@ -18,7 +19,7 @@ Een rapportlay-out bepaalt het uiterlijk van een rapport. Het bepaalt welke gege
 
 Wanneer er meerdere bedrijven in de toepassing zijn, worden de lay-outs per bedrijf ingesteld. Dus hetzelfde rapport in het ene bedrijf kan een andere lay-out hebben in een ander bedrijf.
 
-## <a name="get-started"></a>Aan de slag
+## Aan de slag
 
 Er zijn enkele manieren om in te stellen welke lay-out een rapport gebruikt. Elke manier heeft voordelen, afhankelijk van wat u wilt doen: 
 
@@ -35,12 +36,12 @@ Er zijn enkele manieren om in te stellen welke lay-out een rapport gebruikt. Elk
   > [!NOTE]
   > U kunt de pagina **Rapportlay-outs** niet gebruiken voor Word- en RDLC-lay-outs die zijn gemaakt met de verouderde **Aangepaste lay-outs**-functie. U ziet u deze aangepaste lay-outs niet eens vermeld op de pagina **Rapportlay-outs**. Voor deze lay-outs kunt u ze alleen instellen met de pagina **Selectie rapportlay-out**.
 
-## <a name="set-the-layout-from-the-report-layouts-page"></a>De lay-out vanaf de pagina Rapportlay-outs instellen
+## De lay-out vanaf de pagina Rapportlay-outs instellen
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Zoek de lay-out in de lijst, selecteer de lay-out en selecteer vervolgens de actie **Standaard instellen** boven aan de pagina.
 
-## <a name="set-the-layout-from-report-layout-selection-page"></a>De lay-out vanaf de pagina Selectie rapportlay-out instellen
+## De lay-out vanaf de pagina Selectie rapportlay-out instellen
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me 1 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Selectie rapportlay-out** in en kies vervolgens de gerelateerde koppeling.
   
@@ -53,11 +54,11 @@ Er zijn enkele manieren om in te stellen welke lay-out een rapport gebruikt. Elk
 
 4. In de pagina **Rapportlay-outs** selecteert u de lay-out en selecteer vervolgens **OK**.
 
-## <a name="revert-to-the-original-default-layout"></a>Terugkeren naar de oorspronkelijke standaardlay-out
+## Terugkeren naar de oorspronkelijke standaardlay-out
 
 Rapporten zijn ontworpen om standaard een lay-out te gebruiken. U kunt terugschakelen naar de oorspronkelijke standaardlay-out vanaf de pagina **Selectie rapportlay-out**. Selecteer gewoon het rapport en selecteer vervolgens de actie **Standaardselectie herstellen** boven aan de pagina.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Rapportlay-outs beheren](ui-manage-report-layouts.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

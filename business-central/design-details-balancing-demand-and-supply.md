@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 12/15/2022
 ms.custom: bap-template
 ---
-# <a name="design-details-balancing-supply-and-demand"></a>Ontwerpdetails: Vraag en aanbod afstemmen
+# Ontwerpdetails: Vraag en aanbod afstemmen
 
 Om te begrijpen hoe het planningssysteem werkt, is het belangrijk om de geprioriteerde doelen te begrijpen:  
 
@@ -18,7 +18,7 @@ Om te begrijpen hoe het planningssysteem werkt, is het belangrijk om de gepriori
 
 Over het algemeen worden deze doelstellingen bereikt door aanbod met vraag af te stemmen.  
 
-## <a name="supply-and-demand"></a>Vraag en aanbod
+## Vraag en aanbod
 
 De term *aanbod* verwijst naar elke vorm van positieve of inkomende hoeveelheid, zoals:
 
@@ -46,7 +46,7 @@ Wanneer voorraadprofielen worden geladen, worden de vraag/aanbod-combinaties afg
 
 Voorraadniveaus en planningsparameters zijn andere typen vraag en aanbod. Deze typen ondergaan een geïntegreerde afstemming om voorraadartikelen aan te vullen. Zie voor meer informatie [Ontwerpdetails: Bestelbeleid verwerken](design-details-handling-reordering-policies.md).
 
-## <a name="the-concept-of-balancing-in-brief"></a>Het concept van afstemmen in het kort
+## Het concept van afstemmen in het kort
 
 Vraag komt van uw klanten. Aanbod is wat u kunt maken en verwijderen om te zorgen voor balans. Het planningssysteem begint met de vraag en werkt vervolgens achterwaarts naar het aanbod.  
 
@@ -56,7 +56,7 @@ Het doel van planning is om vraag en aanbod van een artikel op elkaar af te stem
 
 :::image type="content" source="media/nav_app_supply_planning_2_balancing.png" alt-text="Overzicht van vraag- en aanbodafstemming.":::
 
-## <a name="process-orders-before-the-planning-start-date"></a>Orders verwerken vóór de startdatum van de planning
+## Orders verwerken vóór de startdatum van de planning
 
 Om te voorkomen dat een aanbodplan onredelijke suggesties doet, plant het planningssysteem niets in de periode voor de startdatum van de planning. De volgende regel geldt voor die periode:
 
@@ -70,11 +70,11 @@ Op enkele uitzonderingen na zal het planningssysteem geen wijzigingen voorstelle
 
 Als de eerste beschikbare voorraad onder nul is, wordt er op de dag vóór de planningsperiode door het planningssysteem een noodvoorzieningenorder voorgesteld voor het ontbrekende aantal. Dus is de voorspelde en beschikbare voorraad altijd minstens nul wanneer het plannen voor de toekomstige periode begint. De planningsregel voor deze aanvulorder geeft een noodgevalpictogram weer en extra gegevens.
 
-### <a name="serial-and-lot-numbers-and-order-to-order-links-are-exempt-from-the-previous-period"></a>Serie-/lotnummers en order-naar-order koppelingen zijn vrijgesteld van de vorige periode
+### Serie-/lotnummers en order-naar-order koppelingen zijn vrijgesteld van de vorige periode  
 
 Als serie- of lotnummers vereist zijn of als er een order-naar-order-koppeling bestaat, negeert het planningssysteem de regel over de vorige periode. De systeem neemt geantidateerde hoeveelheden op vanaf de startdatum en kan corrigerende acties voorstellen als vraag en aanbod niet gesynchroniseerd zijn. Deze vraag/aanbodcombinaties moeten overeenkomen om ervoor te zorgen dat aan een specifieke vraag wordt voldaan.
 
-## <a name="load-inventory-profiles"></a>Voorraadprofielen laden
+## Voorraadprofielen laden
 
 Om de vele bronnen van vraag en aanbod te sorteren, ordent het planningssysteem deze op twee tijdpaden die voorraadprofielen worden genoemd.  
 
@@ -98,7 +98,7 @@ Over het algemeen beschouwt het planningssysteem alle voorzieningenorders na de 
 
 Afgezien van het laden van de typen vraag en aanbod worden bepaalde typen geladen met het oog op speciale regels en afhankelijkheden. In de volgende secties in dit artikel worden deze regels en afhankelijkheden beschreven.  
 
-### <a name="item-dimensions-are-separated"></a>Artikeldimensies worden gescheiden
+### Artikeldimensies worden gescheiden  
 
 Het aanbodplan moet worden berekend per combinatie van artikeldimensies, zoals variant en vestiging. Alleen de combinaties met vraag en/of aanbod moeten worden berekend.  
 
@@ -107,7 +107,7 @@ Het planningssysteem zoekt naar combinaties in het voorraadprofiel. Wanneer een 
 > [!NOTE]  
 > U hoeft geen SKU-record in te voeren tijdens het invoeren van vraag en/of aanbod voor een bepaalde combinatie van variant en vestiging. Wanneer er geen SKU bestaat voor een bepaalde combinatie, maakt [!INCLUDE [prod_short](includes/prod_short.md)] daarom een tijdelijke SKU op basis van het artikel. Als de schakelaar **Vestiging verplicht** is ingeschakeld op de **pagina Voorraadinstellingen**, moet u een SKU maken of de schakelaar **Onderdelen op vestiging** inschakelen. Zie voor meer informatie [Planning met of zonder vestigingen](production-planning-with-without-locations.md).  
 
-### <a name="serial-and-lot-numbers-are-loaded-by-specification-level"></a>Serie- en lotnummers worden geladen op specificatieniveau
+### Serie- en lotnummers worden geladen op specificatieniveau  
 
 Serie- en lotnummers worden in de voorraadprofielen geladen met de vraag en het aanbod waaraan ze zijn toegewezen.  
 
@@ -122,7 +122,7 @@ Een andere reden waarom aanbod met serie- en lotnummers inflexibel is, is dat se
 
 Het afstemmen van serie- en lotnummers respecteert niet de regel om niets te plannen vóór de startdatum van de planning. Als vraag en aanbod niet zijn gesynchroniseerd, zal het planningssysteem wijzigingen of nieuwe orders voorstellen, ongeacht de geplande begindatum.  
 
-### <a name="order-to-order-links-are-never-broken"></a>Order-naar-order koppelingen worden nooit verbroken
+### Order-naar-order koppelingen worden nooit verbroken
 
 Bij het plannen van een order-naar-order-artikel moet het gekoppelde aanbod alleen worden gebruikt voor waarvoor het oorspronkelijk is bedoeld. De gekoppelde vraag moet niet door een willekeurig ander aanbod worden gedekt, zelfs wanneer het aanbod beschikbaar is wat betreft tijd en aantal. Een assemblageorder die is gekoppeld aan een verkooporder in een op-order-assembleren scenario, kunt u bijvoorbeeld niet gebruiken om aan andere vraag te voldoen.  
 
@@ -136,17 +136,17 @@ Deze vereffening heeft ook invloed op de timing. Er wordt geen rekening gehouden
 > [!NOTE]  
 > Prognoses moeten niet leiden tot het maken van voorzieningenorders die zijn gebonden door een order-op-order koppeling. Als de prognose wordt gebruikt, moet deze alleen worden gebruikt als generator van afhankelijke vraag in een productieomgeving.
 
-### <a name="component-need-is-loaded-according-to-production-order-changes"></a>Materiaalbehoefte wordt geladen op basis van wijzigingen in productieorders
+### Materiaalbehoefte wordt geladen op basis van wijzigingen in productieorders
 
 Bij de verwerking van productieorders moet het planningssysteem de benodigde materialen controleren voordat ze in het vraagprofiel worden geladen. Materiaalregels die voortvloeien uit een gewijzigde productieorder vervangen de regels uit de oorspronkelijke order. De wijziging zorgt ervoor dat het planningssysteem geen dubbele planningsregels maakt voor een materiaalbehoefte.  
 
-### <a name="consume-safety-stock"></a>Veiligheidsvoorraad verbruiken
+### Veiligheidsvoorraad verbruiken
 
 Veiligheidsvoorraad is vraag die in het voorraadprofiel wordt geladen op de begindatum van de planning.  
 
 Veiligheidsvoorraad is een voorraadhoeveelheid die opzij is gezet om onzekerheden in de vraag te compenseren tijdens aanvulling. Het kan echter worden verbruikt om aan een vraag te voldoen. In dat geval zorgt het planningssysteem ervoor dat de veiligheidsvoorraad snel aangevuld wordt. Het systeem stelt een aanvulorder voor om de veiligheidsvoorraad aan te vullen op de datum waarop deze wordt verbruikt. De planningsregel zal een pictogram van een uitzonderingswaarschuwing bevatten, zodat de planner weet dat de veiligheidsvoorraad gedeeltelijk of volledig is verbruikt door een uitzonderingsorder voor het ontbrekende aantal.  
 
-### <a name="forecast-demand-is-reduced-by-sales-orders"></a>Prognosevraag wordt verlaagd door verkooporders
+### Prognosevraag wordt verlaagd door verkooporders
 
 Vraagprognoses drukken verwachte toekomstige vraag uit. Wanneer werkelijke vraag wordt ingevoerd, meestal als verkooporders voor geproduceerde artikelen, wordt de prognose verbruikt.
 
@@ -163,13 +163,13 @@ De prognose kan voor verschillende soorten vraag zijn:
 
 Een artikel kan beide soorten prognoses hebben. Tijdens planning vindt het verbruik afzonderlijk plaats, eerst voor onafhankelijke vraag en dan voor afhankelijke vraag.  
 
-### <a name="blanket-order-demand-is-reduced-by-sales-orders"></a>Raamcontractvraag wordt verlaagd door verkooporders
+### Raamcontractvraag wordt verlaagd door verkooporders
 
 Prognoses worden aangevuld door verkoopraamcontracten, als manier om toekomstige vraag van een specifieke klant op te geven. Net als bij de (niet gespecificeerde) prognose moeten werkelijke verkopen de verwachte vraag verbruiken en moet het resterende aantal in het vraagvoorraadprofiel worden opgenomen. Verbruik vermindert de hoeveelheid van raamcontracten niet.
 
 De planningsberekening houdt rekening met open verkooporders die zijn gekoppeld aan de specifieke raamcontractregel, maar niet met een geldige tijdsperiode. Er wordt ook geen rekening gehouden met geboekte orders, aangezien de boekingsprocedure het openstaande raamcontractaantal al heeft verlaagd.
 
-## <a name="prioritize-orders"></a>Orders in prioriteitsvolgorde plaatsen
+## Orders in prioriteitsvolgorde plaatsen
 
 Binnen een bepaalde SKU vertegenwoordigt de gevraagde of beschikbare datum de hoogste prioriteit. De vraag van vandaag moet worden afgehandeld vóór de vraag van volgende week. Maar naast deze algemene prioriteit zal het planningssysteem de volgende suggesties doen op basis van volgordeprioriteiten:
 
@@ -178,7 +178,7 @@ Binnen een bepaalde SKU vertegenwoordigt de gevraagde of beschikbare datum de ho
 
 Geladen vraag en aanbod dragen bij aan een profiel voor voorspelde voorraad op basis van de volgende prioriteiten.  
 
-### <a name="priorities-on-the-demand-side"></a>Prioriteiten aan de vraagkant
+### Prioriteiten aan de vraagkant  
 
 1. Al verzonden: Artikelpost  
 2. Inkoopretourorder  
@@ -193,7 +193,7 @@ Geladen vraag en aanbod dragen bij aan een profiel voor voorspelde voorraad op b
 > [!NOTE]  
 > Inkoopretouren zijn meestal niet betrokken bij voorraadplanning; ze moeten altijd worden gereserveerd vanuit de lot die geretourneerd zal worden. Indien niet gereserveerd, spelen inkoopretouren een rol in de beschikbaarheid en hebben ze een hoge prioriteit om te voorkomen dat het planningssysteem een aanvulorder voorstelt, puur met het oog op een inkoopretour.  
 
-### <a name="priorities-on-the-supply-side"></a>Prioriteiten aan de aanbodkant
+### Prioriteiten aan de aanbodkant  
 
 1. Al in voorraad: Artikelpost (Planningsflexibiliteit = geen)  
 2. Verkoopretourorder (Planningsflexibiliteit = Geen)  
@@ -202,7 +202,7 @@ Geladen vraag en aanbod dragen bij aan een profiel voor voorspelde voorraad op b
 5. Assemblageorder  
 6. Inkooporder  
 
-### <a name="priority-related-to-the-state-of-supply-and-demand"></a>Prioriteit met betrekking tot de status van vraag en aanbod
+### Prioriteit met betrekking tot de status van vraag en aanbod  
 
 Naast de prioriteiten vanuit het type vraag en aanbod zijn er nog andere zaken die van invloed zijn op de planningsflexibiliteit. Bijvoorbeeld magazijnactiviteiten en de status van de volgende orders:
 
@@ -220,7 +220,7 @@ De status van deze orders heeft de volgende effecten:
 4. Vaste geplande productieorder (Planningsflexibiliteit = Onbeperkt)  
 5. Gepland/open - alle ordersoorten (Planningsflexibiliteit = Onbeperkt)
 
-## <a name="balancing-supply-with-demand"></a>Aanbod afstemmen op vraag
+## Aanbod afstemmen op vraag
 
 Het planningssysteem brengt vraag en aanbod in evenwicht door acties voor te stellen om aanvulorders te herzien die niet in evenwicht zijn. Deze afstemming gebeurt voor elke combinatie van variant en locatie.  
 
@@ -254,7 +254,7 @@ Elke gebeurtenis verwijst naar de bronsoort en de identificatie. De regels voor 
 
  De procedure begint opnieuw met de volgende vraag en het huidige aanbod of andersom. De huidige voorzieningen kunnen mogelijk deze volgende vraag ook verwerken, of de huidige vraag is nog niet volledig verwerkt.  
 
-### <a name="rules-for-actions-for-supply-events"></a>Regels voor acties voor aanbodgebeurtenissen
+### Regels voor acties voor aanbodgebeurtenissen
 
 Voor verticale berekeningen waarbij het aanbod aan de vraag moet voldoen, wordt de vraag als een gegeven beschouwd. Het valt buiten de controle van het planningssysteem. Het planningssysteem kan echter de aanbodzijde beheren en zal de volgende suggesties doen:
 
@@ -297,7 +297,7 @@ In het algemeen heeft elk aanbod een planningsflexibiliteit die wordt beperkt do
 * **Annuleren**: als een speciaal geval van de aantal verlagende actie kan de aanvulorder worden geannuleerd als deze tot nul is verlaagd. 
 * **Nieuw**: als er nog geen aanvulorders bestaan en er geen bestaande order kan worden gewijzigd om op de gevraagde vervaldatum te voldoen aan de benodigde hoeveelheid, wordt een nieuwe aanvulorder voorgesteld.  
 
-### <a name="determine-the-supply-quantity"></a>De aanbodhoeveelheid bepalen
+### De aanbodhoeveelheid bepalen  
 
 U definieert de planningsparameters die de voorgestelde hoeveelheid van elke aanvulorder bepalen.  
 
@@ -311,7 +311,7 @@ De voorgestelde hoeveelheid kan worden gewijzigd in deze volgorde:
 2. Tot aan het minimale bestelaantal.  
 3. Tot aan het dichtstbijzijnde ordermeervoud.
 
-### <a name="order-tracking-links-during-planning"></a>Ordertraceringskoppelingen tijdens planning
+### Ordertraceringskoppelingen tijdens planning  
 
 Voor het volgen van orders tijdens planning herschikt het planningssysteem de koppelingen voor het volgen van orders voor de combinaties van artikelen, varianten en vestigingen. Het systeem herschikt de traceringskoppelingen om de volgende redenen:
 
@@ -325,7 +325,7 @@ Voordat aanbod op vraag wordt afgestemd, worden alle bestaande ordertraceringsko
 > [!NOTE]  
 > Zelfs als het artikel niet is ingesteld voor dynamische ordertracering, maakt het planningssysteem afgestemde ordertraceringskoppelingen.
 
-## <a name="close-balanced-supply-and-demand"></a>Afgestemde vraag en aanbod sluiten
+## Afgestemde vraag en aanbod sluiten
 
 Het afstemmen van aanbod heeft drie mogelijke uitkomsten:
 
@@ -335,7 +335,7 @@ Het afstemmen van aanbod heeft drie mogelijke uitkomsten:
 
 Als laatste maakt het planningssysteem een ordertraceringskoppeling tussen het aanbod en de vraag.  
 
-### <a name="create-the-planning-line-suggested-action"></a>De planningsregel maken (voorgestelde actie)
+### De planningsregel maken (voorgestelde actie)  
 
 Als een actie **Nieuw**, **Aantal wijzigen**, **Herplannen**, **Herplannen en aantal wijzigen** of **Annuleren** wordt voorgesteld om de aanvulorder te herzien, maakt het planningssysteem een planningsregel in het planningsvoorstel. Voor ordertracering wordt de planningsregel niet alleen gemaakt wanneer de aanbodgebeurtenis wordt gesloten, maar ook als de vraaggebeurtenis wordt gesloten. Dit geldt ook al is de aanbodgebeurtenis nog open en kan deze worden gewijzigd wanneer de volgende vraaggebeurtenis wordt verwerkt. De planningsregel kan weer worden gewijzigd wanneer deze wordt gemaakt.
 
@@ -345,7 +345,7 @@ Om de belasting van de database bij het afhandelen van productieorders te vermin
 * Bewerkingsplan opnemen: het geplande bewerkingsplan omvat berekening van begin- en einddatums en -tijden. Bewerkingsplan opnemen is veeleisend voor wat betreft databasetoegang. Voor het bepalen van de eind- en vervaldatums kan het noodzakelijk zijn om het bewerkingsplan te berekenen, zelfs als de aanbodgebeurtenis niet is afgesloten. Bijvoorbeeld als u voorwaartse planning doet.  
 * Ontwikkeling stuklijst opnemen: dit kan gebeuren vlak voordat de aanbodgebeurtenis wordt gesloten.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook  
 
 [Ontwerpdetails: Centrale begrippen van het planningssysteem](design-details-central-concepts-of-the-planning-system.md)  
 [Ontwerpdetails: Bestelbeleid verwerken](design-details-handling-reordering-policies.md)  

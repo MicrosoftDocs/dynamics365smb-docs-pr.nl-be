@@ -11,7 +11,7 @@ ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="about-production-orders"></a>Over productieorders
+# Over productieorders
 
 Productieorders worden gebruikt voor het beheren van de conversie van ingekochte materialen naar geproduceerde artikelen. Productieorders leiden het werk door verschillende afdelingen of bewerkingsplaatsen op de shopfloor.  
 
@@ -32,7 +32,7 @@ Productieorders vormen het beginpunt voor:
 - Sturen van de huidige productie  
 - Traceren van gereedgemelde productie  
 
-## <a name="production-order-creation"></a>Productieorders maken
+## Productieorders maken  
 
 U kunt productieorders handmatig maken op basis van order voor order op de pagina **Productieorder** of kunnen worden gegenereerd via de pagina **Verkooporderplanning** of **Orderplanning**. U kunt ook meerdere orders maken via de pagina **Planningsvoorstel**.  
 
@@ -44,7 +44,7 @@ U maakt productieorders met informatie van:
 - Bewerkingsplaatsen  
 - Afdelingen  
 
-## <a name="limitations-on-creating-production-orders"></a>Beperkingen aangaande het maken van productieorders
+## Beperkingen aangaande het maken van productieorders  
 
 Productieorders worden automatisch gereserveerd en getraceerd naar de bron wanneer:  
 
@@ -57,18 +57,18 @@ Zie [Relatie tussen vraag en voorzieningen bijhouden](production-how-track-deman
 
 Productieorders die op een andere manier zijn gemaakt, worden niet automatisch gereserveerd en getraceerd.
 
-## <a name="production-order-status"></a>Productieorderstatus
+## Productieorderstatus  
 
 De productieorderstatus bepaalt hoe de productieorder wordt behandeld in de toepassing. De vorm en inhoud van de productie worden bepaald door de status van de order. Afhankelijk van de status worden de productieorders op verschillende pagina's weergegeven. U kunt de status van een productieorder niet handmatig wijzigen. U moet de functie **Status wijzigen** gebruiken in de individuele productieorder of in het venster **Productieorderstatus wijzigen**.  
 
-### <a name="simulated-production-order"></a>Gesimuleerde productieorder
+### Gesimuleerde productieorder  
 
 Een gesimuleerde productieorder is uniek vanwege de volgende kenmerken:  
 
 - Zoals de naam al aangeeft, is het een simulatie die u kunt gebruiken voor offertes en kostenberekeningen. Bijvoorbeeld wanneer de afdeling Onderzoek en Ontwikkeling een kostenraming wil krijgen voor een voorgesteld artikel. Een gesimuleerde productieorder dient als voorbeeld voor een productieorder.  
 - Deze order heeft geen invloed op het plannen van orders. Planning (MPS en MRP) houdt geen rekening met en wordt ook niet beïnvloed door gesimuleerde productieorders. Een gesimuleerde productieorder kan ook niet worden gebruikt als sjabloon, omdat deze verdwijnt zodra u de status wijzigt.  
 
-### <a name="planned-production-order"></a>Geplande productieorder
+### Geplande productieorder  
 
 Een geplande productieorder is uniek vanwege de volgende kenmerken:  
 
@@ -78,7 +78,7 @@ Een geplande productieorder is uniek vanwege de volgende kenmerken:
 - Het genereren ervan tijdens de planning resulteert in een voorgestelde "geplande ordervrijgave" die het aantal, de vrijgavedatum en de vervaldatum omvat. De logica van het planningssysteem is gebaseerd op de aanvullingsmethode, het bestelbeleid en orderwijzigingen die het systeem tegenkomt tijdens het plannen van de nettobehoefte.  
 - Als u het effect ervan wilt bekijken, kijkt u naar de werklast voor elke afdeling of bewerkingsplaats in het bewerkingsplan van de geplande productieorder.  
 
-### <a name="firm-planned-production-order"></a>Vast geplande productieorder
+### Vast geplande productieorder  
 
 Een vast geplande productieorder is uniek vanwege de volgende kenmerken:  
 
@@ -88,7 +88,7 @@ Een vast geplande productieorder is uniek vanwege de volgende kenmerken:
 - Het genereren ervan tijdens de planning resulteert in een voorgestelde "geplande ordervrijgave" die het aantal, de vrijgavedatum en de vervaldatum omvat. De logica van het planningssysteem is gebaseerd op de aanvullingsmethode, het bestelbeleid en orderwijzigingen die het systeem tegenkomt tijdens het plannen van de nettobehoefte.  
 - Als u het effect ervan wilt bekijken, kijkt u naar de werklast voor elke afdeling of bewerkingsplaats in het bewerkingsplan van de vast geplande productieorder.  
 
-### <a name="released-production-order"></a>Vrijgegeven productieorder
+### Vrijgegeven productieorder  
 
 De vrijgegeven productieorder is uniek vanwege de volgende kenmerken:  
 
@@ -97,7 +97,7 @@ De vrijgegeven productieorder is uniek vanwege de volgende kenmerken:
 - In een MTO-omgeving (Make-to-Order) is het niet ongebruikelijk om onmiddellijk na het invoeren van de verkooporder een vrijgegeven productieorder op te stellen.  
 - Het werkelijke materiaalverbruik en de productoutput kunnen handmatig worden vastgelegd met een vrijgegeven productieorder. Daarnaast vindt automatische afboeking van verbruik en productoutput alleen plaats voor vrijgegeven productieorders.  
 
-### <a name="finished-production-order"></a>Gereedgemelde productieorder
+### Gereedgemelde productieorder  
 
 Een gereedgemelde productieorder is uniek vanwege de volgende kenmerken:  
 
@@ -106,7 +106,7 @@ Een gereedgemelde productieorder is uniek vanwege de volgende kenmerken:
 - Gereedgemelde productieorders worden gebruikt voor statistische rapportage en ter ondersteuning van de mogelijkheid om terug te traceren naar andere orders (bijvoorbeeld verkoop-, productie- en inkooporders). Met de mogelijkheid om terug te traceren naar een gereedgemelde productieorder kunt u de gedetailleerde historie bekijken.  
 - Gereedgemelde productieorders kunnen nooit worden gewijzigd.  
 
-## <a name="production-order-execution"></a>Uitvoering van productieorders
+## Uitvoering van productieorders  
 
 Nadat u een productieorder hebt opgesteld en gepland, moet deze worden vrijgegeven aan de shopfloor om te worden uitgevoerd. Tijdens het uitvoeren van de order wordt het volgende vastgelegd:  
 
@@ -116,7 +116,7 @@ Nadat u een productieorder hebt opgesteld en gepland, moet deze worden vrijgegev
 
 U kunt deze informatie handmatig vastleggen of door middel van automatische rapportage. De methode is afhankelijk van de instellingen in het veld Afboekingsmethode voor het artikel en de afdeling.  
 
-### <a name="material-consumption"></a>Materiaalverbruik
+### Materiaalverbruik  
 
 [!INCLUDE [prod_short](includes/prod_short.md)] biedt verschillende mogelijkheden om het materiaalverbruik te registreren. Het materiaalverbruik kan bijvoorbeeld handmatig worden geregistreerd. Dit is bijvoorbeeld wenselijk wanneer er vaak onderdelen moeten worden vervangen of er een hoger uitvalpercentage is dan verwacht.  
 
@@ -133,7 +133,7 @@ Bij achterwaartse verbruiksrapportage worden de werkelijke aantallen geregistree
 
 Wanneer de productieorder wordt bijgewerkt, wordt de afboekingsmethode gekopieerd van de artikelkaart. Omdat de afboekingsmethode voor elk onderdeel van de productieorder bepaalt hoe en wanneer het verbruik wordt geregistreerd, is het belangrijk te weten dat u de afboekingsmethode voor specifieke artikelen direct kunt wijzigen in de productieorder. Zie voor meer informatie [Materialen afboeken op basis van de uitvoer van een bewerking](production-how-to-flush-components-according-to-operation-output.md).
 
-### <a name="production-output"></a>Productieoutput
+### Productieoutput  
 
 [!INCLUDE [prod_short](includes/prod_short.md)] biedt de mogelijkheid om te traceren hoeveel werktijd wordt besteed aan een productieorder, naast het registreren van het aantal dat is geproduceerd. Met behulp van deze informatie kunt u de productiekosten nauwkeuriger bepalen. Daarnaast willen producenten die gebruikmaken van een standaard waarderingssysteem misschien de werkelijke informatie registreren om daarmee betere standaarden te kunnen ontwikkelen.  
 
@@ -145,13 +145,13 @@ Bij de voorwaartse methode wordt de verwachte output (en tijd) geregistreerd, di
 
 Bij de achterwaartse methode wordt de verwachte output (en tijd) geregistreerd, die automatisch wordt vastgelegd bij de gereedmelding van een productieorder. Bewerkingsplankoppelingen zijn geen factor bij het achterwaarts afboeken van de output.  
 
-### <a name="posting-consumption-and-output"></a>Verbruik en output boeken
+### Verbruik en output boeken  
 
 U kunt elke combinatie van automatische afboeking en handmatig geregistreerde informatie gebruiken voor zowel verbruik als output. U kunt bijvoorbeeld onderdelen automatisch voorwaarts afboeken, maar toch nog gebruikmaken van het verbruiksdagboek om uitval te registreren. Of wellicht wilt u de output automatisch registreren, maar een outputdagboek gebruiken voor de registratie van uitval van het hoofdartikel of de extra tijd die aan de order is besteed.  
 
 Tot slot is het zo dat als u het verbruik en de output handmatig invoert, u moet bepalen in welke volgorde u deze informatie wilt vastleggen. U kunt eerst het verbruik registreren en met behulp van een snelkoppelingsmethode de informatie invoeren die is gebaseerd op het verwachte aantal van de output. Of u kunt eerst de output invoeren, met behulp van de functie **Bewerkingsplan weergeven**. U registreert dan het verbruik op basis van het werkelijke aantal van de output.  
 
-### <a name="production-journal"></a>Productiedagboek
+### Productiedagboek  
 
 Het [productiedagboek](production-how-to-register-consumption-and-output.md) combineert de functies van een verbruiksdagboek en outputdagboeken in één dagboek, dat direct toegankelijk is vanuit de vrijgegeven productieorder.  
 
@@ -178,7 +178,7 @@ Productiedagboeken verschillen echter als volgt van de verbruiks- en outputdagbo
 
 In het productiedagboek worden verbruiksaantallen geboekt als negatieve artikelposten, outputaantallen worden geboekt als positieve artikelposten en bestede tijd wordt geboekt als capaciteitspost.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Productie](production-manage-manufacturing.md)
 [Productie instellen](production-configure-production-processes.md)  

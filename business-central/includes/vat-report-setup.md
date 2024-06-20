@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 04/11/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 1. Kies het pictogram ![Lampje dat de functie Vertel me 0 opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Btw-rapportinstellingen** in en kies vervolgens de gerelateerde koppeling.  
 2. Als u gebruikers dit rapport wilt laten wijzigen en opnieuw verzenden, kiest u het veld **Wijziging toestaan**.  

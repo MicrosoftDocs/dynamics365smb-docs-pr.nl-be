@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 09/24/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me 11 opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies vervolgens de gerelateerde koppeling.  

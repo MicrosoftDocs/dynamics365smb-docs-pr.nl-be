@@ -3,7 +3,7 @@ title: Saldi van grootboekrekening herwaarderen
 description: Meer informatie over hoe u de saldi van grootboekrekeningen kunt herwaarderen voordat u uw financiële overzichten opstelt.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 03/14/2024
 ms.custom: bap-template
@@ -11,11 +11,11 @@ ms.search.form: null
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="revalue-general-ledger-account-balances"></a>Saldi van grootboekrekening herwaarderen
+# Saldi van grootboekrekening herwaarderen
 
 Als u grootboekrekeningen gebruikt om balansposten in vreemde valuta te registreren, moet u de rekeningsaldi herwaarderen voordat u financiële overzichten maakt. Wisselkoersen veranderen vaak, en herwaardering helpt uw financiële overzichten nauwkeuriger te maken.
 
-## <a name="set-up-revaluations"></a>Herwaarderingen instellen
+## Herwaarderingen instellen
 
 U stelt elke rekening die u wilt opnemen in herwaarderingen in op de pagina **Grootboekrekening** . U kunt selecteren of u herwaarderingscorrecties wilt boeken naar gerealiseerde of ongerealiseerde winst-/verliesrekeningen. Het boeken van winsten en verliezen tijdens een wisselkoersaanpassing volgt de normale boekingsroutine. U doet dit bijvoorbeeld voor elke configuratie op de pagina **Valuta's**. Ga voor meer informatie over wisselkoersaanpassingen naar [Valutawisselkoersen bijwerken](finance-how-update-currencies.md).
 
@@ -26,7 +26,7 @@ Om fouten tot een minimum te beperken, kunt u in het veld **Bronvaluta boeken** 
 * Zelfde valuta
 * Lokale valuta
 
-## <a name="run-a-revaluation"></a>Een herwaardering uitvoeren
+## Een herwaardering uitvoeren
 
 Als u de bedragen in vreemde valuta in de lokale valuta voor grootboekrekeningsaldi wilt herwaarderen, gebruikt u op de pagina **Rekeningschema** de actie **Herwaardering van grootboekvaluta** om een batchverwerking te starten. Met de batchverwerking worden herwaarderingsposten gemaakt in het dagboek dat u selecteert. Wanneer u de posten boekt, past u het saldo in de lokale valuta (LV) voor de rekening aan. Grootboekrekeningsaldi die altijd in LV worden weergegeven, weerspiegelen nu wijzigingen in de valuta's waarin posten zijn geboekt. Door deze herwaardering kunt u met minder moeite een nauwkeuriger financieel overzicht opstellen.
 
@@ -38,7 +38,7 @@ Als u een extra rapportagevaluta gebruikt, bevatten de herwaarderingsposten in h
 > [!NOTE]
 > Herwaardering biedt niet de mogelijkheid om posten te vereffenen of de vereffening van posten ongedaan te maken, zoals u dat wel kunt met klant- en leveranciersposten. Aanpassingen gebeuren voor een saldo per valuta.
 
-## <a name="revaluate-accounts-vs-customer-and-vendor-exchange-rate-adjustments"></a>Herwaardeer rekeningen ten opzichte van wisselkoersaanpassingen van klanten en leveranciers
+## Herwaardeer rekeningen ten opzichte van wisselkoersaanpassingen van klanten en leveranciers
 
 Herwaardering vereenvoudigt de taak van het aanpassen van grootboekrekeningsaldi. Met de functie wordt het saldo per valuta per grootboekrekening geherwaardeerd, net zoals u doet voor aanpassingen in grootboekrekeningen die aan bankrekeningen zijn gekoppeld. Als u een grootboekrekening gebruikt om meerdere activa bij te houden, kunt u overwegen in plaats daarvan een leveranciers- of klantrekening te gebruiken.
 
@@ -56,7 +56,7 @@ Dit verschil is belangrijk wanneer u beoordeelt of grootboekherwaardering voor u
 > [!TIP]
 > Wij raden u aan uw accountant of auditor te vragen welk type rekening het beste bij uw bedrijf past. Mogelijk bestaat er ook een app voor [!INCLUDE [prod_short](includes/prod_short.md)] in [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?page=1&product=dynamics-365-business-central) die precies past bij uw bedrijfsscenario's.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Bedragen op grootboekrekeningen controleren](finance-review-accounts.md)  
 [Het grootboek en het rekeningschema begrijpen](finance-general-ledger.md)  

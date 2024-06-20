@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 03/03/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 Beveiligingsgroepen zijn nieuw in Business Central in 2023 releasewave 1. Ze lijken op de gebruikersgroepen die in dit artikel worden genoemd. Net als gebruikersgroepen wijzen beheerders de machtigingen toe aan de beveiligingsgroep die de leden ervan nodig hebben om hun werk te doen.

@@ -8,8 +8,9 @@ ms.search.keywords: null
 ms.date: 06/24/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="business-process-walkthroughs"></a>Procedures voor bedrijfsprocessen
+# Procedures voor bedrijfsprocessen
 
 Deze selectie van procedures biedt stapsgewijze, end-to-end bedrijfsprocessen die u kunt uitvoeren met behulp van het demobedrijf CRONUS. De scenario's bestaan uit meerdere procedures, waarvan sommige normaliter zouden worden uitgevoerd door één gebruiker, terwijl bij andere diverse verschillende gebruikersrollen zijn betrokken. Teneinde de werkomgeving na te bootsen, bevatten sommige van de scenario's instellingsstappen die nodig zijn voor het uitvoeren van de oefeningen zoals beschreven. Deze stappen kunnen inzicht bieden in de aard van de informatie die gebruikers moeten delen met de IT-professionals van hun bedrijf.  
 
@@ -35,7 +36,7 @@ Deze selectie van procedures biedt stapsgewijze, end-to-end bedrijfsprocessen di
 <!-- |Put received items away in advanced warehouse configurations. **Requires complete sample data**|[Walkthrough: Receiving and Putting Away in advanced warehouse configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)|   -->
 <!-- |Perform defects management. **Requires complete sample data** |[Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)| -->
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

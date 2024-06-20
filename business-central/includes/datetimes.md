@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 Wanneer u een datumtijd invoert (een datum en een tijd gecombineerd tot één veld), moet u een spatie invoeren tussen de datum en de tijd. Het datumdeel kan alleen spaties in de vorm van het officiële datumscheidingsteken van uw regio-instellingen bevatten. De tijd kan spaties bevatten rond de AM/PM-indicator in relevante regionale instellingen.
 

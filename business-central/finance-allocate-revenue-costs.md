@@ -9,9 +9,10 @@ ms.search.keywords: 'allocate, allocation, accounts'
 ms.search.form: '39, 2673, 2670, 2674,'
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# <a name="allocate-revenue-and-costs-to-multiple-general-ledger-accounts"></a>Opbrengsten en kosten toewijzen aan meerdere grootboekrekeningen
+# Opbrengsten en kosten toewijzen aan meerdere grootboekrekeningen
 
 In dit artikel wordt beschreven hoe u toewijzingsrekeningen kunt gebruiken om bedragen in verkoop- en inkoopdocumenten en dagboekregels naar verschillende grootboekrekeningen te verdelen. U kunt bedragen toewijzen via een vaste of variabele verdeling.  
 
@@ -26,7 +27,7 @@ In de volgende tabel worden de toewijzingsmethoden beschreven die u kunt gebruik
 |Vast     | Als u de kosten wilt opsplitsen op een manier die zich over een langere periode herhaalt, kunt u een vaste toewijzing gebruiken. Bij een vaste toewijzing kunt u de opsplitsing van de toewijzing definiëren. Deze opsplitsing verandert alleen als u de instellingen wijzigt op de pagina **Toewijzingsrekening**.        |
 |Variabel     | Als u inkomsten of kosten wilt verdelen op basis van waarden die in de loop van de tijd veranderen, gebruikt u de variabele toewijzingsmethode. Met variabele toewijzingen kunt u de bronnen opgeven die u wilt gebruiken om de toewijzingspercentages te berekenen. Deze methode is bijvoorbeeld handig voor het splitsen van personeelskosten op basis van verschillende personeelsaantallen in afdelingen of divisies. Een ander voorbeeld is het verdelen van de huurkosten op basis van productievloerafmetingen die in de loop van de tijd per productielijn kunnen variëren. Variabele toewijzingen gebruiken een combinatie van dimensies en statistiekrekeningen om te bepalen hoe bedragen over een bepaalde periode worden verdeeld. Ga voor meer informatie over statistiekrekeningen naar [Gegevens analyseren met statistiekrekeningen](bi-use-statistical-accounts.md). Ga voor meer informatie over dimensies naar [Werken met dimensies](finance-dimensions.md).        |
 
-## <a name="use-a-fixed-share-or-percentage-method-to-allocate-amounts"></a>Een vastdeel- of percentagemethode gebruiken om bedragen toe te wijzen
+## Een vastdeel- of percentagemethode gebruiken om bedragen toe te wijzen
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Toewijzingsrekening** in en kies de gerelateerde koppeling.  
 1. Kies op de pagina **Toewijzingsrekeningen** de actie **Nieuw**.
@@ -41,7 +42,7 @@ In de volgende tabel worden de toewijzingsmethoden beschreven die u kunt gebruik
    > Als u in het veld **Deel** het daadwerkelijke bedrag invoert dat u wilt toewijzen voor een vaste toewijzing, wordt in het veld **Percentage** het percentage van het totaalbedrag weergegeven.
 1. Herhaal dit proces voor elke rekening die u in de toewijzing wilt opnemen.
 
-## <a name="use-a-variable-method-to-allocate-amounts"></a>Gebruik een variabele methode om bedragen toe te wijzen
+## Gebruik een variabele methode om bedragen toe te wijzen
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Toewijzingsrekening** in en kies de gerelateerde koppeling.  
 1. Kies op de pagina **Toewijzingsrekeningen** de actie **Nieuw**.
@@ -54,7 +55,7 @@ In de volgende tabel worden de toewijzingsmethoden beschreven die u kunt gebruik
 1. Optioneel: als u op specifieke globale dimensiewaarden wilt filteren, kiest u de actie **Saldofilters van uitsplitsingsrekening** en geeft u vervolgens de filterwaarden op.
 1. Optioneel: kies de actie **Dimensies** en geef vervolgens de dimensies op die u voor de regel wilt boeken.
 
-## <a name="allocate-amounts-on-the-fly"></a>Bedragen ter plekke toewijzen
+## Bedragen ter plekke toewijzen
 
 U maakt toewijzingsrekeningen om opbrengsten en kosten te splitsen voor grootboekrekeningen en bankrekeningen. Het automatiseren van toewijzingen kan tijd besparen. Als u echter toewijzingsrekeningen wilt gebruiken, maar deze niet voor elke grootboekrekening wilt maken, kunt u nog meer tijd besparen.
 
@@ -62,14 +63,14 @@ Met de optie Overnemen van bovenliggend element kunt u de toewijzingsrekening ge
 
 Ad-hoc toewijzingen zijn eenvoudig in te stellen. In plaats van een bank- of grootboekrekening op te geven in het veld **Soort bestemmingsrekening** op de pagina **Toewijzingsrekening** kiest u de optie **Overnemen van bovenliggend element**. Laat het veld **Nummer van bestemmingsrekening** leeg. Wanneer u de grootboekrekening op de document- of dagboekregel kiest, wordt die rekening gebruikt om bedragen toe te wijzen.
 
-## <a name="verify-that-amounts-distribute-correctly-before-you-post-them"></a>Controleren of de bedragen correct worden verdeeld voordat u ze boekt
+## Controleren of de bedragen correct worden verdeeld voordat u ze boekt
 
 Er is een aantal manieren om te controleren of de bedragen correct worden verdeeld:
 
 * Kies op de pagina **Toewijzingsrekening** de actie **Testtoewijzing**. Gebruik het veld **Toe te wijzen bedrag** om verschillende bedragen te testen.
 * Kies op de pagina **Grootboeken** het dagboek en gebruik vervolgens de actie **Voorbeeld van boeking weergeven**.
 
-## <a name="adjust-the-distribution"></a>De verdeling aanpassen
+## De verdeling aanpassen
 
 Als u iets in een toewijzing vindt dat u wilt wijzigen, kunt u de toewijzing aanpassen voordat u deze boekt.  
 
@@ -77,7 +78,7 @@ Als u iets in een toewijzing vindt dat u wilt wijzigen, kunt u de toewijzing aan
 1. Kies de regel en kies vervolgens de actie **Rekeningtoewijzingen opnieuw verdelen**.
 1. Voer op de pagina **Toewijzingen wijzigen** uw aanpassing uit.
 
-## <a name="post-an-allocation-transaction"></a>Een toewijzingstransactie boeken
+## Een toewijzingstransactie boeken
 
 In de volgende stappen wordt beschreven hoe u een toewijzingstransactie vanuit een dagboek boekt. De stappen zijn hetzelfde voor verkoop- en inkoopdocumenten.
 
@@ -92,6 +93,6 @@ In de volgende stappen wordt beschreven hoe u een toewijzingstransactie vanuit e
     1. Kies in het veld **Toewijzingsrekeningnr.** de toewijzingsrekening die is ingesteld voor het gebruik van de optie Overnemen van bovenliggend element. 
 1. Kies **Boeken**.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Werken met dagboeken](ui-work-general-journals.md)  

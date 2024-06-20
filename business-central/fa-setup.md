@@ -3,7 +3,7 @@ title: Vaste activa (VA) instellen
 description: 'Leren over de reeks taken die u moet uitvoeren om vaste activa in te stellen, zoals machines of gebouwen.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'machinery, buildings'
 ms.search.form: '5607,'
@@ -11,7 +11,7 @@ ms.date: 03/25/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="setting-up-fixed-assets"></a>Vaste activa instellen
+# Vaste activa instellen
 
 Voordat u met vaste activa (VA) kunt werken, moet u enkele zaken definiëren:  
 
@@ -26,7 +26,7 @@ De gedeelten in dit artikel bevatten koppelingen naar meer informatie over het i
 
 Als u een activiteit van een vast activum inschakelt in de sectie **Grootboekintegratie** op de pagina **Afschrijvingsboek**, gebruikt u de pagina **Financieel dagboek voor vaste activa** om transacties voor de activiteit te boeken.
 
-## <a name="required-setup-tasks"></a>Vereiste instellingstaken
+## Vereiste instellingstaken
 
 De volgende tabel bevat een reeks taken voor het instellen van vaste activa en koppelingen naar gerelateerde artikelen.
 
@@ -35,7 +35,7 @@ De volgende tabel bevat een reeks taken voor het instellen van vaste activa en k
 | Standaardgrootboekrekeningen, verdeelsleutels, dagboeksjablonen en -batches instellen voor boeking van vaste activa en categorieën en subcategorieën voor vaste activa instellen, zoals materiële en immateriële activa. |[Algemene gegevens voor vaste activa instellen](fa-how-setup-general.md) |
 | Afschrijvingsboeken maken, diverse afschrijvingsmethoden definiëren, integreren met het grootboek en duplicatie van posten in verschillende afschrijvingsboeken inschakelen. |[Afschrijving van vaste activa instellen](fa-how-setup-depreciation.md) |
 
-## <a name="optional-setup-tasks-insurance-maintenance-and-user-defined-depreciation-methods"></a>Optionele instellingstaken (verzekering, onderhoud en door de gebruiker gedefinieerde afschrijvingsmethoden)
+## Optionele instellingstaken (verzekering, onderhoud en door de gebruiker gedefinieerde afschrijvingsmethoden)
 
 De volgende tabel bevat een reeks optionele taken voor het instellen van vaste activa, zoals verzekering, onderhoud en afschrijvingsmethoden, en koppelingen naar gerelateerde artikelen. 
 
@@ -45,7 +45,7 @@ De volgende tabel bevat een reeks optionele taken voor het instellen van vaste a
 | Onderhoud van vaste activa inschakelen, algemene onderhoudsgegevens instellen, boekingsrekeningen voor onderhoud instellen en soorten onderhoudswerk definiëren. |[Onderhoud van vaste activa instellen](fa-how-setup-maintenance.md) |
 | Meer informatie over het toepassen van afschrijvingsmethoden. |[Door de gebruiker gedefinieerde afschrijvingsmethoden instellen:](fa-how-setup-user-defined-depreciation-method.md) |
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Overzicht van vaste activa](fa-manage.md)  
 [Overzicht van VA-analyse](fa-analytics-overview.md)   

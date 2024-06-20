@@ -8,8 +8,9 @@ ms.search.keywords: 'electronic document, e-invoice, incoming document, OCR, eco
 ms.date: 06/14/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="manage-many-incoming-document-records"></a>Vele inkomende documentrecords beheren
+# Vele inkomende documentrecords beheren
 
 Terwijl u inkomende documentrecords maakt of verwerkt, kan het aantal regels op de pagina **Inkomende documenten** zozeer toenemen dat u het overzicht verliest. Daarom kunt u inkomende documentrecords op *Verwerkt* instellen om ze te verwijderen uit de standaardweergave. Als u **Alles weergeven** kiest, kunt u zowel verwerkte als onverwerkte records weergeven.
 
@@ -21,7 +22,7 @@ Het selectievakje **Verwerkt** wordt automatisch ingeschakeld voor inkomende doc
 > [!NOTE]  
 > Wanneer u de pagina **Inkomende documenten** opent met de actie **Mijn inkomende documenten** in het rolcentrum, worden alleen onverwerkte inkomende documentrecords standaard weergegeven. Hier wordt in dit onderwerp naar verwezen als de "standaardweergave".
 
-## <a name="to-remove-incoming-document-records-from-the-default-view"></a>Inkomende documentrecords verwijderen uit de standaardweergave
+## Inkomende documentrecords verwijderen uit de standaardweergave
 
 1. Selecteer op de pagina **Inkomende documenten** een of meer regels voor inkomende documentrecords die u uit de standaardweergave wilt verwijderen.
 2. Kies de actie **Instellen op verwerkt**.
@@ -31,13 +32,13 @@ Het selectievakje **Verwerkt** wordt automatisch ingeschakeld voor inkomende doc
 > [!NOTE]  
 > U kunt deze actie uitvoeren voor de afzonderlijke contactkaart op de pagina **Kaart inkomend document**.
 
-## <a name="to-view-all-incoming-document-records"></a>Alle inkomende documentrecords weergeven
+## Alle inkomende documentrecords weergeven
 
 1. Kies op de pagina **Inkomende documenten** de actie **Alles weergeven**.
 
 Alle inkomende documentrecords worden weergegeven, inclusief records waarvan het selectievakje **Verwerkt** niet is ingeschakeld.
 
-## <a name="to-add-incoming-document-records-to-the-default-view"></a>Inkomende documentrecords toevoegen aan de standaardweergave
+## Inkomende documentrecords toevoegen aan de standaardweergave
 
 1. Kies op de pagina **Inkomende documenten** de actie **Alles weergeven**.
 2. Selecteer een of meer regels voor inkomende documentrecords die u in de standaardweergave wilt laten weergeven.
@@ -46,7 +47,7 @@ Alle inkomende documentrecords worden weergegeven, inclusief records waarvan het
 > [!NOTE]  
 > U kunt deze actie uitvoeren voor de afzonderlijke contactkaart op de pagina **Kaart inkomend document**.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
   
 [Inkomende documentrecords maken](across-how-create-income-document-records.md)
 [Inkomende documentrecords maken direct van documenten en posten](across-how-connect-disconnect-income-document-records.md)
