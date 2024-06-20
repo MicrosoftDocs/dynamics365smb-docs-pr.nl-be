@@ -11,11 +11,11 @@ ms.search.form: '5194,'
 ms.custom: bap-template
 ---
 
-# Inleiding tot de demogegevens voor Contoso Coffee
+# <a name="introduction-to-contoso-coffee-demo-data"></a>Inleiding tot de demogegevens voor Contoso Coffee
 
 Contoso Coffee is een fictief bedrijf dat koffiezetapparaten voor consumenten en bedrijven maakt. De **Contoso Coffee**-apps voor [!INCLUDE [prod_short](../includes/prod_short.md)] voegen demogegevens toe die u kunt gebruiken om te leren hoe u de mogelijkheden in [!INCLUDE [prod_short](../includes/prod_short.md)] kunt benutten.  
 
-## Gegevens voor Contoso Coffee instellen
+## <a name="set-up-contoso-coffee-data"></a>Gegevens voor Contoso Coffee instellen
 
 [!INCLUDE [contoso-coffee-app-install](../includes/contoso-coffee-app-install.md)]
 
@@ -39,7 +39,7 @@ De volgende tabel beschrijft de instellingen:
 
 Nadat u de modules heeft geconfigureerd die u wilt uitproberen, kiest u de actie **Genereren** om er demonstratiegegevens voor te maken.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Productie](../production-manage-manufacturing.md)  
 [Magazijnen](../warehouse-manage-warehouse.md)  

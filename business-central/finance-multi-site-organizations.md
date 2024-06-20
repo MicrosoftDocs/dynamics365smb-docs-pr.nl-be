@@ -11,14 +11,14 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Business Central voor organisaties met meerdere vestigingen en internationale organisaties
+# <a name="business-central-for-multi-site-and-international-organizations"></a>Business Central voor organisaties met meerdere vestigingen en internationale organisaties
 Organisaties met meerdere vestigingen gebruiken vaak een hub en spoke-bedrijfsmodel waarbij een moedermaatschappij of hoofdkantoor de algehele activiteiten van het bedrijf beheert, terwijl elke vestiging fungeert als een enkele, op zichzelf staande entiteit. Vestigingen zijn vaak geografisch verspreid en hebben verschillende behoeften wat betreft het delen van informatie met het hoofdkantoor. Bovendien hebben vestigingen doorgaans niet hetzelfde niveau van complexiteit nodig en hebben ze vaak niet de middelen om een groot systeem te onderhouden.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] biedt kleine en middelgrote bedrijven een bedrijfsbeheeroplossing die gemakkelijk te gebruiken en te onderhouden is tegen lage eigendomskosten.
 
 In dit artikel worden enkele manieren besproken waarop [!INCLUDE[prod_short](includes/prod_short.md)] een hub en spoke-bedrijfsmodel ondersteunt.
 
-## Integratie van het hoofdkantoor en de vestigingen
+## <a name="integrating-the-headquarter-company-and-the-sites"></a>Integratie van het hoofdkantoor en de vestigingen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] kan worden geïntegreerd met het boekhoudsysteem van het hoofdkantoor en tegelijkertijd voldoen aan de verschillende behoeften van verschillende vestigingen, ongeacht de grootte, locatie of bedrijfssoort.
 
@@ -26,7 +26,7 @@ Het volgende diagram biedt een voorbeeld van verschillende vestiging die zijn ge
 
 ![Diagrambeschrijving automatisch gegenereerd.](media/multisite-headquarter-sites.png)
 
-## Voldoen aan de behoeften van binnenlandse en internationale vestigingen
+## <a name="meet-the-needs-of-domestic-and-international-sites"></a>Voldoen aan de behoeften van binnenlandse en internationale vestigingen
 
 Zakelijke behoeften op vestigingen verschillen vaak op basis van de branche, zakelijke methoden of de relatie met het hoofdkantoor. [!INCLUDE[prod_short](includes/prod_short.md)] kan eenvoudig worden aangepast en uitgebreid voor verschillende soorten bedrijven en locaties. Microsoft AppSource biedt een schat aan apps van Microsoft en onze partners. Partners kunnen [!INCLUDE[prod_short](includes/prod_short.md)] snel implementeren met minimale impact op de dagelijkse werkzaamheden.
 
@@ -45,7 +45,7 @@ Een netwerk van meer dan 4000 Microsoft-partners wereldwijd zorgt voor lokale ex
 | Verwerk meerdere talen en valuta's. | Ondersteuning voor meerdere talen en valuta's helpt bij het voldoen aan lokale behoeften. | [Meertalige mogelijkheden](about-locale-language.md)<br></br>[Mogelijkheden voor meerdere valuta's](finance-how-setup-additional-currencies.md) |
 
 
-## Financiële gegevens consolideren
+## <a name="consolidate-financial-data"></a>Financiële gegevens consolideren
 
 Een kernfacet van het hub en spoke-bedrijfsmodel is de mogelijkheid voor het hoofdkantoor en de vestigingen om financiële gegevens uit te wisselen, zelfs wanneer het hoofdkantoor en de vestigingen verschillende systemen, boekhoudkundige structuren, talen en valuta's gebruiken.
 
@@ -55,7 +55,7 @@ Een kernfacet van het hub en spoke-bedrijfsmodel is de mogelijkheid voor het hoo
 | Integreer boekhoudkundige structuren. | Draag consolidatiegegevens van verschillende boekhoudkundige structuren over naar uw eigen structuur. Ingebouwde bestandsindeling voor F&O (beschikbaar met Wave 2, 2020) | [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)<br></br>[Grootboekrekeningen voor consolidatie voorbereiden](finance-consolidated-company-reporting-setup.md#glacc) |
 | Handel in meerdere valuta's. | Help ervoor te zorgen dat financiële overzichten in verschillende valuta's kloppen en de juiste wisselkoersen gebruiken. | [Valutawisselkoersen bijwerken](finance-how-update-currencies.md) |
 
-## Bedrijfsinzichten delen met geïntegreerde analyses
+## <a name="share-business-insight-with-integrated-analytics"></a>Bedrijfsinzichten delen met geïntegreerde analyses
 
 Breng de organisatie op één lijn met uw bedrijfsdoelen door een gemeenschappelijk begrip van de huidige realiteit te bieden. Met geïntegreerde analyses kunnen mensen hun beslissingen op dezelfde feiten te baseren.
 
@@ -67,7 +67,7 @@ Breng de organisatie op één lijn met uw bedrijfsdoelen door een gemeenschappel
 | Analyseer gegevens in Excel. | Doe onderzoek, los problemen op en voer ad-hocanalyses uit in Microsoft Excel. | [Financiële overzichten analyseren in Excel](finance-analyze-excel.md) |
 
 
-## Gegevens uitwisselen met behulp van API's en XMLports
+## <a name="exchange-data-using-apis-and-xmlports"></a>Gegevens uitwisselen met behulp van API's en XMLports
 
 API's en XMLports vereenvoudigen het proces van het verbinden van exemplaren van [!INCLUDE[prod_short](includes/prod_short.md)], inclusief de exemplaren die voor elke vestiging zijn aangepast.
 
@@ -82,7 +82,7 @@ API's en XMLports vereenvoudigen het proces van het verbinden van exemplaren van
 | Maak verbinding met oplossingen en diensten van derden. | API's brengen een point-to-point-verbinding tot stand tussen Business Central en oplossingen en diensten van derden. | [API v2.0](/dynamics-nav/api-reference/v2.0/) |
 
 
-## Een efficiënte toeleveringsketen tussen bedrijven promoten
+## <a name="promote-an-efficient-intercompany-supply-chain"></a>Een efficiënte toeleveringsketen tussen bedrijven promoten
 
 Vestigingen hebben vaak toegang nodig tot de toeleveringsketen en de mogelijkheid om bepaalde aspecten ervan te beheren. Sites kunnen bijvoorbeeld dezelfde leverancier gebruiken, maar hun activa en fysieke locaties apart beheren.
 
@@ -91,7 +91,7 @@ Vestigingen hebben vaak toegang nodig tot de toeleveringsketen en de mogelijkhei
 | Behandel transacties tussen divisies als normale verkoop- en aankooptransacties. | Gebruik boekingen tussen bedrijven om verkoop- en aankoopdocumenten en grootboekposten te maken voor volledige workflows en voor meer dan één bedrijf tegelijk om dubbele gegevensinvoer te elimineren. | [Transacties tussen bedrijven beheren](intercompany-manage.md) |
 | Gebruik papierloze processen. | Vermijd de kosten voor het verzenden, ontvangen en afdrukken van documenten. | [Inkomende documenten](across-income-documents.md)<br><br> [Bijlagen, koppelingen en notities op kaarten en in documenten beheren](ui-how-add-link-to-record.md) |
 
-## Snel reageren op nieuwe zakelijke omstandigheden
+## <a name="respond-quickly-to-new-business-conditions"></a>Snel reageren op nieuwe zakelijke omstandigheden
 
 Het hoofdkantoor moet snel kunnen reageren op bedrijfsveranderingen bij elke vestiging. Gecombineerd met Power Automate kan [!INCLUDE[prod_short](includes/prod_short.md)] dienen als een mechanisme voor vroegtijdige waarschuwing.
 
@@ -102,7 +102,7 @@ Het hoofdkantoor moet snel kunnen reageren op bedrijfsveranderingen bij elke ves
 | Genereer automatisch e-mailwaarschuwingen. | Stel waarschuwingen in Power Automate in die e-mails genereren om u te informeren over kritieke zakelijke omstandigheden bij vestigingen locaties of partners in de toeleveringsketen. | [Business Central en Power BI](admin-powerbi.md) |
 | Gebruik standaard of aangepaste waarschuwingen. | Gebruik twaalf verschillende inbegrepen sjablonen voor Business Central of stel uw eigen waarschuwingen in die bij uw bedrijf passen. | [Business Central gebruiken in een geautomatiseerde werkstroom](across-how-use-financials-data-source-flow.md) |
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 [Beheer van Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

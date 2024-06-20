@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Bezoek onze videobibliotheek
+# <a name="visit-our-video-library"></a>Bezoek onze videobibliotheek
 
 U hebt onze documentatie gevonden. Het is bekend dat sommige mensen liever materiaal bekijken dan lezen. Daarom maken we korte, licht verteerbare video's. De meeste video's vormen een aanvulling op onze gebruikersondersteuning en sommige kunnen op zichzelf worden bekeken.  
 
@@ -24,7 +24,7 @@ U kunt ook onze procedurevideo's en veel andere inhoud bekijken in de YouTube-af
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 [Dynamics 365-kanaal op YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)  

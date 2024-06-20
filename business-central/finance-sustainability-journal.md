@@ -12,17 +12,17 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Duurzaamheidsposten vastleggen
+# <a name="record-sustainability-entries"></a>Duurzaamheidsposten vastleggen
 
 Op dit moment is de enige manier om de uitstoot van broeikasgassen in het duurzaamheidsgrootboek te registreren, het gebruik van de duurzaamheidsdagboeken.
 
-## Duurzaamheidsdagboeken
+## <a name="sustainability-journals"></a>Duurzaamheidsdagboeken
 
 Duurzaamheidsdagboeken zijn ontworpen om duurzaamheidsgerelateerde activiteiten bij te houden en vast te leggen met behulp van dezelfde gebruikerservaring als andere dagboeken in Business Central. Gebruikers die over de benodigde informatie beschikken, kunnen uitstoot handmatig in een journaal invoeren. Als ze de gegevens niet hebben, kunnen ze ook ingebouwde formules gebruiken om de uitstoot nauwkeurig te berekenen op basis van specifieke bekende parameters die overeenkomen met verschillende soorten bronnen en rekeningen.
 
 De informatie die u invoert in een dagboek is tijdelijk en kan in dat dagboek worden gewijzigd. Wanneer u het dagboek boekt, wordt de informatie overgebracht naar duurzaamheidsposten op afzonderlijke duurzaamheidsrekeningen, waar deze niet kunnen worden gewijzigd. U kunt echter wel tegenboekingen of correcties boeken.
 
-### Dagboeksjablonen en -batches gebruiken
+### <a name="use-journal-templates-and-batches"></a>Dagboeksjablonen en -batches gebruiken
 
 Er zijn standaard twee duurzaamheidsdagboeksjablonen: de standaardsjabloon en de periodieke.
 
@@ -31,13 +31,13 @@ Voor elke dagboeksjabloon kunt u uw eigen persoonlijke dagboek instellen als een
 > [!TIP]
 > Als u veel regels heeft, kunt u het risico op fouten helpen verkleinen door voor elk uitstoottype één dagboekbatch te hebben. Als alternatief kunt u voor alle uitstoottypen de gemeenschappelijke batch gebruiken.
 
-### Duurzaamheidsdagboeken valideren
+### <a name="validate-sustainability-journals"></a>Duurzaamheidsdagboeken valideren
 
 U kunt op de pagina **Duurzaamheidsinstelling** een achtergrondcontrole inschakelen om vertragingen bij het boeken te voorkomen. Als er fouten optreden terwijl u in het duurzaamheidsjournaal werkt, wordt u hiervan door de validatie op de hoogte gesteld en wordt voorkomen dat u het dagboek kunt boeken.
 
 Wanneer u de validatie inschakelt, toont het feitenblok **Dagboekcontrole** problemen op de huidige regel en in de hele batch. Validatie vindt plaats wanneer u een dagboekbatch laadt en wanneer u een andere dagboekregel kiest. De tegel **Totaal aantal problemen** in het feitenblok toont het totale aantal problemen dat [!INCLUDE [prod_short](includes/prod_short.md)] heeft gevonden. U kunt de tegel selecteren om een overzicht van de problemen te openen.
 
-### Werken met duurzaamheidsdagboeken
+### <a name="work-with-sustainability-journals"></a>Werken met duurzaamheidsdagboeken
 
 Volg deze stappen om te werken met duurzaamheidsdagboeken:
 
@@ -58,7 +58,7 @@ Volg deze stappen om te werken met duurzaamheidsdagboeken:
 
 Als uw formule is gebaseerd op de optie **Berekenen op basis van grootboek** in de duurzaamheidsrekeningcategorie, moet u de actie **Bedrag van grootboekposten innen** gebruiken voordat u het dagboek boekt om de uitstoot te berekenen op basis van deze gegevensbron. Als u na het invullen van de dagboekregels wijzigingen in de uitstootfactoren heeft aangebracht, moet u ook de actie **Herberekenen** kiezen om het juiste bedrag in het dagboek te krijgen.
 
-### Periodieke dagboeken
+### <a name="recurring-journals"></a>Periodieke dagboeken
 
 Een periodiek dagboek is een duurzaamheidsdagboek met specifieke velden voor het beheer van transacties die u vaak boekt met weinig of geen wijzigingen. Voorbeelden omvatten duurzaamheidstransacties zoals elektriciteit, warmte of andere soortgelijke transacties. Met periodieke dagboeken kunt u vaste en variabele bedragen boeken.
 
@@ -70,7 +70,7 @@ Het veld **Periodieke frequentie** is ook belangrijk en moet worden ingesteld. H
 
 De **Vervaldatum** bepaalt de datum waarop de regel voor het laatst wordt geboekt. De regel wordt niet geboekt na deze datum. Voordeel van gebruik van het veld **Vervaldatum** is dat de regel niet onmiddellijk uit het dagboek wordt verwijderd. U kunt een latere datum invoeren, zodat u de regel in de toekomst kunt gebruiken. Als het veld leeg is, wordt de regel steeds geboekt totdat deze uit het dagboek wordt verwijderd.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Financiën](finance.md)  
 [Overzicht van duurzaamheidsbeheer](finance-manage-sustainability.md)  

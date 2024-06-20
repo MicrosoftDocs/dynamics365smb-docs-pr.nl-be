@@ -6,11 +6,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-## De locatie instellen
+## <a name="setting-up-the-location"></a>De locatie instellen
 
 De instellingen van de pagina **Vestiging** definiëren de magazijnstromen van het bedrijf. Gebruik de kaart Locaties om een vestiging in te stellen met de codenaam *ZUID*.
 
-### De vestiging ZUID instellen
+### <a name="to-set-up-the-location-south"></a>De vestiging ZUID instellen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locaties** in en kies vervolgens de gerelateerde koppeling.  
 2. Maak een vestigingskaart met de naam *ZUID*.  

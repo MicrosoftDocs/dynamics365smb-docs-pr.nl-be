@@ -13,7 +13,7 @@ ms.reviewer: bholtorf
 ---
 
 
-# Overstappen van een QuickBooks-app op Dynamics 365 Business Central
+# <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a>Overstappen van een QuickBooks-app op Dynamics 365 Business Central
 
 Meer groeiende bedrijven schakelen van financiële apps als QuickBooks Desktop en QuickBooks Online, die zijn ontworpen voor startups en andere kleine bedrijven, over naar [!INCLUDE[prod_short](includes/prod_short.md)], dat ook grotere, complexere organisaties ondersteunt. 
 
@@ -27,11 +27,11 @@ Lees voor meer informatie het artikel over de extensie voor uw QuickBooks-app:
 * [De extensie QuickBooks Desktop-gegevensmigratie](ui-extensions-quickbooks-data-migration.md)
 * [De extensie QuickBooks Online-gegevensmigratie](ui-extensions-quickbooks-online-data-migration.md)
 
-## Klaar?
+## <a name="ready-now"></a>Klaar?
 
 Als u klaar bent om nu aan de slag te gaan, kiest u het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Begeleide instelling** in en kies vervolgens de gerelateerde koppeling. Kies **Bedrijfsgegevens migreren** en voer de stappen in de handleiding uit.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
 [Business Central aanpassen met extensies](ui-extensions.md)   

@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Ontwerpdetails: Artikeltracering en planning
+# <a name="design-details-item-tracking-and-planning"></a>Ontwerpdetails: Artikeltracering en planning
 Omdat ze in het reserveringsysteem worden opgeslagen, zijn artikeltraceringsnummers volledig gecoördineerd met ordertraceringsrecords. Dit betekent dat aan artikelen met ordertraceringsrecords artikeltraceringsnummers kunnen worden toegewezen. Andersom kunnen artikelen die artikeltraceringsnummers hebben, ordertraceringsrecords worden. Zie [Ontwerpdetails: artikeltraceringsontwerp](design-details-item-tracking-design.md) voor meer informatie.
 
 Voor meer informatie over de geïntegreerde systemen raadpleegt u [Ontwerpdetails: reserveringen, ordertracering en planningsboodschappen](design-details-reservation-order-tracking-and-action-messaging.md).
@@ -35,7 +35,7 @@ Voor artikelen waarvoor specifieke artikeltracering wordt gebruikt, moet alle vr
 
 Zie [Ontwerpdetails: Transfers in planning](design-details-transfers-in-planning.md) voor meer informatie.
 
-## Vraag en aanbod afstemmen
+## <a name="balancing-demand-and-supply"></a>Vraag en aanbod afstemmen
 Als een artikel specifieke artikeltracering vereist, wordt een ordertraceringskoppeling gemaakt van alle artikeltraceringsvraag van het artikel naar corresponderend artikeltraceringsaanbod, met als enige beperking dat aanbod vóór vraag komt. Als in die gevallen geen artikeltraceringvoorziening wordt gevonden die correspondeert met de artikeltraceringspecifieke vraag, wordt direct een nieuwe artikeltraceringvoorziening gemaakt zonder dat wordt gekeken naar ordergrootte, planningsparameters of herplanning van bestaande voorziening van hetzelfde serie- of lotnummer.
 
 Als artikeltraceringsnummers worden toegewezen aan de vraagkant of de aanbodkant zonder dat specifieke artikeltracering is vereist, wordt een ordertraceringskoppeling gemaakt van de vraag naar dat aanbod, op basis van de beste timing en het beste aantal, zoals in de gebruikelijke vereffeningsprocedure. Het opgegeven artikeltraceringsnummer wordt op dezelfde manier in de ordertraceringsrecord opgenomen als voor een willekeurig artikeltraceringsaantal één deel van de ordertraceringskoppeling wordt gedefinieerd. Dit betekent dat het ingevoerde artikeltraceringsnummer wordt bewaard terwijl het ook een deel van de ordertraceringsrecord is.
@@ -44,7 +44,7 @@ Als artikeltraceringsnummers worden toegewezen aan de aanbodzijde zonder dat spe
 
 Zie voor meer informatie [Ontwerpdetails: Vraag en aanbod afstemmen](design-details-balancing-demand-and-supply.md).  
 
-## Zie ook  
+## <a name="see-also"></a>Zie ook
 [Ontwerpdetails: Ontwerp artikeltracering](design-details-item-tracking-design.md)  
 [Ontwerpdetails: Vraag en aanbod afstemmen](design-details-balancing-demand-and-supply.md)  
 [Ontwerpdetails: Reservering, ordertracering en planningsboodschappen](design-details-reservation-order-tracking-and-action-messaging.md)   

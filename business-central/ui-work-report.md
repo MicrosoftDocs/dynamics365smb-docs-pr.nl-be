@@ -11,20 +11,20 @@ ms.date: 09/04/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Rapporten uitvoeren en afdrukken
+# <a name="run-and-print-reports-in-business-central"></a>Rapporten uitvoeren en afdrukken
 
 Een rapport verzamelt informatie op basis van een gespecificeerde set criteria. Het organiseert en presenteert de informatie in een gemakkelijk te lezen formaat dat u kunt afdrukken of opslaan als een bestand. In de toepassing zijn er vele diverse rapporten die u kunt openen en gebruiken. De rapporten bieden veelal informatie in de context van de pagina waarop u werkt. De pagina **Klant** biedt bijvoorbeeld rapporten voor de top 10 van klanten, verkoopstatistieken en meer.
 
 > [!NOTE]
 > Batchtaken en XMLports doen min of meer hetzelfde als rapporten, maar worden meer gebruikt voor de verwerking of export van gegevens. De batchverwerking **Aanmaningen maken** maakt bijvoorbeeld aanmaningsdocumenten om te verzenden naar klanten met achterstallige betalingen. Dit artikel verwijst hoofdzakelijk naar 'rapporten', maar soortgelijke informatie geldt voor batchverwerkingen en XMLports.
 
-## Aan de slag
+## <a name="get-started"></a>Aan de slag
 
 U vindt rapporten in het menu **Rapporten** op bepaalde pagina's, lijsten en kaarten of u kunt de zoekactie ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen") gebruiken om rapporten op naam te vinden. Voor een overzicht van ingebouwde rapporten in [!INCLUDE[prod_short](includes/prod_short.md)] die u kunt gebruiken, gesorteerd op categorieën, zie [Beschikbare rapporten in [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md).
 
 Wanneer u een rapport kiest, ziet u meestal een aanvraagpagina&mdash;genoemd naar de naam van het rapport&mdash;, waarop u verschillende opties en filters kunt instellen die bepalen welke gegevens worden opgenomen. In de volgende secties wordt uitgelegd hoe u de aanvraagpagina gebruikt om een rapport te maken, te bekijken en af te drukken.
 
-## <a name="SavedSettings"></a>Standaardwaarden gebruiken&mdash;vooraf gedefinieerde instellingen
+## <a name="use-default-valuesmdashpredefined-settings"></a><a name="SavedSettings"></a>Standaardwaarden gebruiken&mdash;vooraf gedefinieerde instellingen
 
 De meeste aanvraagpagina's bevatten het veld **Standaardwaarden gebruiken uit**. Met dit veld kunt u vooraf gedefinieerde instellingen voor het rapport selecteren, waarmee automatisch opties en filters worden ingesteld. Selecteer een item in de vervolgkeuzelijst en u zult zien dat de opties en filters op de rapportaanvraagpagina dienovereenkomstig veranderen.
 
@@ -35,7 +35,7 @@ Het veld **Standaardwaarden gebruiken uit** biedt een snelle en betrouwbare mani
 > [!NOTE]
 > De vooraf gedefinieerde instellingen worden doorgaans ingesteld en beheerd door een beheerder. Meer informatie op [Opgeslagen instellingen beheren voor rapporten en batchtaken](reports-saving-reusing-settings.md).
 
-## De gegevens opgeven die in rapporten moeten worden opgenomen
+## <a name="specify-the-data-to-include-in-a-report"></a>De gegevens opgeven die in rapporten moeten worden opgenomen
 
 Gebruik de velden onder **Opties** en **Filters** om de informatie die u in het rapport wilt, te wijzigen of te beperken. U kunt filters in een rapport instellen op ongeveer dezelfde manier als filters in lijsten. Lees meer in de sectie [Filteren](ui-enter-criteria-filters.md#filtering).
 
@@ -46,7 +46,7 @@ Gebruik de velden onder **Opties** en **Filters** om de informatie die u in het 
 >
 > **Voorbeeld**: wanneer u de batchverwerking **Aanmaningen maken** gebruikt, wordt het filter **Laatste verz. aanmaningsniveau** voor het veld **Klantenposten** genegeerd omdat filters voor die batchverwerking vast zijn.
 
-## Een voorbeeld van een rapport bekijken
+## <a name="preview-a-report"></a>Een voorbeeld van een rapport bekijken
 
 Als u een voorbeeld van een rapport bekijkt, kunt u zien hoe het rapport eruitziet voordat u het afdrukt. Het voorbeeld is niet gebaseerd op de geselecteerde printer in het veld **Printer** op de aanvraagpagina. Het wordt bestuurd door de browser. Nadat u een voorbeeld hebt bekeken, kunt u teruggaan naar de aanvraagpagina en indien nodig wijzigingen aanbrengen in opties en filters.
 
@@ -55,7 +55,7 @@ De voorbeeldopties op de pagina **Rapportaanvraag** zijn afhankelijk van het rap
 > [!NOTE]
 > Als u Business Central 2020 releasewave 1 of eerder gebruikt, is de enige keuze **Voorbeeld**, waarmee de aanvraagpagina met het voorbeeld wordt gesloten, zoals hierboven beschreven voor **Voorbeeld en sluiten**.
 
-### Werken met het voorbeeld
+### <a name="work-with-the-preview"></a>Werken met het voorbeeld
 
 Gebruik in het rapportvoorbeeld de menubalk om het volgende te doen:
 
@@ -72,7 +72,7 @@ Gebruik in het rapportvoorbeeld de menubalk om het volgende te doen:
 - Downloaden naar een PDF-bestand op uw computer of netwerk.
 - Afdrukken
 
-## Een rapport opslaan in een bestand
+## <a name="save-a-report-to-a-file"></a>Een rapport opslaan in een bestand
 
 U kunt een rapport opslaan als een PDF-document, een Microsoft Word-document, een Microsoft Excel-werkmap of een XML-document. Kies hiervoor **Verzenden naar** en maak uw keuze. Er wordt een bestand naar uw apparaat gedownload.
 
@@ -83,7 +83,7 @@ Als uw organisatie OneDrive heeft geconfigureerd voor systeemfuncties, worden Ex
 >
 > U kunt ook **Microsoft Excel-document (alleen gegevens)** gebruiken om nieuwe Excel-indelingen voor een bepaald rapport te maken. Meer informatie op [Werken met Excel-indelingen](ui-excel-report-layouts.md).  
 
-## <a name="ScheduleReport"></a> Een rapport plannen om het later of periodiek uit te voeren
+## <a name="schedule-a-report-to-run-later-or-periodically"></a><a name="ScheduleReport"></a>Een rapport plannen om het later of periodiek uit te voeren
 
 U kunt een één rapport of een periodiek rapport plannen voor uitvoering op een bepaalde datum en tijd. Geplande rapporten worden in de verwerkingswachtrij ingevoerd en verwerkt op het geplande tijdstip, net zoals andere taken. Kies de optie **Schema** nadat u de knop **Verzenden naar** hebt gekozen en voer vervolgens informatie in zoals de printer en tijd en datum. Het rapport wordt vervolgens toegevoegd aan de taakwachtrij en wordt op de opgegeven tijd uitgevoerd. Als het rapport is verwerkt, wordt het artikel verwijderd uit de verwerkingswachtrij. Zie voor meer informatie [Taakwachtrijen gebruiken om taken te plannen](admin-job-queues-schedule-tasks.md).  
 
@@ -91,7 +91,7 @@ Wanneer u een rapport plant dat moet worden uitgevoerd, kunt u bijvoorbeeld opge
 
 U kunt ervoor kiezen het rapport op te slaan in een bestand, zoals een Excel-, Word- of PDF-bestand, het af te drukken of het rapport alleen te genereren. Als u ervoor kiest het rapport in een bestand op te slaan, wordt het verwerkte rapport naar de pagina **Rapportinbox** in uw rolcentrum verzonden, waar u het kunt bekijken. Meer informatie op [Rapporten delen en exporteren met de Rapportinbox](ui-work-report-inbox.md)
 
-### Geplande periodieke rapporten beheren
+### <a name="manage-scheduled-recurring-reports"></a>Geplande periodieke rapporten beheren
 
 Geplande rapporten worden gegenereerd door batchtaken die worden beheerd op de pagina **Taakwachtrijposten**. U kunt de status en andere informatie voor elk rapport op de pagina zien, de rapportbatchtaak pauzeren/hervatten en het rapport op verzoek genereren.
 
@@ -106,13 +106,13 @@ Herhaal na het bewerken van de rapportopties de eerste twee stappen en selecteer
 
 Lees meer over taakwachtrijbeheer op [Taakwachtrijen gebruiken om taken te plannen](admin-job-queues-schedule-tasks.md).  
 
-## <a name="PrintReport"></a>Een rapport afdrukken
+## <a name="print-a-report"></a><a name="PrintReport"></a>Een rapport afdrukken
 
 Als u een rapport wilt afdrukken, kiest u de knop **Afdrukken** op de rapportaanvraagpagina of op de menubalk op de pagina **Voorbeeld**.
 
 Wanneer een rapport een Excel-indeling gebruikt, ziet u niet het veld **Printer**, de knop **Afdrukken** of de knop **Voorbeeld**. In plaats daarvan is er een optie **Downloaden**. Om af te drukken, selecteert u **Downloaden**, vervolgens opent u het gedownloade bestand in Excel en drukt u van daaruit af.
 
-### <a name="Printer"></a>Printer
+### <a name="printer"></a><a name="Printer"></a>Printer
 
 Het veld **Printer** op de aanvraagpagina bevat de naam van de printer waar het rapport heen wordt gestuurd. Om een printer te wijzigen selecteert u de printer in de lijst.
 
@@ -122,13 +122,13 @@ Het veld **Printer** op de aanvraagpagina bevat de naam van de printer waar het 
 > [!TIP]
 > De printer die standaard voor u is geselecteerd, wordt ingesteld op de pagina **Printerselecties**. Lees meer over het wijzigen van de standaardprinter in de sectie [Standaardprinters instellen](ui-specify-printer-selection-reports.md#default).
 
-### Rapporten afdrukken in Thai
+### <a name="print-reports-in-thai"></a>Rapporten afdrukken in Thai
 
 Specifiek voor de Thaise versie van [!INCLUDE[prod_short](includes/prod_short.md)] kan de knop **Afdrukken** geen rapporten correct afdrukken vanwege beperkingen in de service die het afdrukbare PDF-bestand genereert. In plaats hiervan kunt u het rapport openen in Word en vervolgens opslaan als een afdrukbare PDF.  
 
 U kunt ook de beheerder vragen een Word-rapportlay-out te maken voor uw meest gebruikte rapporten. Meer informatie op [Rapport- en documentlay-outs beheren](ui-manage-report-layouts.md).  
 
-## Overgaan op een andere rapportlay-out
+## <a name="switch-the-report-layout"></a>Overgaan op een andere rapportlay-out
 
 Een rapportlay-out bepaalt wat in een rapport wordt weergegeven, hoe het is ingedeeld en hoe het is opgemaakt. Er zijn een paar manieren om de lay-out te wijzigen:
 
@@ -137,7 +137,7 @@ Een rapportlay-out bepaalt wat in een rapport wordt weergegeven, hoe het is inge
 
 Meer informatie op [De lay-out instellen die door een rapport wordt gebruikt](ui-set-report-layout.md). Of zie [Aan de slag met het maken van lay-outs](ui-get-started-layouts.md) als u uw eigen rapportlay-out wilt aanpassen.
 
-## Wijzig de taal en het formaat van getallen, datums en tijden
+## <a name="change-language-and-format-of-numbers-dates-and-times"></a>Wijzig de taal en het formaat van getallen, datums en tijden
 
 Standaard zijn de taal van de tekst en de notatie van getallen, datums en tijden in een rapport gebaseerd op uw werktaal- en regio-instellingen, die zijn gedefinieerd op de pagina **Mijn instellingen**. U kunt de taal en de indelingsregio echter van geval tot geval wijzigen wanneer u een voorbeeld bekijkt, afdrukt of een rapport verzendt. Stel op de aanvraagpagina de opties **Taal** en **Notatieregio** in op uw voorkeur. U kunt ook de taal en notatieregio opgeven die standaard voor klanten en leveranciers op hun kaartpagina's moet worden gebruikt.
 
@@ -150,7 +150,7 @@ Afhankelijk van waar u de taal- en notatie-instellingen heeft opgegeven, bepaalt
 
 Ga voor meer informatie over de pagina **Mijn instellingen** naar [Basisinstellingen wijzigen](ui-change-basic-settings.md#region).
 
-## Geavanceerde opties
+## <a name="advanced-options"></a>Geavanceerde opties
 
 De velden op het sneltabblad **Geavanceerd** stellen beperkingen in voor het gegenereerde rapport om printerbronnen te beheren. U hoeft deze instellingen doorgaans niet te wijzigen, tenzij u een groot rapport hebt. Als een rapport deze beperkingen overschrijdt wanneer u een voorbeeld probeert te bekijken of probeert af te drukken, verschijnt er een bericht waarin staat welke beperking u hebt overschreden. U kunt de instellingen vervolgens aanpassen aan uw rapport. Elk veld heeft echter een maximale waarde waarvan u op de hoogte moet zijn:
 
@@ -163,7 +163,7 @@ De velden op het sneltabblad **Geavanceerd** stellen beperkingen in voor het geg
 > [!NOTE]
 > De maximale waarden kunnen verschillen voor [!INCLUDE[prod_short](includes/prod_short.md)] on-premises en een beheerder kan ze wijzigen. Zie de sectie [Business Central Server configureren: rapporten](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports) voor meer informatie. Voor een overzicht van rapportbeperkingen in [!INCLUDE[prod_short](includes/prod_short.md)] online, raadpleegt u [Operationele limieten](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Beschikbare rapporten [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md)  
 [Rapporten gebruiken in het dagelijkse werk](reports-use-reports.md)  

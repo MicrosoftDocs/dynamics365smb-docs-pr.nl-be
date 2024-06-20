@@ -10,15 +10,15 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Verkooprapporten en analyses in Business Central
+# <a name="sales-reports-and-analytics-in-business-central"></a>Verkooprapporten en analyses in Business Central
 
 Verkooprapportage in stelt verkoop- en zakelijke professionals in staat om inzichten en statistieken te krijgen over huidige en vroegere verkoopactiviteiten.  
 
-## Rapporten
+## <a name="reports"></a>Rapporten
 
 [!INCLUDE [sales_reports](includes/sales-reports-include.md)]
 
-## Taken
+## <a name="tasks"></a>Taken
 
 In de volgende artikelen worden enkele van de belangrijkste taken beschreven voor het analyseren van uw verkoop:
 
@@ -28,7 +28,7 @@ In de volgende artikelen worden enkele van de belangrijkste taken beschreven voo
 * [Pakkettracering](sales-how-track-packages.md)
 * [Niet-geboekte en geboekte verkoopraamcontractregels weergeven](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
 
-## Verkooprapporten verkennen met Rapportverkenner
+## <a name="explore-sales-reports-with-report-explorer"></a>Verkooprapporten verkennen met Rapportverkenner
 
 Om een overzicht te krijgen van de beschikbare rapporten voor verkoop kiest u **Alle rapporten** op uw startpagina. Met deze actie gaat u naar de Rolverkenner, die wordt gefilterd op de functies in de optie **Rapport en analyse**. Kies onder het kopje **Verkoop en marketing** **Verkennen**.
 
@@ -36,7 +36,7 @@ Om een overzicht te krijgen van de beschikbare rapporten voor verkoop kiest u **
 
 Ga voor meer informatie naar [Rapporten zoeken met de Rolverkenner](ui-role-explorer.md).
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Adhoc-analyse van verkoopgegevens](ad-hoc-analysis-sales.md)    
 [Overzicht van verkoopanalyses](sales-analytics-overview.md)   

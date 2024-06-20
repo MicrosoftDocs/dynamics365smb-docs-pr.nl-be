@@ -9,7 +9,7 @@ ms.topic: how-to
 ms.date: 02/22/2024
 ms.custom: bap-template
 ---
-# Verbruik of gebruik voor projecten registreren
+# <a name="record-consumption-or-usage-for-projects"></a>Verbruik of gebruik voor projecten registreren
 
 Vanaf de pagina **Projectkaart** kunt u de pagina **Projectplanningsregels** openen om het gebruik van verschillende onderdelen van uw project te bekijken en vast te leggen. Deze informatie wordt automatisch bijgewerkt wanneer u informatie wijzigt en overdraagt tussen projecten en projectdagboeken of projectfacturen. Dit vereist dat u de optie **Gebruikslink standaard toepassen** inschakelt op de pagina **Projectinstellingen**. Zie voor meer informatie [Projecten instellen](projects-how-setup-jobs.md).  
 
@@ -17,7 +17,7 @@ Zo kunt u bijvoorbeeld voor planningsregels van het type **Budget** de hoeveelhe
 
 In de volgende procedures wordt beschreven hoe u werkelijke (gebudgetteerde) hoeveelheden en kosten vastlegt met een projectjournaal. U kunt ook inkoopdocumenten gebruiken om de aankoop voor een project vast te leggen. Meer informatie op [Projectvoorraden beheren](projects-how-manage-project-supplies.md).
 
-## Gebruik vastleggen voor een projectplanningsregel van het soort Budget
+## <a name="to-record-usage-for-a-project-planning-line-of-type-budget"></a>Gebruik vastleggen voor een projectplanningsregel van het soort Budget
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer het project en kies vervolgens de actie **Projectplanningsregels**. 
@@ -42,7 +42,7 @@ In de volgende procedures wordt beschreven hoe u werkelijke (gebudgetteerde) hoe
 9. Bekijk op de pagina **Projectplanningsregels** het vastgelegde gebruik door te kijken naar de velden **Aantal**, **Resterend aantal** en **Aantal te verplaatsen naar dagboek**.  
 10. Herhaal stap 3 tot en met 8 om aanvullend gebruik vast te leggen.  
 
-## Handmatig projectdagboekregels maken
+## <a name="to-create-project-journal-lines-manually"></a>Handmatig projectdagboekregels maken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projectdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies in het veld **Batchnaam** een relevante projectdagboekbatch.  
@@ -51,7 +51,7 @@ In de volgende procedures wordt beschreven hoe u werkelijke (gebudgetteerde) hoe
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## Projectgebruikschattingen weergeven en updates boeken
+## <a name="to-view-project-usage-estimates-and-post-updates"></a>Projectgebruikschattingen weergeven en updates boeken
 
 U kunt in één stap het projectgebruik tot aan de voltooiing van een project bekijken. Hiervoor gebruikt u de batchverwerking **Project - Resterend gebruik berekenen** voor alle taken tot en met het einde van een project.  
 
@@ -66,7 +66,7 @@ Op deze manier kunt u uw oorspronkelijke schattingen volgen en vergelijken met d
 4. Werk het dagboek bij met eventuele wijzigingen die nodig zijn.  
 5. Kies de actie **Boeken**.
 
-## Voorraad- en magazijnpickdocumenten maken voor een project
+## <a name="create-inventory-and-warehouse-pick-documents-for-a-project"></a>Voorraad- en magazijnpickdocumenten maken voor een project
 
 Gebruik de acties **Voorraadpick maken** en **Magazijnpick maken** toe op de pagina **Projectkaart**. Om een pickdocument te maken of te registreren gebruikt u de acties **Opslag-/pick-/verplaatsingsregels** of **Geregistreerde pickregels**. Meer informatie op [Stromen voor productie, assemblage en projecten](design-details-internal-warehouse-flows.md).
 
@@ -83,7 +83,7 @@ U kunt de acties onder de volgende voorwaarden gebruiken:
 > 
 > Wanneer voor uw vestiging zowel pick- als verzendingsverwerking vereist is, wat wil zeggen dat u zowel het veld **Pick vereist** als het veld **Verzending vereist** hebt gekozen op de pagina **Vestiging**, gebruikt u de pagina **Magazijnpick** om de pick te verwerken. Magazijnpicks zijn vergelijkbaar met voorraadpicks. Het verschil is dat in plaats van de pickinformatie te boeken, u de pick registreert. Deze registratie boekt geen verbruik, maar maakt de artikelen alleen beschikbaar voor boeking. Als magazijnmanager kunt u met behulp van een pickvoorstel pickgegevens ordenen voordat de afzonderlijke magazijnpickinstructies worden gemaakt
 
-## Planningsregels voor een projectpost controleren
+## <a name="to-review-planning-lines-for-a-project-ledger-entry"></a>Planningsregels voor een projectpost controleren
 
 Nadat u projectdagboekregels hebt geboekt, kunt u de planningsregels zien die zijn gekoppeld aan de projectdagboekposten die zijn geboekt.
 
@@ -94,7 +94,7 @@ Nadat u projectdagboekregels hebt geboekt, kunt u de planningsregels zien die zi
 2. Selecteer een relevant projectdagboek en kies vervolgens de actie **Posten**.  
 3. Kies op de pagina **Projectposten** de actie **Gekoppelde projectplanningsregels weergeven**.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Projectbeheer](projects-manage-projects.md)  
 [Financiën](finance.md)  

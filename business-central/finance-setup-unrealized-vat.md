@@ -12,11 +12,11 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Ongerealiseerde btw voor op kas gebaseerde boekhouding instellen
+# <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Ongerealiseerde btw voor op kas gebaseerde boekhouding instellen
 
 Als u op kas gebaseerde boekhoudingsmethoden gebruikt, kunt u [!INCLUDE[prod_short](includes/prod_short.md)] instellen om ongerealiseerde btw te verwerken.
 
-## Grootboekrekeningen gebruiken voor ongerealiseerde btw
+## <a name="to-use-general-ledger-accounts-for-unrealized-vat"></a>Grootboekrekeningen gebruiken voor ongerealiseerde btw
 
 U kunt ervoor kiezen btw-bedragen te laten berekenen en boeken naar een tijdelijke grootboekrekening wanneer een factuur wordt geboekt. Vervolgens wordt de factuur geboekt naar de juiste grootboekrekening en opgenomen in btw-aangiften wanneer de werkelijke betaling van de factuur is geboekt. Hiervoor moet u eerst de [btw-boekingsinstellingen](finance-setup-vat.md) voltooien.
 
@@ -46,7 +46,7 @@ Ga als volgt te werk om rekeningen voor ongerealiseerde btw te gebruiken:
 > [!NOTE]  
 > Het btw-bedrag wordt naar deze rekening geboekt en blijft daar tot de betaling van de klant is geboekt. Daarna wordt het bedrag overgeboekt naar de rekening voor inkoop-btw.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 [Berekeningen en boekingsmethoden voor btw instellen](finance-setup-vat.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

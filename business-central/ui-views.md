@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Lijstweergaven opslaan en personaliseren
+# <a name="save-and-personalize-list-views"></a>Lijstweergaven opslaan en personaliseren
 
 Wanneer u een filter op een lijst hebt ingesteld en u het filter voor later wilt bewaren, kunt u het opslaan als een weergave. Zie voor meer informatie over het filteren van lijsten [Filters instellen op lijsten](ui-enter-criteria-filters.md#setting-filters-on-lists).
 
@@ -18,7 +18,7 @@ Als er weergaven bestaan, wordt de groep **Weergaven** boven aan het filterdeelv
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## Een weergave opslaan
+## <a name="to-save-a-view"></a>Een weergave opslaan
 
 1. Open een willekeurige lijstpagina.
 2. Selecteer het ![pictogram Filterdeelvenster.](media/open-filter-pane-icon.png "Pictogram Filterdeelvenster") boven aan de lijst of selecteer <kbd>Shift</kbd>+<kbd>F3</kbd> om het filterdeelvenster te openen.
@@ -34,16 +34,16 @@ Als u de weergave geen naam geeft, krijgt deze de naam **Alles (kopiëren)**.
 > [!TIP]
 > Zie u het pictogram ![Weergave opslaan](media/save_view_icon.png "Weergave opslaan") niet? Zie voor meer informatie [Waarom heb ik geen pictogram Opslaan?](/dynamics365/business-central/ui-views-faq#save).
 
-## Een weergave hernoemen of verwijderen
+## <a name="to-rename-or-remove-a-view"></a>Een weergave hernoemen of verwijderen
 
 1. Voor de weergave waarin de lijst momenteel wordt weergegeven, kiest u het pictogram ![Meer opties weergeven.](media/show-more-options-icon.png "Meer opties weergeven") om te zien welke opties beschikbaar zijn.
 2. Kies de actie **Naam wijzigen** of **Verwijderen**.
 
-## Veel weergaven beheren
+## <a name="managing-many-views"></a>Veel weergaven beheren
 
 Naarmate het aantal weergaven op een pagina groeit, hebt u mogelijk extra controle nodig over hoe weergaven worden gepresenteerd in het filtervenster. Met de banner **Personaliseren** kunt u ongewenste weergaven verbergen of uw weergaven opnieuw ordenen om de perfecte volgorde te krijgen. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Veelgestelde vragen over lijstweergaven](ui-views-faq.yml)  
 [Uw werkruimte personaliseren](ui-personalization-user.md)    

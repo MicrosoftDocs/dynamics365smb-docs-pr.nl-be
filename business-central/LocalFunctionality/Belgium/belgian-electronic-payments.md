@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Belgische elektronische betalingen
+# <a name="belgian-electronic-payments"></a>Belgische elektronische betalingen
 
 In de Belgische versie van [!INCLUDE[prod_short](../../includes/prod_short.md)] kunt u de volgende soorten elektronische betalingen gebruiken:  
 
@@ -29,13 +29,13 @@ Omdat de standaard voor elektronische betalingen per land/regio verschilt, kunne
 
 Voordat u een elektronische betaling kunt uitvoeren, moet u het gebruik van elektronisch bankieren instellen. Zie voor meer informatie [Instellingen](belgian-electronic-banking.md#setup). U moet ook de betreffende exportprotocollen opgeven. ZIe voor meer informatie [Exportprotocollen instellen](how-to-set-up-export-protocols.md).  
 
-## SEPA-betalingen activeren in de Belgische versie
+## <a name="activate-sepa-payments-in-the-belgian-version"></a>SEPA-betalingen activeren in de Belgische versie
 
 [!INCLUDE [activate-sepa-payments](../includes/BENL/activate-sepa-payments.md)]
 
 Nu kunt u SEPA-betalingen verrichten. Zie [Betalingen naar een bankbestand exporteren](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file) voor meer informatie. Als u de AC Banking 365-mogelijkheid niet gebruikt, kunt u betalingsdagboekregels exporteren naar een bestand. Zie voor meer informatie [Betalingsbestanden exporteren](how-to-print-payment-files.md).  
 
-## Niet-euro SEPA-betalingen indienen
+## <a name="file-non-euro-sepa-payments"></a>Niet-euro SEPA-betalingen indienen
 
 In [!INCLUDE[prod_short](../../includes/prod_short.md)] kunt u SEPA-betalingen in andere valuta's dan de euro indienen bij de bank. Dit is handig als u betalingen verzendt naar andere landen/regio's die SEPA niet gebruiken en voor andere valuta's dan de euro.  
 
@@ -46,7 +46,7 @@ Voordat u een dergelijke SEPA-betalingen kunt indienen, moet u de volgende behee
 - Controleer op de pagina **Grootboekinstellingen** of het veld **Valuta euro** leeg is en het veld **SEPA niet-euro-export** is geselecteerd.  
 - Controleer of het veld **Bankrekening van voorkeur** in de tabel **Leverancier** de IBAN- en SWIFT-code bevat.  
 
-## Een SEPA-betaling in andere valuta's dan de euro indienen  
+## <a name="to-file-a-non-euro-sepa-payment"></a>Een SEPA-betaling in andere valuta's dan de euro indienen
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **SEPA-betalingen in andere valuta's dan de euro indienen** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul de velden in zoals beschreven in de volgende tabel.  
@@ -60,7 +60,7 @@ Voordat u een dergelijke SEPA-betalingen kunt indienen, moet u de volgende behee
     |**Uitvoeringsdatum**|Voer een uitvoeringsdatum in als u op de betalingsregels een datum wilt hebben die afwijkt van de boekingsdatum.|  
     |**Bestandsnaam**|Voer de naam in van het bestand, inclusief station en map, waarin u het rapport wilt afdrukken.|  
 
-## Betalingsregels corrigeren
+## <a name="correct-payment-lines"></a>Betalingsregels corrigeren
 
 U moet alle fouten corrigeren voordat u de regels met elektronische betalingen kunt boeken. U kunt betalingsregels op de volgende manieren corrigeren.  
 
@@ -71,7 +71,7 @@ U moet alle fouten corrigeren voordat u de regels met elektronische betalingen k
 |Een betalingsdagboekregel verwijderen|Met de batchverwerking **Leveranciersbetalingen voorstellen** maakt u betalingsvoorstellen voor alle leveranciers die overeenkomen met de opgegeven criteria. Als u de betaling voor een bepaalde leverancierspost of leverancier wilt voorkomen, kunt u de betreffende dagboekregels verwijderen.|  
 
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Belgische lokale functionaliteit](belgium-local-functionality.md)  
 [Elektronisch bankieren voor België](belgian-electronic-banking.md)  

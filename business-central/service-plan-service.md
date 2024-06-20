@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Services plannen
+# <a name="planning-services"></a>Services plannen
 Met [!INCLUDE[prod_short](includes/prod_short.md)] kunt u de standaardtaken instellen die nodig zijn om te kunnen voldoen aan de vereisten van de klantenservice. Hiervoor moet u bepalen welke serviceartikelen en welk serviceaanbod uw serviceorganisatie ondersteunt en tegen welke prijs.   
 
 [!INCLUDE[prod_short](includes/prod_short.md)] biedt ook functies voor statistieken die u kunt gebruiken om te bepalen hoe goed het gaat en te bepalen op welke gebieden u kunt verbeteren.
@@ -25,7 +25,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |De relatie tussen de status van een herstelbewerking en het effect ervan op toegewezen resources en andersom begrijpen.|[Toewijzingsstatus en herstelstatus begrijpen](service-allocation-status-and-repair-status.md)|  
 |Statistieken gebruiken om uw serviceprocessen te analyseren. | [Servicestatistieken weergeven](service-service-statistics.md) |
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 [Servicecontracten voldoen](service-fulfill-service-contracts.md)  
 [Service leveren](service-deliver-service.md)  
 [Prijzen en aanvullende kosten voor services instellen](service-how-setup-service-costs-pricing.md)  

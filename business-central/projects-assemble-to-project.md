@@ -11,7 +11,7 @@ ms.date: 08/03/2022
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Assembleren voor project
+# <a name="assemble-to-project"></a>Assembleren voor project
 
 Met assembleren voor projecten kunt u het voorraadbeheer verbeteren door alleen op order te assembleren wanneer dat nodig is.
 
@@ -19,7 +19,7 @@ Wanneer u een op-order-assembleren-artikel op een projectplanningsregel kiest, w
 
 Assemblageorders zijn gereserveerd voor projecten, en [!INCLUDE [prod_short](includes/prod_short.md)] synchroniseert artikeltracering tussen projectplanningsregels en assemblageorder.
 
-## Integreren met Warehouse Management
+## <a name="integrate-with-warehouse-management"></a>Integreren met Warehouse Management
 
 Assembleren voor project wordt geïntegreerd met magazijnbeheerfuncties om de assemblage en verzending eenvoudiger te maken. Het proces zorgt er ook voor dat de stroom van projectmontage tot levering soepel verloopt in interne magazijnprocessen. Ga voor meer informatie over interne magazijnstromen voor projecten naar [Stromen voor productie, assemblage en projecten](design-details-internal-warehouse-flows.md#flows-to-and-from-assembly-in-a-basic-warehouse-configuration).
 
@@ -31,7 +31,7 @@ De volgende tabel beschrijft de magazijnconfiguraties die door op order assemble
 |**Voorraadpick**|Gebruik een voorraadpick om volledig of gedeeltelijk gebruik te boeken. De output en het verbruik van onderdelen worden automatisch geboekt voor de assemblageorder.          |
 |**Magazijnpick**|Maak en registreer magazijnpicks voor onderdelen en gebruik vervolgens een projectdagboek om het gebruik te boeken. [!INCLUDE [prod_short](includes/prod_short.md)] controleert of de verbruikte assemblageonderdelen zijn gepickt. De output en het verbruik van onderdelen worden automatisch geboekt voor de assemblageorder.         |
 
-## Bekende beperkingen
+## <a name="known-limitations"></a>Bekende beperkingen
 
 In dit gedeelte worden bekende beperkingen voor assembleren voor project beschreven.
 
@@ -42,7 +42,7 @@ In dit gedeelte worden bekende beperkingen voor assembleren voor project beschre
 * U kunt geen negatief aantal invoeren in het veld **Aantal voor op order assembleren**.
 * U kunt een assemblage niet ongedaan maken.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Projectbeheer](projects-manage-projects.md)  
 [Assemblage](assembly-assemble-items.md)  
