@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Duurzaamheidsinstellingen
+# <a name="sustainability-setup"></a>Duurzaamheidsinstellingen
 
 Om de Duurzaamheidsmodule goed te laten werken moet u eerst een aantal basisbedieningen en instructies instellen die betrekking hebben op de gehele functionaliteit.
 
@@ -52,7 +52,7 @@ Om de duurzaamheidsmodule in te stellen volgt u deze stappen:
     | **Afrondingsprecisie voor uitstoot** | Geef de grootte op van het interval dat moet worden gebruikt voor het afronden van uitstoothoeveelheden wanneer u rapporteert aan autoriteiten. |
     | **Type afronding van uitstoot** | Geef op hoe het programma uitstootbedragen afrondt wanneer u rapporteert aan de autoriteiten. De volgende opties zijn beschikbaar: **Dichtstbijzijnd**, **Omhoog** en **Omlaag**. |
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Financiën](finance.md)  
 [Overzicht van duurzaamheidsbeheer](finance-manage-sustainability.md)  

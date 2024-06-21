@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# De extensie Afbeeldingsanalyse
+# <a name="the-image-analyzer-extension"></a>De extensie Afbeeldingsanalyse
 
 De extensie Afbeeldingsanalyse gebruikt krachtige afbeeldingsanalyse die wordt verschaft door de Computer Vision-API voor Azure Cognitive Services om kenmerken te detecteren in de afbeeldingen die u importeert voor artikelen en contactpersonen, zodat u deze gemakkelijk kunt bekijken en toewijzen. Voor artikelen kunnen kenmerken bijvoorbeeld zijn of het artikel een tafel of een auto is en of het rood of blauw is. Voor contactpersonen kunnen kenmerken geslacht of leeftijd zijn.
 
@@ -22,11 +22,11 @@ De Afbeeldingsanalyse is gratis in [!INCLUDE[prod_short](includes/prod_short.md)
 
 Nadat u de extensie hebt ingeschakeld, wordt de Afbeeldingsanalyse steeds uitgevoerd wanneer u een afbeelding of contactpersoon importeert. U ziet direct de kenmerken, het vertrouwensniveau en de details en kunt besluiten wat er met elk kenmerk moet gebeuren. Als u afbeeldingen hebt geïmporteerd voordat u de Afbeeldingsanalyse hebt ingeschakeld, moet u naar de artikel- of contactpersoonkaarten gaan en de actie **Afbeelding analyseren** kiezen.  
 
-## Privacyverklaring
+## <a name="privacy-notice"></a>Privacyverklaring
 
 Deze extensie gebruikt de Computer Vision API uit Azure Cognitive Services, die andere niveaus van nalevingsverplichtingen kan hebben dan [!INCLUDE[prod_short](includes/prod_short.md)]. Wanneer u de extensie Image Analyzer inschakelt, worden klantgegevens zoals een afbeelding van een contactpersoon of een artikel verzonden naar de Computer Vision API. Door deze extensie te installeren gaat u ermee akkoord dat deze beperkte set gegevens wordt verzonden naar de Computer Vision API. U kunt de extensie Afbeeldingsanalyse altijd uitschakelen of verwijderen als u deze functionaliteit niet meer wilt gebruiken. Zie voor meer informatie [Microsoft Vertrouwenscentrum](https://go.microsoft.com/fwlink/?linkid=851463).
 
-## Vereisten
+## <a name="requirements"></a>Vereisten
 
 Er zijn enkele vereisten voor de afbeeldingen:
 
@@ -34,7 +34,7 @@ Er zijn enkele vereisten voor de afbeeldingen:
 * Maximale bestandsgrootte: minder dan 4 MB  
 * Afbeeldingdimensies: groter dan 50 x 50 pixels  
 
-## De extensie Afbeeldingsanalyse inschakelen
+## <a name="switch-on-the-image-analyzer-extension"></a>De extensie Afbeeldingsanalyse inschakelen
 
 De extensie Afbeeldingsanalyse is ingebouwd in [!INCLUDE[prod_short](includes/prod_short.md)]. U hoeft het alleen in te schakelen.
 
@@ -49,7 +49,7 @@ Als u de extensie Afbeeldingsanalyse wilt inschakelen, voert u een van de volgen
     > [!TIP]  
     > De pagina **Instelling van afbeeldingsanalyse** is ook waar u de mate van vertrouwen voor kenmerksuggesties kunt wijzigen. Als u bijvoorbeeld een grotere mate van vertrouwen wilt vereisen, kunt u een hoger percentage invoeren.
 
-## Een artikelafbeelding analyseren
+## <a name="analyze-an-item-image"></a>Een artikelafbeelding analyseren
 
 In de volgende stappen wordt beschreven hoe u een afbeelding analyseert die is geïmporteerd voordat u de extensie Afbeeldingsanalyse hebt ingeschakeld.  
 
@@ -69,7 +69,7 @@ Het veld **Uit te voeren actie** heeft de volgende opties:
 > [!NOTE]  
 > Standaard geeft **Artikelkenmerken** kenmerken weer waarbij **Zekerheidsscore** ligt boven **Drempelpercentage voor zekerheidsscore**, zoals gedefinieerd in de **Instelling van afbeeldingsanalyse**. Om alle gedetecteerde kenmerken te zien kiest u de actie **Alle kenmerken weergeven**.
 
-## Een afbeelding van een contactpersoon analyseren
+## <a name="analyze-a-contact-person-picture"></a>Een afbeelding van een contactpersoon analyseren
 
 In de volgende stappen wordt beschreven hoe u een afbeelding analyseert die is geïmporteerd voordat u de extensie Afbeeldingsanalyse hebt ingeschakeld.  
 
@@ -90,7 +90,7 @@ In de volgende stappen wordt beschreven hoe u een afbeelding analyseert die is g
     >
     > De Computer Vision API retourneert geen betrouwbaarheidsniveau voor leeftijds- en geslachtskenmerken.
   
-## Uw eigen Computer Vision API-account gebruiken
+## <a name="use-your-own-computer-vision-api-account"></a>Uw eigen Computer Vision API-account gebruiken
 
 U kunt ook uw eigen account gebruiken voor de Computer Vision API, bijvoorbeeld als u meer afbeeldingen wilt analyseren dan de standaardintegratie biedt.
 
@@ -100,21 +100,21 @@ U kunt ook uw eigen account gebruiken voor de Computer Vision API, bijvoorbeeld 
     > [!NOTE]  
     > U moet **/analyze** aan het eind van de API-URI toevoegen, als het niet al aanwezig is. Bijvoorbeeld: ```https://cronus.api.cognitive.microsoft.com/vision/v2.0/analyze```.
 
-## Zien hoeveel analyses u in de huidige periode over hebt
+## <a name="see-how-many-analyses-you-have-left-in-the-current-period"></a>Zien hoeveel analyses u in de huidige periode over hebt
 
 U kunt het aantal analyses bekijken dat u hebt gedaan, en hoeveel u er in de huidige periode nog kunt doen.  
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Instelling van afbeeldingsanalyse** in en kies vervolgens de gerelateerde koppeling.
 2. De velden **Limietsoort**, **Limietwaarde** en **Uitgevoerde analyses** bieden de gebruiksinformatie.  
 
-## Stoppen met het gebruik van de extensie Afbeeldingsanalyse
+## <a name="stop-using-the-image-analyzer-extension"></a>Stoppen met het gebruik van de extensie Afbeeldingsanalyse
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer in **Serviceverbindingen** en kies vervolgens **Afbeeldingsanalyse instellen**.  
 2. Schakel het veld **Afbeeldingsanalyse inschakelen** uit.  
 
 U kunt de extensie ook volledig verwijderen. U kunt deze altijd weer ophalen van AppSource. Zie [Extensies installeren en verwijderen in Business Central](ui-extensions-install-uninstall.md#uninstall-an-app) voor meer informatie.  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Werken met artikelkenmerken](inventory-how-work-item-attributes.md)  
 [Artikelen categoriseren](inventory-how-categorize-items.md)  

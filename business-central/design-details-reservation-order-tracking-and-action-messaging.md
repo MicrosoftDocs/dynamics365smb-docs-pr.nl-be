@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Ontwerpdetails: reservering, ordertracering en planningsboodschappen
+# <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Ontwerpdetails: reservering, ordertracering en planningsboodschappen
 
 Het reserveringssysteem is uitgebreid en omvat de met elkaar verbonden en parallelle functies van ordertracering en planningsboodschappen.  
 
@@ -28,13 +28,13 @@ Het reserveringssysteem communiceert met het planningssysteem door planningsbood
 > [!NOTE]
 > [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
-## Reservering  
+## <a name="reservation"></a>Reservering
 
  Een reservering is een vaste koppeling die bepaalde vraag en een bepaald aanbod aan elkaar koppelt. Deze koppeling heeft rechtstreeks invloed op de verdere voorraadtransactie en zorgt voor de juiste vereffening van artikelposten voor waarderingsdoeleinden. Een reservering overschrijft de standaardwaarderingsmethode van een artikel. Zie [Ontwerpdetails: artikeltracering](design-details-item-tracking.md) voor meer informatie.  
 
  De pagina **Reservering** is toegankelijk vanaf alle orderregels van zowel soorten vraag als voorziening. Op deze pagina kan de gebruiker opgeven met welke vraag- of aanbodpost een reserveringskoppeling moet worden gemaakt. De reservering bestaat uit een paar records dat hetzelfde volgnummer deelt. Eén record heeft een negatief teken en verwijst naar de vraag. De andere record heeft een positief teken en wijst naar de voorziening. Deze records worden opgeslagen in de tabel **Reserveringspost** met statuswaarde **Reservering**. De gebruiker kan alle reserveringen bekijken op de pagina **Reserveringsposten**.  
 
-### Compenseren in reserveringen  
+### <a name="offsetting-in-reservations"></a>Compenseren in reserveringen
 
  Reserveringen worden gemaakt op basis van beschikbare artikelaantallen. Artikelbeschikbaarheid wordt in het kort als volgt berekend:  
 
@@ -57,7 +57,7 @@ Het reserveringssysteem communiceert met het planningssysteem door planningsbood
 
  Zie voor meer informatie [Ontwerpdetails: Beschikbaarheid in het magazijn](design-details-availability-in-the-warehouse.md).  
 
-### Handmatige reservering  
+### <a name="manual-reservation"></a>Handmatige reservering
 
 Wanneer een gebruiker opzettelijk een reservering maakt, verkrijgt de gebruiker volledig eigendom van en verantwoordelijkheid voor deze artikelen. Dit betekent dat de gebruiker een reservering ook handmatig moet wijzigen of annuleren. Door dergelijke handmatige wijzigingen kan automatische aanpassing van de betrokken reserveringen worden veroorzaakt.  
 
@@ -73,7 +73,7 @@ De volgende tabel toont wanneer en welke wijzigingen kunnen optreden:
 > [!NOTE]  
 > Met de functie voor late binding kunnen ook reserveringen worden gewijzigd zonder de gebruiker te informeren, door niet-specifieke reserveringen van serie- of lotnummers te wisselen. Zie voor meer informatie [Ontwerpdetails: Artikeltracering en reservering](design-details-item-tracking-and-reservations.md).  
 
-### Automatische reserveringen  
+### <a name="automatic-reservations"></a>Automatische reserveringen
 
  De artikelkaart kan worden ingesteld om altijd automatisch te worden gereserveerd uit vraag, zoals verkooporders. In dat geval wordt de reservering gedaan op basis van voorraad, inkooporders, assemblageorders en productieorders. Er wordt een waarschuwing gegeven als het aanbod ontoereikend is.  
 
@@ -95,7 +95,7 @@ Automatische reserveringen die worden gemaakt tijdens de planning, worden verwer
 
 - Ze worden opgenomen en mogelijk gewijzigd in opeenvolgende uitgevoerde planningen, in tegenstelling tot handmatig gereserveerde artikelen.  
 
-## Ordertracering  
+## <a name="order-tracking"></a>Ordertracering
 
 Ordertracering helpt de planner een geldig leveringsplan te onderhouden door een overzicht te geven van de compensatie tussen vraag en aanbod in het ordernetwerk. De ordertraceringsrecords dienen als basis voor het maken van dynamische planningsboodschappen en planningsregelvoorstellen tijdens uitgevoerde planningen.  
 
@@ -105,7 +105,7 @@ Ordertracering helpt de planner een geldig leveringsplan te onderhouden door een
 > [!NOTE]  
 > Ordertraceringsmethode en de functie Planningsboodschappen ophalen zijn niet geïntegreerd met Projecten. Dit betekent dat de vraag met betrekking tot een project niet automatisch wordt getraceerd. Omdat het niet wordt getraceerd, kan hierdoor het gebruik van een bestaande aanvulling met projectinformatie worden getraceerd naar een andere vraag, bijvoorbeeld een verkooporder. Daarom kan de situatie optreden dat de gegevens over beschikbare voorraad niet zijn gesynchroniseerd.  
 
-### Het ordernetwerk  
+### <a name="the-order-network"></a>Het ordernetwerk
 
 Het ordertraceringssysteem is gebaseerd op het principe dat het ordernetwerk altijd in evenwicht moet zijn, waarbij elke vraag die wordt ingevoerd in het systeem wordt gecompenseerd door een overeenkomende voorziening, en vice versa. Het systeem verzorgt dit door logische koppelingen tussen alle vraag- en voorzieningsposten in het ordernetwerk te identificeren.  
 
@@ -113,7 +113,7 @@ Dit principe geeft aan dat een wijziging in de vraagresultaten ertoe leidt dat d
 
 Om de transparantie te verhogen van berekeningen in het planningssysteem, worden op de pagina **Niet-getraceerde planningselementen** niet-getraceerde aantallen weergegeven, die het verschil in aantal aangeven tussen bekende vraag en voorgestelde voorziening. Elke regel op de pagina verwijst naar de oorzaak van het bovenmatige aantal, bijvoorbeeld **Raamcontract**, **Veiligheidsvoorraadniveau**, **Vast bestelaantal**, **Min. bestelaantal**, **Afronding** of **Demping**.  
 
-### Compenseren in ordertracering  
+### <a name="offsetting-in-order-tracking"></a>Compenseren in ordertracering
 
 In tegenstelling tot reserveringen, die alleen kunnen worden gedaan op basis van beschikbare artikelaantallen, is ordertracering mogelijk op basis van alle ordernetwerkentiteiten die deel uitmaken van de berekening van nettovereisten van het planningssysteem. De nettobehoeften worden als volgt berekend:  
 
@@ -122,7 +122,7 @@ In tegenstelling tot reserveringen, die alleen kunnen worden gedaan op basis van
 > [!NOTE]  
 > Vraag die is gerelateerd aan prognoses of planningsparameters is niet ordergetraceerd.  
 
-### Voorbeeld: Ordertracering in verkoop, productie en transfers  
+### <a name="example-order-tracking-in-sales-production-and-transfers"></a>Voorbeeld: Ordertracering in verkoop, productie en transfers
 
 In het volgende scenario wordt aangegeven welke ordertraceringsposten worden gemaakt in de tabel **Reserveringspost** als gevolg van verschillende ordernetwerkwijzigingen.  
 
@@ -142,14 +142,14 @@ Er bestaan de volgende ordertraceringsposten in de tabel **Reserveringspost** op
 
  ![Eerste voorbeeld van ordertraceringsposten in de tabel Reserveringspost.](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
 
-### Volgnummers 8 en 9  
+### <a name="entry-numbers-8-and-9"></a>Volgnummers 8 en 9
 
 Voor de onderdelenlijst voor respectievelijk LOTA en LOTB worden ordertraceringskoppelingen gemaakt van de vraag in tabel 5407, **Materiaalregel**, naar het aanbod in tabel 32, **Artikelpost**. Het veld **Status reservering** bevat **Tracering** om aan te geven dat deze posten dynamische ordertraceringkoppelingen tussen voorzieningen en vraag.  
 
 > [!NOTE]  
 > Het veld **Lotnr.** is leeg op de vraagregels, omdat de lotnummers niet zijn opgegeven op de materiaalregels van de vrijgegeven productieorder.  
 
-### Volgnummer 10  
+### <a name="entry-number-10"></a>Volgnummer 10
 
 Vanuit de verkoopvraag in tabel 37, **Verkoopregel**, wordt een ordertraceringskoppeling gemaakt naar het aanbod in tabel 5406, **Prod.-orderregel**. Het veld **Status reservering** bevat **Reservering** en het veld **Binding** bevat het veld **Order-naar-order**. Dit komt doordat de vrijgegeven productieorder specifiek voor de verkooporder is gegenereerd en gekoppeld moet blijven, in tegenstelling tot ordertraceringskoppelingen met de reserveringstatus **Tracering**, die dynamisch worden gemaakt en gewijzigd. Zie het onderdeel “Automatische reserveringen” in dit onderwerp voor meer informatie.  
 
@@ -162,13 +162,13 @@ Vanuit de verkoopvraag in tabel 37, **Verkoopregel**, wordt een ordertraceringsk
 
  ![Tweede voorbeeld van ordertraceringsposten in de tabel Reserveringspost.](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
 
-### Volgnummers 8 en 9  
+### <a name="entry-numbers-8-and-9-1"></a>Volgnummers 8 en 9
 
 De reserveringsstatus van ordertraceringsposten voor de twee lots van het onderdeel die vraag reflecteren in tabel 5407, verandert van **Tracering** in **Overschot**. De reden is dat de goederen waaraan ze eerder zijn gekoppeld, in tabel 32, zijn gebruikt door de verzending van de transferorder.  
 
 Werkelijk overschot, zoals in dit geval, is een reflectie van bovenmatig aanbod of vraag die niet-getraceerd blijft. Het is een indicatie van onbalans in het ordernetwerk, waardoor het planningssysteem een planningsboodschap genereert, tenzij het dynamisch wordt opgelost.  
 
-### Volgnummers 12 tot 16  
+### <a name="entry-numbers-12-to-16"></a>Volgnummers 12 tot 16
 
 Omdat de twee lots van het materiaal op de transferorder worden geboekt als verzonden maar niet ontvangen, zijn alle gerelateerde positieve ordertraceringsposten van het reserveringsoort **Overschot**, wat aangeeft dat deze niet worden toegewezen aan vraag. Voor elk lotnummer heeft één post betrekking op tabel 5741, **Transferregel**, en één post op de artikelpost bij de in-transit vestiging.  
 
@@ -186,13 +186,13 @@ Nu bevat de tabel **Reserveringspost** de volgende ordertraceringsposten.
 
  ![Vierde voorbeeld van ordertraceringsposten in de tabel Reserveringspost.](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
 
-### Volgnummers 21 en 22  
+### <a name="entry-numbers-21-and-22"></a>Volgnummers 21 en 22
 
 Aangezien de materiaalbehoefte is gewijzigd naar de OOST-vestiging en de voorziening beschikbaar is als artikelposten op de OOST-vestiging, worden alle ordertraceringsposten voor de twee lotnummers nu volledig getraceerd, wat wordt aangegeven door de reserveringstatus **Tracering**.  
 
 Het veld **Lotnr.** wordt nu gevuld in de ordertraceringspost voor tabel 5407, omdat de lotnummers zijn toegewezen aan de productieordermateriaalregels.  
 
-## Planningsboodschap  
+## <a name="action-messaging"></a>Planningsboodschap
 
 Wanneer het ordertraceringssysteem detecteert dat het ordernetwerk niet in evenwicht is, wordt automatisch een planningsboodschap gemaakt om de gebruiker te waarschuwen. Planningsboodschappen worden door het systeem geproduceerd voor gebruikersacties die de details van de onbalans opgeven en de suggesties over hoe de balans in het ordernetwerk kan worden hersteld. Ze worden weergegeven als planningsregels op de pagina **Planningsvoorstel** wanneer u **Planningsboodschappen ophalen** kiest. Bovendien worden de planningsboodschappen weergegeven op planningsregels die door de planning worden gegenereerd in overeenstemming met de suggesties van het planningssysteem over hoe de balans in het ordernetwerk kan worden hersteld. In beide gevallen worden de voorstellen in het ordernetwerk uitgevoerd wanneer u **Planningsboodschap uitvoeren** kiest.  
 
@@ -220,11 +220,11 @@ Openstaande vraag doorloopt de lijst en compenseert op elk punt de beschikbare v
 
 Als er een afname van vraag optreedt, probeert het ordertraceringssysteem de onbalans op te lossen door de vorige controles in omgekeerde volgorde uit te voeren. Dit betekent dat de bestaande planningsboodschappen kunnen worden gewijzigd of zelfs worden verwijderd, indien nodig. Het ordertraceringssysteem geeft altijd het nettoresultaat van berekeningen weer aan de gebruiker.  
 
-## Ordertracering en planning  
+## <a name="order-tracking-and-planning"></a>Ordertracering en planning
 
 Wanneer het planningssysteem wordt uitgevoerd, worden alle bestaande ordertraceringsrecords en planningsboodschapposten verwijderd en opnieuw gemaakt als planningsregelvoorstellen volgens vraag-voorzieningcombinaties en prioriteiten. Wanneer de planningsprocedure is voltooid, is het ordernetwerk in evenwicht.  
 
-### Planningssysteem versus ordertracering en planningsboodschappen  
+### <a name="planning-system-versus-order-tracking-and-action-messaging"></a>Planningssysteem versus ordertracering en planningsboodschappen
 
  In de volgende vergelijking worden de verschillen getoond tussen de methoden die door het planningssysteem worden gebruikt om planningsregelvoorstellen te maken, en de methoden die door het ordertraceringssysteem worden gebruikt om ordertraceringsrecords en planningsboodschappen te maken.  
 
@@ -238,7 +238,7 @@ Wanneer het planningssysteem wordt uitgevoerd, worden alle bestaande ordertracer
 
 - Het planningssysteem maakt koppelingen in een door de gebruiker geactiveerde batchmodus wanneer vraag en voorziening worden vereffend, terwijl bij ordertracering de koppelingen automatisch en dynamisch worden gemaakt wanneer de gebruiker orders invoert.  
 
-## Zie ook  
+## <a name="see-also"></a>Zie ook
 
 [Ontwerpdetails: Centrale begrippen van het planningssysteem](design-details-central-concepts-of-the-planning-system.md)  
 [Ontwerpdetails: Voorraadplanning](design-details-supply-planning.md)

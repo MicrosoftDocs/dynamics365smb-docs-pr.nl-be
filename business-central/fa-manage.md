@@ -12,15 +12,15 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Vaste activa beheren
+# <a name="manage-fixed-assets"></a>Vaste activa beheren
 
 De functionaliteit voor vaste activa in [!INCLUDE[prod_short](includes/prod_short.md)] biedt een overzicht van uw vaste activa en helpt zorgen dat de afschrijving ervan klopt. Het helpt u ook de onderhoudskosten bij te houden, verzekeringspolissen te beheren, transacties met vaste activa te boeken en verschillende rapporten en statistieken te genereren.
 
-## Wat is een vast activum?
+## <a name="what-is-a-fixed-asset"></a>Wat is een vast activum?
 
 Vaste activa verschillen van andere artikelen in uw magazijn. Een vast activum, ook wel kapitaalgoed genoemd, is een tastbaar stuk onroerend goed, fabriek of uitrusting (PP&E) dat u bezit of beheert in de verwachting dat het inkomsten zal blijven genereren. Een actief is vast als het een item betreft dat uw bedrijf het komende kalenderjaar niet zal consumeren, verkopen of in contanten zal omzetten. Vaste activa zijn anders dan vlottende activa, die contant zijn of binnen de komende twaalf maanden in contanten zullen worden omgezet. Vaste activa verschillen ook van uw voorraad, omdat voorraad doorgaans binnen korte tijd wordt verbruikt.
 
-## Soorten vaste activa
+## <a name="types-of-fixed-assets"></a>Soorten vaste activa
 
 Bedrijven investeren doorgaans in een paar soorten vaste activa. Enkele voorbeelden zijn:
 
@@ -30,7 +30,7 @@ Bedrijven investeren doorgaans in een paar soorten vaste activa. Enkele voorbeel
 - Machines
 - Voertuigen
 
-## Inzicht in de boekhouding van vaste activa
+## <a name="understanding-fixed-asset-accounting"></a>Inzicht in de boekhouding van vaste activa
 
 De boekhouding van vaste activa betekent dat u nauwkeurige financiële gegevens over uw kapitaalgoederen bijhoudt. Deze records bevatten details over de vijf fasen in de levenscyclus van een asset. Na uw eerste aankoop omvat de levenscyclus van elk vast activum ten minste drie van de volgende fasen:
 
@@ -42,13 +42,13 @@ De boekhouding van vaste activa betekent dat u nauwkeurige financiële gegevens 
 
 Audits maken ook deel uit van de gedetailleerde controle van de boekhouding van uw onderneming na afsluiting van de boeken van het boekjaar. Of het nu intern of extern is, bij audits kunt u inconsistenties of verschillen opmerken tussen uw aantekeningen en de werkelijke staat van uw activa. Audits bevorderen de transparantie van uw bezittingen en boekhouding als u meer geld verliest dan verwacht.
 
-## Video-overzicht
+## <a name="video-overview"></a>Video-overzicht
 
 De volgende video behandelt de basisprincipes van vaste activa:
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## Initiële instelling van vaste activa
+## <a name="initial-setup-of-fixed-assets"></a>Initiële instelling van vaste activa
 
 Voordat u vaste activa kunt beheren, moet u de volgende instellingen voltooien:
 
@@ -60,7 +60,7 @@ Voordat u vaste activa kunt beheren, moet u de volgende instellingen voltooien:
 
 Ga voor informatie naar [Vaste activa instellen](fa-setup.md).
 
-## Analyses van vaste activa
+## <a name="fixed-assets-analytics"></a>Analyses van vaste activa
 
 In dit gedeelte worden de analytische hulpmiddelen beschreven die u kunt gebruiken om inzicht te krijgen in gegevens over uw vaste activa.
 
@@ -74,7 +74,7 @@ In dit gedeelte worden de analytische hulpmiddelen beschreven die u kunt gebruik
 | Buitengebruikstellingsposten bekijken. | [Buitengebruikstellingsposten weergeven](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
 | Geschatte buitengebruikstellingswaarden bekijken. | [Voorspelde buitengebruikstellingswaarden weergeven](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
 
-## Vaste activa registreren
+## <a name="register-fixed-assets"></a>Vaste activa registreren
 
 Voor elk vast activum moet u een kaart maken met informatie erover. Gebouwen of productiemateriaal kunnen bijvoorbeeld als hoofdactivum worden ingesteld, met een onderdelenlijst. U kunt activa op verschillende manieren groeperen, bijvoorbeeld per klasse, afdeling of vestiging. Vervolgens kunt u beginnen met het aanschaffen, onderhouden en verkopen van de vaste activa. U kunt ook gebudgetteerde activa instellen. Met budgettering kunt u verwachte aan- en verkopen opnemen in rapporten.
 
@@ -83,7 +83,7 @@ Voor elk vast activum moet u een kaart maken met informatie erover. Gebouwen of 
 | Budgetten voor vaste activa beheren, aanschafkosten budgetteren, buitengebruikstellingen van vaste activa budgetteren en afschrijving budgetteren. |[Budgetten voor vaste activa beheren](fa-how-manage-budgets.md) |
 | Vaste activa maken, afschrijvingsmethoden toewijzen, aankopen boeken, restwaarden boeken en VA-lijsten afdrukken. |[Vaste activa aanschaffen](fa-how-acquire.md) |
 
-## Afschrijvingen instellen voor uw vaste activa
+## <a name="set-up-depreciations-for-your-fixed-assets"></a>Afschrijvingen instellen voor uw vaste activa
 
 Om afschrijvingen van vaste activa en andere financiële transacties voor vaste activa bij te houden, kunt u een of meer afschrijvingsboeken voor elk vast activum instellen. Er zijn een aantal stappen voor het afschrijven van activa:
 
@@ -100,7 +100,7 @@ Om afschrijvingen van vaste activa en andere financiële transacties voor vaste 
 | Gewijzigde afschrijvingsboekwaarden bekijken. | [Gewijzigde afschrijvingsboekwaarden weergeven](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification) |
 | Registreer vaste activa handmatig op de pagina **Financieel dagboek voor vaste activa** of op de pagina **VA-dagboek**, afhankelijk van de vraag of de transacties zijn bedoeld voor financiële rapportage of intern beheer. | [Afschrijving van vaste activa instellen](fa-how-setup-depreciation.md) |
 
-## Onderhoud en verzekering van vaste activa
+## <a name="fixed-assets-maintenance-and-insurance"></a>Onderhoud en verzekering van vaste activa
 
 Voor elk activum kunt u de onderhoudskosten en de volgende onderhoudsbeurt vastleggen. Het bijhouden van onderhoudskosten is belangrijk voor budgetdoeleinden en bij het maken van een beslissing over het al dan niet vervangen van een vast activum. U kunt elk vast activum koppelen aan een of meer verzekeringspolissen en controleren of de polispremies overeenkomen met de waarde van de activa.
 
@@ -111,7 +111,7 @@ Voor elk activum kunt u de onderhoudskosten en de volgende onderhoudsbeurt vastl
 | Verzekeringsinformatie bijwerken, aanschafkosten boeken naar verzekeringspolissen, verzekeringsdekking wijzigen, verzekeringsstatistieken bekijken en een lijst met verzekeringspolissen weergeven. |[Vaste activa verzekeren](fa-how-insure.md) |
 | Verzekeringsdekking controleren. | [Verzekeringsdekking controleren](fa-how-insure.md#to-monitor-insurance-coverage) |
 
-## Vaste activa herclassificeren, overdragen, opsplitsen/combineren, van waarde aanpassen, afschrijven en afstoten
+## <a name="reclassify-transfer-split-upcombine-adjust-value-write-down-and-dispose-fixed-assets"></a>Vaste activa herclassificeren, overdragen, opsplitsen/combineren, van waarde aanpassen, afschrijven en afstoten
 
 | Aan  | Zie |
 | --- | --- |
@@ -121,7 +121,7 @@ Voor elk activum kunt u de onderhoudskosten en de volgende onderhoudsbeurt vastl
 | Buitengebruikstellingsposten bekijken. | [Buitengebruikstellingsposten weergeven](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
 | Geschatte buitengebruikstellingswaarden bekijken. | [Voorspelde buitengebruikstellingswaarden weergeven](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
 
-## Tips voor het verbeteren van uw vaste activaboekhouding
+## <a name="tips-for-improving-your-fixed-asset-accounting"></a>Tips voor het verbeteren van uw vaste activaboekhouding
 
 Er zijn een paar dingen die u in uw boekhoudstrategie voor vaste activa kunt implementeren en die ervoor kunnen zorgen dat u uw inkomsten maximaliseert.
 
@@ -130,7 +130,7 @@ Er zijn een paar dingen die u in uw boekhoudstrategie voor vaste activa kunt imp
 - Tag uw bezittingen. Het is essentieel om uw activa gedurende hun hele levenscyclus te volgen en te taggen, omdat veel factoren de waarde ervan kunnen beïnvloeden. Met tags kunt u uw artikelen volgen tijdens de fasen van hun levenscyclus, diefstal voorkomen, misplaatsing elimineren en financiële statistieken ondersteunen.
 - Automatiseer inzicht met boekhoudsoftware voor vaste activa. Het automatiseren van handmatige activiteiten om uw gegevens bij te houden met boekhoudsoftware voor vaste activa, maakt processen eenvoudiger te voltooien. Met wachtwoordbeveiliging kunt u alleen toegang bieden aan de mensen die deze nodig hebben en ervoor zijn opgeleid.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Vaste activa instellen](fa-setup.md)  
 [Overzicht van analyses van vaste activa](fa-analytics-overview.md)  

@@ -8,13 +8,13 @@ ms.date: 06/08/2022
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ---
-# Klantenkortingsgroepen instellen
+# <a name="set-up-customer-discount-groups"></a>Klantenkortingsgroepen instellen
 
 U kunt verkoopregelkortingen definiëren voor een groep klanten in plaats van ze afzonderlijk toe te passen.
 
 **Klantenkortingsgroepen** werken op dezelfde manier als [klantprijsgroepen](sales-how-to-set-up-customer-price-groups.md), maar kunnen worden gecombineerd met artikelkortingsgroepen om snel regelkortingen in te stellen voor veel artikelen voor geselecteerde klanten.
 
-## Verkoopregelkortingen maken voor een klantengroep
+## <a name="create-sales-line-discounts-for-a-customer-group"></a>Verkoopregelkortingen maken voor een klantengroep
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me 1 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klantenkortingsgroepen** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer op de pagina **Klantenkortingsgroepen** **Nieuw** om een nieuwe kortingsgroep te maken en deze een naam te geven onder de kolom **Code** en voeg een beschrijving toe.
@@ -27,7 +27,7 @@ U kunt verkoopregelkortingen definiëren voor een groep klanten in plaats van ze
 
 Herhaal stap 4 tot en met 8 voor elk artikel of elke artikelkortingsgroep waarvoor u een verkoopregelkorting wilt maken.
 
-## Een klant toewijzen aan een kortingsgroep
+## <a name="assign-a-customer-to-a-discount-group"></a>Een klant toewijzen aan een kortingsgroep
 
 Nadat u de klantkortingsgroepen hebt ingesteld, kunt u de klantkortingsgroepscodes invoeren op de klantenkaarten.
 
@@ -35,7 +35,7 @@ Nadat u de klantkortingsgroepen hebt ingesteld, kunt u de klantkortingsgroepscod
 2. Open de **klantenkaart** voor een klant die u in een klantenkortingsgroep wilt plaatsen.
 3. Selecteer de groepscode op het sneltabblad **Facturering** in het veld **Klantenkortingsgroep**.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Verkoop](sales-manage-sales.md)  
 [Verkopen instellen](sales-setup-sales.md)  

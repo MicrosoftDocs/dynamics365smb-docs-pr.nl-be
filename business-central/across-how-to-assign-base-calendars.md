@@ -10,11 +10,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Basisagenda's instellen
+# <a name="set-up-base-calendars"></a>Basisagenda's instellen
 
 U kunt een basisagenda toewijzen aan uw bedrijf en aan uw zakelijke partners, zoals klanten, leveranciers of vestigingen. Leverdatums en ontvangstdatums op regels voor toekomstige verkooporders, inkooporders, transferorders en productieorders worden berekend aan de hand van de werkdagen die zijn opgegeven in de agenda. De belangrijkste taak bij het instellen van een nieuwe basisagenda is het opgeven en definiëren van de vrije dagen die u wilt toepassen.  
 
-## Een basisagenda instellen
+## <a name="to-set-up-a-base-calendar"></a>Een basisagenda instellen
 
 1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Basisagenda** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**.  
@@ -36,7 +36,7 @@ Wanneer u een post aanmaakt, wordt het veld **Vrije dag** geselecteerd. U deze i
 >  Elke basisagenda die is gedefinieerd voor de leverancier of de locatie bepaalt mede hoe de datums worden berekend en afgerond naar werkdagen.
 Hiermee wordt een datumformule opgegeven voor de tijd die nodig is om het artikel aan te vullen. Het wordt gebruikt voor het berekenen van het veld **Geplande ontvangstdatum**, als er vooruit wordt gerekend, en het veld **Orderdatum**, als er achterwaarts wordt gerekend. Zie [Levertermijnberek.](across-how-to-assign-base-calendars.md#lead-time-calculation).
 
-## Levertermijnberek.
+## <a name="lead-time-calculation"></a>Levertermijnberek.
 
 Elke basisagenda die is gedefinieerd voor de leverancier of de locatie bepaalt mede hoe de datums worden berekend en afgerond naar werkdagen. De twee datumvelden op inkooporderregels worden dus als volgt berekend onder verschillende omstandigheden.
 
@@ -53,7 +53,7 @@ Elke basisagenda die is gedefinieerd voor de leverancier of de locatie bepaalt m
 
 De inhoud van het veld **Levertermijn** wordt gekopieerd uit de artikelkaart of de SKU-kaart, als de doorlooptijd is gedefinieerd voor het artikel, of op de pagina **Artikelleveranciers** als de doorlooptijd voor de leverancier is gedefinieerd.
 
-## Een agenda aanpassen
+## <a name="to-customize-a-calendar"></a>Een agenda aanpassen
 De belangrijkste taak bij het aanpassen van een basisagenda voor uw bedrijf of voor een van uw zakelijke partners is het invoeren van wijzigingen in de statuswaarden Werkdag en Vrije dag.
 
 In een basisagenda worden bijvoorbeeld alle zaterdagen gemarkeerd als vrije dagen, terwijl in een aangepaste agenda voor een bepaalde vestiging alle zaterdagen in de maanden november en december en de zaterdagen die voorafgaan aan het vakantieseizoen worden aangemerkt als werkdagen.
@@ -86,7 +86,7 @@ Als u het veld **Expediteur** op de orderregel niet invult, wordt de agenda van 
 > [!NOTE]  
 > Als u wijzigingen aanbrengt in een basisagenda die gepersonaliseerde agendawijzigingen bevat, worden alle gepersonaliseerde agenda's automatisch bijgewerkt.
 
-## Een basisagenda toewijzen  
+## <a name="to-assign-a-base-calendar"></a>Een basisagenda toewijzen
 In de volgende procedure worden voor een klant de leverdatums op verkooporderregels als voorbeeld gebruikt.
 
 Basiskalenders worden als volgt toegewezen aan uw eigen bedrijf, klanten, leveranciers, vestigingen en expediteurs:  
@@ -108,7 +108,7 @@ Basiskalenders worden als volgt toegewezen aan uw eigen bedrijf, klanten, levera
 > [!NOTE]  
 >  U moet eerst een basisagenda toewijzen aan het bedrijf, voordat u aangepaste agendaposten kunt maken.  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 [Inkoop](purchasing-manage-purchasing.md)  
 [Productie](production-manage-manufacturing.md)    
 [Voorraad](inventory-manage-inventory.md)  

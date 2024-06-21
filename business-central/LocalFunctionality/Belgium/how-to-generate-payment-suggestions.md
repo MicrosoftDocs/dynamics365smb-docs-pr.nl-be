@@ -10,11 +10,11 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Betalingsvoorstellen genereren in de Belgische versie
+# <a name="generate-payment-suggestions-in-the-belgian-version"></a>Betalingsvoorstellen genereren in de Belgische versie
 
 Als u elektronisch bankieren hebt ingesteld, kunt u beginnen met het genereren van betalingsvoorstellen. U kunt dit doen in het betalingsdagboek.  
 
-## Betalingsvoorstellen genereren  
+## <a name="to-generate-payment-suggestions"></a>Betalingsvoorstellen genereren
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Betalingsdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer de juiste dagboekbatch en kies vervolgens de actie **Leveranciersbetalingen voorstellen**.  
@@ -34,7 +34,7 @@ Als u elektronisch bankieren hebt ingesteld, kunt u beginnen met het genereren v
 
 Wanneer de batchverwerking is uitgevoerd, bevat het betalingsdagboek alle leveranciersposten die overeenkomen met de filters.  
 
-## Zie ook  
+## <a name="see-also"></a>Zie ook
  [Belgische elektronische betalingen](belgian-electronic-payments.md)   
  [Leveranciers voor automatische betalingsvoorstellen instellen](how-to-set-up-vendors-for-automatic-payment-suggestions.md)   
  [Betalingsdagboeksjablonen en -batches maken](how-to-create-payment-journal-templates-and-batches.md)   

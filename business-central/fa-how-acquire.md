@@ -11,7 +11,7 @@ ms.date: 05/15/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Vaste activa aanschaffen
+# <a name="acquire-fixed-assets"></a>Vaste activa aanschaffen
 
 Gebruik de pagina **Vaste activakaart** om informatie over een item in te voeren. U kunt gebouwen of productiemateriaal instellen als een hoofdactivum met een onderdelenlijst en u kunt ze op verschillende manieren groeperen, bijvoorbeeld per categorie, afdeling of locatie. U moet een afschrijvingsboek instellen en aan elk vast activum toewijzen voordat u het kunt aanschaffen.
 
@@ -19,7 +19,7 @@ Nadat u een vast activum hebt ingesteld en een afschrijvingsboek hebt toegewezen
 
 Gebruik indexering om waarden aan te passen aan algemene veranderingen in het prijsniveau. Gebruik de batchtaak **Index Vaste Activa** om de aanschafkosten en vervangingskosten te berekenen.
 
-## Voeg een vast activum toe aan uw lijst met vaste activa
+## <a name="add-a-fixed-asset-to-your-list-of-fixed-assets"></a>Voeg een vast activum toe aan uw lijst met vaste activa
 
 Voordat u een vast activum kunt aanschaffen, moet u het aan uw lijst met activa toevoegen. Er zijn verschillende manieren om vaste activa aan uw lijst toe te voegen:
 
@@ -30,7 +30,7 @@ Voordat u een vast activum kunt aanschaffen, moet u het aan uw lijst met activa 
 
 Nadat u vaste activa aan uw lijst heeft toegevoegd, is de volgende stap het aanschaffen ervan, zodat u ze in transacties kunt gebruiken. Ga voor meer informatie naar [Een vast activum aanschaffen](#acquire-fixed-assets).
 
-### Voeg een vast activum toe op de pagina Vaste-activakaart
+### <a name="add-a-fixed-asset-on-the-fixed-asset-card-page"></a>Voeg een vast activum toe op de pagina Vaste-activakaart
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Vaste activa** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw** en vul vervolgens indien nodig de velden op het sneltabblad **Algemeen** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -39,7 +39,7 @@ Nadat u vaste activa aan uw lijst heeft toegevoegd, is de volgende stap het aans
 
     Nadat u de vereiste velden heeft ingevuld, bent **U klaar om het vaste activum aan te schaffen.** Melding verschijnt bovenaan de pagina. Als u er klaar voor bent om het item nu te verwerven, kiest u de actie  **Verwerven** . Volg de stappen op de  **ondersteunde acquisitie van vaste activa** pagina om de acquisitie te voltooien. Als u er nog niet klaar voor bent, kunt u het actief later altijd verwerven.
 
-### Gebruik Bewerken in Excel om middelen toe te voegen
+### <a name="use-edit-in-excel-to-add-assets"></a>Gebruik Bewerken in Excel om middelen toe te voegen
 
 Als u meerdere vaste activa wilt toevoegen, is Bewerken in Excel een prima tool om te gebruiken. De tool downloadt uw huidige lijst met activa in een werkblad dat de meeste velden bevat die beschikbaar zijn op de pagina Vaste activakaart. U kunt voor elk item enkele of alle velden op een rij invullen en uw wijzigingen publiceren om ze in [!INCLUDE [prod_short](includes/prod_short.md)] aan uw lijst toe te voegen. Als u niet alle verplichte velden kunt invullen, is dat geen probleem. Je kunt ze bijwerken [!INCLUDE [prod_short](includes/prod_short.md)] wanneer je er klaar voor bent.
 
@@ -55,7 +55,7 @@ Als u meerdere vaste activa wilt toevoegen, is Bewerken in Excel een prima tool 
 
 4. Om [!INCLUDE [prod_short](includes/prod_short.md)] bij te werken, kies je in het **Microsoft Dynamics** paneel **Publiceren**.
 
-### Voeg een vast activum toe uit een inkooporder of factuur
+### <a name="add-a-fixed-asset-from-a-purchase-order-or-invoice"></a>Voeg een vast activum toe uit een inkooporder of factuur
 
 In de volgende stappen wordt beschreven hoe u een vast activum uit een inkooporder toevoegt. Voor een inkoopfactuur zijn de stappen vergelijkbaar.
 
@@ -66,7 +66,7 @@ In de volgende stappen wordt beschreven hoe u een vast activum uit een inkoopord
 5. Voer in het veld **Nr.** In het veld kunt u een bestaand vast activum kiezen om een ​​uitgave toe te voegen, of  **Nieuw** om een ​​nieuw activum toe te voegen.
 6. Nadat u de gegevens voor het nieuwe activum en de inkooporder heeft ingevoerd, kiest u **Post**.
 
-## Een vast activum verwerven met behulp van een grootboekdagboek voor vaste activa
+## <a name="acquire-a-fixed-asset-by-using-a-fixed-asset-gl-journal"></a>Een vast activum verwerven met behulp van een grootboekdagboek voor vaste activa
 
 In de volgende procedure wordt beschreven hoe u kunt verwerven door de vereiste grootboekdagboekregels voor vaste activa te maken en te boeken. U kunt de dagboekregels ook handmatig maken en boeken. Ga voor meer informatie naar [Een vast activum verwerven met behulp van een grootboekdagboek voor vaste activa](#acquire-a-fixed-asset-by-using-a-fixed-asset-gl-journal).
 
@@ -79,7 +79,7 @@ In de volgende procedure wordt beschreven hoe u kunt verwerven door de vereiste 
 
 Wanneer u  **Voltooien** kiest, wordt het veld  **Boekwaarde** op de  **Vaste activakaart** pagina is ingevuld, wat aangeeft dat het vaste activum is aangeschaft tegen de opgegeven aanschaffingswaarde.  
 
-## Een verwerving van vaste activa handmatig boeken met een grootboekdagboek voor vaste activa
+## <a name="to-post-a-fixed-asset-acquisition-manually-with-a-fixed-asset-gl-journal"></a>Een verwerving van vaste activa handmatig boeken met een grootboekdagboek voor vaste activa
 
 In de volgende procedure wordt beschreven hoe u een vast activum handmatig kunt aanschaffen door regels te maken en te boeken op de pagina **Financieel dagboek voor vaste activa**. U kunt ook automatisch een vast activum verwerven op de pagina **Vast activumkaart**  door de actie  **Vast activum verwerven**  te kiezen. Ga voor meer informatie naar [Een vast activum aanschaffen](#acquire-fixed-assets).
 
@@ -94,7 +94,7 @@ In de volgende procedure wordt beschreven hoe u een vast activum handmatig kunt 
 > [!TIP]  
 > Als u het veld **Verzekeringsnr.** invult, [!INCLUDE[prod_short](includes/prod_short.md)] boekt u ook de aanschafkosten van het vaste activum naar het grootboek van de verzekeringsdekking. Ga voor meer informatie naar [Vaste activa verzekeren](fa-how-insure.md).
 
-## Een onderdelenlijst instellen voor een hoofdactivum
+## <a name="to-set-up-a-component-list-for-a-main-asset"></a>Een onderdelenlijst instellen voor een hoofdactivum
 
 U kunt vaste activa groeperen in hoofdactiva en hun onderdelen. Het kan bijvoorbeeld zijn dat u een productiemachine heeft die uit meerdere onderdelen bestaat en die u op deze manier wilt groeperen.  
 
@@ -108,7 +108,7 @@ U moet het hoofdactivum en alle onderdelen ervan instellen als afzonderlijk vast
 6. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **VA-instellingen** in en kies vervolgens de gerelateerde koppeling.
 7. Zet de schakelaar  **Plaatsen op hoofditems toestaan** aan.
 
-## De boeking van aanschafkosten voor één vast activum annuleren
+## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>De boeking van aanschafkosten voor één vast activum annuleren
 
 Als u een fout maakt wanneer u aanschafkosten boekt, kunt u de post verwijderen met de batchverwerking **VA-posten annuleren** en vervolgens de juiste aanschafpost boeken. De foutieve posten worden overgebracht naar de pagina **Foutieve VA-posten**.
 
@@ -124,7 +124,7 @@ Als u bijvoorbeeld een aanschaf met een onjuiste datum boekt, moet u dit zo snel
 5. Kies **OK** om de batchverwerking te starten.
 6. Als de foutieve post of posten zijn geannuleerd, gaat u verder met het boeken van de juiste aanschafkosten.
 
-## De restwaarde samen met de aanschafkosten boeken
+## <a name="to-post-the-salvage-value-together-with-the-acquisition-cost"></a>De restwaarde samen met de aanschafkosten boeken
 
 De restwaarde is de resterende waarde van een vast activum als dit niet langer meer kan worden gebruikt. U kunt de restwaarde tegelijk met het boeken van de aanschafkosten boeken. Ga voor meer informatie naar [Vaste activa afschrijven of amortiseren](fa-how-depreciate-amortize.md).
 
@@ -141,7 +141,7 @@ Het is mogelijk om de restwaarde samen met de aanschafkosten te boeken via een V
 > [!NOTE]
 > Als er een restwaarde bestaat voor een vast activum, wordt die waarde gebruikt bij het boeken van de afschrijving in plaats van de waarde in het veld **Eindboekwaarde** op het  **FA-afschrijvingsboeken** pagina. Ga voor meer informatie naar [De eindboekwaarde beheren](fa-how-depreciate-amortize.md#to-manage-the-ending-book-value).
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Vaste activa](fa-manage.md)  
 [Vaste activa instellen](fa-setup.md)  

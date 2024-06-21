@@ -10,11 +10,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Grootboekposten toepassen en verwijderen in de Belgische versie
+# <a name="apply-and-unapply-general-ledger-entries-in-the-belgian-version"></a>Grootboekposten toepassen en verwijderen in de Belgische versie
 
 [!INCLUDE [apply-unapply-general-ledger-entries](../includes/BENL/apply-unapply-general-ledger-entries.md)]
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Het grootboek en COA begrijpen](../../finance-general-ledger.md)  
 [Belgische lokale functionaliteit](belgium-local-functionality.md)

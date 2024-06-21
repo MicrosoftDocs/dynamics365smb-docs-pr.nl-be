@@ -11,11 +11,11 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ms.reviewer: bholtorf
 ---
-# Aanmaningen voor uitstaande saldi verzenden
+# <a name="send-reminders-of-outstanding-balances"></a>Aanmaningen voor uitstaande saldi verzenden
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Openstaande saldi innen](receivables-collect-outstanding-balances.md)  
 [Meerdere rentetarieven instellen voor uitgestelde betaling](finance-how-to-set-up-multiple-interest-rates.md)  

@@ -9,7 +9,7 @@ ms.date: 06/22/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Bewerkingsplannen maken
+# <a name="create-routings"></a>Bewerkingsplannen maken
 
 Productiebedrijven maken gebruik van bewerkingsplannen om het productieproces te visualiseren en aan te sturen.
 
@@ -22,7 +22,7 @@ Voordat u een bewerkingsplan kunt instellen, moet het volgende zijn gedaan:
 - Er zijn artikelkaarten gemaakt voor hoofdartikelen die onderdeel zijn van de productie. Zie voor meer informatie [Nieuwe artikelen registreren](inventory-how-register-new-items.md).
 - Er zijn productieresources ingesteld. Zie voor meer informatie [Afdelingen en bewerkingsplaatsen instellen](production-how-to-set-up-work-and-machine-centers.md).
 
-## Een bewerkingsplan maken
+## <a name="to-create-a-routing"></a>Een bewerkingsplan maken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bewerkingsplannen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  
@@ -50,7 +50,7 @@ Voordat u een bewerkingsplan kunt instellen, moet het volgende zijn gedaan:
 > [!NOTE]  
 > Zorg ervoor dat u de vaste verrekenprijs van het artikel opnieuw berekent vanuit de kaart **Artikel**: kies hiervoor achtereenvolgens de acties **Productie**, **Vaste verrekenprijs berekenen** en **Alle niveaus**.  
 
-## Bewerkingsplankoppelingen maken
+## <a name="to-create-routing-links"></a>Bewerkingsplankoppelingen maken
 
 Met bewerkingsplankoppelingen kunt u materialen zodanig aan bepaalde bewerkingen koppelen dat hun relatie behouden blijft ook al wordt de productiestuklijst of het bewerkingsplan gewijzigd. Ook kunnen hierdoor gemakkelijker materialen nog op het laatste moment worden afgeboekt, namelijk op het moment dat de specifieke gekoppelde bewerking wordt opgestart in plaats van wanneer de gehele productieorder wordt vrijgegeven. Zie voor meer informatie [Materialen afboeken op basis van de uitvoer van een bewerking](production-how-to-flush-components-according-to-operation-output.md).  
 
@@ -84,7 +84,7 @@ Een ander belangrijk voordeel van het koppelen van materialen en bewerkingen is 
 
 De geselecteerde materialen worden gekoppeld aan de geselecteerde bewerkingen zodra u een productieorder maakt of vernieuwt met behulp van de desbetreffende productiestuklijst en het desbetreffende bewerkingsplan. Dit is op de pagina **Prod.-ordermaterialen** te zien onder de productieorder. Op deze pagina kunt u ook op elk moment bewerkingsplankoppelingen verwijderen en toevoegen.
 
-## Medewerkers, tools en kwaliteitsmetingen toewijzen aan bewerkingsplannen
+## <a name="to-assign-personnel-tools-and-quality-measures-to-routing-operations"></a>Medewerkers, tools en kwaliteitsmetingen toewijzen aan bewerkingsplannen
 
 Als u voor een bewerking medewerkers met speciale kwalificaties, speciale kennis of speciale autorisaties nodig hebt, kunt u deze medewerkers toewijzen aan de bewerking. Daarnaast kunt u tools en kwaliteitsvereisten toewijzen aan de bewerking. In deze procedure wordt beschreven hoe u personeel toewijst. De stappen zijn vergelijkbaar voor andere soorten bewerkinginformatie.
 
@@ -94,7 +94,7 @@ Als u voor een bewerking medewerkers met speciale kwalificaties, speciale kennis
 4. Vul de velden op de pagina **Medewerkers bewerkingsplan** in.  
 5. Kies de knop **OK** om de pagina af te sluiten. De ingevoerde waarden worden gekopieerd en toegewezen aan de bewerking.  
 
-## Nieuwe versies maken van bewerkingsplannen
+## <a name="to-create-a-new-version-of-a-routing"></a>Nieuwe versies maken van bewerkingsplannen
 
 Het versieprincipe stelt u in staat verschillende versies van een bewerkingsplan te beheren. De structuur van de bewerkingsplanversie komt overeen met de structuur van het bewerkingsplan: een bewerkingsplanversiekop en -regels. Het belangrijkste verschil wordt bepaald door de begindatum.  
 
@@ -113,7 +113,7 @@ Het versieprincipe stelt u in staat verschillende versies van een bewerkingsplan
 
 De geldigheid van de versie wordt aangegeven in het veld **Begindatum**.  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Productiestuklijsten maken](production-how-to-create-production-boms.md)  
 [Productie instellen](production-configure-production-processes.md)  

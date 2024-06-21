@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# Conformiteitsoverzicht
+# <a name="compliance-overview"></a>Conformiteitsoverzicht
 
 Deze inhoud bevat informatie over naleving in verband met [!INCLUDE[prod_short](../includes/prod_short.md)].  
 
