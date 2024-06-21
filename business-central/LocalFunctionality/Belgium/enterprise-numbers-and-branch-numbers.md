@@ -10,11 +10,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="enterprise-numbers-and-branch-numbers-in-the-belgian-version"></a>Ondernemingnummers en filiaalnummers in de Belgische versie
+# Ondernemingnummers en filiaalnummers in de Belgische versie
 
 Bedrijven ontvangen een uniek ondernemingsnummer en een of meer filiaalnummers van de Belgische [Crossroads Bank for Enterprises](https://crossroadsbankenterprises.com/). Deze nummers worden gebruikt in alle correspondentie om de communicatie met de Belgische administratieve en gerechtelijke autoriteiten te vereenvoudigen.  
 
-## <a name="enterprise-numbers"></a>Ondernemingsnummers
+## Ondernemingsnummers
 
 Het ondernemingsnummer vervangt het bestaande btw-nummer. Voor bestaande bedrijven met een btw-nummer wordt het ondernemingsnummer ingesteld als het btw-nummer voorafgegaan door een voorloopnul. Nieuwe bedrijven krijgen een nieuw ondernemingsnummer.  
 
@@ -32,7 +32,7 @@ Het ondernemingsnummer is ingesteld op de volgende locaties:
 - Tabel Klant  
 - Tabel Leverancier  
 
-## <a name="branch-numbers"></a>Filiaalnummers
+## Filiaalnummers
 
 Er wordt een filiaalnummer aan een bedrijf gegeven om een adres aan te duiden waar ten minste een van de bedrijfsactiviteiten, bijvoorbeeld, een workshop, kantoor, magazijn, bureau of dochteronderneming, wordt uitgeoefend. In tegenstelling tot het ondernemingsnummer hoeft het filiaalnummer niet te worden vermeld.  
 
@@ -43,7 +43,7 @@ Het filiaalnummer is ingesteld op de volgende locaties:
 - Tabel Bedrijfsgegevens  
 - Tabel Vestiging  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Lokale functionaliteit België](belgium-local-functionality.md)
 [Kruispuntdatabank voor ondernemingen](https://kruispuntdatabank.be/)  

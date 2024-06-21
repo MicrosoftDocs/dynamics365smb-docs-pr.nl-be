@@ -11,13 +11,13 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="belgian-coda-bank-statements-in-the-belgian-version"></a>Belgische CODA-bankafschriften in de Belgische versie
+# Belgische CODA-bankafschriften in de Belgische versie
 
 CODA (geCOdeerd DAgafschrift) is een nationale bankstandaard, ontworpen door de Belgische Vereniging van Banken, waarmee elektronische bankafschriften automatisch kunnen worden verwerkt.  
 
 Aan elke soort transactie in een CODA-afschrift wordt een unieke code toegewezen. [!INCLUDE[prod_short](../../includes/prod_short.md)] gebruikt deze code om transacties te interpreteren en deze te vereffenen met de betreffende posten.  
 
-## <a name="applying-statement-lines"></a>Afschriftregels vereffenen
+## Afschriftregels vereffenen
 
 Wanneer u een CODA-afschrift hebt geïmporteerd, kunt u de afschriftregels vereffenen met bestaande posten, op basis van de gegevens in de tabel **Transactiecodering**.  
 
@@ -41,11 +41,11 @@ U kunt het proces zo vaak uitvoeren als u wilt. Alleen afschriftregels met een l
 
 Wanneer u alle afschriftregels hebt vereffend met een grootboekrekening of een bijbehorende klanten- of leverancierspost, kunt u de CODA-afschriftregels boeken. Zie voor meer informatie [CODA-afschriften automatisch overbrengen en boeken](how-to-manually-transfer-and-post-coda-statements.md).  
 
-## <a name="extending-the-coda-integration"></a>De CODA-integratie uitbreiden
+## De CODA-integratie uitbreiden
 
 De huidige ondersteuning voor CODA-bankafschriften kan in [!INCLUDE [prod_short](../../includes/prod_short.md)] online en on-premises worden gebruikt. Partners kunnen echter de functies niet uitbreiden in een app voor [!INCLUDE [prod_short](../../includes/prod_short.md)] online. De code is niet afgeschaft maar kan alleen worden uitgebreid of aangepast voor on-premises implementaties.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Elektronisch bankieren voor België](belgian-electronic-banking.md)   
 [Bankrekeningen instellen voor CODA](how-to-set-up-bank-accounts-for-coda.md)   

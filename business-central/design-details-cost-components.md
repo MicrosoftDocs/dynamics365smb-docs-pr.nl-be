@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="design-details-cost-components"></a>Ontwerpdetails: Kostenonderdelen
+# Ontwerpdetails: Kostenonderdelen
 Kostenonderdelen zijn verschillende soorten kosten die de waarde vormen van een artikeltoename of -afname.  
 
  De volgende tabel toont de verschillende kostenonderdelen en eventuele onderliggende kostenonderdelen waaruit ze bestaan.  
@@ -33,7 +33,7 @@ Kostenonderdelen zijn verschillende soorten kosten die de waarde vormen van een 
 > [!NOTE]  
 >  Vracht- en verzekeringskosten zijn artikeltoeslagen die op elk moment aan de kosten van een artikel kunnen worden toegevoegd. Wanneer u de batchverwerking **Kostprijs herwaarderen - Artikelposten** uitvoert, wordt de waarde van gerelateerde negatieve voorraadmutaties overeenkomstig bijgewerkt.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook  
  [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)   
  [Ontwerpdetails: Verschil](design-details-variance.md) [Voorraadkosten beheren](finance-manage-inventory-costs.md)  
  [Financiën](finance.md)  

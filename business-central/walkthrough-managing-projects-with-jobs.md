@@ -9,7 +9,7 @@ ms.date: 06/24/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="walkthrough-managing-projects"></a>Procedure: Projecten plannen
+# Procedure: Projecten plannen
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
@@ -17,11 +17,11 @@ In deze procedure maakt u kennis met de functies voor projectbeheer. Projecten z
 
  In deze procedure wordt het instellen van een nieuw project behandeld en komt een aantal algemene taken aan de orde zoals het werken met vaste prijzen, in termijnen betalen, facturen boeken voor projecten en projecten kopiëren.  
 
-## <a name="about-this-walkthrough"></a>Informatie over deze procedure
+## Informatie over deze procedure
 
  In deze procedure worden de volgende taken gedemonstreerd:  
 
-### <a name="setting-up-a-project"></a>Een project instellen
+### Een project instellen
 
  Als de budgetstructuur voor projecten is ingesteld, is het eenvoudig om een project te maken. Dit scenario omvat de volgende procedures:  
 
@@ -29,14 +29,14 @@ In deze procedure maakt u kennis met de functies voor projectbeheer. Projecten z
 - Projectspecifieke prijzen voor artikelen, resources en grootboekrekeningen.  
 - Factureren vanuit een project.  
 
-### <a name="handling-fixed-prices"></a>Werken met vaste prijzen
+### Werken met vaste prijzen
 
  U kunt werken met vaste prijzen en prijzen voor services of goederen die van tevoren zijn overeengekomen met de klant. In dit scenario kunt u het volgende doen:  
 
 - Bekijken hoe contractuele en gefactureerde waarden worden vastgesteld.  
 - Extra (niet gefactureerd) werk dat niet is gefactureerd, in het schema opnemen.  
 
-### <a name="copying-a-project"></a>Een project kopiëren
+### Een project kopiëren
 
  In dit deel van het overzicht wordt besproken hoe u een project geheel of gedeeltelijk kunt kopiëren om het handmatig invoeren van gegevens te beperken en de nauwkeurigheid te verhogen. Dit omvat het volgende:  
 
@@ -44,7 +44,7 @@ In deze procedure maakt u kennis met de functies voor projectbeheer. Projecten z
 - Projectspecifieke prijzen kopiëren.  
 - Planningsregels kopiëren.  
 
-### <a name="making-payment-by-installment"></a>Betalen in termijnen
+### Betalen in termijnen
 
  Als een groot, duur project lang doorloopt, spreekt de klant vaak met het bedrijf af om in termijnen te betalen. In dit scenario ziet u hoe betaling in termijnen instelt aan de hand van de volgende onderwerpen:  
 
@@ -52,31 +52,31 @@ In deze procedure maakt u kennis met de functies voor projectbeheer. Projecten z
 - Betalingen aan klanten factureren.  
 - Verbruik verantwoorden in een project met termijnbetalingen.  
 
-## <a name="roles"></a>Rollen
+## Rollen
 
  Deze procedure bevat taken voor de volgende rollen:  
 
 - Projectmanager  
 - Lid van het projectteam  
 
-## <a name="prerequisites"></a>Vereisten
+## Vereisten
 
  Voordat u de stappen in deze procedure kunt uitvoeren, moet u het volgende doen:  
 
 - Installeer de CRONUS-demonstratiedatabase.
 - Maak voorbeeldgegevens met behulp van de stappen in het volgende gedeelte.  
 
-## <a name="story"></a>Scenario
+## Scenario
 
 Dit overzicht draait om CRONUS, een design- en consultancyfirma die nieuwe infrastructuren ontwerpt en installeert, zoals conferentiezalen, kantoren, meubels, accessoires en opslagruimten. Het bedrijf werkt meestal met projecten. Prakash, een projectmanager bij CRONUS gebruikt projecten om een overzicht te krijgen van alle lopende taken die met CRONUS zijn gestart, alsmede van de taken die zijn afgerond. Prakash is meestal degene die afspraken met klanten maakt en de kern van het project, dat bestaat uit taak- en planningslijnen, naast prijzen, bespreekt [!INCLUDE[prod_short](includes/prod_short.md)]. Prakash constateert dat het maken, onderhouden en redigeren van informatie eenvoudig is. Prakash is tevens te spreken over de manier waarop projecten kunnen worden gekopieerd in [!INCLUDE[prod_short](includes/prod_short.md)] en de mogelijkheid om te betalen in termijnen.
 
  Tricia, een lid van het projectteam dat aan Prakash rapporteert, is verantwoordelijk voor de dagelijkse controle van het project. Tricia voert naast de werkzaamheden van technici bij elke taak ook haar eigen werk in, registreert de artikelen die ze hebben gebruikt en de kosten die ze hebben gemaakt.  
 
-## <a name="preparing-sample-data"></a>Voorbeeldgegevens voorbereiden
+## Voorbeeldgegevens voorbereiden
 
  Voordat u met dit scenario begint, moet u Tricia toevoegen als een nieuwe resource.  
 
-### <a name="to-prepare-the-sample-data"></a>De voorbeeldgegevens voorbereiden
+### De voorbeeldgegevens voorbereiden  
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Resources** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw** om een nieuwe resourcekaart te maken.  
@@ -99,7 +99,7 @@ Dit overzicht draait om CRONUS, een design- en consultancyfirma die nieuwe infra
 
 In de volgende procedure maakt u een projectdagboekbatch voor Tricia om het gebruik ervan te boeken.  
 
-### <a name="to-create-a-project-journal-batch"></a>Een projectdagboekbatch maken
+### Een projectdagboekbatch maken  
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projectdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies op de pagina **Projectdagboek** het veld **Batchnaam**. De pagina **Projectdagboekbatches** wordt geopend.  
@@ -111,11 +111,11 @@ In de volgende procedure maakt u een projectdagboekbatch voor Tricia om het gebr
 
 4. Kies de knop **OK** om de wijzigingen op te slaan.
 
-## <a name="setting-up-a-project-1"></a>Een project instellen
+## Een project instellen
 
  In dit scenario heeft CRONUS een contract binnengehaald van de klant Progressive Home Furnishings voor het ontwerpen van een conferentie- en eetzaal. De klant is gevestigd in de Verenigde Staten en voor het project is speciale software nodig. De projectmanager komt tot overeenstemming met de klant en maakt een project dat deze afspraak dekt.  
 
-### <a name="to-set-up-a-project"></a>Een project instellen
+### Een project instellen  
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw** om een nieuwe kaart te maken.  
@@ -135,7 +135,7 @@ In de volgende procedure maakt u een projectdagboekbatch voor Tricia om het gebr
 
  U kunt de prijzen voor klanten aanpassen per project, afhankelijk van de overeenkomsten die u hebt ingesteld. In de volgende procedure geeft de projectmanager kosten op voor Tricia's tijd, stelt hij de prijs voor de vereiste software in en voegt hij de reiskosten toe die de klant is overeengekomen te betalen.  
 
-### <a name="to-customize-pricing"></a>Prijzen aanpassen
+### Prijzen aanpassen  
 
 1. Kies vanuit de **Projectkaart** de actie **Resource**.  
 2. Geef de volgende gegevens op op de pagina **Resourceprijzen project**:  
@@ -161,7 +161,7 @@ In de volgende procedure maakt u een projectdagboekbatch voor Tricia om het gebr
 
  De laatste stappen bij het instellen van een project is het toevoegen van de projecttaken en de planningsregels die deel van elke taak uitmaken. De planningregels bepalen wat aan de klant wordt gefactureerd.  
 
-### <a name="to-add-project-tasks"></a>Projecttaken toevoegen
+### Projecttaken toevoegen  
 
 1.  Op de **project** kaart voor het nieuwe project kiest u de actie **projecttaakregels** .  
 2.  De volgende tabel beschrijft de informatie die u moet invoeren in de velden.  
@@ -183,7 +183,7 @@ In de volgende procedure maakt u een projectdagboekbatch voor Tricia om het gebr
 
  In dit scenario maakt de projectmanager gebruik van **Budget en factureerbaar**. Ze maken drie planningsregels voor taak 1010 en twee planningsregels voor taak 1020.  
 
-### <a name="to-create-planning-lines"></a>Planningsregels maken
+### Planningsregels maken  
 
 1. Selecteer regel 1010 en kies vervolgens de actie **Projectplanningsregels**.  
 
@@ -205,11 +205,11 @@ In de volgende procedure maakt u een projectdagboekbatch voor Tricia om het gebr
 
 4. De pagina sluiten. De totalen worden bijgewerkt op de pagina **Projecttaakregels**.  
 
-## <a name="calculating-remaining-usage"></a>Resterend gebruik berekenen
+## Resterend gebruik berekenen
 
  Tricia, het projectlid van het team, is al een tijdje aan het werk en wil de uren en gebruik tijdens het project registreren. Tricia heeft niet meer uren gewerkt dan van tevoren met de klant is afgesproken. Tricia gebruikt de batchverwerking **Resterend gebruik berekenen** om het resterende verbruik voor het project te berekenen in een projectdagboek. De batchverwerking berekent voor elke projecttaak het verschil tussen het geplande gebruik van artikelen, resources en grootboekkosten en het werkelijke gebruik dat in de projectposten is geboekt. Het resterende gebruik kan zij vervolgens boeken vanuit het projectdagboek waarin het wordt weergegeven.  
 
-### <a name="to-calculate-remaining-usage"></a>Het resterende gebruik berekenen
+### Het resterende gebruik berekenen  
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projectdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Open op de pagina **Projectdagboek** in het veld **Batchnaam** de lijst **Projectdagboekbatches**. Selecteer de projectdagboekbatch **Tricia**.  
@@ -223,11 +223,11 @@ In de volgende procedure maakt u een projectdagboekbatch voor Tricia om het gebr
 
 De regels worden nu geboekt.  
 
-## <a name="creating-and-posting-a-project-sales-invoice"></a>Een projectverkoopfactuur maken en boeken
+## Een projectverkoopfactuur maken en boeken
 
  Vervolgens kan Tricia een nieuwe factuur aanmaken voor het hele project of voor een deel van een project. Tricia kan de factuur ook koppelen aan een andere factuur van dezelfde klant voor hetzelfde project. In dit geval factureert Tricia voor het gehele project omdat het project nu is afgerond.  
 
-### <a name="to-create-a-project-sales-invoice"></a>Een projectverkoopfactuur maken
+### Een projectverkoopfactuur maken  
 
 1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer het project dat u eerder heeft gemaakt en kies vervolgens de actie **project Verkoopfactuur maken** .  
@@ -237,13 +237,13 @@ De regels worden nu geboekt.
 
  Nadat Tricia de factuur heeft gemaakt, heeft ze hiertoe toegang vanuit bijvoorbeeld het Rolcentrum van de **Verkooporderverwerker**. 
 
-### <a name="to-post-a-new-sales-invoice"></a>Een nieuwe verkoopfactuur boeken
+### Een nieuwe verkoopfactuur boeken  
 
 1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Open de factuur voor klantnr. 01445544. U ziet de gegevens die zijn ingevoerd op de planningsregels.  
 3.  Kies de actie **Boeken**. Kies **Ja** om de boeking te bevestigen.  
 
-### <a name="to-view-the-posted-invoice"></a>De geboekte factuur weergeven
+### De geboekte factuur weergeven  
 
 1.  Open het project en kies vervolgens de actie **projectplanningslijnen** .  
 2.  Selecteer een van de planningsregels die zijn gefactureerd en kies de actie **Verkoopfactuur/creditnota**.
@@ -251,17 +251,17 @@ De regels worden nu geboekt.
 
  Tricia heeft een vraag over de prijzen, kosten en winsten die relevant zijn voor dit specifieke project, dus Tricia heeft toegang tot die informatie op de **Statistieken** pagina.  
 
-### <a name="to-open-the-statistics-page"></a>De pagina Statistiek openen
+### De pagina Statistiek openen  
 
 1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Statistieken**. U kunt gedetailleerde informatie bekijken over de projectprijzen, kosten en winsten in zowel lokale als buitenlandse valuta.  
 3.  Kies de knop  **Sluiten**  om de pagina  **projectstatistieken**  te sluiten.  
 
-## <a name="handling-fixed-prices-1"></a>Werken met vaste prijzen
+## Werken met vaste prijzen
 
  CRONUS heeft een contract afgesloten voor het opzetten van vergaderruimten. Als projectmanager wil Prakash een goed overzicht hebben van de voor het project benodigde taken met de daarbij behorende begrote en gemaakte kosten per taak. Daarnaast wil Prakash de totale contractprijs voor het project weten en het bedrag dat tot nu toe is gefactureerd. Ze hebben met de klant overeenstemming bereikt over een vaste prijs voor het project.  
 
-### <a name="to-manage-fixed-pricing-in-projects"></a>Om vaste prijzen in projecten te beheren
+### Om vaste prijzen in projecten te beheren  
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer het  **Guildford** projectnummer en kies vervolgens de actie **projecttaakregels** .  
@@ -281,7 +281,7 @@ De regels worden nu geboekt.
 
 Nadat Tricia aan de planning voor deze taakregel is toegevoegd, werkt ze 25 uur aan het project en boekt ze deze uren in het projectjournaal.  
 
-### <a name="to-enter-hours-in-a-project-journal"></a>Uren invoeren in het projectdagboek
+### Uren invoeren in het projectdagboek  
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Projectdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Maak een nieuwe regel met de volgende informatie:  
@@ -336,13 +336,13 @@ Nadat Tricia aan de planning voor deze taakregel is toegevoegd, werkt ze 25 uur 
 
 In de totale prijs van het contract, zijn alleen de oorspronkelijk afgesproken 30 uur opgenomen aangezien die met de klant zijn overeengekomen.  
 
-## <a name="copying-projects"></a>Projecten kopiëren
+## Projecten kopiëren
 
 Prakash heeft een overeenkomst bereikt met de klant Selagorian Ltd om 10 conferentieruimten in te richten. De overeenkomst lijkt op een eerder project. Daarom bespaart het tijd om dat eerdere project te kopiëren.  
 
 Op de pagina  **project kopiëren**  kunt u het project en de taakregels selecteren die u wilt kopiëren. U kunt er ook voor kiezen om de bronprojectgrootboekposten te kopiëren, waardoor planningsregels worden gemaakt op basis van het werkelijke gebruik, of u kunt de bronprojectplanningsregels kopiëren, waarmee de oorspronkelijke planningsregels naar het nieuwe project worden gekopieerd. Vervolgens kunt u kiezen welk type planningsregel of grootboekboekingsregel u wilt opnemen, waarbij u alleen selecteert wat relevant is voor dit nieuwe project. Ten slotte kunt u het project selecteren waarnaar u wilt kopiëren en definiëren of prijzen en hoeveelheden ook moeten worden gekopieerd.  
 
-### <a name="to-copy-a-project"></a>Een project kopiëren
+### Een project kopiëren  
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw** om een ​​nieuw project te maken. Geef de volgende informatie op:  
@@ -364,11 +364,11 @@ Op de pagina  **project kopiëren**  kunt u het project en de taakregels selecte
 
 Door prijzen, projecttaakregels en projectplanningsregels voor de twee projecten te vergelijken, kunt u zien dat de informatie succesvol is gekopieerd.  
 
-## <a name="making-payments-by-installments"></a>Betalen in termijnen
+## Betalen in termijnen
 
 CRONUS heeft net een groot project binnengehaald dat een jaar gaat duren. Omdat hiervoor veel resources nodig zijn, stelt de projectmanager het contract zo in dat de klant een gedeelte van de prijs vooraf betaalt, een tweede deel wanneer het project half is voltooid en de laatste betaling na voltooiing.  
 
-### <a name="to-set-up-a-new-account"></a>Een nieuwe rekening instellen
+### Een nieuwe rekening instellen  
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Rekeningschema** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies op de pagina **Rekeningschema** de actie **Nieuw** om een nieuwe kaart te maken.  
@@ -382,7 +382,7 @@ CRONUS heeft net een groot project binnengehaald dat een jaar gaat duren. Omdat 
 
 De volgende procedures laten zien hoe u een nieuw project maakt, de prijzen instelt en vervolgens de betaling in termijnen instelt. U kunt in de projecttaakregels specifieke regels opnemen voor de betalingen in termijnen. Al het werk dat is voltooid voor het project dat aan de planning wordt toegevoegd, wordt op de gebruiksregels ingevoerd. Voor elke betalingstaakregel in de planningsregels is de regelsoort **Factureerbaar**, wat betekent dat de klant wordt gefactureerd. Voer een nieuwe regel in voor de aanbetaling. Op de gebruikstaakregel kunt u de informatie invoeren voor de artikelen en resources die in dit project zijn gebruikt, waardoor de planning toeneemt, zoals werknemersuren en artikelen die voor het project worden gebruikt.  
 
-### <a name="to-make-a-payment-by-installment"></a>Betalen in termijnen
+### Betalen in termijnen  
 
 1. Een nieuw project maken.  
 2. Vul op de nieuwe **project** kaart de volgende informatie in:  
@@ -443,17 +443,17 @@ De volgende procedures laten zien hoe u een nieuw project maakt, de prijzen inst
 
  Nu de taak- en planningsregels zijn ingevoerd kan Prakash een factuur voor de eerste betaling maken. Prakash doet dit op basis van de projecttaakregels om er zeker van te zijn dat de factuur alleen de regels voor de eerste betaling bevat. Open de verkooporder vanuit de planningsregels of de taakregels.  
 
-### <a name="to-create-an-invoice"></a>Een factuur maken
+### Een factuur maken  
 
 1.  Selecteer op de pagina **Projecttaakregels** regel 1000 en kies de actie **Verkoopfactuur maken**.  
 2.  Stel op de pagina **Verkoopfactuur maken** de datum van vandaag in als de boekingsdatum, geef **Per taak** op en kies de knop **OK** om een factuur te maken met de standaardinformatie. Kies de knop **OK** om de bevestigingspagina te sluiten.  
 3.  Kies de actie **Verkoopfactuur/creditnota**. U ziet op de verkoopfactuur dat alleen de aanbetaling in de factuur is opgenomen. Verstuur de factuur nu aan de klant zoals is overeengekomen.  
 
-## <a name="summary"></a>Volgende stappen
+## Volgende stappen
 
  Deze walkthrough heeft u door enkele basisstappen geleid voor het werken met projecten in [!INCLUDE[prod_short](includes/prod_short.md)]. U hebt geleerd hoe u een nieuw project aanmaakt, hoe u een project kopieert en hoe u met betalingen omgaat. Ook hebt u een demonstratie gekregen van het bijhouden van uren en het opstellen van facturen.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
  [Procedures voor bedrijfsprocessen](walkthrough-business-process-walkthroughs.md)  
  [Projectbeheer instellen](projects-setup-projects.md)  

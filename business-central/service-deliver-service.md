@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="delivering-service"></a>Service leveren
+# Service leveren
 Met [!INCLUDE[prod_short](includes/prod_short.md)] beschikt u over functies waarmee u services kunt leveren op basis van de contracten die u hebt opgesteld en de afgesloten serviceorders die u dient na te komen. Uw servicetechnici of planners kunnen de uitstaande serviceorders gemakkelijk vinden indien ze **Planbord** gebruiken. In het **planbord** wordt op een overzichtelijke manier aangegeven welke orders in behandeling zijn en welke voltooid zijn.  
   
 Serviceorders die in behandeling zijn, kunnen ook worden weergegeven met de pagina **Servicetaken**, die een overzicht van uw serviceverplichtingen bevat. U ziet hier op welk punt in de werkstroom een order zich bevindt; u kunt die status wijzigen en zo interacties met uw klant weerspiegelen.  
@@ -33,7 +33,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Facturen maken en boeken voor services die u hebt geleverd.|[Servicefacturen of creditnota's maken](service-how-create-invoices.md)|  
 |Klanten tevreden houden door ze artikelen in bruikleen te geven terwijl u aan hun artikelen werkt.| [Uitleenartikelen uitlenen en ontvangen](service-how-to-lend-receive-loaners.md)|
   
-## <a name="see-also"></a>Zie ook
+## Zie ook  
 [Service plannen](service-plan-service.md)  
 [Servicecontracten voldoen](service-fulfill-service-contracts.md)  
 [Projecten beheren](projects-manage-projects.md)  

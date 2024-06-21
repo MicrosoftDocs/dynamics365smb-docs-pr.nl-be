@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="use-e-documents-in-the-purchases-process"></a>E-documenten gebruiken in het aankoopproces
+# E-documenten gebruiken in het aankoopproces
 
 U kunt geconfigureerde elektronische documenten (e-documenten) gebruiken met de inkoopdocumenten.
 
@@ -26,11 +26,11 @@ De volgende inkoopdocumenten kunnen worden gebruikt met e-documenten:
 > [!NOTE]
 > Vanaf [!INCLUDE[prod_short](includes/prod_short.md)] versie 24.0 is het mogelijk om **Inkooporders** te koppelen aan de ontvangen **E-documenten**.  
 
-## <a name="e-documents-in-purchases"></a>E-documenten bij inkopen
+## E-documenten bij inkopen
 
 De ontvangst van inkoop-e-documenten in Dynamics 365 Business Central kan als batchverwerking of handmatig worden uitgevoerd.  
 
-### <a name="how-to-set-up-vendors-to-work-with-different-purchase-documents"></a>Leveranciers instellen om met verschillende inkoopdocumenten te werken
+### Leveranciers instellen om met verschillende inkoopdocumenten te werken  
 
 Volg deze stappen om leveranciers te configureren zodat ze goed kunnen werken met inkomende elektronische facturen: 
 
@@ -47,9 +47,9 @@ Volg deze stappen om leveranciers te configureren zodat ze goed kunnen werken me
 4. Kies een van de opties die u voor de geselecteerde leverancier wilt gebruiken. 
 5. De pagina sluiten.   
 
-### <a name="to-work-with-purchase-invoices"></a>Werken met inkoopfacturen
+### Werken met inkoopfacturen  
 
-#### <a name="run-the-batch-job"></a>De batchverwerking uitvoeren
+#### De batchverwerking uitvoeren  
 
 > [!NOTE]
 > Deze batchverwerking is bedoeld voor het geautomatiseerd verzamelen van uw inkomende facturen. Het kan alleen werken in een land/regio waar de functionaliteit bestaat.  
@@ -77,7 +77,7 @@ Er zijn twee veelvoorkomende fouten:
 
 Nadat u de fouten en waarschuwingen heeft verholpen, kunt u handmatig opgeven wanneer het systeem een inkoopfactuur moet maken op basis van uw instellingen door **Document maken** te selecteren.   
 
-#### <a name="manually-import-invoices"></a>Handmatig facturen importeren
+#### Handmatig facturen importeren  
 
 Om externe e-documenten handmatig te importeren volgt u deze stappen:
 
@@ -88,9 +88,9 @@ Om externe e-documenten handmatig te importeren volgt u deze stappen:
 5. Wanneer u klaar bent met het oplossen van de problemen, selecteert u in de groep **Handmatig importeren** de optie **Document maken**.  
 6. Nadat het document is gemaakt in [!INCLUDE[prod_short](includes/prod_short.md)], verandert het gebruik van een batchtaak niets aan de manier waarop u het bekijkt. 
 
-### <a name="e-documents-with-purchase-orders"></a>E-documenten met aan inkooporders
+### E-documenten met aan inkooporders  
 
-#### <a name="to-link-purchase-orders-with-the-received-e-documents"></a>Inkooporders koppelen aan de ontvangen e-documenten
+#### Inkooporders koppelen aan de ontvangen e-documenten
 
 Als uw **leverancier** het veld **E-document ontvangen om** heeft geconfigureerd om te werken met **Inkooporders**, doet [!INCLUDE[prod_short](includes/prod_short.md)] het volgende zodra het e-document wordt gemaakt in [!INCLUDE[prod_short](includes/prod_short.md)] (handmatig of vanaf een extern eindpunt):  
 
@@ -100,7 +100,7 @@ Als uw **leverancier** het veld **E-document ontvangen om** heeft geconfigureerd
 
 3. Als de **inkooporder** voor deze specifieke leverancier niet bestaat wanneer een nieuw **e-document** wordt gemaakt, maakt [!INCLUDE[prod_short](includes/prod_short.md)] een nieuwe **inkooporder**, waarbij hetzelfde maakmodel wordt gebruikt dat al bestaat voor nieuwe **Inkoopfacturen**. De **documentstatus** van dit **E-document** zal **Verwerkt** zijn en de **E-documentstatus** op de subpagina **Servicestatus** wordt **Geïmporteerd document gemaakt**. Deze koppeling zal zichtbaar zijn in het veld **Document** veld van dit specifieke **e-document**.   
 
-#### <a name="matching-lines-from-received-e-document-with-purchase-order"></a>Regels uit ontvangen e-document afstemmen met inkooporder
+#### Regels uit ontvangen e-document afstemmen met inkooporder  
 
 U kunt uw ontvangen elektronische documenten afstemmen met regels van inkooporders van twee verschillende plaatsen: vanaf de pagina **E-document** of vanaf de pagina **Inkooporder**. De eenvoudigste manier om de reeds gekoppelde **Inkooporders** te vinden is het gebruik van de tegel **Gekoppelde inkooporders** als onderdeel van **E-documentactiviteiten**. Alle niet-gekoppelde documenten zijn te vinden via de tegel **Wachtende e-inkoopfacturen**, waar u een lijst hebt met **E-documenten** die u moet beoordelen.  
 
@@ -110,7 +110,7 @@ U kunt uw ontvangen elektronische documenten afstemmen met regels van inkooporde
 > [!NOTE]
 > Als het btw-percentage verschilt tussen het binnenkomende document en het btw-percentage van het bedrijf, kunnen overeenkomende documenten niet worden gebruikt in een omgeving met meerdere landen/regio's.  
 
-##### <a name="matching-lines-from-purchase-order"></a>Overeenkomende regels uit inkooporder
+##### Overeenkomende regels uit inkooporder  
 
 U kunt de regels uit de lijst **Inkooporders** of uit een van de geopende **Inkooporders** afstemmen. Voer de volgende stappen uit om hiermee te beginnen:  
 
@@ -160,7 +160,7 @@ Als u enige tolerantie wilt toevoegen en rekening wilt houden met het verschil t
 3. Deze instelling is van toepassing op alle overeenkomende regels, maar houdt opnieuw rekening met de tolerantie voor het totale bedrag, zoals voor **Directe kostprijs** samen met het toegepaste **Regelkorting %**.  
 4. De pagina sluiten.   
 
-##### <a name="matching-lines-from-e-document"></a>Regels uit een e-document afstemmen
+##### Regels uit een e-document afstemmen  
 
 U kunt de regels op de pagina **E-document** afstemmen. Voer de volgende stappen uit om hiermee te beginnen:  
 
@@ -169,7 +169,7 @@ U kunt de regels op de pagina **E-document** afstemmen. Voer de volgende stappen
 3. Kies de actie **Inkooporder afstemmen** om de pagina **Afstemming inkooporders** te openen.  
 4. Herhaal dezelfde stappen die u gebruikte toen u begon met het afstemmen vanuit inkooporders.
 
-### <a name="e-document-matching-assistance-copilot"></a>Copilot Hulp bij afstemming van e-document
+### Copilot Hulp bij afstemming van e-document  
 
 > [!NOTE]
 > Momenteel bevindt de copilot **Hulp bij afstemming van e-document** zich in de previewfase Klaar voor productie en is deze wereldwijd beschikbaar, behalve in Canada. Het werkt alleen in het Engels. 
@@ -177,7 +177,7 @@ U kunt de regels op de pagina **E-document** afstemmen. Voer de volgende stappen
 > [!NOTE]
 > Copilot is de door AI aangedreven assistent die mensen in uw organisatie helpt hun creativiteit aan te wenden en vervelende taken te automatiseren. De copilot **Hulp bij afstemming van e-document** helpt gebruikers hun ontvangen elektronische facturen eenvoudig af te stemmen met bestaande inkooporderorderregels, waarbij het LLM-model wordt gebruikt voor het afstemmen van regels tussen twee verschillende documenten. 
 
-#### <a name="to-activate-the-copilot"></a>De copilot activeren
+#### De copilot activeren  
 
 Als u de copilot **Hulp bij afstemming van e-document** niet hebt geactiveerd, moet u dit handmatig doen. Als u de copilot **Hulp bij afstemming van e-document** wilt inschakelen, volgt u deze stappen: 
 
@@ -186,7 +186,7 @@ Als u de copilot **Hulp bij afstemming van e-document** niet hebt geactiveerd, m
 
 Zodra de copilot is geactiveerd, kunt u deze gaan gebruiken.
 
-#### <a name="use-the-e-document-matching-assistance-copilot"></a>De copilot Hulp bij afstemming van e-document gebruiken
+#### De copilot Hulp bij afstemming van e-document gebruiken 
 
 Als de copilot is geactiveerd, krijgen bestaande acties **E-documentregels toewijzen** in ingekochte orders en **Inkooporder afstemmen** op de pagina **E-document** verschillende pictogrammen, die de AI-mogelijkheid symboliseren. U kunt deze acties (hetzelfde als in de vorige voorbeelden uit de lijst met inkooporders) uitvoeren vanuit een van de **Inkooporders** of vanuit **E-document**. Alle stappen voor uitvoering zijn hetzelfde, maar wanneer u deze actie uitvoert, zal het resultaat anders zijn en moet u deze stappen volgen:  
 
@@ -231,7 +231,7 @@ Als de copilot is geactiveerd, krijgen bestaande acties **E-documentregels toewi
 > [!NOTE]
 > Prijs-/kostenanalyse en de controle van de beschikbare hoeveelheid maken deel uit van de voorverwerkingsactiviteit.   
 
-## <a name="overview-of-e-document-statuses"></a>Overzicht van e-documentstatussen
+## Overzicht van e-documentstatussen
 
 Om een beter overzicht te krijgen van alle e-documenten in het bedrijf, kunt u het rolcentrum **Accountant** selecteren waar de statussen van e-documenten voorkomen. Daar vindt u e-documentactiviteiten met de volgende statussen:
 
@@ -242,7 +242,7 @@ Om een beter overzicht te krijgen van alle e-documenten in het bedrijf, kunt u h
     - Fout
 
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [E-documenten instellen](finance-how-setup-edocuments.md)    
 [E-document gebruiken in het verkoopproces](finance-how-use-edocuments.md)   

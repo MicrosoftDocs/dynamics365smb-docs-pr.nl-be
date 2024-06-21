@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="direct-debit-using-domiciliation"></a>Incasso via domiciliëring
+# Incasso via domiciliëring
 
 Een domiciliëring is een financiële overeenkomst tussen u en uw klanten, zodat u de betalingen voor facturen van de klant automatisch kunt innen via een bankrekening van voorkeur. Domiciliëringen kunnen alleen worden verwerkt voor binnenlandse klanten met binnenlandse bankrekeningen. Domiciliëringen in vreemde valuta's of via buitenlandse banken worden niet ondersteund.  
 
@@ -23,14 +23,14 @@ Voordat u kunt beginnen met elektronisch bankieren voor domiciliëringen, moet u
 
 - Bankrekening van voorkeur: de bankrekening van voorkeur wordt voorgesteld als standaardbankrekening in alle domiciliëringsvoorstellen voor die klant. Indien nodig kunt u de bankrekening wijzigen voordat u de domiciliëringsvoorstellen boekt. Zie [Domiciliëringsvoorstellen genereren](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation) voor meer informatie.  
 
-## <a name="set-up-domiciliations"></a>Domiciliëringen instellen
+## Domiciliëringen instellen
 
 Voordat u kunt beginnen met elektronisch bankieren voor domiciliëringen, moet u het domiciliëringsnummer van de klant en de bankrekening van voorkeur opgeven.  
 
 > [!NOTE]  
 > U moet één bankrekening per klant gebruiken voor alle domiciliëringen.  
 
-### <a name="to-set-up-domiciliation"></a>Domiciliëring instellen
+### Domiciliëring instellen  
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Klanten** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer de klant en kies vervolgens de actie **Bewerken**.  
@@ -41,11 +41,11 @@ Voordat u kunt beginnen met elektronisch bankieren voor domiciliëringen, moet u
     |**Domiciliëring**|Voer het domiciliëringsnummer voor de klant in. Dit nummer wordt gebruikt als u domiciliëringen voor deze klant maakt.|  
     |**Bankrekening van voorkeur**|Voer de bankrekening van voorkeur in voor transacties met deze klant. Deze rekening wordt gebruikt als u een betalingsvoorstel maakt voor deze klant.|  
 
-## <a name="generate-domiciliation-suggestions"></a>Domiciliëringsvoorstellen genereren
+## Domiciliëringsvoorstellen genereren
 
 Als u domiciliëringen hebt ingesteld, kunt u beginnen met het genereren van domiciliëringsvoorstellen. In [!INCLUDE[prod_short](../../includes/prod_short.md)] kunt u domiciliëringsvoorstellen alleen voor binnenlandse klanten maken.  
 
-### <a name="to-generate-domiciliation-suggestions"></a>Domiciliëringsvoorstellen genereren
+### Domiciliëringsvoorstellen genereren  
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Domiciliëringsdagboek** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer in het veld **Batchnaam** de vereiste dagboekbatch en kies vervolgens de actie **Domiciliëringen voorstellen**.  
@@ -67,7 +67,7 @@ Wanneer de batchverwerking is uitgevoerd, bevat het domiciliëringsdagboek alle 
 > [!NOTE]  
 > De domiciliëringsvoorstellen bevatten alleen klanten waarvoor een domiciliëringsnummer is ingesteld. Zie de sectie [Domiciliëringen instellen](#set-up-domiciliations) voor meer informatie.  
 
-## <a name="edit-and-delete-domiciliation-lines"></a>Domiciliëringsregels bewerken en verwijderen
+## Domiciliëringsregels bewerken en verwijderen
 
 Nadat u domiciliëringsvoorstellen hebt gegenereerd, wilt u wellicht de domiciliëringsregels wijzigen. U kunt bijvoorbeeld een bankrekening opnieuw toewijzen of betaling voor een bepaalde klant of klantenpost voorkomen.  
 
@@ -75,31 +75,31 @@ Nadat u de dagboekregels hebt gewijzigd, drukt u het rapport **Domiciliëringsda
 
 Met de batchverwerking **Domiciliëringen voorstellen** maakt u domiciliëringsvoorstellen voor alle klanten die overeenkomen met de opgegeven criteria.  
 
-### <a name="to-edit-a-journal-line"></a>Een dagboekregel bewerken
+### Een dagboekregel bewerken  
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Domiciliëringsdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer in het veld **Batchnaam** de vereiste dagboekbatch.  
 3. Selecteer de dagboekregel en bewerk de velden.  
 
-### <a name="to-delete-a-journal-line"></a>Een dagboekregel verwijderen
+### Een dagboekregel verwijderen  
 
 1 Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Domiciliëringsdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer in het veld **Batchnaam** de vereiste dagboekbatch.  
 3. Selecteer de dagboekregel en kies de actie **Verwijderen**.  
 4. Kies de knop **Ja**.  
 
-## <a name="test-domiciliations"></a>Domiciliëringen testen
+## Domiciliëringen testen
 
 Als u de domiciliëringsdagboekregels wilt testen, kunt u het rapport **Domiciliëringsdagboek - Test** gebruiken. Hiermee drukt u een overzicht af van alle dagboekregels en eventuele fouten, zoals ontbrekende velden of onjuiste bankrekeningen. U moet alle fouten corrigeren voordat u de regels kunt boeken.  
 
-### <a name="to-print-a-domiciliation-test-report"></a>Een domiciliëringstestrapport afdrukken
+### Een domiciliëringstestrapport afdrukken  
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Domiciliëringsdagboek** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer in het veld **Batchnaam** de vereiste dagboekbatch.  
 3. Kies de actie **Testrapport**.  
 4. Kies de knop **Afdrukken** om het rapport af te drukken of kies de knop **Voorbeeld** om het rapport op het scherm weer te geven.  
 
-## <a name="export-and-post-domiciliations"></a>Domiciliëringen exporteren en boeken
+## Domiciliëringen exporteren en boeken
 
 U kunt domiciliëringen naar uw bank verzenden door de gegevens naar een bestand te exporteren. Wanneer u naar een bestand exporteert, kunt u ervoor kiezen de regels automatisch naar het grootboek te boeken.  
 
@@ -108,7 +108,7 @@ Afhankelijk van de instelling van het veld **Exportindeling van incasso van SEPA
 - De pagina **Dagboekregels maken**, voor de indeling SEPA Incasso.  
 - De pagina **Bestandsdomiciliëringen**, voor binnenlandse indelingen.  
 
-### <a name="to-export-and-post-domiciliations"></a>Domiciliëringen exporteren en boeken
+### Domiciliëringen exporteren en boeken
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Domiciliëringsdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer in het veld **Batchnaam** de vereiste dagboekbatch en kies vervolgens de actie **Bestandsdomiciliëringen**.  
@@ -124,7 +124,7 @@ Afhankelijk van de instelling van het veld **Exportindeling van incasso van SEPA
     > [!NOTE]  
     >  Nadat u domiciliëringen in het dagboek hebt geboekt, verwijdert u de geboekte domiciliëringen op de pagina **Domiciliëringsdagboek**. Hiervoor selecteert u alle regels met de status **Geboekt** en kiest u de actie **Verwijderen**.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Belgische elektronische betalingen](belgian-electronic-payments.md)  
 [Elektronisch bankieren voor België](belgian-electronic-banking.md)  

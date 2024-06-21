@@ -12,7 +12,7 @@ ms.custom: bap-template
 ms.reviewer: bholtorf
 ---
 
-# <a name="set-up-digital-vouchers"></a>Digitale bonnen instellen
+# Digitale bonnen instellen
 
 Beheerders kunnen de digitale bonnenfunctionaliteit gebruiken om te vereisen dat documenten aan specifieke transacties worden toegevoegd wanneer ze worden geboekt. Deze functionaliteit maakt daarom een brongestuurde aanpak mogelijk en zorgt voor een beter controletraject. Hiervoor kunnen verschillende soorten handhaving worden geconfigureerd, afhankelijk van de document- of journaaltypes.
 
@@ -21,14 +21,14 @@ De term *digitale bon* verwijst naar een digitale of elektronische vorm van een 
 > [!IMPORTANT]
 > In sommige landen/regio's is het mogelijk dat u bepaalde opties niet kunt configureren, omdat specifieke instellingen mogelijk wettelijk verplicht zijn. Als u met deze beperkingen te maken krijgt, kijk dan voor een gedetailleerde uitleg op de documentatiepagina voor uw land/regio.
 
-## <a name="enable-digital-vouchers"></a>Digitale bonnen inschakelen
+## Digitale bonnen inschakelen
 
 Volg deze stappen om de digitale bonnenfunctionaliteit in te schakelen.
 
 1. Selecteer het ![Lampje dat de functie Vertel me opent 3.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Digitale bonnen instellen** in en selecteer vervolgens de gerelateerde koppeling.
 2. Schakel het selectievakje **Geactiveerd** in.
 
-## <a name="set-up-digital-vouchers-1"></a>Digitale bonnen instellen
+## Digitale bonnen instellen
 
 Voor de volgende documenten en dagboeken kunt u verschillende instellingen gebruiken.
 
@@ -48,7 +48,7 @@ Volg deze stappen om te definiëren hoe uw organisatie afgedwongen digitale bonn
 4. Selecteer het selectievakje **Automatisch genereren** om de digitale bon automatisch te genereren. Als u bijvoorbeeld niet handmatig een verkoopfactuur aan uw transactie wilt toevoegen, schakelt u dit selectievakje in. Vervolgens hoeft u alleen maar het document te boeken. Het systeem maakt automatisch het document op basis van uw rapportindeling en voegt het toe aan de transactie.
 5. Selecteer het selectievakje **Overslaan indien handmatig toegevoegd** als u geen automatisch gegenereerde digitale bon wilt toevoegen als de gebruiker al een handmatige bijlage heeft toegevoegd.
 
-### <a name="use-source-codes-for-setup"></a>Broncodes gebruiken voor de instelling
+### Broncodes gebruiken voor de instelling
 
 Als u afdwinging voor dagboeken wilt gebruiken, maar niet voor alle transactietypen, verbindt u de specifieke broncode om het posttype te identificeren in het dagboek, het verkoopdagboek of het inkoopdagboek.
 
@@ -58,7 +58,7 @@ Volg deze stappen om specifieke broncodes voor digitale bonnen in te stellen.
 2. Selecteer op de pagina **Broncodes voor boninvoer** de broncodes die u wilt configureren.
 3. De pagina sluiten.
 
-## <a name="use-the-functionality"></a>De functionaliteit gebruiken
+## De functionaliteit gebruiken
 
 Open een inkoop- of verkoopdocument en voer informatie in de vereiste velden in. Voordat u het document boekt, moet u deze stappen volgen om een digitale bon bij te voegen.
 
@@ -75,13 +75,13 @@ Als u per ongeluk de verkeerde bon bijvoegt, volgt u deze stappen om deze te ver
 > [!NOTE]
 > Als het bijvoegen van een digitale bon als verplicht is geconfigureerd en u documenten of dagboeken probeert te boeken zonder een bon bij te voegen, voorkomt het systeem dat u kunt boeken. U ontvangt de volgende foutmelding: "Boeken zonder een digitale bon bij te voegen is niet mogelijk".
 
-### <a name="find-attached-vouchers-in-transactions"></a>Bijgevoegde bonnen vinden in transacties
+### Bijgevoegde bonnen vinden in transacties
 
 U kunt de bijgevoegde bon vinden vanuit het geboekte document of op de pagina **Grootboekposten** door te kijken in het feitenblok **Inkomende documentbestanden**.
 
 U kunt een bijgevoegd document niet verwijderen nadat het boeken is voltooid. U kunt echter meer bijlagen toevoegen nadat het boeken is voltooid.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Financieel beheer](finance.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

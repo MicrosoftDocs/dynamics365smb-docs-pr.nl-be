@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="the-envestnet-yodlee-bank-feeds-extension"></a>De extensie Envestnet Yodlee Bank Feeds
+# De extensie Envestnet Yodlee Bank Feeds
 
 Om betalingen die naar aan uw bankrekeningen zijn overgemaakt snel te reconciliëren, biedt de service Envestnet Yodlee Bank Feeds u de mogelijkheid om uw systeembankrekening aan uw online bankrekening te koppelen. Dit betekent dat het laatste bankafschrift automatisch of handmatig in uw reconciliatiedagboek wordt gevoerd, ervoor zorgend dat u altijd de laatste betalingen verwerkt met minimaal risico of minimale fouten.
 
@@ -34,13 +34,13 @@ De service Envestnet Yodlee Bank Feeds biedt de volgende voordelen:
 * Ondersteuning van handmatige en automatische bankfeeds.
 * Mogelijkheid van uitbesteding van betalingsreconciliatie aan een accountant door toegang tot bankafschriften te bieden.
 
-## <a name="available-bank-feeds"></a>Beschikbare bankfeeds
+## Beschikbare bankfeeds
 
 U kunt controleren of een bank wordt ondersteund door de Envestnet Yodlee Bank Feeds-service in te stellen en er verbinding mee te maken. De bank zal op de lijst verschijnen als deze wordt ondersteund door Envestnet Yodlee.
 
 Zie voor meer informatie [De Envestnet Yodlee Bank Feeds-service instellen](bank-how-setup-bank-statement-service.md).
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies ](ui-extensions.md)  
 [Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md)  

@@ -12,11 +12,11 @@ ms.search.form: '103, 104, 108, 195, 196, 197, 198, 488, 489, 490, 764, 765, 766
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="column-definitions-in-financial-reporting"></a>Kolomdefinities in financiële rapportage
+# Kolomdefinities in financiële rapportage
 
 Gebruik kolomdefinities om op te geven welke kolommen in een rapport moeten worden opgenomen. U kunt bijvoorbeeld een rapportindeling maken om mutatie en saldo te vergelijken voor dezelfde periode dit jaar en vorig jaar. U kunt maximaal 15 kolommen in een kolomdefinitie hebben. Meerdere kolommen zijn bijvoorbeeld handig voor het weergeven van budgetten voor 12 maanden met een kolom die het totaal laat zien.
 
-## <a name="create-or-edit-a-column-definition"></a>Een kolomdefinitie maken of bewerken
+## Een kolomdefinitie maken of bewerken
 
 Volg deze stappen om een kolomdefinitie te maken of te bewerken.
 
@@ -28,7 +28,7 @@ Volg deze stappen om een kolomdefinitie te maken of te bewerken.
 1. Klik op **OK**.
 1. Open van tijd tot tijd de pagina **Financieel rapport** om te controleren of de nieuwe kolomdefinitie werkt zoals bedoeld.
 
-## <a name="built-in-column-definitions"></a>Ingebouwde kolomdefinities
+## Ingebouwde kolomdefinities
 
 [!INCLUDE[prod_short](includes/prod_short.md)] biedt voorbeeldkolomdefinities waarmee u snel aan de slag kunt gaan met het opstellen van financiële rapporten die aan uw behoeften voldoen.
 
@@ -41,7 +41,7 @@ Volg deze stappen om een kolomdefinitie te maken of te bewerken.
 | TBA 4 | TBA 4 | TBA 4 |
 -->
 
-## <a name="example-create-a-column-definition-to-calculate-percentages"></a>Voorbeeld: een kolomdefinitie maken om percentages te berekenen
+## Voorbeeld: een kolomdefinitie maken om percentages te berekenen
 
 U wilt misschien een kolom opnemen in een financieel rapport om percentages van een totaal te berekenen. U hebt bijvoorbeeld een aantal rijen die zijn onderverdeeld op dimensie, en u wilt wellicht een kolom maken om het percentage aan te geven van de totale verkoop van elke rij.
 
@@ -58,7 +58,7 @@ U wilt misschien een kolom opnemen in een financieel rapport om percentages van 
     1. Voer in het veld **Formule** een formule in voor het bedrag waarvoor u een percentage wilt berekenen, gevolgd door het percentageteken (%). Dus als kolomnummer N de mutatie bevat, voert u **N%** in.  
 1. Herhaal stap 4 tot en met 7 voor elke groep rijen die u wilt uitsplitsen op percentage.
 
-## <a name="comparing-accounting-periods-using-period-formulas"></a>Boekingsperioden vergelijken met behulp van periodeformules
+## Boekingsperioden vergelijken met behulp van periodeformules
 
 Uw financiële rapport kan de resultaten vergelijken van verschillende boekingsperioden, zoals de afgelopen maand vergeleken met dezelfde maand vorig jaar. Open hiervoor de pagina **Kolomdefinitie** en personaliseer deze door het veld **Periodevergelijkingsformule** als een kolom toe te voegen. Zie voor meer informatie [Uw werkruimte personaliseren](ui-personalization-user.md). U kunt dat veld vervolgens instellen op een periodeformule.  
 
@@ -94,7 +94,7 @@ Zie voor meer informatie [Werken met kalenderdatums en tijden](ui-enter-date-ran
 
 [!INCLUDE [report-best-practices-column-defs](includes/report-best-practices-column-defs.md)]
 
-## <a name="import-or-export-financial-report-column-definitions"></a>Kolomdefinities van financiële rapporten importeren of exporteren
+## Kolomdefinities van financiële rapporten importeren of exporteren
 
 Vanaf releasewave 1 van 2024 (versie 24.1) kunt u kolomdefinities voor financiële rapporten importeren en exporteren als RapidStart -configuratiepakketten. Configuratiepakketten zijn bijvoorbeeld handig om informatie te delen met andere bedrijven. Het pakket wordt gemaakt vanuit een .rapidstart-bestand, dat de inhoud comprimeert.
 
@@ -106,7 +106,7 @@ Volg deze stappen om kolomdefinities van financiële rapporten te importeren of 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent 4.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Kolomdefinities** in en kies vervolgens de gerelateerde koppeling.
 1. Kies de rijdefinitie en kies vervolgens de actie **Kolomdefinitie importeren** of **Kolomdefinitie exporteren**, afhankelijk van wat u wilt doen.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Rijdefinities in financiële rapportage](bi-row-definitions.md)  
 [Financiële rapportage voorbereiden](bi-how-work-account-schedule.md)  

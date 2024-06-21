@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="design-details-item-tracking-design"></a>Ontwerpdetails: Ontwerp artikeltracering
+# Ontwerpdetails: Ontwerp artikeltracering
 
 Artikeltracering in [!INCLUDE[prod_short](includes/prod_short.md)] begon met [!INCLUDE [navnow_md](includes/navnow_md.md)]. De artikeltracering bevindt zich in een aparte objectstructuur met ingewikkelde koppelingen naar geboekte documenten en artikelposten, en is geïntegreerd met het reserveringssysteem, dat de reservering, ordertracering en actieberichten afhandelt. Zie voor meer informatie [Ontwerpdetails: Reservering, ordertracering en planningsboodschappen](design-details-reservation-order-tracking-and-action-messaging.md) in de ontwerpdetails van voorzieningplanning.  
 
@@ -33,7 +33,7 @@ Codeunit 22, **Artikeldagboek. - Regel boeken** splitst nu de boeking volgens de
 
 Zie voor meer informatie [Ontwerpdetails: Boekingsstructuur artikeltracering](design-details-item-tracking-posting-structure.md).  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Ontwerpdetails: Artikeltracering](design-details-item-tracking.md)
 

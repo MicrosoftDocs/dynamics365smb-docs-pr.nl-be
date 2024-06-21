@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="design-details-planning-assignment-table"></a>Ontwerpdetails: Tabel Planningstoewijzing
+# Ontwerpdetails: Tabel Planningstoewijzing
 Alle artikelen moeten worden gepland, maar er is geen reden om een planning voor een artikel te berekenen tenzij er een verandering in het vraag- of aanbodpatroon is opgetreden sinds er voor het laatst een planning is berekend.  
 
 Als de gebruiker een nieuwe verkooporder heeft ingevoerd of een bestaande heeft gewijzigd, is er reden om de planning opnieuw te berekenen. Andere redenen omvatten een wijziging in de voorspelde of gewenste veiligheidsvoorraad. Het wijzigen van een stuklijst door een materiaal toe te voegen of te verwijderen duidt waarschijnlijk op een wijziging, maar alleen voor het onderdeelartikel.  
@@ -55,7 +55,7 @@ Bij het berekenen van een MPS of MRP gelden de volgende beperkingen:
 * MPS: Het planningssysteem controleert of het artikel een vraagprognose of een verkooporder heeft. Zo niet, dan wordt het artikel niet opgenomen in de planning.  
 * MRP: Wanneer het planningssysteem ontdekt dat het artikel wordt aangevuld door een MPS-planningsregel of een MPS-voorzieningenorder, wordt het artikel uit de planning gelaten. Vraag van relevante onderdelen wordt echter opgenomen.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook  
 [Ontwerpdetails: Vraag en aanbod afstemmen](design-details-balancing-demand-and-supply.md)   
 [Ontwerpdetails: Bestelbeleid verwerken](design-details-handling-reordering-policies.md)   
 [Ontwerpdetails: Transfers in planning](design-details-transfers-in-planning.md)   

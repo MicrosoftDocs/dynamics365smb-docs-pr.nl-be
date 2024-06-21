@@ -11,13 +11,13 @@ ms.search.keywords: 'bi, power BI, analysis, KPI, account schedule, financial re
 ms.search.form: 'Report_25, 103, 104, 108, 195, 196, 197, 198, 488, 489, 490, 764, 765, 766'
 ms.service: dynamics-365-business-central
 ---
-# <a name="prepare-financial-reporting-with-financial-data-and-account-categories"></a>Financiële rapportage voorbereiden met financiële gegevens en accountcategorieën
+# Financiële rapportage voorbereiden met financiële gegevens en accountcategorieën
 
 De functie **Financiële rapporten** geeft u inzichten in de financiële gegevens die in uw rekeningschema zijn opgeslagen. U kunt financiële rapporten instellen om cijfers in grootboekrekeningen (GB) te analyseren en grootboekposten te vergelijken met budgetposten. De resultaten worden weergegeven in grafieken en rapporten in uw rolcentrum, zoals het cashflowdiagram, en de rapporten Resultatenrekening en Balans. U opent deze twee rapporten, bijvoorbeeld, met de actie **Financiële overzichten** op de startpagina´s Bedrijfsmanager en Accountant.  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] biedt voorbeelden van financiële rapportages die u meteen als sjablonen kunt gebruiken. U kunt ook uw eigen rapporten instellen om de te vergelijken cijfers op te geven. U kunt bijvoorbeeld financiële rapportages maken om winstmarges te berekenen met behulp van dimensies zoals afdelingen of klantengroepen. Het aantal financiële rapporten dat u kunt maken is onbeperkt en vereist geen tussenkomst van een ontwikkelaar.  
 
-## <a name="prerequisites-for-financial-reporting"></a>Vereisten voor financiële rapportage
+## Vereisten voor financiële rapportage
 
 Het instellen van financiële rapportages vereist inzicht in de structuur van uw rekeningschema. Er zijn drie belangrijke concepten waar u waarschijnlijk op moet letten voordat u uw financiële rapporten ontwerpt:
 
@@ -31,7 +31,7 @@ Door dimensies in te stellen, kunt u uw financiële gegevens opsplitsen op manie
 
 Als u grootboekposten wilt weergeven als percentages van budgetposten, moet u grootboekbudgetten maken. Zie voor meer informatie [GB-budgetten maken](finance-how-create-budgets.md).
 
-## <a name="financial-reports"></a>Financiële rapporten
+## Financiële rapporten
 
 Financiële rapporten rangschikken rekeningen uit uw rekeningschema op een manier die het gemakkelijker maakt om gegevens te presenteren. U kunt verschillende indelingen instellen om de informatie te definiëren die u wilt betrekken uit het rekeningschema. In financiële rapporten kunnen ook berekeningen worden uitgevoerd die niet rechtstreeks in het rekeningschema kunnen worden uitgevoerd. U kunt bijvoorbeeld subtotalen maken voor groepen rekeningen en dat totaal vervolgens opnemen in andere totalen. Een ander voorbeeld is winstmarges te berekenen op dimensies zoals afdelingen of klantengroepen. Daarnaast kunt u grootboekposten en budgetposten filteren, op bijvoorbeeld mutatie of debetbedragen.
 
@@ -63,13 +63,13 @@ U kunt ook formules gebruiken om twee of meer financiële rapporten en kolomdefi
 - Zo veel financiële rapporten maken als u nodig hebt, elk met een eigen naam.
 - Verschillende rapportindelingen instellen en de rapporten afdrukken met de huidige cijfers.
 
-## <a name="learning-path-create-financial-reports-in-microsoft-dynamics-365-business-central"></a>Leertraject: Financiële rapporten maken in Microsoft Dynamics 365 Business Central
+## Leertraject: Financiële rapporten maken in Microsoft Dynamics 365 Business Central
 
 Wilt u leren hoe u budgetten kunt maken en vervolgens financiële rapporten, dimensies en rij- en kolomdefinities kunt gebruiken om de financiële rapporten te genereren die bedrijven doorgaans nodig hebben?
 
 Start met het volgende leertraject: [Financiële rapporten maken in Microsoft Dynamics 365 Business Central](/training/paths/create-financial-reports-dynamics-365-business-central)
 
-## <a name="create-a-new-financial-report"></a>Een nieuw financieel rapport maken
+## Een nieuw financieel rapport maken
 
 U gebruikt financiële rapporten voor het analyseren van grootboekrekeningen of om grootboekposten te vergelijken met budgetposten. U kunt bijvoorbeeld de grootboekposten weergeven als percentages van de begrotingsposten.
 
@@ -91,25 +91,25 @@ De financiële rapporten in de standaardversie van [!INCLUDE[prod_short](include
 > [!NOTE]
 > Wanneer u een financieel rapport opent in de weergave- of bewerkingsmodus, is het filtervenster beschikbaar. Gebruik het deelvenster Filter niet om filters in te stellen voor de gegevens in uw rapport. Dergelijke filters kunnen fouten veroorzaken of filteren de gegevens mogelijk niet daadwerkelijk. Gebruik in plaats daarvan de velden op de sneltabbladen **Opties** en **Dimensies** om filters voor het rapport in te stellen.
 
-### <a name="create-or-edit-a-row-definition"></a>Een rijdefinitie maken of bewerken
+### Een rijdefinitie maken of bewerken
 
 Rijdefinities in financiële rapporten bieden een plaats voor berekeningen die niet rechtstreeks in het rekeningschema kunnen worden uitgevoerd. U kunt bijvoorbeeld subtotalen maken voor groepen rekeningen en dat totaal vervolgens opnemen in andere totalen. Ook kunt u tussenstappen berekenen die niet in het eindrapport staan.
 
 Ga voor meer informatie naar [Rijdefinities in financiële rapportage](bi-row-definitions.md).
 
-### <a name="create-or-edit-a-column-definition"></a>Een kolomdefinitie maken of bewerken
+### Een kolomdefinitie maken of bewerken
 
 Gebruik kolomdefinities om op te geven welke kolommen u in het rapport wilt opnemen. U kunt bijvoorbeeld een rapportindeling maken om mutatie en saldo te vergelijken voor dezelfde periode dit jaar en vorig jaar. U kunt maximaal 15 kolommen in een kolomdefinitie hebben. Meerdere kolommen zijn bijvoorbeeld handig voor het weergeven van budgetten voor 12 maanden met een kolom die het totaal laat zien.
 
 Ga voor meer informatie naar [Kolomdefinities in financiële rapportage](bi-column-definitions.md).
 
-## <a name="using-dimensions-in-financial-reports"></a>Dimensies gebruiken in financiële rapporten
+## Dimensies gebruiken in financiële rapporten
 
 In financiële analyses is een dimensie informatie die u toevoegt aan een post als een soort markering. Deze informatie wordt gebruikt om posten met vergelijkbare kenmerken te groeperen, zoals klanten, regio's, producten en verkopers, en om deze groepen eenvoudig op te kunnen roepen voor analyse. U kunt dimensies gebruiken voor posten in dagboeken, documenten en budgetten.
 
 Elke dimensie beschrijft de focus van de analyse. Een tweedimensionale analyse is bijvoorbeeld verkoop per gebied. Door bij het maken van een boeking meer dan twee dimensies te gebruiken, kunt u een complexere analyse uitvoeren. Een voorbeeld van een complexe analyse is het verkennen van de verkoop per verkoopcampagne per klantengroep per gebied. Zo krijgt u een beter inzicht in uw bedrijf, zoals hoe goed uw bedrijf draait, waar de zaken floreren en waar juist niet en waar meer resources moeten worden ingezet. Dat inzicht helpt u beter gefundeerde zakelijke beslissingen te nemen. Ga voor meer informatie naar [Werken met dimensies](finance-dimensions.md).
 
-## <a name="set-up-financial-reports-with-overviews"></a>Financiële rapporten met overzichten instellen
+## Financiële rapporten met overzichten instellen
 
 U kunt een financieel rapport gebruiken om een rekeningoverzicht te maken waarin grootboekcijfers en begrotingscijfers worden vergeleken.
 
@@ -127,11 +127,11 @@ U kunt een financieel rapport gebruiken om een rekeningoverzicht te maken waarin
 
 Nu kunt u het budgetoverzicht kopiëren en in een spreadsheet plakken.  
 
-## <a name="integrate-financial-reports-with-excel"></a>Financiële rapporten integreren met Excel
+## Financiële rapporten integreren met Excel
 
 U kunt een financieel rapport integreren met een Excel-werkmapsjabloon, de lay-out aanpassen aan uw behoeften en vervolgens de Excel-sjabloon bijwerken met gegevens uit [!INCLUDE[prod_short](includes/prod_short.md)]. Deze integratie maakt het bijvoorbeeld eenvoudiger om uw maandelijkse en jaarlijkse financiële overzichten te genereren in een indeling die voor u werkt.
 
-### <a name="set-up-excel-integration-for-a-financial-report-create-an-excel-template"></a>Excel-integratie instellen voor een financieel rapport (een Excel-sjabloon maken)
+### Excel-integratie instellen voor een financieel rapport (een Excel-sjabloon maken)
 
 Om Excel-integratie voor een financieel rapport in te stellen volgt u deze stappen om een ​​Excel-sjabloon voor een rapport te maken.
 
@@ -147,7 +147,7 @@ Om Excel-integratie voor een financieel rapport in te stellen volgt u deze stapp
 1. Sla de werkmap op in OneDrive of een vergelijkbare plaats waar een back-up van het bestand wordt gemaakt en versiebeheer wordt uitgevoerd.
 1. Sluit de werkmap.
 
-### <a name="run-a-financial-report-with-an-excel-template"></a>Een financieel rapport uitvoeren met een Excel-sjabloon
+### Een financieel rapport uitvoeren met een Excel-sjabloon
 
 Volg deze stappen om een financieel rapport uit te voeren met een Excel-sjabloon:
 
@@ -158,7 +158,7 @@ Volg deze stappen om een financieel rapport uit te voeren met een Excel-sjabloon
 1. Kies op de pagina **Naam/waarde Opzoeken** het werkblad Gegevens.
 1. [!INCLUDE[prod_short](includes/prod_short.md)] voert het financiële rapport uit en voegt de resulterende gegevens samen met uw Excel-sjabloon.
 
-## <a name="print-and-save-financial-reports"></a>Financiële rapporten afdrukken en opslaan
+## Financiële rapporten afdrukken en opslaan
 
 U kunt financiële rapporten afdrukken met de afdrukservices van uw apparaat. [!INCLUDE[prod_short](includes/prod_short.md)] biedt ook opties om rapporten op te slaan als Excel-werkmappen, Word-documenten, pdf- en XML-bestanden.
 
@@ -169,7 +169,7 @@ U kunt financiële rapporten afdrukken met de afdrukservices van uw apparaat. [!
     1. De optie **(Afgehandeld door de browser)** geeft aan dat er geen aangewezen printer is voor het rapport. In dit geval zal de browser de afdruk afhandelen en de standaardafdrukstappen weergeven, waarbij u een lokale printer kunt kiezen die op uw apparaat is aangesloten. **(Afgehandeld door de browser)** is niet beschikbaar in de mobiele app [!INCLUDE[prod_short](includes/prod_short.md)] of de app voor Teams.
 1. Kies de actie **Afdrukken**.
 
-### <a name="schedule-a-financial-report-or-save-as-a-pdf-word-or-excel-document"></a>Plan een financieel rapport of sla het op als pdf-, Word- of Excel-document
+### Plan een financieel rapport of sla het op als pdf-, Word- of Excel-document
 
 U kunt een financieel rapport opslaan in bestandsindelingen, zoals PDF, XML, Word of Excel. [!INCLUDE[prod_short](includes/prod_short.md)] kan ook terugkerende financiële rapporten genereren.
 
@@ -180,7 +180,7 @@ U kunt een financieel rapport opslaan in bestandsindelingen, zoals PDF, XML, Wor
 1. Vul de velden in om een gepland of terugkerend financieel rapport te genereren. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].<br><br>Stel voor terugkerende financiële rapporten de velden **Vroegste begindatum/-tijd** en **Vervaldatum/-tijd** met respectievelijk de eerste en laatste datum om het financiële rapport te genereren. Selecteer ook op welke dagen het rapport wordt gegenereerd door het veld **Formule voor volgende uitvoeringsdatum** in te stellen conform de indeling uitgelegd in de sectie [Datumformules gebruiken](ui-enter-date-ranges.md#use-date-formulas).
 
 
-## <a name="best-practices-for-working-with-financial-report-definitions"></a>Best practices voor het werken met definities van financiële rapporten
+## Best practices voor het werken met definities van financiële rapporten
 
 Er is geen versiebeheer van definities van financiële rapporten. Wanneer u een rapportdefinitie wijzigt, wordt de oude versie vervangen wanneer uw wijziging in de database wordt opgeslagen. De volgende lijst bevat enkele best practices voor het werken met definities van financiële rapporten:
 
@@ -188,7 +188,7 @@ Er is geen versiebeheer van definities van financiële rapporten. Wanneer u een 
 - Voordat u een rapportdefinitie wijzigt, kunt u overwegen er een kopie van te maken als back-up, voor het geval uw wijziging niet werkt zoals verwacht. U kunt de definitie gewoon kopiëren (geef deze een goede naam) of exporteren. Als u meer wilt weten, gaat u naar [Definities van financiële rapporten importeren of exporteren](#import-or-export-financial-report-definitions).
 - Als u een nieuwe kopie nodig heeft van een definitie die [!INCLUDE[prod_short](includes/prod_short.md)] voorziet, kunt u er eenvoudig een krijgen door een nieuw bedrijf op te richten dat alleen instellingsgegevens bevat. Exporteer vervolgens de definitie en importeer deze in het bedrijf waar de definitie moet worden vernieuwd.
 
-## <a name="import-or-export-financial-report-definitions"></a>Definities van financiële rapporten importeren of exporteren
+## Definities van financiële rapporten importeren of exporteren
 
 U kunt definities van financiële rapporten importeren en exporteren als RapidStart-configuratiepakketten. Configuratiepakketten zijn bijvoorbeeld handig om informatie te delen met andere bedrijven. Het pakket wordt gemaakt vanuit een .rapidstart-bestand, dat de inhoud comprimeert.
 
@@ -205,7 +205,7 @@ Ga naar de volgende artikelen voor meer informatie over het importeren of export
 - [Rijdefinities van financiële rapporten importeren of exporteren](bi-row-definitions.md#import-or-export-financial-reporting-row-definitions) of
 - [Kolomdefinities van financiële rapporten importeren of exporteren](bi-column-definitions.md#import-or-export-financial-report-column-definitions)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Rijdefinities in financiële rapportage](bi-row-definitions.md)  
 [Kolomdefinities in financiële rapportage](bi-column-definitions.md)  

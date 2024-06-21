@@ -10,11 +10,11 @@ ms.author: kepontop
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="using-key-performance-indicators-kpis-to-meet-your-business-goals"></a>KPI's (Key Performance Indicators) gebruiken om uw bedrijfsdoelen te halen
+# KPI's (Key Performance Indicators) gebruiken om uw bedrijfsdoelen te halen
 
 Een Key Performance Indicator (KPI) is een meetbare waarde die laat zien hoe effectief u uw doelen bereikt. Beschouw KPI's als de scorekaart van uw bedrijf, een manier om te meten of u uw doelstellingen wel of niet haalt.
 
-## <a name="why-kpis-matter"></a>Waarom KPI’s ertoe doen
+## Waarom KPI’s ertoe doen
 
 Door KPI's te identificeren en bij te houden, weet u of uw bedrijf op de goede weg is, of dat u van koers moet veranderen om te voorkomen dat u kostbare tijd en geld verliest. Wanneer ze op de juiste manier worden gebruikt, zijn KPI's krachtige hulpmiddelen die u helpen bij het volgende:
 
@@ -25,7 +25,7 @@ Door KPI's te identificeren en bij te houden, weet u of uw bedrijf op de goede w
 - Motiveer teamleden.
 - Neem sneller betere beslissingen.
 
-## <a name="get-started-identifying-your-kpis"></a>Ga aan de slag met het identificeren van uw KPI’s
+## Ga aan de slag met het identificeren van uw KPI’s
 
 Dus hoe begint u met het identificeren van de KPI’s die belangrijk zijn voor uw bedrijf? Begin met het verduidelijken van uw strategische doelstellingen – collectief of per afdeling.
 
@@ -35,7 +35,7 @@ Identificeer vervolgens de KPI-doelen waar u naartoe werkt, en hoe deze worden g
 
 Praat met uw team en stimuleer een open dialoog over de KPI’s en hun doelstellingen. Zijn ze te agressief? Te makkelijk? Doelstellingen moeten een uitdaging zijn, maar als ze te vergezocht zijn of volledig afhankelijk zijn van statistieken waar uw team geen controle over heeft, is het verstandig om er nog eens naar te kijken. U zult ook willen onderzoeken welke activiteiten en tactieken uw bedrijf gebruikt om deze doelstellingen te bereiken. Neem ten slotte de tijd om te evalueren waar u vandaag staat: dit zal het startpunt van uw KPI zijn.
 
-## <a name="get-to-know-the-different-types-of-kpis"></a>Kennismaken met de verschillende soorten KPI’s
+## Kennismaken met de verschillende soorten KPI’s
 
 Het identificeren van welke KPI’s u moet volgen, wordt eenvoudiger als u een beter inzicht hebt in de soorten KPI’s die het meest worden gebruikt om de voortgang te meten.
 
@@ -47,7 +47,7 @@ Het identificeren van welke KPI’s u moet volgen, wordt eenvoudiger als u een b
 
 Wijs voor elke KPI die u wilt bijhouden een eigenaar toe en spreek af hoe vaak ze moeten worden bijgehouden. Welke KPI's u ook besluit bij te houden, het gebruik van een KPI-platform of -tool is essentieel voor de samenwerking met uw team aan KPI-definities. Door elke KPI collectief te definiëren, vervolgens contextuele gegevens vast te leggen en deze in één weergave samen te brengen, maakt u spot-on, realtime acties mogelijk.
 
-## <a name="kpi-reporting"></a>KPI-rapportage
+## KPI-rapportage
 
 KPI-rapporten tillen de informatie die op het KPI-dashboard wordt gepresenteerd naar een nieuw niveau. Ze gaan dieper in op de gegevens om gedetailleerdere inzichten en analyses naar voren te brengen.
 
@@ -68,7 +68,7 @@ Aanvullende overwegingen bij het maken van uw KPI-rapporten zijn onder meer:
 - Alleen de relevante KPI's presenteren, zodat u het rapport niet overbelast met KPI's die niet aansluiten bij de rapportage en doelstellingen.
 - Ervoor zorgen dat uw rapportage duidelijk, gemakkelijk te begrijpen en bruikbaar is voor de beoogde doelgroep.
 
-## <a name="tools-for-implementing-kpis"></a>Tools voor het implementeren van KPI’s
+## Tools voor het implementeren van KPI’s
 
 De volgende tabel bevat koppelingen naar artikelen over het gebruik van business intelligence- en rapportagetools met [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens om KPI's te implementeren.
 
@@ -79,7 +79,7 @@ De volgende tabel bevat koppelingen naar artikelen over het gebruik van business
 | [Financiële overzichten analyseren met Microsoft Excel](finance-analyze-excel.md) |
 | Externe bedrijfsinformatietools integreren met [!INCLUDE[prod_short](includes/prod_short.md)].| [Externe bedrijfsinformatietools](reports-external-analysis.md) |
 
-## <a name="kpi-best-practices"></a>Aanbevolen procedures voor KPI´s
+## Aanbevolen procedures voor KPI´s
 
 Om u te helpen de kracht van KPI's succesvol te benutten, hebben we een aantal tips samengesteld om u op weg te helpen.
 
@@ -96,7 +96,7 @@ KPI's controleren:
 - Bepaal hoe vaak controle moet plaatsvinden en actie moet worden ondernomen op basis van KPI’s. Worden KPI-dashboards dagelijks of wekelijks gecontroleerd? Worden acties pas na rapportage uitgevoerd of zijn belanghebbenden en/of teamleden bevoegd om gaandeweg de tactieken aan te passen?
 - Zorg ervoor dat u beschikt over eenvoudige, end-to-end gegevensbescherming voor gegevensdashboards, met opties voor delen buiten de organisatie.
 
-## <a name="common-kpi-mistakes"></a>Veelvoorkomende KPI-fouten
+## Veelvoorkomende KPI-fouten
 
 Vermijd deze veelvoorkomende KPI-fouten:
 
@@ -106,7 +106,7 @@ Vermijd deze veelvoorkomende KPI-fouten:
 - U beter geen KPI's bijhouden zonder eigenaren. Verantwoording is belangrijk, niet alleen voor de resultaten, maar ook voor het proces. Elke KPI moet een eigenaar hebben die verantwoordelijk is voor monitoring, rapportage, analyse en actie.
 - Voorkom dat u geen actie onderneemt op basis van uw KPI’s. Of u nu uw doelen behaalt of achterloopt, KPI's zijn tools waarmee u betere beslissingen kunt nemen. Volg dus niet louter en alleen omwille van het volgen; onderneem actie.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Overzicht van analyses](reports-bi-reporting.md)  
 [Financiële rapportage gebruiken om financiële overzichten en KPI’s te produceren](bi.md)  

@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Opgeslagen instellingen beheren voor rapporten en batchtaken
+# Opgeslagen instellingen beheren voor rapporten en batchtaken
 
 Wanneer gebruikers rapporten uitvoeren, zien ze meestal een pagina waarmee ze opties kunnen selecteren en filters kunnen instellen om de gegevens te wijzigen die in het gegenereerde rapport worden opgenomen. Deze pagina wordt de *aanvraagpagina* genoemd. Een rapport kan een of meer *opgeslagen instellingen* bevatten die gebruikers op het rapport kunnen toepassen vanaf de aanvraagpagina. *Opgeslagen instellingen* zijn in wezen vooraf gedefinieerde opties en filters. Met behulp van opgeslagen instellingen kunt u snel en betrouwbaar rapporten genereren die de juiste gegevens bevatten. Zie voor meer informatie [Opgeslagen instellingen gebruiken](ui-work-report.md#SavedSettings).
 
@@ -19,7 +19,7 @@ Wanneer gebruikers rapporten uitvoeren, zien ze meestal een pagina waarmee ze op
 
 Als u de juiste machtigingen hebt, kunt u de opgeslagen instellingen voor alle gebruikers in een bedrijf weergeven, maken en wijzigen. U kunt opgeslagen instellingen voor een rapport toewijzen aan afzonderlijke gebruikers of aan alle gebruikers in het bedrijf.
 
-## <a name="manage-saved-settings"></a>Opgeslagen instellingen beheren
+## Opgeslagen instellingen beheren
 
 U beheert opgeslagen instellingen op de pagina **Rapportinstellingen**. Er zijn twee manieren om deze pagina te openen:
 
@@ -35,7 +35,7 @@ De pagina **Rapportinstellingen** bevat alle bestaande opgeslagen instellingsver
 >
 > In sommige gevallen kunnen instellingen echter niet worden gedeeld en kan de beheerder ze ook niet wijzigen. De meeste batchtaken ondersteunen geen gedeelde instellingen.  
 
-## <a name="create-or-modify-saved-settings-for-all-users"></a>Opgeslagen instellingen maken of wijzigen voor alle gebruikers
+## Opgeslagen instellingen maken of wijzigen voor alle gebruikers
 
 Vanaf de pagina **Rapportinstellingen** kunt u het volgende doen:
 
@@ -49,7 +49,7 @@ Vanaf de pagina **Rapportinstellingen** kunt u het volgende doen:
 > [!NOTE]
 > De mogelijkheid om instellingen op te slaan, is alleen beschikbaar voor rapporten waarvoor de [eigenschap SaveValues](/dynamics365/business-central/dev-itpro/developer/properties/devenv-savevalues-property) van de rapportaanvraagpagina is ingesteld op **Ja**. De eigenschap **SaveValues** wordt ingesteld door de ontwikkelaar.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Werken met rapporten, batchverwerkingen en XMLports](ui-work-report.md)  
 

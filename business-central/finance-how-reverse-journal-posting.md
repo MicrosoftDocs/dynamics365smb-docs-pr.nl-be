@@ -9,7 +9,7 @@ ms.date: 05/07/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Journaalboekingen tegenboeken en ontvangsten/verzendingen ongedaan maken
+# Journaalboekingen tegenboeken en ontvangsten/verzendingen ongedaan maken
 
 Tegenjournaalboekingen zijn bijvoorbeeld nuttig voor het corrigeren van fouten en het wissen van een oude transitoriapost voordat een nieuwe wordt ingevoerd. Een corrigerende post is hetzelfde als de oorspronkelijke post, maar heeft een tegenovergesteld teken in het veld **Bedrag**. De tegenboekingspost moet hetzelfde documentnummer en dezelfde boekingsdatum hebben als de oorspronkelijke post. Nadat een post is tegengeboekt, moet u de juiste post maken.
 
@@ -21,7 +21,7 @@ Als u een onjuist negatief aantal hebt geboekt, dat wil zeggen, als u een inkoop
 
 Als u een onjuist positief aantal hebt geboekt, dat wil zeggen, als u een verkoopverzending of een inkoopretourzending hebt gemaakt met bijvoorbeeld het verkeerde aantal artikelen en deze hebt geboekt als verzonden maar niet gefactureerd, kunt u de boeking ongedaan maken.
 
-## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry"></a>De dagboekboeking van een grootboekpost tegenboeken
+## De dagboekboeking van een grootboekpost tegenboeken
 
 U kunt posten vanuit alle **Posten**-pagina's tegenboeken. De volgende procedure is gebaseerd op de pagina **Grootboekposten**.
 
@@ -33,7 +33,7 @@ U kunt posten vanuit alle **Posten**-pagina's tegenboeken. De volgende procedure
 3. Kies op de pagina **Transactieposten tegenboeken** de actie **Tegenboeken**.
 4. Kies **Ja** om de tegenboeking te bevestigen.
 
-## <a name="to-post-a-negative-entry"></a>Een negatieve post boeken
+## Een negatieve post boeken  
 
 Gebruik het veld **Storno** om een negatief debetbedrag in plaats van een creditbedrag te boeken, of om een negatief creditbedrag in plaats van een debetbedrag op een rekening te boeken. Standaard is het veld beschikbaar in alle dagboeken. De velden **Debetbedrag** en **Creditbedrag** bevatten beide zowel de oorspronkelijke post als de gecorrigeerde post. Deze velden hebben geen invloed op het rekeningsaldo.  
 
@@ -43,7 +43,7 @@ Gebruik het veld **Storno** om een negatief debetbedrag in plaats van een credit
 4. Selecteer op de dagboekregel die u wilt activeren voor negatieve posten het selectievakje **Storno**.  
 5. Als u naar het dagboek wilt boeken, kiest u de actie **Boeken** en kiest u vervolgens de knop **Ja**.
 
-## <a name="to-undo-a-quantity-on-a-posted-purchase-receipt"></a>Een aantal ongedaan maken in een geboekte inkoopontvangst
+## Een aantal ongedaan maken in een geboekte inkoopontvangst  
 
 In de volgende stappen wordt beschreven hoe u een geboekte ontvangst van artikelen of resources ongedaan kunt maken. De stappen zijn vergelijkbaar met de stappen voor geboekte verzendingen.
 
@@ -56,7 +56,7 @@ Er wordt een correctieregel toegevoegd onder de geselecteerde ontvangstregel. Al
 
 De velden **Ontvangen aantal** en **Niet geboekt aantal** op de bijbehorende inkooporder worden ingesteld op nul.
 
-## <a name="to-undo-and-then-redo-a-quantity-posting-on-a-posted-return-shipment"></a>Een aantalboeking ongedaan maken en opnieuw uitvoeren voor een geboekte retourzending
+## Een aantalboeking ongedaan maken en opnieuw uitvoeren voor een geboekte retourzending
 
 In de volgende stappen wordt uitgelegd hoe u:
 
@@ -82,7 +82,7 @@ De stappen zijn vergelijkbaar met de stappen voor geboekte ontvangsten.
 
 [!INCLUDE [rev-general-journal](includes/rev-general-journal.md)]
 
-## <a name="reverse-a-customer-and-vendor-ledger-entry-with-a-realized-gain-or-loss-entry"></a>Een klanten- en leverancierspost ongedaan met een gerealiseerde winst- of verliespost
+## Een klanten- en leverancierspost ongedaan met een gerealiseerde winst- of verliespost
 
 U kunt de actie **Transactie tegenboeken** gebruiken om betalingen terug te boeken die zijn vereffend met posten die afkomstig zijn uit vreemde valuta's en die zijn aangepast met de batchverwerking Wisselkoersherwaardering. De functie werkt voor zowel aankopen als verkopen.
 
@@ -93,7 +93,7 @@ Het volgende is een eenvoudig scenario dat illustreert hoe het werkt:
 3. Boek een betaling die met de factuur wordt vereffend.
 4. Maak de vereffening ongedaan en draai de betalingstransactie terug, bijvoorbeeld vanaf de pagina **Klantenposten**.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Assemblageboeking ongedaan maken](assembly-how-to-undo-assembly-posting.md)  
 [Transacties direct naar het grootboek boeken](finance-how-post-transactions-directly.md)  

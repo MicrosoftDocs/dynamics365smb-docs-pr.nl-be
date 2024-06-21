@@ -12,15 +12,15 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="financial-information-quick-start"></a>Snelstartgids Financiële informatie
+# Snelstartgids Financiële informatie
 
 Na het invoeren van basisbedrijfsinformatie in [!INCLUDE[prod_short](includes/prod_short.md)] is een van de volgende stappen het invullen van het financiële gedeelte. Dit doet u niet alleen om betalingen te ontvangen of te doen, maar ook om de cijfers van uw bedrijf goed te beheren en te rapporteren.
 
-## <a name="the-chart-of-accounts"></a>Het rekeningschema
+## Het rekeningschema
 
 Het rekeningschema biedt een overzicht van de financiën van het bedrijf, waarbij rekeningen worden opgesomd in gestructureerde groepen zoals activa, passiva, inkomsten, kosten van verkochte goederen en uitgaven. [!INCLUDE[prod_short](includes/prod_short.md)] bevat een standaardrekeningschema dat u kunt aanpassen aan de boekhoudpraktijken van uw bedrijf.
 
-## <a name="set-up-the-chart-of-accounts"></a>Het rekeningschema instellen
+## Het rekeningschema instellen
 
 De volgende video laat zien hoe u het rekeningschema instelt in [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -28,7 +28,7 @@ De volgende video laat zien hoe u het rekeningschema instelt in [!INCLUDE[prod_s
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-### <a name="add-an-account-to-the-chart-of-accounts"></a>Een rekening toevoegen aan het rekeningschema
+### Een rekening toevoegen aan het rekeningschema
 
 Als u een rekening wilt toevoegen die standaard niet wordt opgenomen in [!INCLUDE[prod_short](includes/prod_short.md)], bijvoorbeeld tuinonderhoud, volgt u deze stappen:
 
@@ -56,7 +56,7 @@ Als u een rekening wilt toevoegen die standaard niet wordt opgenomen in [!INCLUD
 
 5. Vul indien nodig de overige velden op de pagina **Grootboekrekening** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-### <a name="get-an-overview-of-the-chart-of-accounts"></a>Een overzicht krijgen van het rekeningschema
+### Een overzicht krijgen van het rekeningschema
 
 Als u een compacter overzicht van het rekeningschema nodig hebt, zonder kolommen voor boekingsgroepen, boekingstype of kostensoort, bijvoorbeeld, geeft het **Overzicht rekeningschema** de belangrijkste informatie voor elke rekening weer in een kleinere tabel. Bovendien kunt u groepen samenvouwen of uitvouwen om de accounts erin te verbergen.
 
@@ -64,7 +64,7 @@ Om het overzicht weer te geven kiest u de actie **Overzicht van rekeningschema**
 
 Lees meer over het rekeningschema en het grootboek op [Het grootboek en het rekeningschema](finance-general-ledger.md).
 
-## <a name="set-up-bank-accounts"></a>Bankrekeningen instellen
+## Bankrekeningen instellen
 
 Bankrekeningen in [!INCLUDE[prod_short](includes/prod_short.md)] registreren banktransacties en zijn gekoppeld aan boekingen in het rekeningschema. De volgende video laat zien hoe u bankrekeningen instelt.
 
@@ -79,7 +79,7 @@ Bankrekeningen in [!INCLUDE[prod_short](includes/prod_short.md)] registreren ban
    Het veld verschilt van het veld **Bankrekeningnr.**, dat ook beschikbaar is op het sneltabblad **Algemeen**.
 4. Vul indien nodig de velden op de pagina **Bankrekeningkaart** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Het rekeningschema instellen](finance-setup-chart-accounts.md)  
 [Bankrekeningen instellen](bank-how-setup-bank-accounts.md)  

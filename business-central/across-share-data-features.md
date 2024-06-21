@@ -9,13 +9,13 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# <a name="sharing-business-data-from-business-central"></a>Zakelijke gegevens delen vanuit Business Central
+# Zakelijke gegevens delen vanuit Business Central
 
 Samenwerking tussen mensen binnen en buiten een organisatie is een integraal onderdeel van de meeste bedrijven. [!INCLUDE[prod_short](includes/prod_short.md)] biedt verschillende functies voor het delen van zakelijke gegevens, zoals een lijst met records, specifieke records of documenten. <!--, with others&mdash;even those people who don't have a Business Central license in some cases.-->
 
 Bij al deze functies wordt de toegang tot gegevens beschermd door de licentie en machtigingen van Business Central.
 
-## <a name="copying-a-link"></a>Een koppeling kopiëren
+## Een koppeling kopiëren
 
 ![Ondersteund](media/check.png) Business Central Online ![Ondersteund](media/check.png) Business Central On-premises
 
@@ -34,22 +34,22 @@ Wanneer u de URL in een rich-text-editor, zoals Word, Outlook of Teams, plakt, i
 > [!TIP]
 > Een soortgelijke naamgevingsconventie wordt gebruikt op browsertabbladen.
 
-### <a name="share-data-analysis"></a>Gegevensanalyse delen
+### Gegevensanalyse delen
 Als u een pagina of zoekopdracht bekijkt in de gegevensanalysemodus, kunt u een specifiek analysetabblad delen door de pijl-omlaag op het tabblad te selecteren en vervolgens **Koppeling kopiëren** te selecteren. [Meer informatie over de gegevensanalysemodus](analysis-mode.md). 
 
-### <a name="modify-the-page-link"></a>De paginakoppeling wijzigen
+### De paginakoppeling wijzigen
 
 Nadat u een koppeling hebt gekopieerd, kunt u voordat u deze verzendt de URL wijzigen om te bewerken wat wordt weergegeven wanneer de pagina wordt geopend. U kunt bijvoorbeeld filters toevoegen of een ander bedrijf opgeven.
 
 [Meer informatie over de URL van de webclient](/dynamics365/business-central/dev-itpro/developer/devenv-web-client-urls).
 
-### <a name="about-filtered-lists"></a>Over gefilterde lijsten
+### Over gefilterde lijsten
 
 Met behulp van het filtervenster op lijstpagina's kunt u filters toepassen om de records in de lijst te verfijnen. Als u de actie **Koppeling kopiëren** gebruikt of de URL vanuit de browser kopieert, bevat de paginakoppeling uw filterwijzigingen niet. Gebruikers die de koppeling openen, zien de volledige verzameling. De manier om de filtering op een koppeling voor een verzamelingspagina te behouden, is door de gefilterde pagina eerst op te slaan als **weergave**. Open vervolgens de weergave en kopieer de koppeling daar vandaan.
 
 [Meer informatie over sorteren, zoeken en filteren](ui-enter-criteria-filters.md).
 
-## <a name="sharing-to-teams"></a>Delen met Teams
+## Delen met Teams
 
 ![Ondersteund](media/check.png) Business Central Online ![Niet ondersteund](media/x-icon.png) Business Central On-premises
 
@@ -57,7 +57,7 @@ Rechtstreeks vanaf de meeste verzamelingspagina's en detailpagina's kunt u een k
 
 [Meer informatie over het delen van records en paginakoppelingen in Teams](across-working-with-teams.md).
 
-## <a name="sharing-through-onedrive"></a>Delen via OneDrive
+## Delen via OneDrive
 
 ![Ondersteund](media/check.png) Business Central Online ![Ondersteund](media/check.png) Business Central On-premises
 
@@ -65,7 +65,7 @@ Business Central maakt het gemakkelijk om bestanden op te slaan, te beheren en t
 
 [Lees meer over het delen van bestanden in OneDrive](across-share-onedrive.md).
 
-## <a name="opening-in-excel"></a>Openen in Excel
+## Openen in Excel
 
 ![Ondersteund](media/check.png) Business Central Online ![Ondersteund](media/check.png) Business Central On-premises
 
@@ -73,7 +73,7 @@ Voor lijstpagina's en lijsten die op een pagina zijn ingesloten, kunt u de actie
 
 [Meer informatie over bekijken en bewerken in Excel](across-work-with-excel.md).
 
-## <a name="sharing-rows-or-tables"></a>Rijen of tabellen delen
+## Rijen of tabellen delen
 
 ![Ondersteund](media/check.png) Business Central Online ![Ondersteund](media/check.png) Business Central On-premises
 
@@ -81,7 +81,7 @@ U kunt een of meer records in een lijst delen. Selecteer simpelweg de sneltoetsc
 
 [Meer informatie over kopiëren en plakken vindt u in de FAQ](faq-copy-paste.yml).
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Integratie van Business Central en OneDrive](across-onedrive-overview.md)  
 [OneDrive-integratie met Business Central beheren](admin-onedrive-integration.md)  
