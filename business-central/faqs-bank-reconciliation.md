@@ -13,7 +13,7 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# Veelgestelde vragen over hulp bij bankrekeningreconciliatie met Copilot (preview)
+# <a name="faq-for-bank-account-reconciliation-assist-with-copilot-preview"></a>Veelgestelde vragen over hulp bij bankrekeningreconciliatie met Copilot (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -21,7 +21,7 @@ Deze veelgestelde vragen (FAQ) beschrijven de AI-impact van Microsoft Copilot-hu
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## Wat is hulp bij bankreconciliatie?
+## <a name="what-is-bank-reconciliation-assist"></a>Wat is hulp bij bankreconciliatie?
 
 Bankreconciliatie is een veel voorkomende boekhoudkundige taak waarbij organisaties hun bankrekeningafschriften controleren om transacties te identificeren die moeten worden geregistreerd in [!INCLUDE[prod_short](includes/prod_short.md)]. Deze taak wordt bijvoorbeeld gebruikt om periodieke bankkosten of kleine personeelskosten te identificeren.
 
@@ -29,7 +29,7 @@ Bankafstemming is doorgaans een proces dat uit meerdere stappen bestaat. Eerst w
 
 Copilot in [!INCLUDE[prod_short](includes/prod_short.md)] vermindert de handmatige inspanning door meer transacties af te stemmen en grootboekrekeningen voor te stellen waarnaar u kunt boeken.
 
-## Wat zijn de mogelijkheden van hulp bij bankreconciliatie?
+## <a name="what-are-the-capabilities-of-bank-reconciliation-assist"></a>Wat zijn de mogelijkheden van hulp bij bankreconciliatie?
 
 Copilot biedt AI-aangedreven hulp met twee verschillende taken:
 
@@ -43,21 +43,21 @@ Copilot biedt AI-aangedreven hulp met twee verschillende taken:
 
 Copilot maakt geen verbinding met uw bank om transacties op te halen of te verzenden. Deze taak blijft volledig binnen uw controle. Dat is een voorwaarde om de hulp van Copilot te gaan gebruiken, ongeacht of de transacties worden toegevoegd aan [!INCLUDE[prod_short](includes/prod_short.md)] via een digitale bankverbinding, geïmporteerd uit een bankafschriftbestand of handmatig ingevoerd.
 
-## Wat is het beoogde gebruik van de hulp bij bankreconciliatie?
+## <a name="what-is-the-intended-use-of-bank-reconciliation-assist"></a>Wat is het beoogde gebruik van de hulp bij bankreconciliatie?
 
 Hulp bij bankrekeningreconciliatie is bedoeld om de accuratesse van grootboeken te vergroten door klanten te helpen nieuwe transacties te identificeren waar klanten rekening mee moeten houden in [!INCLUDE[prod_short](includes/prod_short.md)]. Dit is niet bedoeld voor het opsporen van fraude of het vaststellen of klanten op tijd hebben betaald.
 
-## Hoe werd de hulp bij bankreconciliatie beoordeeld? Welke statistieken worden gebruikt om de prestaties te meten?
+## <a name="how-was-bank-reconciliation-assist-evaluated-what-metrics-are-used-to-measure-performance"></a>Hoe werd de hulp bij bankreconciliatie beoordeeld? Welke statistieken worden gebruikt om de prestaties te meten?
 
 Hulp bij reconciliatie van bankrekeningen is getest met combinaties van synthetische banktransactiegegevens en vergelijkbare grootboekrekeningen en grootboekposten die de typische variaties en gegevenslimieten voor elk veld en in verschillende talen dekken. Testgegevens vertegenwoordigen zowel typisch gebruik als gebruik door slechte actoren. De prestaties werden gemeten in vergelijking met handmatige reconciliatie van dezelfde gegevens.
 
-## Wat zijn de beperkingen van bij bankreconciliatie? Hoe kunnen gebruikers de impact van de beperkingen tot een minimum terugbrengen bij het gebruik van het systeem?
+## <a name="what-are-the-limitations-of-bank-reconciliation-assist-how-can-users-minimize-the-impact-of-these-limitations-when-they-use-the-system"></a>Wat zijn de beperkingen van bij bankreconciliatie? Hoe kunnen gebruikers de impact van de beperkingen tot een minimum terugbrengen bij het gebruik van het systeem?
 
 Hulp bij het reconciliëren van bankrekeningen werkt het beste wanneer grootboekrekeningnamen, beschrijvingen van grootboekposten en beschrijvingen van banktransacties allemaal in dezelfde taal zijn. Gemengde talen of gemengde taal van transactiebeschrijvingen resulteren vaak in minder overeenkomsten en suggesties.
 
 Voorgestelde grootboekrekeningen presteren het beste in een van de ondersteunde talen (zie de volgende sectie voor een lijst met talen). Gebruikers ervaren mogelijk minder transactieovereenkomsten en minder voorgestelde grootboekrekeningen in andere talen.
 
-## In welke geografieën en talen is hulp bij bankreconciliatie beschikbaar? 
+## <a name="in-which-geographies-and-languages-is-bank-reconciliation-assist-available"></a>In welke geografieën en talen is hulp bij bankreconciliatie beschikbaar?
 
 - Beschikbare geografische gebieden
 
@@ -69,13 +69,13 @@ Voorgestelde grootboekrekeningen presteren het beste in een van de ondersteunde 
 
 Zie de vorige vraag over beperkingen voor meer informatie over talen.
 
-## Wat wordt er van systeemgebruikers verwacht bij het gebruik van hulp bij bankrekeningreconciliatie?
+## <a name="what-is-expected-of-system-users-when-they-operate-bank-account-reconciliation-assist"></a>Wat wordt er van systeemgebruikers verwacht bij het gebruik van hulp bij bankrekeningreconciliatie?
 
-### Tijdens bankrekeningreconciliatie
+### <a name="during-bank-account-reconciliation"></a>Tijdens bankrekeningreconciliatie
 
 Afstemmingen en suggesties op basis van AI kunnen soms onjuist of onvolledig zijn. Gebruikers van hulp bij bankrekeningreconciliatie moeten de nauwkeurigheid van de afstemmingen en suggesties van Copilot controleren voordat ze ervoor kiezen deze te behouden. Afstemmingen en suggesties van Copilot worden pas in de [!INCLUDE[prod_short](includes/prod_short.md)]-database opgeslagen als u de knop **Behouden** selecteert en het Copilot-venster sluit. U kunt ook eventuele afstemmingen of suggesties bewerken en corrigeren voordat u ervoor kiest deze te behouden.
 
-### Na voltooiing van bankrekeningreconciliatie
+### <a name="after-bank-account-reconciliation-is-completed"></a>Na voltooiing van bankrekeningreconciliatie
 
 We raden gebruikers aan ook de nauwkeurigheid te verifiëren en eventuele discrepanties te corrigeren nadat ze het Copilot-venster hebben gesloten. Dit proces moet de volgende activiteiten omvatten:
 
@@ -84,20 +84,20 @@ We raden gebruikers aan ook de nauwkeurigheid te verifiëren en eventuele discre
 - Open eventuele geboekte reconciliaties opnieuw met behulp van de functie **Ongedaan maken**.
 - Corrigeer eventuele foutieve grootboekposten door posten tegen te boeken.
 
-## Wat wordt er van beheerders en systeemgebruikers verwacht bij het gebruik van hulp bij bankrekeningreconciliatie?
+## <a name="what-is-expected-of-administrators-and-system-users-when-they-operate-bank-account-reconciliation-assist"></a>Wat wordt er van beheerders en systeemgebruikers verwacht bij het gebruik van hulp bij bankrekeningreconciliatie?
 
 Systeemgebruikers, zoals accountants, penningmeesters of anderen die aan de bedrijfsboekhouding werken, moeten altijd de juistheid van afstemmingen en suggesties van Copilot controleren voordat ze ervoor kiezen deze te behouden. Na reconciliatie met Copilot raden we aan dat deze gebruikers het reconciliatietestrapport bekijken om de nauwkeurigheid te verifiëren en eventuele discrepanties te identificeren.
 
 Beheerders moeten ervoor zorgen dat de juiste accountinggebruikers toegang hebben gekregen tot deze mogelijkheid.
 
-## Is Copilot het enige middel om bankrekeningreconciliatie te voltooien?
+## <a name="is-copilot-the-only-means-of-completing-bank-account-reconciliation"></a>Is Copilot het enige middel om bankrekeningreconciliatie te voltooien?
 
 Nr. Gebruik van Copilot is optioneel. [!INCLUDE[prod_short](includes/prod_short.md)] biedt traditionele, niet door AI aangedreven middelen voor het importeren van bankafschriften, het uitvoeren van vooraf gedefinieerde afstemmingsregels en het handmatig toepassen van afstemmingen en boeken naar de juiste grootboekrekeningen. Zowel de traditionele aanpak als Copilot kunnen gelijktijdig binnen een organisatie worden ingezet.
 
-## Hoe geef ik feedback over door AI gegenereerde inhoud?
+## <a name="how-do-i-give-feedback-about-ai-generated-content"></a>Hoe geef ik feedback over door AI gegenereerde inhoud?
 
 Elke keer dat Copilot afstemmingen of suggesties levert, kunt u rechtstreeks vanuit het Copilot-venster feedback aan Microsoft geven met behulp van de besturingselementen Vind ik leuk (duim omhoog) en Niet leuk (duim omlaag). Uw feedback blijft anoniem en wij gebruiken deze gegevens om de kwaliteit van de dienstverlening te verbeteren.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Bankrekeningen reconciliëren met Copilot (preview)](bank-reconciliation-with-copilot.md)

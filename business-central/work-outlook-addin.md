@@ -10,7 +10,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# Business Central gebruiken als uw bedrijfsinbox in Outlook
+# <a name="use-business-central-as-your-business-inbox-in-outlook"></a>Business Central gebruiken als uw bedrijfsinbox in Outlook
 
 [!INCLUDE[prod_short](includes/prod_short.md)] biedt een invoegtoepassing waarmee u bedrijfsinteracties kunt beheren met uw klanten en leveranciers, rechtstreeks in Microsoft Outlook. Met de [!INCLUDE[prod_short](includes/prod_short.md)]-invoegtoepassing voor Outlook kunt u financiële gegevens bekijken met betrekking tot klanten en leveranciers, en financiële documenten maken en verzenden, zoals offertes en facturen.
 
@@ -24,7 +24,7 @@ De [!INCLUDE[prod_short](includes/prod_short.md)]-invoegtoepassing bestaat uit t
 
    Wanneer een bedrijfsdocument wordt verzonden in een e-mail, biedt de invoegtoepassing een directe, in-line koppeling van de hoofdtekst van de e-mail naar het eigenlijke bedrijfsdocument in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Aan de slag
+## <a name="get-started"></a>Aan de slag
 
 1. Het eerste dat u moet doen, is de [!INCLUDE[prod_short](includes/prod_short.md)]-invoegtoepassing geïnstalleerd krijgen in Outlook. Uw beheerder heeft de invoegtoepassing mogelijk al voor u geïnstalleerd. Dus als u het niet zeker weet, neem dan contact op met uw beheerder of bekijk de volgende stap om te controleren of het is geïnstalleerd.
 
@@ -45,7 +45,7 @@ De eerste keer dat u de invoegtoepassing gebruikt, wordt u in het deelvenster va
 
 Zie voor meer informatie [Invoegtoepassingen gebruiken in Outlook op het web](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
 
-## Werken met contacten en documenten met behulp van de invoegtoepassing Contactinzichten
+## <a name="work-with-contacts-and-documents-using-the-contact-insights-add-in"></a>Werken met contacten en documenten met behulp van de invoegtoepassing Contactinzichten
 
 Stel u eens voor dat u een e-mailbericht ontvangt van een klant die een offerte voor enkele artikelen wil. U kunt rechtstreeks in Outlook de [!INCLUDE[prod_short](includes/prod_short.md)]-invoegtoepassing openen, die de afzender als een klant herkent en de klantenkaart voor dat bedrijf opent. Vanuit dit dashboard kunt u overzichtsinformatie voor de klant zien, evenals inzoomen voor meer details over specifieke documenten. U kunt ook de verkoophistorie van de klant bekijken. Als dit een nieuw contact is, kunt u het als nieuwe klant toevoegen in [!INCLUDE[prod_short](includes/prod_short.md)] zonder Outlook te verlaten.  
 
@@ -58,7 +58,7 @@ Soms wilt u meer velden bekijken dan u in de invoegtoepassing kunt weergeven, zo
 > [!TIP]
 > In de taken wordt uitgelegd hoe u de invoegtoepassing vanuit een e-mailbericht kunt gebruiken. Maar u kunt hetzelfde doen vanuit een agenda-afspraak in Outlook.
 
-### Een zakelijk contact opzoeken bij het opstellen van een e-mail
+### <a name="look-up-a-business-contact-when-composing-an-email"></a>Een zakelijk contact opzoeken bij het opstellen van een e-mail
 
 1. Maak een nieuw e-mailbericht.
 2. Ga op het lint naar **[!INCLUDE[prod_short](includes/prod_short.md)]** en kies **Contactinzichten**. Of als u de webversie van Outlook gebruikt, selecteert u boven aan het bericht **Apps** ![Toont de knop Apps in Outlook.](media/apps-icon.png) > **Business Central** ![Business Central-invoegtoepassingspictogram in Outlook.](media/outlook-business-central-icon.png) > **Contactinzichten**.
@@ -66,7 +66,7 @@ Soms wilt u meer velden bekijken dan u in de invoegtoepassing kunt weergeven, zo
 
     Een overzicht van het contact wordt weergegeven in het deelvenster en het contact wordt toegevoegd aan de **Aan**-regel van de e-mail.
 
-### De contactgegevens bekijken of wijzigen of van bedrijf wisselen
+### <a name="view-and-change-the-contact-details-or-switch-company"></a>De contactgegevens bekijken of wijzigen of van bedrijf wisselen
 
 De actiebalk boven aan het deelvenster van de [!INCLUDE[prod_short](includes/prod_short.md)]-invoegtoepassing bevat verschillende acties waarmee u dieper in details over de contactpersoon kunt graven en dingen kunt wijzigen.
 
@@ -74,7 +74,7 @@ De actiebalk boven aan het deelvenster van de [!INCLUDE[prod_short](includes/pro
 
 U kunt bijvoorbeeld de volledige contactgegevens openen zoals u ze zou zien in [!INCLUDE[prod_short](includes/prod_short.md)]. Als u met meer dan één [!INCLUDE[prod_short](includes/prod_short.md)]-bedrijf werkt, kunt u gemakkelijk tussen bedrijven schakelen.
 
-### Inkomende documenten traceren
+### <a name="track-incoming-documents"></a>Inkomende documenten traceren
 
 Misschien gebruikt u de lijst **Inkomende documenten** in [!INCLUDE[prod_short](includes/prod_short.md)] om documenten bij te houden voor verwerking die leveranciers naar u sturen, zoals een inkoopfactuur die moet worden betaald. Als u dat doet, kunt u eenvoudig records voor inkomende documenten maken vanuit de Outlook-invoegtoepassing en de e-mailbijlagen toevoegen.
 
@@ -82,13 +82,13 @@ Misschien gebruikt u de lijst **Inkomende documenten** in [!INCLUDE[prod_short](
 
 2. Kies in de actiebalk van de invoegtoepassing **Meer acties weergeven** en kies vervolgens **Verzenden naar inkomende documenten**. .  
 
-### Nieuw document maken en verzenden naar een contact
+### <a name="create-and-send-new-document-to-a-contact"></a>Nieuw document maken en verzenden naar een contact
 
 1. Kies in het lint of onder aan het e-mailbericht ![pictogram van Business Central-invoegtoepassing in Outlook.](media/outlook-business-central-icon.png) **[!INCLUDE[prod_short](includes/prod_short.md)]** > **Nieuw** en kies vervolgens het type document dat u wilt maken, zoals **Verkoopofferte**.
 2. Breng wijzigingen aan in het document in het deelvenster van de **[!INCLUDE[prod_short](includes/prod_short.md)]**-invoegtoepassing.
 3. Wanneer het document klaar is om naar het contact te worden verzonden, kiest u in de actiebalk **Meer acties weergeven** en kiest u vervolgens de actie **Verzenden via e-mail**.
 
-### Bestanden bijvoegen bij records
+### <a name="attach-files-to-records"></a>Bestanden bijvoegen bij records
 
 Uw e-mailpostvak dient vaak als een bron van inkomende bestanden die werkstomen initiëren of deblokkeren. Bestanden kunnen zaken bevatten zoals betalingen van pdf-facturen, foto's van goederen of vereisten in een Word-document. Wanneer u in Outlook werkt met Business Central-records zoals leveranciers, klanten, inkoopfacturen of verkooporders, kunt u deze bestanden aan de records toevoegen.
 
@@ -98,7 +98,7 @@ Er zijn een aantal manieren waarop u bestanden kunt bijvoegen. Een daarvan is om
 
 Nadat een bestand is bijgevoegd, kunnen collega's het bestand direct downloaden en bekijken vanaf het Feitenblok **Bijlagen** in een van hun Business Central-clients. Of ze kunnen het bestand openen in OneDrive om het te delen met hun afdeling en samen te werken.
 
-#### Een bestand bijvoegen
+#### <a name="how-to-attach-a-file"></a>Een bestand bijvoegen
 
 1. Open de e-mail, kies ![pictogram van Business Central-invoegtoepassing in Outlook.](media/outlook-business-central-icon.png) **[!INCLUDE[prod_short](includes/prod_short.md)]**  > **Contactinzichten**.
 2. Kies in de actiebalk van de invoegtoepassing **Meer acties weergeven** > **Bijlagen**.
@@ -112,7 +112,7 @@ Nadat een bestand is bijgevoegd, kunnen collega's het bestand direct downloaden 
 > [!NOTE]
 > U kunt niet aan alle records bestanden bijvoegen. Deze functie is beschikbaar voor records die het Feitenblok **Bijlagen** gebruiken, zoals een leverancier, klant, inkoopfactuur of verkooporder.
 
-## Een document bekijken vanuit een e-mail met de invoegtoepassing Documentweergave
+## <a name="view-a-document-from-an-email-using-the-document-view-add-in"></a>Een document bekijken vanuit een e-mail met de invoegtoepassing Documentweergave
 
 Of het nu een e-mail is die u hebt verzonden of ontvangen, u kunt elk [!INCLUDE[prod_short](includes/prod_short.md)]-document, zoals de verkoopofferte, rechtstreeks in Outlook bekijken. Van daaruit kunt u wijzigingen aanbrengen en naar gerelateerde informatie navigeren&mdash;net zoals u dat van binnen [!INCLUDE[prod_short](includes/prod_short.md)] zou doen.
 
@@ -121,7 +121,7 @@ Als u de Outlook-app gebruikt, kiest u gewoon **Documentkoppeling** boven aan he
 > [!TIP]
 > Vanaf releasewave 1 van 2022 openen documenten in een nieuw browservenster met alle mogelijkheden die u kent van [!INCLUDE [prod_short](includes/prod_short.md)]. U kunt van een document naar een lijst navigeren en weer terug, lijsten openen in Excel, documenten verzenden om af te drukken en gerelateerde rapporten uitvoeren of bekijken. U beschikt ook over alle bekende sneltoetsen wanneer u documenten vanuit Outlook opent.  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 [Business Central op mijn mobiele apparaat krijgen](install-mobile-app.md)  

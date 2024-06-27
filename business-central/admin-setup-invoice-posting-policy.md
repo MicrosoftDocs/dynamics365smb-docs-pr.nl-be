@@ -11,11 +11,11 @@ ms.search.forms: '119, 9807,'
 ms.service: dynamics-365-business-central
 ---
 
-# Definieer een beleid voor het boeken van facturen voor gebruikers
+# <a name="define-an-invoice-posting-policy-for-users"></a>Definieer een beleid voor het boeken van facturen voor gebruikers
 
 Bedrijven hebben vaak unieke processen voor het boeken van verkoop- en inkoopfacturen en zendingen. Processen kunnen bijvoorbeeld variëren van één persoon die alles op een inkooporder plaatst tot meerdere medewerkers. U kunt voorkomen dat gebruikers facturen boeken of vereisen dat facturen samen met zendingen of ontvangsten worden geboekt.
 
-## Een boekingsbeleid specificeren
+## <a name="to-specify-a-posting-policy"></a>Een boekingsbeleid specificeren
 
 Kies op de pagina **Gebruikersinstellingen** in de velden **Boekingsbeleid voor verkoopfacturen** en **Boekingsbeleid voor inkoopfacturen** een van de volgende opties:
 
@@ -23,7 +23,7 @@ Kies op de pagina **Gebruikersinstellingen** in de velden **Boekingsbeleid voor 
 * **Verboden** - Voorkom dat de gebruiker facturen boekt. [!INCLUDE [prod_short](includes/prod_short.md)] toont een bevestigingsvenster dat alleen de optie **Verzenden** en **Ontvangen** bevat.
 * **Verplicht** - Sta de gebruiker toe om facturen samen met bonnen of zendingen te boeken. [!INCLUDE [prod_short](includes/prod_short.md)] toont een bevestigingsdialoogvenster met de opties **Verzenden en factureren** of **Ontvangen en factureren**.
 
-## Effect op documenten
+## <a name="effect-on-documents"></a>Effect op documenten
 
 In de volgende tabel wordt beschreven hoe beleid voor het boeken van facturen van invloed is op documenten.
 
@@ -47,7 +47,7 @@ In de volgende tabel wordt beschreven hoe beleid voor het boeken van facturen va
    > [!Note]
    > De instelling heeft geen invloed op het boeken van algemene dagboekregels waar u **Factuur** in het veld **Documenttype** kunt selecteren.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Verkopen factureren](sales-how-invoice-sales.md)  
 [Aankopen registreren met inkoopfacturen en orders](purchasing-how-record-purchases.md)  

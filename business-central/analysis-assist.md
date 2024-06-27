@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311'
 ---
-# Gegevens analyseren in lijsten met behulp van Copilot (preview)
+# <a name="analyze-data-in-lists-with-help-from-copilot-preview"></a>Gegevens analyseren in lijsten met behulp van Copilot (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -18,21 +18,21 @@ In dit artikel wordt uitgelegd hoe u *hulp bij analyse* gebruikt om gegevens op 
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## Informatie over hulp bij analyse
+## <a name="about-analysis-assist"></a>Informatie over hulp bij analyse
 
 Hulp bij analyse is een Copilot voor de [analysemodus](analysis-mode.md) op lijstpagina's in Business Central. De analysemodus biedt een interactieve en veelzijdige manier om gegevens te berekenen, samen te vatten en te onderzoeken. Om gegevens in de analysemodus te analyseren, maakt u een *analyse*-tabblad waar u de gegevens transformeert om de gewenste aggregaties en samenvattingen weer te geven. U kunt bijvoorbeeld velden in rijen en kolommen rangschikken, filters opgeven, kolommen sorteren en draaien op velden. Met hulp bij analyse bereikt u, in plaats van deze taak handmatig uit te voeren, veel van hetzelfde&mdash;of in ieder geval om te beginnen&mdash;door woorden te gebruiken. Door de gewenste structuur in natuurlijke taal uit te drukken, zoals 'sorteren op hoeveelheid van klein naar groot' of 'gemiddelde kosten per categorie weergeven', maakt Hulp bij analyse gebruik van AI om een voorgestelde lay-out op een analysetabblad te genereren.
 
-## Beschikbare talen
+## <a name="available-languages"></a>Beschikbare talen
 
 [!INCLUDE[analysis-assist-language-support](includes/analysis-assist-language-support.md)]
 
-## Vereisten
+## <a name="prerequisites"></a>Vereisten
 
 - De mogelijkheid voor hulp bij analyse wordt geactiveerd en u krijgt toestemming om deze te gebruiken. Deze taak wordt meestal gedaan door een beheerder. [Meer informatie over het configureren van Copilot- en AI-mogelijkheden](enable-ai.md).
 <!-- - The display language in Business Central is set to one the following English locales: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA. [Learn how to change the language](ui-change-basic-settings.md#language)-->
 <!-- - Your Business Central environment is in any country/region except Canada (this feature isn't yet available in Canada).-->
 
-## Aan de slag
+## <a name="get-started"></a>Aan de slag
 
 1. Open de lijstpagina die u wilt analyseren.
 
@@ -64,7 +64,7 @@ Hulp bij analyse is een Copilot voor de [analysemodus](analysis-mode.md) op lijs
 
 1. Als u het analysetabblad wilt opslaan, selecteert u **Behouden**. Als u het niet wilt opslaan, selecteert u **Verwijderen**.
 
-## Tips en voorbeelden voor prompts
+## <a name="prompt-tips-and-examples"></a>Tips en voorbeelden voor prompts
 
 Het maken van effectieve prompts voor Copilot is essentieel om nauwkeurige en relevante analysesuggesties te krijgen. Er zijn ook manieren om de tekst die u in prompts toevoegt, te minimaliseren om sneller te kunnen typen. Hier volgen enkele tips en richtlijnen, gevolgd door enkele voorbeelden:
 
@@ -76,7 +76,7 @@ Het maken van effectieve prompts voor Copilot is essentieel om nauwkeurige en re
 - Algemene afkortingen zijn acceptabel.
 - Het gebruik van hoofdletters/kleine letters is niet belangrijk.
 
-### Voorbeelden
+### <a name="examples"></a>Voorbeelden
 
 In de volgende promptvoorbeelden wordt gebruik gemaakt van hulp bij analyse in de lijst **Artikelen** . De pagina voor artikelen bevat drie optelbare velden voor analyse: **Beschikbare hoeveelheid**, **Kostprijs**, **Eenheidsprijs**.
 
@@ -92,7 +92,7 @@ Prompt: `Show total quantity per type per UoM`
 
 Deze prompt maakt een draaitabel in het veld **Beschikbare hoeveelheid** per **Basiseenheid** per **Type**.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Veelgestelde vragen over verantwoordelijke AI voor Hulp bij analyse](faqs-analysis-assist.md)  
 [Ad-hocgegevensanalyse](reports-adhoc-analysis.md)  

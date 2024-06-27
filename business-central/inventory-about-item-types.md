@@ -11,7 +11,7 @@ ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Over artikeltypen
+# <a name="about-item-types"></a>Over artikeltypen
 
 In het veld **Soort** op de pagina **Artikelkaart** kunt u selecteren waarvoor het artikel in uw bedrijf wordt gebruikt. Dit heeft invloed op de mate waarin u het artikel kunt beheren in de voorraad. In de volgende tabel worden de drie soorten artikelen vermeld en beschreven die beschikbaar zijn.
 
@@ -30,7 +30,7 @@ In het veld **Soort** op de pagina **Artikelkaart** kunt u selecteren waarvoor h
 |Niet-voorraad|Ja|Ja|Ja|Ja|Ja|Ja|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Ja|
 |Onderhoud|Ja|Ja|Ja|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Ja|
 
-## Waarderingsmethoden voor soorten artikelen
+## <a name="costing-methods-for-types-of-items"></a>Waarderingsmethoden voor soorten artikelen
 
 Als u voorraadtransacties boekt, worden de gewijzigde voorraadaantallen en -waarden vastgelegd in respectievelijk de artikel- en waardeposten.
 
@@ -38,13 +38,13 @@ U legt de kosten van voorraadartikelen vast in het veld **Kostenbedrag (werkelij
 
 Voor niet-voorraad- en serviceartikelen worden de kosten geregistreerd in het veld **Kostenbedrag (Niet-inv.)** op de pagina **Waardeposten**. Voor niet-voorraad- en serviceartikelen worden de kosten gespecificeerd op de verkoop-, assembly- en productiedocumenten en -dagboeken. Geef de standaardkosten op in het veld **Kostprijs** op de pagina's **Artikelkaart** en **SKU**. Kosten voor dit soort artikelen worden niet gereconcilieerd met het grootboek.
 
-## Catalogus- en serviceartikelen
+## <a name="catalog-and-service-items"></a>Catalogus- en serviceartikelen
 
 U kunt artikelen instellen die u aan uw klanten aanbiedt, maar die u niet in uw systeem beheert tot u ze verkoopt als catalogusartikelen. Hoewel catalogusartikelen vergelijkbaar zijn met reguliere artikelen van het type **Niet-voorraad**, moet u de twee niet verwarren, want er zijn verschillen. Ga voor meer informatie naar [Werken met catalogusartikelen](inventory-how-work-nonstock-items.md).
 
 Artikelen van klanten waaraan u onderhoud verricht, zoals een printer, worden serviceartikelen genoemd. Serviceartikelen hebben niets van doen met normale of catalogusartikelen. Serviceonderdelen kunnen echter gewone artikelen zijn. Ga voor meer informatie naar [Serviceartikelen en serviceartikelonderdelen instellen](service-how-setup-service-items.md).
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Nieuwe artikelen registreren](inventory-how-register-new-items.md)  
 [Voorraad instellen](inventory-setup-inventory.md)  

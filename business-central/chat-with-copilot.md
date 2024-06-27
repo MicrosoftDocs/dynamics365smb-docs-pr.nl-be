@@ -12,7 +12,7 @@ ms.collection:
   - get-started
 ---
 
-# Chatten met Copilot (preview)
+# <a name="chat-with-copilot-preview"></a>Chatten met Copilot (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -20,7 +20,7 @@ In dit artikel wordt uitgelegd hoe u met Copilot kunt chatten om antwoorden te k
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## Informatie over chatten met Copilot
+## <a name="about-chat-with-copilot"></a>Informatie over chatten met Copilot
 
 Microsoft Copilot is de door AI aangestuurde assistent die de creativiteit stimuleert, de productiviteit verhoogt en vervelende taken elimineert. U kunt met Copilot in Business Central chatten om vragen te stellen en bedrijfsgegevens te vinden met behulp van natuurlijke taal. U kunt het volgende doen:
 
@@ -34,13 +34,13 @@ Het gebruik van chat met Copilot stroomlijnt uw werkstroom door traditionele nav
   
 > [Video bekijken](https://go.microsoft.com/fwlink/?linkid=2250609)
 
-## Vereisten
+## <a name="prerequisites"></a>Vereisten
 
 - Zorg ervoor dat de chatten met Copilot-mogelijkheid is geactiveerd door een beheerder. [Meer informatie over het configureren van Copilot- en AI-mogelijkheden](enable-ai.md).
 - Stel uw weergavetaal in Business Central in op een van de volgende Engelse landinstellingen: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA. [Meer informatie over het wijzigen van de taal](ui-change-basic-settings.md#language).
 - Uw Business Central-omgeving kan zich in elk land/regio bevinden behalve Canada (deze functie is nog niet beschikbaar in Canada).
 
-## Ga aan de slag met chatten met Copilot
+## <a name="get-started-using-chat-with-copilot"></a>Ga aan de slag met chatten met Copilot
 
 1. Selecteer in de rechterbovenhoek van het scherm het pictogram ![Toont het pictogram voor chatten met Copilot](media/chat-copilot-icon.png) **Copilot** ![Toont toelichtingsnummer 1](media/callout-number-1.svg).
 
@@ -65,13 +65,13 @@ Het gebruik van chat met Copilot stroomlijnt uw werkstroom door traditionele nav
 
    Chat onthoudt de context, waardoor u belangrijke punten uit de oorspronkelijke vraag niet hoeft te herhalen.
 
-## Chat wissen om opnieuw te beginnen
+## <a name="clear-chat-to-start-over"></a>Chat wissen om opnieuw te beginnen
 
 Als u met Copilot naar een ander gespreksonderwerp wilt overschakelen, selecteert u het pictogram ![Toont het pictogram Chat wissen](media/clear-chat-icon.png) **Een nieuwe Copilot-chatsessie starten** onder aan het Copilot-deelvenster boven het vraagvak. Met deze actie wordt uw laatste paar berichten uit het geheugen van Copilot gewist. Opnieuw beginnen is vaak nuttig na een langdurig gesprek met veel berichten, en het kan Copilot helpen nauwkeurigere antwoorden te geven.
 
 De chat wordt ook gewist als u Business Central sluit of afmeldt.
 
-## Tips voor betere vragen
+## <a name="tips-for-better-questions"></a>Tips voor betere vragen
 
 Hier zijn enkele manieren waarop u de antwoorden die u van Copilot krijgt, kunt verbeteren:
 
@@ -83,7 +83,7 @@ Hier zijn enkele manieren waarop u de antwoorden die u van Copilot krijgt, kunt 
 - Als het eerste antwoord uw vragen niet volledig beantwoordt, stel dan vervolgvragen of herformuleer de laatste vraag.
 - Als u een vraag stelt over een ander onderwerp dan de vorige vraag, wis dan de huidige chatsessie om opnieuw te beginnen.
 
-## Voorbeeldprompts
+## <a name="example-prompts"></a>Voorbeeldprompts
 
 Uw vragen aan Copilot variëren uiteraard afhankelijk van uw rol, huidige taak, de processen die uw organisatie volgt en hoe u zich in woorden uitdrukt. Hieronder volgen voorbeelden van verschillende manieren om vragen te stellen in het chatvenster, die u kunnen inspireren om uw eigen vragen te schrijven op basis van uw eigen unieke situatie.
 
@@ -103,7 +103,7 @@ Prompt: `How does I save my filterrings for later?`
 
 In dit voorbeeld vraagt u Copilot om begeleiding bij het uitvoeren van een bepaalde taak in Business Central. Copilot begrijpt meestal de bedoeling van uw vraag, zelfs als er enkele grammaticale fouten, spelfouten of afkortingen in voorkomen.
 
-## Feedback geven op antwoorden
+## <a name="provide-feedback-on-answers"></a>Feedback geven op antwoorden
 
 U kunt de antwoorden die u krijgt van Copilot beoordelen door de knop Vind ik leuk (duim omhoog) te gebruiken voor een goede beoordeling of de knop Niet leuk (duim omlaag) voor een slechte beoordeling. Wanneer u de knop 'Niet leuk' selecteert, kunt u een reden kiezen, waaronder onnauwkeurig, ongepast of iets anders. Deze informatie kan ons helpen suggesties te verbeteren.
 
@@ -112,7 +112,7 @@ U kunt de antwoorden die u krijgt van Copilot beoordelen door de knop Vind ik le
 
    Prompts are predefined short phrases that start a question. Apart from saving you time, they're designed to target responses to specific categories. They also help you undestand how you can phrase questions to get the responses.-->
    
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 - [Problemen oplossen met Copilot- en AI-mogelijkheden](ai-copilot-troubleshooting.md)  
 - [Copilot- en AI-mogelijkheden configureren](enable-ai.md)  

@@ -10,21 +10,21 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Duurzaamheidsrapporten en analyses in Business Central
+# <a name="sustainability-reports-and-analytics-in-business-central"></a>Duurzaamheidsrapporten en analyses in Business Central
 
 Duurzaamheidsrapportage stelt financiële professionals in staat inzichten en statistieken te krijgen over huidige en vroegere duurzaamheidsinvesteringen en uitstoot.  
 
-## Rapporten
+## <a name="reports"></a>Rapporten
 
 [!INCLUDE [sustainability_reports](includes/sustainability-reports-include.md)]
 
-## Taken
+## <a name="tasks"></a>Taken
 
 In de volgende artikelen worden enkele van de belangrijkste taken beschreven voor het analyseren van de toestand van uw duurzaamheidsinspanningen:
 
 * [Uitstoot berekenen op basis van het grootboek](finance-sustainability-journal.md)
 
-## Duurzaamheidsrapporten verkennen met Rapportverkenner
+## <a name="explore-sustainability-reports-with-report-explorer"></a>Duurzaamheidsrapporten verkennen met Rapportverkenner
 
 Om een overzicht te krijgen van de beschikbare rapporten voor duurzaamheid kiest u **Alle rapporten** op uw startpagina. Met deze actie gaat u naar de Rolverkenner, die wordt gefilterd op de functies in de optie **Rapport en analyse**. Kies onder het kopje **TAAK** **Verkennen**.
 
@@ -34,7 +34,7 @@ Om een overzicht te krijgen van de beschikbare rapporten voor duurzaamheid kiest
 
 Ga voor meer informatie naar [Rapporten zoeken met de Rolverkenner](ui-role-explorer.md).
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Adhoc-analyse van duurzaamheidsgegevens](ad-hoc-analysis-sustainability.md)   
 [Overzicht van duurzaamheidsbeheer](finance-manage-sustainability.md)   

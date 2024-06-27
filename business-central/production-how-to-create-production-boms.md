@@ -10,7 +10,7 @@ ms.search.form: '911, 912, 917, 9287, 99000786, 99000787, 99000788, 99000789, 99
 ms.date: 05/29/2024
 ms.service: dynamics-365-business-central
 ---
-# Productiestuklijsten maken
+# <a name="create-production-boms"></a>Productiestuklijsten maken
 
 Een productiestuklijst bevat hoofdgegevens waarmee de onderdelen en subverzamelingen worden beschreven die worden gebruikt bij de productie van een hoofdartikel. Wanneer u een productieorder voor een artikel maakt, bepaalt de productiestuklijst de berekening van materiaalbehoeften zoals weergegeven op de pagina **Prod.-ordermaterialen**.
 
@@ -24,7 +24,7 @@ Voordat u een bewerkingsplan kunt instellen, moeten instellingen zijn gedaan:
 - Er zijn artikelkaarten gemaakt voor hoofdartikelen die onderdeel zijn van de productie. Zie voor meer informatie [Nieuwe artikelen registreren](inventory-how-register-new-items.md).
 - Er zijn productieresources ingesteld. Zie voor meer informatie [Afdelingen en bewerkingsplaatsen instellen](production-how-to-set-up-work-and-machine-centers.md).
 
-## Een productiestuklijst maken
+## <a name="to-create-a-production-bom"></a>Een productiestuklijst maken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), pictogram, voer **productiestuklijsten** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  
@@ -48,7 +48,7 @@ Voordat u een bewerkingsplan kunt instellen, moeten instellingen zijn gedaan:
 > [!NOTE]  
 > [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)] Als u de vaste verrekenprijs van het artikel opnieuw wilt berekenen, kiest u de actie **Productie** en vervolgens **Vaste verrekenprijs berekenen**.  
 
-## Een nieuwe versie van een productiestuklijst maken
+## <a name="to-create-a-new-version-of-a-production-bom"></a>Een nieuwe versie van een productiestuklijst maken
 
 Gebruik bijvoorbeeld nieuwe versies van productiestuklijsten wanneer een artikel wordt vervangen door een ander artikel of wanneer een klant een speciale versie van een product nodig heeft. Met behulp van het versieprincipe kunt u verschillende versies van een productiestuklijst beheren. De structuur van de productiestuklijstversie komt overeen met de structuur van de productiestuklijsten. Het belangrijkste verschil is de geldigheidsduur van de versies. De geldigheid wordt bepaald door de begindatum.  
 
@@ -72,7 +72,7 @@ De geldigheid van de versie wordt aangegeven in het veld **Begindatum**.
 >
 > Met behulp van phantom-productiestuklijsten kunt u producten structureren. Dit type productiestuklijst levert nooit een gereedgemeld product op, maar wordt alleen gebruikt om de afhankelijke vraag te bepalen. Voor phantom-productiestuklijsten bestaan geen artikelgegevens in de module Voorraad.
 
-## Formule voor berekening van het aantal in productiestuklijsten
+## <a name="quantity-calculation-formula-on-production-boms"></a>Formule voor berekening van het aantal in productiestuklijsten
 
 Bij de berekening van het aantal wordt rekening gehouden met de verschillende dimensies die ook op de productiestuklijstregels zijn ingevoerd. De dimensies verwijzen naar een ordereenheid van het desbetreffende artikel. Lengte, breedte, hoogte en gewicht kunnen als dimensies worden ingevoerd.  
 
@@ -90,13 +90,13 @@ De relatie tussen de afzonderlijke materialen wordt bepaald door de berekeningsf
 > [!NOTE]
 > De berekeningsformule **Vast aantal** zorgt ervoor dat het verbruik van een onderdeel hetzelfde is, ongeacht de uitval- of uitvoerhoeveelheden. Voor productieordermaterialen, wanneer het veld **Berekeningsformule** is ingesteld op **Vast aantal**, is de veldwaarde voor **Verwachte hoeveelheid** altijd gelijk aan het veld **Aantal per**. Het uitvalpercentage dat op dezelfde regel is gedefinieerd, wordt genegeerd. Het rapport **Beschikbaarheid per stuklijst** houd rekening met Vast aantal. Het rapport toont het artikel als het knelpunt als de beschikbare hoeveelheid kleiner is dan de hoeveelheid in het veld **Aantal per bovenliggend artikel**. De velden **Bovenliggende kan worden gemaakt** en **Topartikel kan worden gemaakt** zijn altijd leeg, ongeacht de beschikbare hoeveelheid. Vast aantal wordt ook meegenomen in berekeningen voor standaardkosten. De partijgrootte voor het geproduceerde artikel is van invloed op de kosten die voor één artikel worden toegewezen.
 
-### Opmerking
+### <a name="example"></a>Opmerking
 
 Een productiestuklijst vereist 70 metalen onderdelen met de volgende dimensies: lengte = 0,20 m en breedte = 0,15 m. Voer de waarden als volgt in: Berekeningsformule = Lengte x Breedte, Lengte = 20, Breedte = 15, Aantal per = 70.
 
 De hoeveelheid wordt als volgt berekend: Aantal per x Lengte * Breedte, dat wil zeggen Aantal = 70 x 0,20 m x 0,15 m = 2,1 m2.  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Bewerkingsplannen maken](production-how-to-create-routings.md)  
 [Productvarianten beheren](inventory-item-variants.md)  

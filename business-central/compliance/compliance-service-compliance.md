@@ -10,7 +10,7 @@ ms.date: 06/16/2024
 ms.author: soalex
 ms.service: dynamics-365-business-central
 ---
-# Servicenaleving
+# <a name="service-compliance"></a>Servicenaleving
 
 Deze inhoud bevat informatie over servicenaleving in verband met [!INCLUDE[prod_short](../includes/prod_short.md)] online.
 
@@ -20,11 +20,11 @@ Voor een gedetailleerde lijst met cloudnalevingsaanbiedingen voor Business Centr
 
 Als u geïnteresseerd bent in het hele overzicht van nalevingsaanbod van Microsoft, gaat u naar [Microsoft Vertrouwenscentrum](https://www.microsoft.com/trustcenter/compliance/complianceofferings)
 
-## Servicevoorwaarden
+## <a name="service-terms"></a>Servicevoorwaarden
 
 [!INCLUDE[service-terms](../includes/service-terms.md)]
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Naleving](compliance-overview.md)  
 [Toepassingsnaleving](compliance-application-compliance.md)  

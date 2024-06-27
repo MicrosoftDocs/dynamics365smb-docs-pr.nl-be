@@ -10,7 +10,7 @@ ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Foutbericht: "De boekingsdatum ligt niet binnen het bereik van toegestane boekingsdatums..."
+# <a name="error-message-posting-date-is-not-within-your-range-of-allowed-posting-dates"></a>Foutbericht: "De boekingsdatum ligt niet binnen het bereik van toegestane boekingsdatums..."
 
 Wanneer u de batchverwerking **Kosten aanpassen - Artikelinvoer** gebruikt, kunt u de volgende foutmelding tegenkomen:
 
@@ -18,7 +18,7 @@ Wanneer u de batchverwerking **Kosten aanpassen - Artikelinvoer** gebruikt, kunt
 
 Dit bericht geeft aan dat u geen posten mag boeken voor de datum die u heeft ingevoerd. U kunt dit probleem omzeilen door uw gebruikersinstellingen te wijzigen.
 
-## De gebruikersinstellingen wijzigen  
+## <a name="change-the-user-setup"></a>De gebruikersinstellingen wijzigen
 
 |Gebruikers-ID  |Boeken toestaan vanaf  | Boeken toestaan tot  |
 |---------|---------|--------|
@@ -26,9 +26,9 @@ Dit bericht geeft aan dat u geen posten mag boeken voor de datum die u heeft ing
 
 In dit geval mag u boeken in het datumbereik van 11 september tot en met 30 september. U mag de correctiewaardepost echter niet boeken met een boekingsdatum van 10 september.  
 
-### Overzicht van de instelling van de boekingsdatum
+### <a name="overview-of-the-posting-date-setup"></a>Overzicht van de instelling van de boekingsdatum
 
-#### Voorraadperioden
+#### <a name="inventory-periods"></a>Voorraadperioden
 
 |Einddatum  |Naam  |Gesloten  |
 |---------|---------|---------|
@@ -45,7 +45,7 @@ In dit geval mag u boeken in het datumbereik van 11 september tot en met 30 sept
 |11-2020-30     |November   2020   |         |
 |12-2020-31     |December   2020   |         |  
 
-#### Grootboekinstellingen
+#### <a name="general-ledger-setup"></a>Grootboekinstellingen
 
 |Veld|Waarde|
 |---------|---------|
@@ -54,7 +54,7 @@ In dit geval mag u boeken in het datumbereik van 11 september tot en met 30 sept
 |Registratietijd:       |         |
 |Lokale adresnotatie:|   Postcode      |  
 
-#### Gebruikersinstellingen
+#### <a name="user-setup"></a>Gebruikersinstellingen
 
 |Gebruikers-ID  |Boeken toegest. vanaf  | Boeken toestaan tot  |
 |---------|---------|--------|
@@ -62,7 +62,7 @@ In dit geval mag u boeken in het datumbereik van 11 september tot en met 30 sept
 
 Als een ruimer datumbereik waar boeking is toegestaan wordt toegewezen op de pagina **Voorraadperiode** of **Boekhoudinstellingen**, kan het conflict worden vermeden dat het foutbericht veroorzaakt. Dankzij het bredere bereik kunt u de correctiewaardepost bijvoorbeeld boeken met een boekingsdatum van 10 september.
   
-## Zie ook  
+## <a name="see-also"></a>Zie ook
 
 [Ontwerpdetails: Boekingsdatum van herwaarderingswaardepost](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)  

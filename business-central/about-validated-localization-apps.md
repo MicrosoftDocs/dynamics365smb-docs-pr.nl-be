@@ -8,11 +8,11 @@ ms.topic: conceptual
 ms.author: altotovi
 ---
 
-# Ontwikkeling van gevalideerde lokalisatie-apps
+# <a name="development-of-validated-localization-apps"></a>Ontwikkeling van gevalideerde lokalisatie-apps
 
 In dit artikel worden de vereisten en richtlijnen beschreven voor het ontwikkelen van een gevalideerde lokalisatie-app voor [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Wat is een gevalideerde lokalisatie-app?
+## <a name="what-is-a-validated-localization-app"></a>Wat is een gevalideerde lokalisatie-app?
 
 [!INCLUDE[prod_short](includes/prod_short.md)] is [wereldwijd op meer dan 170 markten](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) beschikbaar. In een aantal markten werkt Microsoft samen met ISV-partners om [!INCLUDE[prod_short](includes/prod_short.md)] te lokaliseren via lokalisatie-apps die beschikbaar zijn op [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=2081646). Voor die regio's kunnen lokalisaties beschikbaar zijn via het voorkeursprogramma voor lokalisatie-apps. Het voorkeursprogramma voor lokalisatie-apps herkent die apps, die zijn gebouwd volgens de specifieke kwaliteitsrichtlijnen van Microsoft. ISV-partners die aan deze programmavereisten en richtlijnen voldoen, kunnen er technisch en commercieel van profiteren om hun wederverkopers en klanten te bedienen.  
 
@@ -33,7 +33,7 @@ Apps in het gevalideerde pilotprogramma voor lokalisatie bevatten een reeks func
 > [!NOTE]
 > Lokale functionaliteit is gunstig voor de productiviteit van bedrijfsprocessen in een land/regio en voegt daardoor waarde toe aan het bedrijf, maar is niet vereist vanuit een regelgevend perspectief, zoals specifieke bank- en betalingsindelingen, onkostendeclaraties, HR-functies, salarisadministratie en soortgelijke kleinere of grotere, en leuke functies moeten in andere apps worden geïsoleerd. Als apps deze functionaliteiten bevatten, worden ze niet goedgekeurd als gevalideerde lokalisatie-apps.   
 
-## Gevalideerde bedrijfsvereisten voor lokalisatie-apps  
+## <a name="validated-localization-app-business-requirements"></a>Gevalideerde bedrijfsvereisten voor lokalisatie-apps
 
 - De aanbieder van de gevalideerde lokalisatie-app voldoet aan alle vereisten om een indirecte aanbieder van CSP te zijn.  
 - De aanbieder van de gevalideerde lokalisatie-app brengt een minimum van aanbod in vijf landen/regio's, die Dynamics 365 Business Central bundelen met een gevalideerde lokalisatie-app. 
@@ -42,9 +42,9 @@ Apps in het gevalideerde pilotprogramma voor lokalisatie bevatten een reeks func
 - Gevalideerde lokalisatie-apps worden beschikbaar gesteld aan alle klanten en partners die hiervan willen profiteren.     
 - De aanbieder van de gevalideerde lokalisatie-app houdt zich bezig met terugkerende werkstromen met Microsoft.
 
-## Functionele en technische vereisten voor de gevalideerde lokalisatie-app  
+## <a name="validated-localization-app-functional-and-technical-requirements"></a>Functionele en technische vereisten voor de gevalideerde lokalisatie-app
 
-### Functionaliteitsvereisten   
+### <a name="functionality-requirements"></a>Functionaliteitsvereisten
 
 Naast het voldoen aan de technische vereisten voor de voorkeurslokalisatie-app, is de minimaal haalbare productomvang voor de voorkeurslokalisatie-app:  
 
@@ -70,7 +70,7 @@ Naast het voldoen aan de technische vereisten voor de voorkeurslokalisatie-app, 
 - Stel installatiehandleidingen (wizards) op voor gebieden die complex zijn om in te stellen, zodat gebruikers uw lokalisatie-app kunnen inschakelen, ontdekken en er een goede eerste ervaring mee kunnen opdoen.  
 - Partners moeten functionele documentatie verstrekken voor alle aspecten van hun lokalisatie.  
 
-### Technische vereisten  
+### <a name="technical-requirements"></a>Technische vereisten
 
 Hieronder vindt u een lijst met vereisten waaraan u moet voldoen voordat u de gevalideerde lokalisatie-app als extensie ter validatie indient. Deze lijst verandert niets aan de [technische validatielijst](/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission) en breidt vanaf daar alleen de vereisten uit.  
 
@@ -87,7 +87,7 @@ Hieronder vindt u een lijst met vereisten waaraan u moet voldoen voordat u de ge
 > [!NOTE]  
 > U kunt ook een integratie maken als u het nuttig vindt om bepaalde functionaliteit buiten de [!INCLUDE[prod_short](includes/prod_short.md)]-omgeving te plaatsen en in plaats daarvan verbinding te maken met [!INCLUDE[prod_short](includes/prod_short.md)] met behulp van bijvoorbeeld API's of webservices.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Technische validatie](/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission)  
 [Ontwikkeling van een standaardlokalisatieoplossing](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  

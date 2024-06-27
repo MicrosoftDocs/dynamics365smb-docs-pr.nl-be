@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Adhoc-analyse van duurzaamheidsgegevens
+# <a name="ad-hoc-analysis-of-sustainability-data"></a>Adhoc-analyse van duurzaamheidsgegevens
 
 In dit artikel leert u hoe u de functie **Gegevensanalyse** gebruikt om duurzaamheidsgegevens te analyseren direct vanaf lijstpagina's en query's. U hoeft geen rapport uit te voeren of over te stappen naar een andere toepassing, zoals Excel. De functie biedt een interactieve en veelzijdige manier om gegevens te berekenen, samen te vatten en te onderzoeken. In plaats van rapporten uit te voeren met opties en filters, kunt u meerdere tabbladen toevoegen die verschillende taken of weergaven van de gegevens vertegenwoordigen. Enkele voorbeelden zijn 'Uitstootoverzicht' of 'Uitstoot per bereik' of elke andere weergave die u maar kunt bedenken. Voor meer informatie over het gebruik van de functie **Gegevensanalyse** gaat u naar [Lijst- en querygegevens analyseren met de analysemodus](analysis-mode.md).
 
@@ -20,7 +20,7 @@ Gebruik de volgende lijstpagina's voor ad-hocanalyse van duurzaamheidsgegevens:
 
 - [Duurzaamheidsposten](https://businesscentral.dynamics.com/?page=6220)
 
-## Ad-hoc analysescenario's voor duurzaamheid
+## <a name="sustainability-ad-hoc-analysis-scenarios"></a>Ad-hoc analysescenario's voor duurzaamheid
 
 Gebruik de functie **Gegevensanalyse** voor snelle feitencontrole en ad-hocanalyse:
 
@@ -36,7 +36,7 @@ In de volgende secties vindt u voorbeelden van duurzaamheidsscenario's in [!INCL
 | [Gemiddelde uitstoot per categorie](#example-average-emissions-by-category) | Analyseer uw gemiddelde uitstoot per categorie. | [Duurzaamheidsposten](https://businesscentral.dynamics.com/?page=6220) | **Accountcategorie**, **Accountnaam**, **Uitstoot NH4**, **Uitstoot CO2** en **Uitstoot N2O**.|
 | [Uitstoot per bereik](#example-emissions-by-scope) | Analyseer uw uitstoot per bereik. | [Duurzaamheidsposten](https://businesscentral.dynamics.com/?page=6220) | **Uitstootbereik**, **Accountcategorie**, **Uitstoot NH4**, **Uitstoot CO2** en **Uitstoot N2O**.|
 
-## Voorbeeld: Uitstootoverzicht (som per categorie)
+## <a name="example-emission-overview-sum-by-category"></a>Voorbeeld: Uitstootoverzicht (som per categorie)
 
 Volg deze stappen om uw uitstoot per categorie te analyseren:
 
@@ -51,7 +51,7 @@ De volgende afbeelding toont het resultaat van deze stappen.
 
 :::image type="content" source="media/data-analysis-sustainability-entries.png" alt-text="Voorbeeld 1 van hoe u gegevensanalyse uitvoert op de pagina Duurzaamheidsposten." lightbox="media/data-analysis-sustainability-entries.png":::
 
-## Voorbeeld: Gemiddelde uitstoot per categorie
+## <a name="example-average-emissions-by-category"></a>Voorbeeld: Gemiddelde uitstoot per categorie
 
 Volg deze stappen om uw gemiddelde uitstoot per categorie te analyseren:
 
@@ -67,7 +67,7 @@ De volgende afbeelding toont het resultaat van deze stappen.
 
 :::image type="content" source="media/data-analysis-sustainability-entries-avg.png" alt-text="Voorbeeld 2 van hoe u gegevensanalyse uitvoert op de pagina Duurzaamheidsposten." lightbox="media/data-analysis-sustainability-entries-avg.png":::
 
-## Voorbeeld: Uitstoot per bereik
+## <a name="example-emissions-by-scope"></a>Voorbeeld: Uitstoot per bereik
 
 Volg deze stappen om uw uitstoot per bereik te analyseren:
 
@@ -82,13 +82,13 @@ De volgende afbeelding toont het resultaat van deze stappen.
 
 :::image type="content" source="media/data-analysis-sustainability-entries-scope.png" alt-text="Voorbeeld 3 van hoe u gegevensanalyse uitvoert op de pagina Duurzaamheidsposten." lightbox="media/data-analysis-sustainability-entries-scope.png":::
 
-## Gegevensbasis voor ad-hocanalyse van duurzaamheid
+## <a name="data-foundation-for-ad-hoc-analysis-on-sustainability"></a>Gegevensbasis voor ad-hocanalyse van duurzaamheid
 
 De informatie die u invoert in een duurzaamheidsdagboek is tijdelijk en u kunt deze in het dagboek wijzigen. Wanneer u een duurzaamheidsdagboek boekt, wordt de informatie overgebracht naar duurzaamheidsposten op afzonderlijke duurzaamheidsrekeningen, waar u deze niet kunt wijzigen. U kunt echter wel tegenboekingen of correcties boeken. De lijstpagina [Duurzaamheidsposten](https://businesscentral.dynamics.com/?page=6220) is de belangrijkste gegevensbron voor ad-hocanalyse van duurzaamheidsgegevens.
 
 Voor meer informatie over het plaatsen van duurzaamheidsposten gaat u naar [Duurzaamheidsposten registreren](finance-sustainability-journal.md).
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Duurzaamheidsposten vastleggen](finance-sustainability-journal.md)  
 [Ingebouwde duurzaamheidsrapporten](sustainability-reports.md)   

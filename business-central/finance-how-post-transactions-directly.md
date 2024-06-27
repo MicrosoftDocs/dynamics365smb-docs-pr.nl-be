@@ -11,7 +11,7 @@ ms.search.form: '39, 251'
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# Transacties direct naar het grootboek boeken
+# <a name="post-transactions-directly-to-the-general-ledger"></a>Transacties direct naar het grootboek boeken
 
 Met diversendagboeken kunt u financiële transacties direct naar grootboekrekeningen en andere rekeningen boeken, zoals bank-, klant-, leveranciers- en werknemersrekeningen.  
 
@@ -21,7 +21,7 @@ Dagboeken boeken financiële transacties direct naar grootboekrekeningen en ande
 
 Voor posten die u samen met documenten boekt, is een creditnotaproces vereist. Boekingen die u bij het dagboek boekt, kunt u echter wel storneren. Zie voor meer informatie [Journaalboekingen tegenboeken en ontvangsten/zendingen ongedaan maken](finance-how-reverse-journal-posting.md).
 
-## Een transactie direct naar het grootboek boeken
+## <a name="to-post-a-transaction-directly-to-a-general-ledger-account"></a>Een transactie direct naar het grootboek boeken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Financiële dagboeken** in en kies vervolgens de gerelateerde koppeling.
 2. Open de relevante dagboekbatch. Zie [Werken met diversendagboeken](ui-work-general-journals.md) voor meer informatie.
@@ -35,7 +35,7 @@ Voor posten die u samen met documenten boekt, is een creditnotaproces vereist. B
     > Als u meerdere transactieregels vóór één tegenrekeningsregel wilt invoeren, bijvoorbeeld, voor één bankrekening, selecteert u het selectievakje **Salderingsbedrag voorstellen** op de regel voor uw batch op de pagina **Fin. dagboekbatches**. Het veld **Bedrag** op de tegenrekeningsregel wordt automatisch ingevuld met de waarde die nodig is om de transacties in balans te brengen.
 5. Kies de actie **Boeken** om de transacties op de betreffende grootboekrekeningen te registreren.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Werken met dagboeken](ui-work-general-journals.md)  
 [Kosten van werknemers registreren en terugbetalen](finance-how-record-reimburse-employee-expenses.md)  

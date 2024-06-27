@@ -11,7 +11,7 @@ ms.search.form: '5, 16,118, 483, 495'
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# Een extra rapportagevaluta instellen
+# <a name="set-up-an-additional-reporting-currency"></a>Een extra rapportagevaluta instellen
 
 Aangezien bedrijven steeds vaker in andere landen/regio's opereren, is het belangrijk dat ze de financiële gegevens in meer dan één valuta kunnen controleren en rapporteren.
 
@@ -25,7 +25,7 @@ Uw grootboek is ingesteld om uw lokale valuta (LV) te gebruiken, maar u kunt het
 >
 > U hebt bijvoorbeeld een groot aantal debiteuren in Britse ponden (GBP) en u hebt uw aanvullende rapportagevaluta (ACY) ingesteld op GBP. In dit scenario worden bedragen in de debiteuren die GBP gebruiken, niet gecorrigeerd voor valutakoerswinsten/-verliezen in de aanvullende rapportagevaluta, alleen bedragen op de debiteuren die in andere valuta's zijn. Dat betekent dat als u aanvullende rapportagevaluta gebruikt om uw financiële overzichten te rapporteren, dit kan leiden tot te lage of te hoge uitstaande saldi van debiteuren.
 
-## Rapporten en bedragen weergeven in ACY
+## <a name="displaying-reports-and-amounts-in-acy"></a>Rapporten en bedragen weergeven in ACY
 
 Het gebruik van een extra rapportagevaluta kan in de volgende gevallen hulp bieden bij het rapportageproces voor een bedrijf:
 
@@ -34,11 +34,11 @@ Het gebruik van een extra rapportagevaluta kan in de volgende gevallen hulp bied
 
 Verschillende financiële rapporten worden gebaseerd op grootboekposten. Als u rapportgegevens in de extra rapportagevaluta wilt weergeven, schakelt u het selectievakje **Bedragen in rapportagevaluta weergeven** van het sneltabblad **Opties** in voor het betreffende grootboekrapport.
 
-## Wisselkoersen herwaarderen
+## <a name="adjusting-exchange-rates"></a>Wisselkoersen herwaarderen
 
 Aangezien valutakoersen constant wisselen, moeten de ACY-equivalenten in uw systeem periodiek worden gecorrigeerd. Als deze correcties niet worden uitgevoerd, kunnen de bedragen die omgerekend zijn van vreemde (of extra) valuta's en geboekt zijn in het grootboek in LV misleidend zijn. Bovendien moeten dagelijkse posten die geboekt zijn doordat een dagwisselkoers is ingevoerd in de toepassing, worden bijgewerkt nadat de dagwisselkoersgegevens zijn ingevoerd. De batchverwerking **Wisselkoers herwaarderen** wordt gebruikt om de wisselkoersen van de geboekte klant, leverancier en bankrekeningposten te corrigeren. Het kan ook ACY-bedragen in grootboekposten bijwerken. Zie voor meer informatie [Valutawisselkoersen bijwerken](finance-how-update-currencies.md).
 
-## Een extra rapportagevaluta instellen
+## <a name="setting-up-an-acy"></a>Een extra rapportagevaluta instellen
 
 Volg deze stappen om een extra rapportagevaluta in te stellen:
 
@@ -47,7 +47,7 @@ Volg deze stappen om een extra rapportagevaluta in te stellen:
 - Geef de wisselkoersherwaarderingsmethode op voor btw-boekingen.  
 - Activeer de ACY.  
 
-### Grootboekrekeningen opgeven voor het boeken van wisselkoerscorrecties  
+### <a name="to-specify-general-ledger-accounts-for-posting-exchange-rate-adjustments"></a>Grootboekrekeningen opgeven voor het boeken van wisselkoerscorrecties
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Valuta's** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul op de pagina **Valuta's** de volgende velden in voor de extra rapportagevaluta.  
@@ -64,7 +64,7 @@ Volg deze stappen om een extra rapportagevaluta in te stellen:
 
 U moet voor elke grootboekrekening opgeven hoe grootboekbedragen voor die rekening worden gecorrigeerd bij wisselkoersschommelingen tussen de LV en de extra rapportagevaluta.  
 
-### De wisselkoerscorrectiemethode opgeven voor alle grootboekrekeningen
+### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>De wisselkoerscorrectiemethode opgeven voor alle grootboekrekeningen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Rekeningschema** in en kies de gerelateerde koppeling.  
 2. Selecteer op de pagina **Rekeningschema** de relevante rekening en kies de actie **Bewerken**.  
@@ -82,7 +82,7 @@ U moet voor elke grootboekrekening opgeven hoe grootboekbedragen voor die rekeni
 
 4.  Sluit de pagina **Grootboekrekening**.  
 
-### Wisselkoersherwaarderingsmethode opgeven voor btw-boekingen
+### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Wisselkoersherwaarderingsmethode opgeven voor btw-boekingen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboekinstellingen** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer op de pagina **Boekhoudinstellingen** de relevante methode in het veld **Btw-herwaardering**.  
@@ -98,7 +98,7 @@ U moet voor elke grootboekrekening opgeven hoe grootboekbedragen voor die rekeni
     |**Bedrag herwaarderen**|Het bedrag in LV is aangepast voor eventuele wisselkoerswinsten of -verliezen. Wisselkoerswinsten of -verliezen worden geboekt naar de grootboekrekening in het veld **Bedrag** en de rekeningen die u hebt gespecificeerd voor winsten of verliezen in de velden **Gereal. grootbk.-winstrek.** en **Gereal. grootbk.-verliesrek.** op de pagina **Valuta's**.|  
     |**Bedrag in rapportagevaluta herwaarderen**|Het bedrag in LV is aangepast voor eventuele wisselkoerswinsten of -verliezen. Wisselkoerswinsten of -verliezen worden geboekt naar de grootboekrekening in het veld **Bedrag (Rapp.-val.)** en de rekeningen die u hebt gespecificeerd voor winsten of verliezen in de velden **Gereal. grootbk.-winstrek.** en **Gereal. grootbk.-verliesrek.** op de pagina **Valuta's**.|  
 
-### De ACY activeren  
+### <a name="to-activate-the-acy"></a>De ACY activeren
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboekinstellingen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies op de pagina **Boekhoudinstellingen** in het veld **Extra rapportagevaluta** de extra valuta die u voor de rapportage wilt gebruiken.  
@@ -125,7 +125,7 @@ Bovendien hebben alle toekomstige posten van hetzelfde type bedragen in zowel de
 > [!NOTE]  
 > Het veld **Rapportagevaluta** wordt pas geactiveerd nadat u op de knop **OK** in de batchverwerking **Rapp.-val. herwaarderen** hebt geklikt.  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Valutawisselkoersen bijwerken](finance-how-update-currencies.md)  
 [Jaren en perioden afsluiten](year-close-years-periods.md)  

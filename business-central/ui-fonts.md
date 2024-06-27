@@ -11,14 +11,14 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# Beschikbare lettertypen
+# <a name="available-fonts"></a>Beschikbare lettertypen
 
 De online versie van [!INCLUDE[prod_short](includes/prod_short.md)] bevat vooraf geïnstalleerde lettertypen op de servers die kunnen worden gebruikt bij het genereren van rapporten. In de volgende secties wordt beschreven welke lettertypen beschikbaar zijn.
 
 > [!NOTE]
 > Om veiligheids- en juridische redenen kunt u geen aangepaste lettertypen uploaden naar de [!INCLUDE[prod_short](includes/prod_short.md)]-omgeving.
 
-## Documentlettertypen
+## <a name="document-fonts"></a>Documentlettertypen
 
 De volgende lettertypen zijn geïnstalleerd en beschikbaar voor gebruik in Excel-, Word- en RDL-rapportlay-outs:
  
@@ -158,7 +158,7 @@ De volgende lettertypen zijn geïnstalleerd en beschikbaar voor gebruik in Excel
 * `Yu Gothic UI Semibold`
 * `Yu Gothic UI Semilight`
 
-## Lettertypen voor cheques
+## <a name="fonts-for-checks"></a>Lettertypen voor cheques
 
 MICR-lettertypen (Magnetic Ink Character Recognition) zijn geïnstalleerd en beschikbaar voor gebruik. Zowel E-13B als de CMC-7-standaarden worden ondersteund.  
 
@@ -166,7 +166,7 @@ Naast MICR-lettertypen zijn er speciale beveiligingslettertypen beschikbaar voor
 
 Zie voor meer informatie [Een cheque-indeling selecteren](finance-how-define-check-layouts.md).  
 
-## Lettertypen voor streepjescodes
+## <a name="fonts-for-barcodes"></a>Lettertypen voor streepjescodes
 Lettertypen voor het genereren van streepjescodes zijn geïnstalleerd en beschikbaar voor gebruik in zowel Word- als RDLC-rapportlay-outs.
 
 De volgende eendimensionale streepjescodesymbologieën worden ondersteund:
@@ -186,7 +186,7 @@ De volgende tweedimensionale streepjescodesymbologieën worden ondersteund:
 
 Zie voor meer informatie [Barcodelettertypen met Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts).
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Rapportlay-outs beheren](ui-manage-report-layouts.md)  
 [Een cheque-indeling selecteren](finance-how-define-check-layouts.md)  

@@ -10,7 +10,7 @@ ms.date: 05/29/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Goedkeuringsgebruikers instellen
+# <a name="set-up-approval-users"></a>Goedkeuringsgebruikers instellen
 
 Voordat u werkstromen met goedkeuringsstappen kunt maken, moet u op de pagina **Gebruikersinstellingen voor goedkeuring** de gebruikers instellen die betrokken zijn bij de goedkeuringsprocessen. U kunt ook bedraglimieten instellen voor verschillende soorten aanvragen, vervangende goedkeurders definiëren en berichten instellen.  
 
@@ -19,7 +19,7 @@ Nadat u goedkeuringsgebruikers hebt ingesteld, kunt u werkstroomreacties te make
 > [!TIP]
 > U kunt vereisen dat meerdere goedkeurders reageren op een goedkeuringsaanvraag door een groep goedkeurders te maken op de pagina **Werkstroomgebruikersgroep**. Meer informatie op [Werkstroomgebruikersgroepen instellen](across-how-to-set-up-workflow-users.md).  
 
-## Een goedkeuringsgebruiker instellen
+## <a name="to-set-up-an-approval-user"></a>Een goedkeuringsgebruiker instellen
 
 [!INCLUDE [workflow-requestor-approver](includes/workflow-requestor-approver.md)]
 
@@ -46,7 +46,7 @@ Nadat u goedkeuringsgebruikers hebt ingesteld, kunt u werkstroomreacties te make
 
 De volgende stap is specificeren hoe u wilt dat [!INCLUDE [prod_short](includes/prod_short.md)] mensen informeert dat een verzoek in afwachting van hun aandacht is. Meer informatie op [Werkstroomberichten instellen](across-setting-up-workflow-notifications.md).
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Werkstroomgebruikers instellen](across-how-to-set-up-workflow-users.md)  
 [Werkstroomberichten instellen](across-setting-up-workflow-notifications.md)  

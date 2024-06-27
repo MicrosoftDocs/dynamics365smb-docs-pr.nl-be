@@ -10,7 +10,7 @@ ms.search.form: '99000754, 99000755, 99000756, 99000758, 99000760, 99000761, 990
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# Afdelingen en bewerkingsplaatsen instellen
+# <a name="set-up-work-centers-and-machine-centers"></a>Afdelingen en bewerkingsplaatsen instellen
 
 [!INCLUDE [prod_short](includes/prod_short.md)] maakt onderscheid tussen drie soorten capaciteit. Deze zijn hiërarchisch gerangschikt. Elk niveau bestaat uit onderliggende niveaus.  
 
@@ -23,7 +23,7 @@ De geplande capaciteit van een afdeling bestaat uit de beschikbaarheid van de bi
 > [!IMPORTANT]
 > Voordat u afdelingen of bewerkingsplaatsen instelt, kunt u productieagenda's instellen. Zie voor meer informatie [Productieagenda's maken](production-how-to-create-work-center-calendars.md).
 
-## Een afdeling instellen
+## <a name="to-set-up-a-work-center"></a>Een afdeling instellen
 
 De volgende stappen beschrijven hoe u een afdeling instelt. De stappen voor het instellen van een bewerkingsplaatsagenda komen overeen, met uitzondering van het sneltabblad **Bewerkingsplaninstelling**.  
 
@@ -69,7 +69,7 @@ De volgende stappen beschrijven hoe u een afdeling instelt. De stappen voor het 
 > [!NOTE]
 > Gebruik wachttijden om een buffer te bieden tussen het moment waarop een component aankomt op een bewerkingsplaats of afdeling en het moment waarop de bewerking daadwerkelijk begint. Een onderdeel wordt bijvoorbeeld om 10.00 uur afgeleverd bij een bewerkingsplaats, maar het duurt een uur om het op de machine te monteren, zodat de bewerking pas om 11.00 uur begint. Om rekening te houden met dat uur, zou de wachttijd een uur zijn. De waarde van het veld **Wachttijd voor bew.** op een bewerkings- of afdelingskaart, opgeteld bij de waarden in de velden **Insteltijd**, **Bewerkingstijd**, **Wachttijd na bew.** en **Transporttijd** op de bewerkingsplanregel vormen samen de productietijd van het artikel. Dit zorgt voor nauwkeurige totale productietijden.  
 
-## Overwegingen over capaciteit
+## <a name="considerations-about-capacity"></a>Overwegingen over capaciteit
 
 De capaciteit en efficiëntie die voor afdelingen en bewerkingsplaatsen worden gespecificeerd, hebben niet alleen invloed op de beschikbare capaciteit. De waarden hebben ook invloed op de totale productietijd die bestaat uit de insteltijd en de looptijd, die beide op de routeringsregel zijn gedefinieerd.  
 
@@ -78,7 +78,7 @@ Wanneer u een bewerkingsplanregel aan een afdeling of bewerkingsplaats toewijst,
 - Hoeveel capaciteit is er nodig.
 - Hoe lang het duurt voordat de bewerking is voltooid.  
 
-### Bewerkingstijd
+### <a name="run-time"></a>Bewerkingstijd
 
 Om de bewerkingstijd te berekenen wijst het systeem de exacte tijd toe die is gedefinieerd in het veld **Bewerkingstijd** van de bewerkingsplanregel. Efficiëntie en capaciteit hebben geen invloed op de toegewezen tijd. Als de bewerkingstijd bijvoorbeeld is gedefinieerd als 2 uur, is de toegewezen tijd 2 uur, ongeacht de waarden in de velden efficiëntie en capaciteit in de afdeling.  
 
@@ -94,7 +94,7 @@ De *duur* van een bewerking daarentegen houdt rekening met zowel efficiëntie al
 
 Fractionele capaciteit is lastig. We zullen het later in dit artikel bespreken. 
 
-### Insteltijd
+### <a name="setup-time"></a>Insteltijd
 
 Tijdtoewijzing voor de insteltijd is afhankelijk van de capaciteit en wordt berekend als *Insteltijd * Capaciteit*. Als de capaciteit bijvoorbeeld is ingesteld op *2*, wordt uw toegewezen insteltijd verdubbeld, omdat u twee machines moet instellen voor de bewerking.  
 
@@ -105,7 +105,7 @@ Tijdtoewijzing voor de insteltijd is afhankelijk van de capaciteit en wordt bere
 
 De fractale capaciteit wordt alleen in specifieke gevallen gebruikt.
 
-### Afdeling die meerdere orders tegelijk verwerkt
+### <a name="work-center-processing-multiple-orders-simultaneously"></a>Afdeling die meerdere orders tegelijk verwerkt
 
 Laten we als voorbeeld een verfspuitcabine gebruiken. Deze heeft dezelfde instel- en bewerkingstijd voor elke verwerkte partij. Maar elke partij kan meerdere individuele orders bevatten die tegelijkertijd worden geverfd.  
 
@@ -123,7 +123,7 @@ De toegewezen insteltijd voor elke individuele order zal in omgekeerde volgorde 
 In beide gevallen is de totale toegewezen tijd voor alle orders twee uur.
 
 
-### Efficiënte resource kan slechts een deel van de werkdatum aan productief werk besteden
+### <a name="efficient-resource-can-dedicate-only-part-of-their-work-date-to-productive-work"></a>Efficiënte resource kan slechts een deel van de werkdatum aan productief werk besteden
 
 > [!NOTE]
 > Dit is geen aanbevolen scenario. We raden u aan om in plaats daarvan efficiëntie te gebruiken. 
@@ -134,7 +134,7 @@ De toegewezen bewerkingstijd is twee uur en de duur is vier uur.
 
 Gebruik geen insteltijd voor dergelijke scenario's, omdat [!INCLUDE [prod_short](includes/prod_short.md)] slechts 50% van de tijd toewijst. Als de insteltijd is ingesteld op *2*, dan is de toegewezen insteltijd één uur en de duur twee uur.
 
-### Geconsolideerde agenda
+### <a name="consolidated-calendar"></a>Geconsolideerde agenda
 
 Wanneer het veld **Geconsolideerde agenda** is geselecteerd, heeft de afdeling geen eigen capaciteit. In plaats daarvan is de capaciteit gelijk aan de som van de capaciteiten van alle bewerkingsplaatsen die aan de afdeling zijn toegewezen.  
 
@@ -150,7 +150,7 @@ Als u bijvoorbeeld twee bewerkingsplaatsen hebt met een efficiëntie van respect
 > [!NOTE]
 > Gebruik het veld **Geconsolideerde agenda** wanneer u uw bewerkingsplannen structureert om productiebewerkingen te plannen op bewerkingsplaatsniveau, niet op afdelingsniveau. Wanneer u de agenda consolideert, worden de pagina en de rapporten **Werklast van afdeling** een overzicht van de totale belasting in alle bewerkingsplaatsen die aan de afdeling zijn toegewezen.
 
-### Voorbeeld: verschillende bewerkingsplaatsen die aan een afdeling zijn toegewezen
+### <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Voorbeeld: verschillende bewerkingsplaatsen die aan een afdeling zijn toegewezen
 
 Tijdens het instellen van bewerkingsplaatsen en afdelingen is het belangrijk dat u plant waaruit de totale capaciteit zal bestaan.
 
@@ -160,7 +160,7 @@ Wanneer u echter identieke bewerkingsplaatsen (bijvoorbeeld 210 Verpakkingsruimt
 
 Als u niet wilt dat de capaciteiten van afdelingen bijdragen aan de totale capaciteit, geef dan **0** op in het veld **Efficiëntie**.
 
-## Een bewerkingsplaats of afdeling met beperkte capaciteit instellen
+## <a name="to-set-up-a-capacity-constrained-machine-or-work-center"></a>Een bewerkingsplaats of afdeling met beperkte capaciteit instellen
 
 U kunt een beperkte werklast toewijzen aan productieresources die als kritiek worden beschouwd door deze te markeren, in plaats van de onbeperkte werklast die door andere resources worden geaccepteerd. Een resource met beperkte capaciteit kan een afdeling of bewerkingsplaats zijn die als knelpunt wordt beschouwd en waarvoor u een beperkte, begrensde werklast wilt instellen.
 
@@ -179,7 +179,7 @@ Wanneer u plant met capaciteitsbegrensde resources, zorgt [!INCLUDE [prod_short]
 
 > In het geval van gesplitste bewerkingen wordt de insteltijd slechts eenmaal toegewezen omdat ervan wordt uitgegaan dat enige handmatige aanpassing wordt uitgevoerd om de planning te optimaliseren.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Productieagenda's maken](production-how-to-create-work-center-calendars.md)  
 [Productie instellen](production-configure-production-processes.md)  

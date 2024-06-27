@@ -10,20 +10,20 @@ ms.search.form: 'Report_33, Report_101, Report_104, Report_109, Report_112, Repo
 ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ---
-# Debiteurenrapporten en -analyses
+# <a name="accounts-receivable-reports-and-analytics"></a>Debiteurenrapporten en -analyses
 
 Om u te helpen bij het beheren van uw vorderingen in [!INCLUDE [prod_short](includes/prod_short.md)] zijn standaardrapporten en -analyses ingebouwd. Het gaat verder dan traditionele rapportagebeperkingen om u te helpen efficiënt verschillende soorten rapporten te ontwerpen.  
 
-## Rapporten
+## <a name="reports"></a>Rapporten
 
 [!INCLUDE [receivable_reports](includes/receivable-reports-include.md)]
 
-## Financiële rapporten verkennen met Rapportverkenner
+## <a name="explore-finance-reports-with-report-explorer"></a>Financiële rapporten verkennen met Rapportverkenner
 
 [!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
 
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Belangrijkste financiële rapporten](finance-reports.md)  
 [Adhoc-analyse van financiële gegevens](ad-hoc-analysis-finance.md)   

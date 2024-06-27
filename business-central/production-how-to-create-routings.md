@@ -9,7 +9,7 @@ ms.search.form: '99000764, 99000765, 99000766, 99000767, 99000794, 99000796, 990
 ms.date: 06/06/2024
 ms.service: dynamics-365-business-central
 ---
-# Bewerkingsplannen maken
+# <a name="create-routings"></a>Bewerkingsplannen maken
 
 Productiebedrijven maken gebruik van bewerkingsplannen om het productieproces te visualiseren en aan te sturen.
 
@@ -22,7 +22,7 @@ Voordat u een bewerkingsplan kunt instellen, moeten instellingen zijn gedaan:
 - Er worden artikelkaarten gemaakt voor hoofdartikelen die onderdeel zijn van de productie. Ga voor meer informatie naar [Nieuwe artikelen registreren](inventory-how-register-new-items.md).
 - Er zijn productieresources ingesteld. Ga voor meer informatie naar [Afdelingen en bewerkingsplaatsen instellen](production-how-to-set-up-work-and-machine-centers.md).
 
-## Een bewerkingsplan maken
+## <a name="to-create-a-routing"></a>Een bewerkingsplan maken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bewerkingsplannen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  
@@ -51,7 +51,7 @@ Voordat u een bewerkingsplan kunt instellen, moeten instellingen zijn gedaan:
 > [!NOTE]  
 > Zorg ervoor dat u de vaste verrekenprijs van het artikel opnieuw berekent vanaf de **artikel**kaart. Kies de actie **Productie**, de actie **Vaste verrekenprijs berekenen** en kies vervolgens de actie **Alle niveaus**.  
 
-## Bewerkingsplankoppelingen maken
+## <a name="to-create-routing-links"></a>Bewerkingsplankoppelingen maken
 
 Met bewerkingsplankoppelingen kunt u materialen zodanig aan bepaalde bewerkingen koppelen dat hun relatie behouden blijft ook al wordt de productiestuklijst of het bewerkingsplan gewijzigd. Door bewerkingsplankoppelingen kunnen gemakkelijker materialen nog op het laatste moment worden afgeboekt, namelijk op het moment dat de specifieke gekoppelde bewerking wordt opgestart in plaats van wanneer de gehele productieorder wordt vrijgegeven. Ga voor meer informatie naar [Materialen afboeken op basis van de output van een bewerking](production-how-to-flush-components-according-to-operation-output.md).  
 
@@ -85,7 +85,7 @@ Een ander belangrijk voordeel van het koppelen van materialen en bewerkingen is 
 
 De geselecteerde materialen worden gekoppeld aan de geselecteerde bewerkingen zodra u een productieorder maakt of vernieuwt met behulp van de productiestuklijst en het bewerkingsplan. Deze koppeling is zichtbaar op de pagina **Prod.-ordermaterialen**, onder de productieorder. U kunt de codes van routeringskoppelingen op elk gewenst moment verwijderen en toevoegen.
 
-## Medewerkers, tools en kwaliteitsmetingen toewijzen aan bewerkingsplannen
+## <a name="to-assign-personnel-tools-and-quality-measures-to-routing-operations"></a>Medewerkers, tools en kwaliteitsmetingen toewijzen aan bewerkingsplannen
 
 Als u voor een bewerking medewerkers met speciale kwalificaties, speciale kennis of speciale autorisaties nodig hebt, kunt u deze medewerkers toewijzen aan de bewerking. Daarnaast kunt u tools en kwaliteitsvereisten toewijzen aan de bewerking. In deze procedure wordt beschreven hoe u personeel toewijst. De stappen zijn vergelijkbaar voor andere soorten bewerkinginformatie.
 
@@ -95,7 +95,7 @@ Als u voor een bewerking medewerkers met speciale kwalificaties, speciale kennis
 4. Vul de velden op de pagina **Medewerkers bewerkingsplan** in.  
 5. Kies de knop **OK** om de pagina af te sluiten. De ingevoerde waarden worden gekopieerd en toegewezen aan de bewerking.  
 
-## Een nieuwe versie maken van een bewerkingsplan
+## <a name="to-create-a-new-version-of-a-routing"></a>Een nieuwe versie maken van een bewerkingsplan
 
 Het versieprincipe stelt u in staat verschillende versies van een bewerkingsplan te beheren. De structuur van de bewerkingsplanversie komt overeen met de structuur van het bewerkingsplan: een bewerkingsplanversiekop en -regels. Het belangrijkste verschil wordt bepaald door de begindatum.  
 
@@ -112,7 +112,7 @@ Het versieprincipe stelt u in staat verschillende versies van een bewerkingsplan
 
 7. Wanneer u klaar bent met het instellen van de bewerkingsplanversie in het veld **Status**, kiest u **Gecertificeerd**.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Productiestuklijsten maken](production-how-to-create-production-boms.md)  
 [Productie instellen](production-configure-production-processes.md)  
