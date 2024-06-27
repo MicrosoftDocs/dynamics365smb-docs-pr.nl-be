@@ -1,28 +1,34 @@
 ---
 title: Vaste activa onderhouden
-description: U houdt een onderhoudsrecord bij van eventuele reparaties en service aan een vast activum om de waarde van dat vaste activum te behouden.
+description: Registreer reparaties en onderhoud aan een vast activum om de waarde ervan te behouden.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'repair, service'
 ms.search.form: '5642, 5625'
-ms.date: 06/15/2021
-ms.author: bholtorf
+ms.date: 05/22/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Vaste activa onderhouden
 
-Onderhoudskosten zijn periodieke kosten die worden gemaakt om de waarde van vaste activa te behouden. In tegenstelling tot belangrijke verbeteringen zorgen ze niet voor waardevermeerdering.
+Onderhoudskosten zijn exploitatiekosten voor de zaken die u doet om de conditie van uw vaste activa op peil te houden. In tegenstelling tot kapitaalverbeteringen verhoogt onderhoud de waarde van uw bezittingen niet.
 
-U kunt een bijgewerkt bestand over het onderhoud en de beurten voor uw vaste activa bijhouden, zodat u altijd het onderhoudsoverzicht van een vast activum bij de hand hebt. Telkens wanneer een vast activum een onderhoudsbeurt krijgt, registreert u alle relevante informatie, zoals de datum van de onderhoudsbeurt, het leveranciersnummer en het telefoonnummer van de onderhoudsdienst. De onderhoudsregistratie wordt voor elk vast activum opgeslagen op de betreffende VA-kaart.
+Telkens wanneer u onderhoud laat plegen aan een vast activum, registreert u relevante informatie, zoals de datum van de onderhoudsbeurt, de leverancier die het werk heeft uitgevoerd en het telefoonnummer van de onderhoudsdienst. U voert onderhoudsinformatie in op verschillende pagina's:
 
-Indexering wordt gebruikt om waarden aan te passen voor algemene prijswijzigingen. Met de batchverwerking **Vast activum indexeren** kunt u de onderhoudskosten opnieuw berekenen.
+* Vast activum
+* Inkooporder
+* Inkoopfactuur
+* VA fin. dagboek
 
-## Onderhoudswerk aan een vast activum registreren
+Indexering wordt gebruikt om waarden aan te passen voor algemene prijswijzigingen. Gebruik de actie **Vast activum indexeren** om onderhoudskosten opnieuw te berekenen.
 
-Elke keer dat onderhoud wordt uitgevoerd, zoals een onderhoudsbeurt, kunt u dit registreren voor het betreffende vaste activum op de pagina **Onderhoudsregistratie**.  
+## Onderhoudskosten rechtstreeks op een vast activum registreren
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Vaste activa** in en kies vervolgens de gerelateerde koppeling.  
+Elke keer dat onderhoud wordt uitgevoerd voor een activum, zoals een onderhoudsbeurt, kunt u dit registreren op de pagina **Onderhoudsregistratie**.  
+
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vaste activa** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer het vaste activum waarvoor u onderhoud wilt registreren en kies vervolgens de actie **Onderhoudsregistratie**.
 3. Vul op de pagina **Onderhoudsregistratie** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
@@ -30,19 +36,30 @@ Elke keer dat onderhoud wordt uitgevoerd, zoals een onderhoudsbeurt, kunt u dit 
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Afschrijvingsboekoverzicht** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer het afschrijvingsboek dat aan het vaste activum is toegewezen en kies vervolgens de actie **Bewerken**.
-3. Zorg er op de pagina **Afschrijvingsboek** voor dat het selectievakje **Onderhoud** niet is ingeschakeld. Hierdoor worden onderhoudskosten niet naar het grootboek geboekt.
+3. Zorg er op de pagina **Afschrijvingsboek** voor dat het selectievakje  **Onderhoud** niet is ingeschakeld, zodat u onderhoudskosten niet naar het grootboek boekt.
 4. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **VA-fin. dagboeken** in en kies vervolgens de gerelateerde koppeling.  
 5. Maak een eerste dagboekregel en vul de velden indien nodig in.
 6. In het veld **VA-boekingssoort** selecteert u **Onderhoud**.
 7. Kies de actie **VA-tegenrekening invoegen**. Er wordt een tweede dagboekregel gemaakt voor de tegenrekening die voor de boeking van het onderhoud is ingesteld.
 
     > [!NOTE]  
-    >   Stap 7 werkt alleen als u het volgende hebt ingesteld: op de pagina **VA-boekingsgroep** voor de boekingsgroep van het vaste activum bevat het veld **Onderhoudskostenrekening** de grootboekdebetrekening en het veld **Tegenrekening onderhoud** bevat de grootboekrekening waarnaar u tegenrekeningsposten voor afschrijving wilt boeken. Zie [Boekingsgroepen voor vaste activa instellen](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups) voor meer informatie.
+    > Stap 7 werkt alleen als u het volgende hebt ingesteld: op de pagina **VA-boekingsgroep** voor de boekingsgroep van het vaste activum bevat het veld **Onderhoudskostenrekening** de grootboekdebetrekening en het veld **Tegenrekening onderhoud** bevat de grootboekrekening waarnaar u tegenrekeningsposten voor afschrijving wilt boeken. Zie [Boekingsgroepen voor vaste activa instellen](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups) voor meer informatie.
 8. Kies de actie **Boeken**.
 
-## Onderhoudsbeurten voor vaste activa opvolgen
+## Onderhoudskosten vastleggen op een aankoopfactuur
 
-U kunt het rapport **Onderhoud - Volgende beurt** afdrukken om na te gaan voor welke activa er een onderhoudsbeurt is gepland. U kunt dit rapport ook gebruiken bij het bijwerken van het veld **Volgende onderhoudsbeurt** op de kaarten voor vaste activa.  
+In de volgende stappen wordt beschreven hoe u onderhoudskosten voor een vast activum kunt vastleggen op een inkoopfactuur. De stappen zijn vergelijkbaar voor inkooporders.
+
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), Voer **Inkoopfactuur** in en kies vervolgens de gerelateerde koppeling.
+2. Vul indien nodig de velden op het sneltabblad **Algemeen** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Kies **Vast activum** in het veld **Soort** op het sneltabblad **Regels**.
+4. In het veld **Nr.** kiest u het activum en u geeft vervolgens de hoeveelheid en de kosten op.
+5. In het veld **VA-boekingssoort** kiest u **Onderhoud**.
+6. Boek de inkoopfactuur.
+
+## Follow-up op onderhoudsbeurten
+
+U kunt het rapport **Onderhoud - Volgende beurt** afdrukken om na te gaan voor welke activa er een onderhoudsbeurt is gepland. U kunt dit rapport ook gebruiken bij het bijwerken van het veld **Volgende onderhoudsbeurt** op kaarten voor vaste activa.  
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Onderhoud - Volgende beurt** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul de velden **Begindatum** en **Einddatum** in.  
@@ -50,37 +67,37 @@ U kunt het rapport **Onderhoud - Volgende beurt** afdrukken om na te gaan voor w
 
 ## Onderhoudskosten controleren
 
-U kunt de onderhoudskosten bekijken wanneer u de statistische gegevens van een vast activum controleert.  
+U kunt statistieken bekijken om onderhoudskosten te monitoren.  
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vaste activa** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer het vaste activum waarvoor u onderhoudskosten wilt bekijken en kies vervolgens de actie **Afschrijvingsboeken**.
 3. Op de pagina **Afschrijvingsboeken voor vaste activa** selecteert u het betreffende afschrijvingsboek voor vaste activa en kiest u vervolgens de actie **Statistieken**.
 4. Kies op de pagina **VA-statistiek** het veld **Onderhoud**.
 
-De pagina **Onderhoudsposten** wordt geopend met de posten die het bedrag in het veld **Onderhoud** vormen.
+Gebruik de pagina **Onderhoudsposten** om de posten te zien die het bedrag in het veld **Onderhoud** vormen.
 
 ## Onderhoudskosten voor meerdere vaste activa weergeven of afdrukken
 
-In het rapport **Onderhoud - Analyse** kunt u aangeven of u onderhoud van één, twee of drie onderhoudscodes wilt zien voor een opgegeven datum of periode. U kunt het totaal van alle geselecteerde activa of het totaal per activum bekijken.
+In het rapport **Onderhoud - Analyse** kunt u aangeven of u onderhoud van één, twee of drie onderhoudscodes wilt zien voor een specifieke datum of periode. Het rapport kan het totaal tonen van alle geselecteerde activa of het totaal voor elk activum.
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Onderhoud - Analyse** in en kies vervolgens de gerelateerde koppeling.
-2. Vul indien nodig de velden in.
+2. Vul de vereiste velden in.
 3. Kies de knop **Afdrukken** of **Voorbeeld**.
 
 ## Onderhoudsposten bekijken
 
-U kunt ook de onderhoudsposten bestuderen door de onderhoudsposten te bekijken.  
+U kunt ook de onderhoudsposten verkennen door de onderhoudsposten te bekijken.  
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Vaste activa** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vaste activa** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer het vaste activum waarvoor u posten wilt bekijken en kies vervolgens de actie **Afschrijvingsboeken**.
 3. Op de pagina **Afschrijvingsboeken voor vaste activa** selecteert u het betreffende afschrijvingsboek voor vaste activa en kiest u vervolgens de actie **Onderhoudsposten**.
 
-## Onderhoudskosten voor meerdere vaste activa weergeven of afdrukken
+## Onderhoudsposten voor meerdere vaste activa weergeven of afdrukken
 
 In het rapport **Onderhoud - Details** kunt u onderhoudsposten voor een of meerdere vaste activa afdrukken of weergeven.  
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Onderhoud - Details** in en kies vervolgens de gerelateerde koppeling.
-2. Vul de velden in.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Onderhoud - Details** in en kies vervolgens de gerelateerde koppeling.
+2. Vul de vereiste velden in.
 3. Kies de knop **Afdrukken** of **Voorbeeld**.
 
 ## Zie ook

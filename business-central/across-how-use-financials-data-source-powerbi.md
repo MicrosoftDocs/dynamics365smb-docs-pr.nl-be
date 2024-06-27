@@ -1,11 +1,11 @@
 ---
-title: Rapporten maken in Power BI Desktop om Business Central-gegevens weer te geven | Microsoft Docs
+title: Rapporten in Power BI Desktop maken om Business Central-gegevens weer te geven
 description: Maak uw gegevens als gegevensbron in Power BI beschikbaar en maak krachtige rapporten met de status van uw bedrijf.
 author: jswymer
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'business intelligence, KPI, Odata, Power App, SOAP, analysis'
-ms.date: 01/22/2024
+ms.date: 06/12/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
@@ -13,9 +13,9 @@ ms.reviewer: jswymer
 
 # Power BI-rapporten maken om [!INCLUDE [prod_long](includes/prod_long.md)]-gegevens weer te geven
 
-U kunt uw [!INCLUDE[prod_long](includes/prod_long.md)]-gegevens als gegevensbron beschikbaar maken in Power BI Desktop en krachtige rapporten maken met de status van uw bedrijf.
+U kunt uw [!INCLUDE[prod_long](includes/prod_long.md)]-gegevens als gegevensbron beschikbaar maken in Power BI Desktop en krachtige rapporten maken over de status van uw bedrijf.
 
-In dit artikel wordt beschreven hoe u aan de slag kunt met Power BI Desktop om rapporten te maken waarin [!INCLUDE[prod_long](includes/prod_long.md)]-gegevens worden weergegeven.  Nadat u rapporten hebt gemaakt, kunt u deze publiceren via uw Power BI-service of delen met alle gebruikers in uw organisatie. Zodra deze rapporten zich in de Power BI-service bevinden, kunnen gebruikers die ervoor zijn ingesteld, vervolgens de rapporten bekijken in [!INCLUDE[prod_long](includes/prod_long.md)].
+In dit artikel wordt beschreven hoe u aan de slag kunt met Power BI Desktop om rapporten te maken waarin [!INCLUDE[prod_long](includes/prod_long.md)]-gegevens worden weergegeven. Nadat u rapporten hebt gemaakt, kunt u deze publiceren via uw Power BI-service of delen met alle gebruikers in uw organisatie. Zodra deze rapporten zich in de Power BI-service bevinden, kunnen gebruikers die ervoor zijn ingesteld, vervolgens de rapporten bekijken in [!INCLUDE[prod_long](includes/prod_long.md)].
 
 ## Bereid u voor
 
@@ -27,9 +27,7 @@ In dit artikel wordt beschreven hoe u aan de slag kunt met Power BI Desktop om r
 
   Power BI Desktop is een gratis toepassing die u op uw lokale computer installeert. Zie voor meer informatie [Snelle start: verbinden met gegevens in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).
 
-- Zorg dat de gegevens die u in het rapport wilt, beschikbaar zijn als een API-pagina of zijn gepubliceerd als een webservice.
-
-  Voor meer informatie zie [Gegevens beschikbaar stellen via API-pagina's of OData-webservices](admin-powerbi-setup.md#exposedata).
+- Zorg dat de gegevens die u in het rapport wilt, beschikbaar zijn als een API-pagina of zijn gepubliceerd als een webservice. Voor meer informatie zie [Gegevens beschikbaar stellen via API-pagina's of OData-webservices](admin-powerbi-setup.md#exposedata).
 
 <!--- For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, get the following information:
 
@@ -62,24 +60,24 @@ De eerste taak bij het maken van rapporten is het toevoegen van [!INCLUDE[prod_s
 
 5. Meld u aan bij [!INCLUDE [prod_short](includes/prod_short.md)] (eenmalig).
 
-    Als u zich niet eerder hebt aangemeld bij [!INCLUDE [prod_short](includes/prod_short.md)] vanuit Power BI desktop, wordt u gevraagd zich aan te melden.
+    Als u zich niet hebt aangemeld bij [!INCLUDE [prod_short](includes/prod_short.md)] vanuit Power BI Desktop, wordt u gevraagd zich aan te melden.
 
     - Voor [!INCLUDE [prod_short](includes/prod_short.md)] online selecteert u **Aanmelden** en kiest u het relevante account. Gebruik hetzelfde account dat u gebruikt om u aan te melden bij [!INCLUDE [prod_short](includes/prod_short.md)]. Wanneer u klaar bent, selecteert u **Verbinden**.
 
     <!--- For [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, first enter the OData URL for [!INCLUDE[prod_short](includes/prod_short.md)], then select **OK**. When prompted, enter the user name and password of the account to use for connecting to [!INCLUDE[prod_short](includes/prod_short.md)]. In the **Password** box, enter the web service access key. When done, select **Connect**.-->
 
     > [!NOTE]  
-    > Zodra u met succes verbinding hebt gemaakt met [!INCLUDE[prod_short](includes/prod_short.md)], wordt u niet opnieuw gevraagd zich aan te melden. [Hoe wijzig of wis ik het account dat ik momenteel gebruik om verbinding te maken met Business Central vanuit Power BI Desktop?](/dynamics365/business-central/power-bi-faq?tabs=designer#perms)
+    > Nadat u verbinding hebt gemaakt met [!INCLUDE[prod_short](includes/prod_short.md)], wordt u niet opnieuw gevraagd om in te loggen. [Hoe wijzig of wis ik het account dat ik momenteel gebruik om verbinding te maken met Business Central vanuit Power BI Desktop?](/dynamics365/business-central/power-bi-faq?tabs=designer#perms)
 
-6. Eenmaal verbonden neemt Power BI contract op met de Business Central-service. Het **navigatie**venster verschijnt en toont beschikbare gegevensbronnen voor het maken van rapporten. Selecteer een map om deze uit te vouwen en de beschikbare gegevensbronnen te bekijken. 
+6. Wanneer verbonden, neemt Power BI contact op met de [!INCLUDE [prod_short](includes/prod_short.md)]-service. Het **navigatie**venster verschijnt en toont de beschikbare gegevensbronnen voor het maken van rapporten. Selecteer een map om deze uit te vouwen en de beschikbare gegevensbronnen te bekijken.
 
-   Deze gegevensbronnen vertegenwoordigen alle webservices en API-pagina's die zijn gepubliceerd vanuit [!INCLUDE [prod_short](includes/prod_short.md)]. De gegevensbronnen zijn gegroepeerd op de Business Central-omgevingen en -bedrijven. Met Business Central online heeft **Navigator** de volgende opbouw:
+   Deze gegevensbronnen vertegenwoordigen alle webservices en API-pagina's die zijn gepubliceerd vanuit [!INCLUDE [prod_short](includes/prod_short.md)], gegroepeerd op omgevingen en bedrijven. Met [!INCLUDE [prod_short](includes/prod_short.md)] online heeft **Navigator** de volgende opbouw:
 
     - **Omgevingsnaam**
       - **Bedrijfsnaam**
         - **Geavanceerde API's**
 
-          Deze map bevat geavanceerde API-pagina's die door Microsoft zijn gepubliceerd, zoals de [API's voor Business Central-automatisering](/dynamics365/business-central/dev-itpro/administration/itpro-introduction-to-automation-apis) en [aangepaste API-pagina's voor Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api). Aangepaste API-pagina's zijn verder gegroepeerd in mappen op de eigenschappen [APIPublisher](/dynamics365/business-central/dev-itpro/developer/properties/devenv-apipublisher-property)/[APIGroup](/dynamics365/business-central/dev-itpro/developer/properties/devenv-apigroup-property) van de broncode van de API-pagina.
+          Deze map bevat geavanceerde API-pagina's die door Microsoft zijn gepubliceerd, zoals de [API's voor Business Central-automatisering](/dynamics365/business-central/dev-itpro/administration/itpro-introduction-to-automation-apis) en [aangepaste API-pagina's voor Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api). Aangepaste API-pagina's zijn verder gegroepeerd in mappen volgens de eigenschappen [APIPublisher](/dynamics365/business-central/dev-itpro/developer/properties/devenv-apipublisher-property)/[APIGroup](/dynamics365/business-central/dev-itpro/developer/properties/devenv-apigroup-property) van de broncode van de API-pagina.
 
         - **Standaard API's v2.0**
 
@@ -129,7 +127,7 @@ Nadat u het [!INCLUDE [prod_short](includes/prod_short.md)]-rapportthema hebt ge
 
 ## Rapporten publiceren
 
-Nadat u een rapport hebt gemaakt of gewijzigd, kunt u het rapport publiceren naar uw Power BI-service en delen met anderen in uw organisatie. Als het rapport eenmaal is gepubliceerd, kunt u het bekijken in Power BI. Het rapport kan ook worden geselecteerd in [!INCLUDE[prod_short](includes/prod_short.md)].
+Nadat u een rapport hebt gemaakt of gewijzigd, kunt u het rapport publiceren naar uw Power BI-service en delen met anderen in uw organisatie. Nadat u een rapport heeft gepubliceerd, is het beschikbaar in Power BI. Het rapport kan ook worden geselecteerd in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Als u een rapport wilt publiceren, selecteert u **Publiceren** op het tabblad **Start** of in het menu **Bestand**. Als u bent aangemeld bij de Power BI-service, wordt het rapport naar deze service gepubliceerd. Als dat niet het geval is, wordt u gevraagd u aan te melden. 
 
@@ -148,19 +146,28 @@ Er zijn een aantal manieren om rapporten beschikbaar te maken voor uw collega's 
 
     Als u een Power BI Pro-licentie hebt, kunt u het rapport rechtstreeks vanuit uw Power BI-service delen met anderen. Zie [Power BI - een dashboard of rapport delen](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report) voor meer informatie.
 
+## Power BI-rapporten voor meerdere bedrijven of omgevingen maken
+
+De [!INCLUDE[prod_short](includes/prod_short.md)] API-eindpunten hebben allemaal het voorvoegsel `https://api.businesscentral.dynamics.com/v2.0/<environment_name>/api/v2.0`, gevolgd door `/companies({company_id})/accounts({id})` (hier gebruiken we de `accounts` API als illustratie). U kunt deze structuur gebruiken om PowerQuery-query's te maken die gegevens laden voor meerdere bedrijven of meerdere omgevingen als de gebruiker die gegevens leest, er toegang toe heeft.
+
+Volg deze stappen om een query in te stellen om gegevens voor meerdere bedrijven te laden:
+
+1. Neem de PowerQuery-query waarmee gegevens voor één bedrijf worden geladen. Converteer het naar een aangepaste Power Query-functie die de bedrijfs-id (of misschien de omgevingsnaam) als parameters gebruikt. Ga voor meer informatie naar [Aangepaste Power Query-functies gebruiken](/power-query/custom-function).
+1. Gebruik nu de nieuwe aangepaste functie in een PowerQuery-query, waarbij u de functie toewijst aan een lijst met bedrijven en vervolgens de gegevenssets samenvoegt met behulp van de functie [Table.Combine](/powerquery-m/table-combine) Power Query.
+
 ## Problemen oplossen
 
 ### "Kan geen record invoegen. De huidige verbindingsintentie is alleen-lezen." fout bij het verbinden met aangepaste API-pagina
 
 > **VAN TOEPASSING OP:** Business Central online
 
-Vanaf februari 2022 maken nieuwe rapporten die gebruikmaken van Business Central-gegevens, standaard verbinding met een alleen-lezen replica van de Business Central-database. In zeldzame gevallen, afhankelijk van het pagina-ontwerp, krijgt u een foutmelding wanneer u verbinding probeert te maken en gegevens van de pagina probeert op te halen.
+Vanaf februari 2022 maken nieuwe rapporten die gebruikmaken van [!INCLUDE [prod_short](includes/prod_short.md)]-gegevens, standaard verbinding met een alleen-lezen replica van de [!INCLUDE [prod_short](includes/prod_short.md)]-database. In zeldzame gevallen, afhankelijk van het paginaontwerp, kunt u een foutmelding krijgen wanneer u verbinding probeert te maken en gegevens van de pagina probeert op te halen.
 
 1. Start Power BI Desktop.
 2. Selecteer op het lint **Gegevens ophalen** > **Onlineservices**.
 3. Selecteer in het deelvenster **Onlineservices** **Dynamics 365 Business Central** en dan **Verbinden**.
 4. Selecteer in het venster **Navigator** het API-eindpunt waaruit u gegevens wilt laden.
-5. In het voorbeeldvenster aan de rechterkant ziet u de volgende fout:
+5. Het voorbeeldvenster toont de volgende fout:
 
    *Dynamics365BusinessCentral: Aanvraag mislukt: de externe server heeft een fout geretourneerd: (400) Ongeldige aanvraag. (Kan geen record invoegen. Huidige verbindingsintentie is Alleen-lezen. CorrelationId: [...])".*
 

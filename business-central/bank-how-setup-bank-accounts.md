@@ -1,29 +1,27 @@
 ---
-title: Bankrekeningen instellen (bevat video)
+title: Bankrekeningen instellen
 description: Ontdek hoe bankrekeningen worden gebruikt in Business Central en hoe u bedragen kunt reconciliëren met uw bank.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'Yodlee, feed, stream'
 ms.search.form: '370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280'
-ms.date: 08/03/2023
+ms.date: 05/24/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-bank-accounts"></a>Bankrekeningen instellen
+# Bankrekeningen instellen
 
-U gebruikt bankrekeningen in [!INCLUDE[prod_short](includes/prod_short.md)] om uw banktransacties bij te houden. Bedragen op rekeningen kunnen worden uitgedrukt in de lokale valuta of in een vreemde valuta. Nadat u bankrekeningen hebt ingesteld, kunt u ook de optie voor het afdrukken van cheques gebruiken. De bankrekeningen bevatten extra functionaliteit voor [betalingsreconciliatie](receivables-apply-payments-auto-reconcile-bank-accounts.md), [bankreconciliatie](bank-how-reconcile-bank-accounts-separately.md) en het importeren en exporteren van bankbestanden. De bankrekeningen kunnen ook worden opgenomen in transacties in de dagboeken. Elke bankrekening is gekoppeld aan een rekening in het rekeningschema via de toegewezen boekingsgroep voor bankrekeningen. Als u een bankrekening gebruikt bij een betalingstransactie, wordt er automatisch een post gemaakt op zowel de bankrekening als de gekoppelde grootboekrekening.  
+Gebruik bankrekeningen in [!INCLUDE[prod_short](includes/prod_short.md)] om uw banktransacties bij te houden. Bedragen op rekeningen kunnen worden uitgedrukt in de lokale valuta of in een vreemde valuta. Nadat u bankrekeningen heeft ingesteld, kunt u ook cheques afdrukken. Bankrekeningen bieden extra functionaliteit voor [betalingsreconciliatie](receivables-apply-payments-auto-reconcile-bank-accounts.md), [bankreconciliatie](bank-how-reconcile-bank-accounts-separately.md) en het importeren en exporteren van bankbestanden.
+
+U kunt bankrekeningen opnemen in transacties in het grootboek. Elke bankrekening is gekoppeld aan een rekening in het rekeningschema via de toegewezen boekingsgroep voor bankrekeningen. Als u een bankrekening gebruikt bij een betalingstransactie, wordt er automatisch een post gemaakt op zowel de bankrekening als de gekoppelde grootboekrekening.  
 
 Bankrekeningen werken anders, afhankelijk van of er een valutacode is opgegeven:
 
-- Als de valutacode leeg is
-
-  Alle transacties op de bankrekening zijn in de lokale valuta (LV) van het huidige bedrijf. Als er een transactie naar de rekening wordt gedaan in een andere valuta, worden de bedragen in LV op de rekening geboekt op basis van de relevante valutakoers. Alle cheques die vanaf deze rekening worden uitgegeven, moeten in LV worden uitgegeven. Als de bankrekening in een dagboek wordt gebruikt, neemt de dagboekregel automatisch de lege valutacode over.  
+- Als er geen valutacode is opgegeven, zijn alle transacties op de bankrekening in de lokale valuta (LV) van het huidige bedrijf. Als u een transactie voor de rekening maakt in een andere valuta, worden de bedragen in LV op de rekening geboekt op basis van de valutakoers. Alle cheques die vanaf deze rekening worden uitgegeven, moeten in LV worden uitgegeven. Als de bankrekening in een dagboek wordt gebruikt, gebruikt de dagboekregel automatisch de lege valutacode.  
   
-- Valutacode is opgegeven
-
-  Alle transacties die naar deze rekening worden gedaan en cheques die vanaf deze rekening worden uitgegeven, moeten in dezelfde valuta zijn als op de rekening is aangegeven.
+- Als een valutacode is opgegeven, moeten alle transacties die naar deze rekening worden gedaan en alle cheques die er vanuit worden uitgegeven, in dezelfde valuta zijn als de rekening.
 
 U kunt tijd besparen bij het invoeren van gegevens door een bankrekening als standaardrekening te gebruiken voor de valuta die voor de rekening is opgegeven. Als u dat doet, wordt de rekening toegewezen aan verkoop- en servicedocumenten die de valuta gebruiken. Als u de rekening als standaard voor verkoop- en servicedocumenten wilt gebruiken, zet u op de pagina **Bankrekeningkaart** de schakelaar **Als standaard voor valuta gebruiken** aan. Indien nodig kunt u een andere rekening kiezen wanneer u aan een document werkt.
 
@@ -31,22 +29,22 @@ Een bankrekening is een integraal onderdeel van [!INCLUDE[prod_short](includes/p
 
 ![Illustratie van bankrekeningrelaties.](media/Set-Up-Bank-Accounts/Bank_Account_Relations.png)
 
-U ziet dat het maken van een bankrekening deze beschikbaar maakt op alle hierboven getoonde plaatsen en wordt gespiegeld voor de relevante grootboekrekening en op de pagina **Bedrijfsgegevens**.
+Een bankrekening maken maakt deze beschikbaar op alle in de illustratie getoonde plaatsen en wordt gespiegeld in de grootboekrekening en op de pagina **Bedrijfsgegevens**.
 
-Een bankrekening wordt meestal dagelijks gecontroleerd om ervoor te zorgen dat eventuele nieuwe betalingen van klanten zo snel mogelijk worden geregistreerd. Dit helpt ervoor te zorgen dat de werkelijke status van een klant wordt weerspiegeld in [!INCLUDE[prod_short](includes/prod_short.md)]. Dat geeft verkopers, accountants en andere medewerkers toegang tot de meest relevante en actuele informatie, zodat ze niet onnodig naar de klant hoeven te bellen over achterstallige facturen of vertragingen in zendingen.  
+Bankrekeningen worden meestal dagelijks gecontroleerd om ervoor te zorgen dat nieuwe betalingen van klanten zo snel mogelijk worden geregistreerd. Door betalingen snel te registreren, zorgt u ervoor dat de werkelijke status van een klant wordt weerspiegeld in [!INCLUDE[prod_short](includes/prod_short.md)]. De status van klantbetalingen actueel houden voorkomt dat verkopers, accountants en andere medewerkers onnodige telefoontjes plegen over achterstallige facturen of vertragingen in verzendingen.  
 
 ![Illustratie van bankbetaling.](media/Set-Up-Bank-Accounts/Bank-payment-flow.png)
 
-Een andere taak is het importeren van de leveranciersvalutabetalingen met de gerealiseerde valutakoersen om ervoor te zorgen dat de actuele status van de leveranciers up-to-date is. Het gebruik van de mogelijkheid van [betalingsreconciliatie](receivables-apply-payments-auto-reconcile-bank-accounts.md) is de gemakkelijkste manier om dat te doen. In het **betalingsreconciliatiedagboek** kunt u rechtstreeks vanuit een online bankapplicatie banktransacties importeren en min of meer automatisch laten boeken. Het dagboek identificeert en publiceert automatisch het volgende:  
+Een andere taak is het importeren van de leveranciersvalutabetalingen met de gerealiseerde valutakoersen om ervoor te zorgen dat de actuele status van de leveranciers up-to-date is. Het gebruik van de mogelijkheid van [betalingsreconciliatie](receivables-apply-payments-auto-reconcile-bank-accounts.md) is de gemakkelijkste manier om dat te doen. In het **betalingsreconciliatiedagboek** kunt u rechtstreeks vanuit een online bankapplicatie banktransacties importeren en ze min of meer automatisch boeken. Het dagboek identificeert en publiceert automatisch de volgende transacties:  
 
-- Automatische incasso-betalingen van klanten  
-- Klantbetalingen van enkele facturen  
-- Lump-sumbetalingen van klanten.  
-- Klantbetalingen in vreemde valuta's  
-- Leveranciersbetalingen  
-- Leveranciersbetalingen in vreemde valuta  
-- Periodieke leveranciersbetalingen en abonnementen  
-- Bankkosten en rente  
+- Automatische incasso-betalingen van klanten.  
+- Klantbetalingen van afzonderlijke facturen.  
+- Lump-sumbetalingen van klanten..  
+- Klantbetalingen in vreemde valuta's.  
+- Leveranciersbetalingen.  
+- Leveranciersbetalingen in vreemde valuta.  
+- Periodieke leveranciersbetalingen en abonnementen.  
+- Bankkosten en rente.  
 
 Betalingsreconciliatie levert aanzienlijke tijdsbesparingen op bij het boeken van inkomende en uitgaande betalingen. De transacties op de bankrekening in [!INCLUDE[prod_short](includes/prod_short.md)] worden echter pas als 100% correct beschouwd als u een bankreconciliatie uitvoert.  
 
@@ -54,15 +52,15 @@ Bankreconciliatie is hoe u ervoor zorgt dat de bankrekening in [!INCLUDE[prod_sh
 
  ![Illustratie van bankrekeningreconciliatie.](media/Set-Up-Bank-Accounts/BankReconciliation.png)
 
-In de bovenstaande afbeelding vertegenwoordigt de uiterste linkse zijde de bankrekening in [!INCLUDE[prod_short](includes/prod_short.md)] en de uiterst rechtse zijde de transacties die van de bank zijn geïmporteerd via de online banktoepassing. Het diagram in het midden toont de transacties van beide kanten, wat de bankreconciliatie is.
+In de bovenstaande afbeelding vertegenwoordigt de linkerkant de bankrekening in [!INCLUDE[prod_short](includes/prod_short.md)] en de rechterkant vertegenwoordigt de transacties die van de bank zijn geïmporteerd via de online banktoepassing. Het diagram in het midden toont de transacties van beide kanten, die de bankreconciliatie vormen.
 
 Van de bankrekening in [!INCLUDE[prod_short](includes/prod_short.md)] moeten de meeste transacties bekend zijn bij de fysieke bank. De enkele uitzonderingen zijn de volgende gevallen:  
 
-- Correcties geboekt in [!INCLUDE[prod_short](includes/prod_short.md)]  
-- Uitgegeven cheques die nog niet zijn geïnd 
-- Leveranciersbetalingen die nog niet zijn goedgekeurd door de bank  
+- Correcties geboekt in [!INCLUDE[prod_short](includes/prod_short.md)].  
+- Uitgegeven cheques die niet zijn geïnd.
+- Leveranciersbetalingen die nog niet zijn goedgekeurd door de bank.  
 
-Van de fysieke rekening bij de bank komen voortdurend onbekende transacties binnen die niet zijn geïdentificeerd in het betalingsreconciliatiedagboek, zoals:  
+Van de fysieke rekening bij de bank komen voortdurend onbekende transacties binnen die niet zijn geïdentificeerd in het betalingsreconciliatiedagboek, zoals de volgende transacties:  
 
 - Nieuwe leveranciersabonnementen  
 - Klantbetalingen zonder beschrijving
@@ -72,7 +70,7 @@ Van de fysieke rekening bij de bank komen voortdurend onbekende transacties binn
 
 Hoe beter u gegevens toewijst in het betalingsreconciliatiedagboek, hoe meer transacties automatisch worden geboekt en hoe eenvoudiger de periodieke bankreconciliatie wordt.
 
-Bekijk in de video hieronder de basisstappen om een bankrekening in te stellen in [!INCLUDE[prod_short](includes/prod_short.md)].
+De volgende video toont de basisstappen om een bankrekening in te stellen in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 <br /><br />
 
@@ -81,11 +79,11 @@ Bekijk in de video hieronder de basisstappen om een bankrekening in te stellen i
 > [!WARNING]
 > Sommige velden kunnen gevoelige gegevens bevatten, zoals de velden **Bankfiliaalnr.**, **Bankrekeningnr.**, **SWIFT-code** en **IBAN-code**. Zie voor meer informatie [Vertrouwelijke velden bewaken](across-log-changes.md#monitor-sensitive-fields).
 
-## <a name="to-set-up-bank-accounts"></a>Bankrekeningen instellen
+## Bankrekeningen instellen
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me 1 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent 1.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.
 2. Kies op de pagina **Bankrekeningen** de actie **Nieuw**.
-3. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     Een voorbeeld is het veld **Boekingsgroep van bankrekening** dat de bankrekening verbindt met de onderliggende grootboekrekening in de balans. Zie voor meer informatie [Boekingsgroepen instellen](finance-posting-groups.md).
 
@@ -151,16 +149,16 @@ The following table explains key fields.
 |Payment Export Format|Specifies the format of the bank file that is exported when you choose **Export Payments to File** on the **Payment Journal** page.|
 -->
 
-## <a name="to-enter-an-opening-balance"></a>Een beginsaldo invoeren
+## Een beginsaldo invoeren
 
-Als u wilt dat in het veld **Saldo** een beginsaldo wordt ingevuld, moet u een bankrekeningpost boeken met het bedrag in kwestie. U kunt dit doen door een bankrekeningreconciliatie uit te voeren. Zie voor meer informatie [Bankrekeningen reconciliëren](bank-how-reconcile-bank-accounts-separately.md).  
+Als u wilt dat in het veld **Saldo** een beginsaldo wordt ingevuld, moet u een bankrekeningpost boeken met het bedrag in kwestie. U boekt de boeking via een bankrekeningafstemming. Zie voor meer informatie [Bankrekeningen reconciliëren](bank-how-reconcile-bank-accounts-separately.md).  
 >
 > U kunt echter ook het beginsaldo toepassen als onderdeel van het proces voor het maken van algemene gegevens in nieuwe bedrijven. U kunt dit doen met behulp van de begeleide instelling **Bedrijfsgegevens migreren**. Zie voor meer informatie [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 
 > [!IMPORTANT]
-> U moet het beginsaldo niet rechtstreeks naar het grootboek boeken. Als u posten in de grootboekrekening hebt die er rechtstreeks naar zijn geboekt, leidt dit er doorgaans toe dat u de bankrekening niet kunt afstemmen. Bij bankrekeningen in vreemde valuta resulteert een dergelijke praktijk in toenemende verschillen naarmate u meer bankreconciliaties boekt. Gewoonlijk boekt u het beginsaldo direct op de bankrekening en komt het bedrag op de grootboekrekening terecht. U kunt het ook later terugboeken naar de grootboekrekening die u gebruikt om het beginsaldo van het grootboek te salderen. In beide gevallen moet u eventuele directe boekingen op de grootboekrekening salderen voordat u uw eerste bankreconciliatie start&mdash;vooral als de bankrekening in een vreemde valuta is.
+> U moet het beginsaldo niet rechtstreeks naar het grootboek boeken. Posten in de grootboekrekening die er rechtstreeks naar zijn geboekt, leiden er doorgaans toe dat u de bankrekening niet kunt reconciliëren. Bij bankrekeningen in vreemde valuta resulteert directe boeking in verschillen die toenemen naarmate u meer bankreconciliaties boekt. Gewoonlijk boekt u het beginsaldo direct op de bankrekening en komt het bedrag op de grootboekrekening terecht. U kunt het ook later terugboeken naar de grootboekrekening die u gebruikt om het beginsaldo van het grootboek te salderen. In beide gevallen moet u eventuele directe boekingen op de grootboekrekening salderen voordat u uw eerste bankreconciliatie start&mdash;vooral als de bankrekening in een vreemde valuta is.
 
-## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Uw bankrekening instellen om bankbestanden te importeren of te exporteren
+## Uw bankrekening instellen om bankbestanden te importeren of te exporteren
 
 De velden met betrekking tot de import en export van bankfeeds en -bestanden bevinden zich op het sneltabblad **Transfer** op de pagina **Bankrekeningkaart**. Zie voor meer informatie [De AMC Banking 365 Fundamentals-extensie gebruiken](ui-extensions-amc-banking.md) en [De Envestnet Yodlee Bank Feeds-service instellen](bank-how-setup-bank-statement-service.md).
 
@@ -173,15 +171,15 @@ De velden met betrekking tot de import en export van bankfeeds en -bestanden bev
 
 De velden op het sneltabblad **Transit** in de bankrekening hebben verschillende doelen, afhankelijk van of de betaling inkomend of uitgaand is.
 
-De onderstaande afbeelding toont de route van inkomende betalingen (nummers in de omschrijving komen overeen met die in afbeelding):
+De volgende illustratie toont de route van inkomende betalingen. De nummers in de beschrijving komen overeen met de nummers in de afbeelding.
 
 :::row:::
     :::column:::
 
 1. De transacties worden geëxporteerd vanuit de bankrekening in een voor mensen leesbaar .csv-formaat of in het eigen formaat van de bank.
-2. De *definitie van gegevensuitwisseling* wijst de informatie in het bestand toe aan de velden in [!INCLUDE[prod_short](includes/prod_short.md)]. Zie voor meer informatie [Gegevensuitwisseling instellen](across-set-up-data-exchange.md)
-3. Met de *instellingen voor gegevensexport/-import* worden de export of import gedefinieerd en wordt een koppeling gemaakt met de gegevensuitwisselingsdefinitie.
-4. Het *importformaat bankafschriften* koppelt de importinstellingen aan de bankrekening.
+2. De definitie van gegevensuitwisseling wijst de informatie in het bestand toe aan de velden in [!INCLUDE[prod_short](includes/prod_short.md)]. Zie voor meer informatie [Gegevensuitwisseling instellen](across-set-up-data-exchange.md)
+3. Met de instellingen voor gegevensexport/-import worden de export of import gedefinieerd en wordt een koppeling gemaakt met de gegevensuitwisselingsdefinitie.
+4. Het importformaat bankafschriften koppelt de importinstellingen aan de bankrekening.
 5. De betalingen worden geïmporteerd via het **betalingsreconciliatiedagboek** of de pagina **Bankreconciliatie**.
 
   :::column-end:::
@@ -194,15 +192,15 @@ De onderstaande afbeelding toont de route van inkomende betalingen (nummers in d
 
 Inkomende betalingen worden altijd geïmporteerd via het **Betalingsreconciliatiedagboek** of rechtstreeks naar de pagina **Bankreconciliatie**. Uitgaande betalingen kunnen daarentegen afkomstig zijn uit elk betalingsdagboek. De enige voorwaarde is dat het veld **Exporteren betaling toestaan** in de relevante betalingsdagboekbatch moet zijn geselecteerd.
 
-De onderstaande afbeelding toont de route van uitgaande betalingen (nummers in de omschrijving komen overeen met die in afbeelding):
+De volgende illustratie toont de route van uitgaande betalingen. De nummers in de beschrijving komen overeen met de nummers in de afbeelding.
 
 :::row:::
     :::column:::
 
-6. De transacties die zijn ingevuld in een betalingsjournaal dat is voorbereid voor het exporteren van betalingen naar een bestand.
-7. Het *importformaat bankafschriften* koppelt de importinstellingen aan de bankrekening.
-8. Met de *instellingen voor gegevensexport/-import* worden de export of import gedefinieerd en wordt een koppeling gemaakt met de gegevensuitwisselingsdefinitie.
-9. De *definitie van gegevensuitwisseling* wijst de informatie in het bestand toe aan de velden in [!INCLUDE[prod_short](includes/prod_short.md)]. Zie voor meer informatie [Gegevensuitwisseling instellen](across-set-up-data-exchange.md)
+6. De transacties zijn ingevuld in een betalingsjournaal dat is voorbereid voor het exporteren van betalingen naar een bestand.
+7. Het importformaat bankafschriften koppelt de importinstellingen aan de bankrekening.
+8. Met de instellingen voor gegevensexport/-import worden de export of import gedefinieerd en wordt een koppeling gemaakt met de gegevensuitwisselingsdefinitie.
+9. De definitie van gegevensuitwisseling wijst de informatie in het bestand toe aan de velden in [!INCLUDE[prod_short](includes/prod_short.md)]. Zie voor meer informatie [Gegevensuitwisseling instellen](across-set-up-data-exchange.md)
 10. De betalingen worden geëxporteerd vanuit het betalingsdagboek en geïmporteerd naar de bankrekening.
 
   :::column-end:::
@@ -213,13 +211,13 @@ De onderstaande afbeelding toont de route van uitgaande betalingen (nummers in d
   :::column-end:::
 :::row-end:::
 
-## <a name="to-set-up-vendor-bank-accounts-for-export-of-bank-files"></a>Bankrekeningen van leveranciers instellen voor de export van bankbestanden
+## Bankrekeningen van leveranciers instellen voor de export van bankbestanden
 
 Velden op het sneltabblad **Transfer** op de pagina **Bankrekeningkaart leverancier** zijn gerelateerd aan de export van bankfeeds en -bestanden. Zie voor meer informatie [De AMC Banking 365 Fundamentals-extensie gebruiken](ui-extensions-amc-banking.md) en [Betalingen exporteren naar een bankbestand](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
 [!INCLUDE[purchase-vendor-bank-account](includes/purchase-vendor-bank-account.md)]
 
-## <a name="changing-your-bank-account"></a>Uw bankrekening wijzigen
+## Uw bankrekening wijzigen
 
 Als u een andere bankrekening voor uw bedrijf wilt gebruiken, moet u de nieuwe bankrekening in [!INCLUDE[prod_short](includes/prod_short.md)] maken. We raden u aan om niet zomaar de informatie over de rekening die u momenteel gebruikt te vervangen, omdat dit kan leiden tot onjuiste gegevens. Uw beginsaldo kan bijvoorbeeld onjuist zijn of uw bankfeed werkt mogelijk niet meer correct. Het is belangrijk dat u de huidige en nieuwe rekeningen gescheiden houdt.
 
@@ -230,7 +228,7 @@ Nadat u de nieuwe bankrekening hebt gemaakt, moet u ook een nieuwe bankboekingsg
 
 Om een beknopter beeld te krijgen van uw kasrekeningen in financiële rapportage, gebruikt u de rekeningen **Begintotaal** en **Eindtotaal** in uw rekeningschema, de rijen **Samentelling** in financiële rapporten of grootboekrekeningcategorieën. Zie voor meer informatie het gedeelte [Business Intelligence en financiële rapportage](bi.md).
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Bankieren instellen](bank-setup-banking.md)  
 [Boekingsgroepen instellen](finance-posting-groups.md)  

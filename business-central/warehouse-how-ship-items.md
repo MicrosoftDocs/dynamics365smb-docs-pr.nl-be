@@ -5,21 +5,21 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.date: 02/22/2023
+ms.date: 06/10/2024
 ms.custom: bap-template
 ms.search.form: '7335, 7337, 7339, 7340, 7341, 7362, 9008'
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="ship-items-with-a-warehouse-shipment"></a>Artikelen verzenden met een magazijnverzending
+# Artikelen verzenden met een magazijnverzending
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] gebeurt het ontvangen en opslaan op een van de volgende vier manieren, zoals beschreven in de volgende tabel.
 
-|Methode|Uitgaand proces|Pick vereist|Verzending vereisen|Complexiteitsniveau (meer informatie op [Overzicht van magazijnbeheer](design-details-warehouse-management.md))|  
+|Methode|Uitgaand proces|Pick vereist|Verzending vereist|Complexiteitsniveau (meer informatie op [Overzicht van magazijnbeheer](design-details-warehouse-management.md))|  
 |------|----------------|-----|---------|-------------------------------------------------------------------------------------|  
 |A|Picken en verzending vanaf de orderregel boeken|||Geen specifieke magazijnactiviteit.|  
 |B|Picken en verzending vanuit een voorraadpickdocument boeken|Ingeschakeld||Basis: Order voor order|  
-|U|Picken en verzending vanuit een magazijnverzendingdocument boeken||Ingeschakeld|Basis: Geconsolideerde boeking voor ontvangen/verzenden voor meerdere orders.|  
+|H|Picken en verzending vanuit een magazijnverzendingdocument boeken||Ingeschakeld|Basis: Geconsolideerde boeking voor ontvangen/verzenden voor meerdere orders.|  
 |D|Picken vanuit een magazijnpickdocument boeken en verzending vanuit een magazijnverzendingdocument boeken|Ingeschakeld|Ingeschakeld|Geavanceerd|  
 
 Ga voor meer informatie over het verzenden van artikelen naar [Uitgaande magazijnstroom](design-details-outbound-warehouse-flow.md).
@@ -38,11 +38,11 @@ U kunt een magazijnverzending op twee manieren maken:
 * Met pushing wanneer er per order wordt gewerkt. Kies de actie **Magazijnverzending maken** in het brondocument om een magazijnverzending voor het document aan te maken.
 * Door pushing, waarbij u de actie **Vrijgeven** in het brondocument gebruikt om vrij te geven aan het magazijn. Een magazijnmedewerker maakt een **magazijnverzending** voor een of meer vrijgegeven brondocumenten. In de volgende procedure wordt beschreven hoe u een magazijnverzending met pushing maakt.
 
-## <a name="to-ship-items-using-a-warehouse-shipment-document"></a>Artikelen verzenden met een magazijnverzendingsdocument
+## Artikelen verzenden met een magazijnverzendingsdocument
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Magazijnverzendingen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnverzendingen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies **Nieuwe**.  
-3. Voer in het veld **Nr.** kiest u de nummerreeks die u wilt gebruiken om een ID voor de zending aan te maken.  
+3. In het veld **Nr.** kiest u de nummerreeks die u wilt gebruiken om een ID voor de zending aan te maken.  
 4. Kies in het veld **Vestiging** de vestiging van waaruit u verzendt. 
 
     Bij het ophalen van brondocumentregels worden bepaalde gegevens van de vestiging naar elke regel gekopieerd.  
@@ -75,7 +75,7 @@ U kunt een magazijnverzending op twee manieren maken:
 
     [!INCLUDE [preview-posting-shipment](includes/preview-posting-shipment.md)]
 
-## <a name="how-to-use-filters-to-get-source-documents"></a>Filters gebruiken om brondocumenten op te halen
+## Filters gebruiken om brondocumenten op te halen
 
 U kunt vanuit een magazijnverzending de pagina **Filters om brondocumenten op te halen** gebruiken voor het ophalen van de vrijgegeven brondocumentregels die bepalen welke artikelen moeten worden verzonden.
 
@@ -91,14 +91,14 @@ Alle vrijgegeven brondocumentregels die voldoen aan de filtercriteria worden toe
 
 U kunt een onbeperkt aantal filtercombinaties maken. Filters worden opgeslagen op de pagina **Filters om brondocumenten op te halen** en zijn beschikbaar als u ze nodig hebt. U kunt de criteria op elk moment wijzigen door de actie **Wijzigen** te kiezen.
 
-## <a name="zone-and-bin-codes"></a>Zone- en opslaglocatiecodes
+## Zone- en opslaglocatiecodes
 
 Als opslaglocaties verplicht zijn op de vestiging, stelt [!INCLUDE [prod_short](includes/prod_short.md)] een zone- en opslaglocatiecode voor op het magazijnverzendingsdocument.
 
 * Voor geavanceerde configuraties waarbij een vestiging gestuurde opslag en pick gebruikt, gebruikt [!INCLUDE [prod_short](includes/prod_short.md)] de opslaglocatie die is opgegeven in het veld **Verzendopslaglocatie** op de **vestigingskaart**. Als er geen **verzendopslaglocatie** is opgegeven, is het veld leeg. Als het artikel en de verzendopslaglocatie niet overeenkomen, laat [!INCLUDE [prod_short](includes/prod_short.md)] de verzendopslaglocatie leeg.
 * In andere gevallen gebruikt [!INCLUDE [prod_short](includes/prod_short.md)] altijd eerst de opslaglocatie die is opgegeven in het veld **Verzendopslaglocatie** op de **vestigingskaart**. Als er geen verzendopslaglocatie is opgeven, gebruikt [!INCLUDE [prod_short](includes/prod_short.md)] de opslaglocatie van het brondocument.
 
-## <a name="handling-assemble-to-order-items-in-warehouse-shipments"></a>Op-order-assembleren-artikelen in magazijnverzendingen afhandelen
+## Op-order-assembleren-artikelen in magazijnverzendingen afhandelen
 
 In scenario's voor het assembleren op order, gebruik het veld **Te verzenden aantal** op magazijnverzendingsregels om vast te leggen hoeveel eenheden worden geassembleerd. Het aantal wordt geboekt als assemblageuitvoer wanneer u de magazijnverzending boekt. Voor andere magazijnverzendingsregels is de waarde in het veld **Te verzenden aantal** nul.
 
@@ -116,11 +116,11 @@ Als u de magazijnverzending boekt, worden verschillende velden op de verkooporde
 >
 > De op-order-assembleren-hoeveelheid wordt afgehandeld zoals beschreven in dit artikel. De voorraadhoeveelheid wordt afgehandeld als een normale magazijnverzendingsregel. Zie voor meer informatie over combinatiescenario's [Op voorraad assembleren of Op order assembleren begrijpen](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Voorraad](inventory-manage-inventory.md)  
 [Magazijnbeheer instellen](warehouse-setup-warehouse.md)  
-[Assemblagebeheer](assembly-assemble-items.md)  
+[Assemblage](assembly-assemble-items.md)  
 [Overzicht van magazijnbeheer](design-details-warehouse-management.md)
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

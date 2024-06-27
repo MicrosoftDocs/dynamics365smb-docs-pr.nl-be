@@ -13,15 +13,15 @@ ms.custom: bap-template
 ms.collection: bap-ai-copilot
 ---
 
-# <a name="suggest-lines-on-sales-documents-with-copilot-preview"></a>Regels op verkoopdocumenten voorstellen met Copilot (preview)
+# Regels op verkoopdocumenten voorstellen met Copilot (preview)
 
-[!INCLUDE[preview-banner](includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 In dit artikel wordt uitgelegd hoe u sneller verkoopdocumenten kunt maken door Copilot te laten voorstellen welke artikelen worden toegevoegd aan regels op verkoopdocumenten voor uw klanten.
 
-[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## <a name="about-sales-line-suggestions-with-copilot"></a>Informatie over verkoopregels voorstellen met Copilot
+## Informatie over verkoopregels voorstellen met Copilot
 
 Verkoopregelsuggesties met Copilot kunnen helpen bij het maken van regels in verkoopdocumenten zoals verkoopoffertes, orders en facturen op basis van gestructureerde invoer of natuurlijke taal. De functie is geen chat voor algemene doeleinden, maar een zeer specifieke en geïntegreerde ervaring die u kunt gebruiken voor verkoopdocumenten. De functie biedt twee verschillende vaardigheden waarmee u gegevens over afzonderlijke producten of volledige documenten kunt vinden.
 
@@ -33,54 +33,36 @@ Verkoopregelsuggesties met Copilot kunnen helpen bij het maken van regels in ver
 
   Vaak herhalen mensen een eerdere bestelling of gebruiken ze deze op zijn minst als uitgangspunt. Maar het kan lastig zijn om de juiste volgorde in een reeks bestellingen te vinden. Mogelijk herinnert u zich een deel van de id van de bestelling. Dit kan een door het bedrijf toegewezen nummer zijn of een referentienummer dat u van een klant hebt ontvangen. Als u prompts kunt gebruiken als *Laatste factuur van april nodig*, zou u een bestelling sneller moeten kunnen vinden.
 
-## <a name="available-languages"></a>Vereisten
+## Beschikbare talen
+
+[!INCLUDE[sales-lines-suggestions-language-support](includes/sales-lines-suggestions-language-support.md)]
+
+## Vereisten
 
 * Verkoopregelsuggestie met Copilot wordt ingeschakeld en geactiveerd door een beheerder. Voor meer informatie over het inschakelen van AI-mogelijkheden gaat u naar [Copilot- en AI-mogelijkheden configureren](enable-ai.md).
 * U bent bekend met het maken van verkooporders.
 
-## <a name="prerequisites"></a>Geografische beschikbaarheid
-
-De volgende tabel toont de geografische Microsoft Azure-gebieden waarin deze functie beschikbaar is.
-
-|Omgeving Azure-regio  |Azure OpenAI Service-geografie   |Beheerdersactie vereist om Copilot te ontgrendelen  |
-|---------|---------|---------|
-|Duitsland (Noord, West-Centraal)     | Zweden of Zwitserland        |  Ja       |
-|Noorwegen (Oost, West)     | Zweden of Zwitserland        | Ja     |
-|Singapore     |         |         |
-|Zuid-Afrika (Noord, West)     |   Verenigde Staten      |   Ja      |
-|Zwitserland (Noord, West)     |  Zweden of Zwitserland       |    Ja     |
-|Verenigde Arabische Emiraten (Noord, West)     |    Verenigde Staten     |   Ja     |
-|Verenigde Staten (Centraal, Oost, Noord-Centraal, Zuid-Centraal, West)     |   Verenigde Staten      |   Nr.      |
-|Europa (West, Noord)     |   Zweden of Zwitserland      |   Ja      |
-|Azië/Pacific     |         |         |
-|Australië (Zuidoost)     |   Verenigde Staten      |    Ja     |
-|Zuid-Amerika     |         |         |
-|India (Centraal, Zuid)     |    Verenigde Staten     |   Ja      |
-|Japan (Oost, West)     |    Verenigde Staten     |    Ja     |
-|Frankrijk (Centraal, Zuid)     |    Zweden of Zwitserland     |    Ja     |
-|Korea (Centraal, Zuid)     |    Verenigde Staten     |    Ja     |
-
-## <a name="examples-of-prompts"></a>Voorbeelden van prompts
+## Voorbeelden van prompts
 
 Verkoopregels voorstellen met Copilot kan een breed scala aan prompts verwerken. In deze sectie vindt u enkele voorbeelden van prompts voor verschillende scenario's die we hebben getest.
 
-### <a name="sample-inquiry-to-repeat-the-past-document"></a>Voorbeeldaanvraag om het vorige document te herhalen
+### Voorbeeldaanvraag om het vorige document te herhalen
 
 Prompt: *Ik heb alle producten van factuur 103031 nodig*
 
-### <a name="during-phone-call-user-quickly-types-list-of-required-products-and-quantities-not-always-accurate-enough-or-using-internal-product-names"></a>Tijdens het telefoongesprek typt de gebruiker snel een lijst met vereiste producten en hoeveelheden, niet altijd nauwkeurig genoeg of met interne productnamen
+### Tijdens het telefoongesprek typt de gebruiker snel een lijst met vereiste producten en hoeveelheden, niet altijd nauwkeurig genoeg of met interne productnamen
 
 Prompt: *2 rood kinderfitsen*
 
 Merk op dat de prompt werkt, zelfs met meerdere typefouten.
 
-### <a name="a-user-copies-an-inquiry-from-an-inbound-communication-and-pastes-it-to-the-sales-lines-suggestions-page"></a>Een gebruiker kopieert een vraag uit een inkomende communicatie en plakt deze op de pagina Suggesties voor verkoopregels
+### Een gebruiker kopieert een vraag uit een inkomende communicatie en plakt deze op de pagina Suggesties voor verkoopregels
 
 Prompt: *Hallo, ik ben geïnteresseerd in accessoires voor mijn XXXX-laptop, zoals een draadloze muis, een toetsenbordhoes en een laptoptas. Ik vraag me af of u aanbevelingen of suggesties heeft voor deze items. Heeft u speciale aanbiedingen of kortingen voor trouwe klanten zoals ik? Met vriendelijke groet, M*
 
 Merk op dat XXXX-laptop niet in de zoekresultaten is opgenomen.
 
-## <a name="suggest-lines-on-a-sales-document"></a>Regels op een verkoopdocument voorstellen
+## Regels op een verkoopdocument voorstellen
 
 In dit proces wordt beschreven hoe u regels op een verkooporder kunt voorstellen. De stappen zijn hetzelfde voor verkoopoffertes en facturen.
 
@@ -89,7 +71,7 @@ In dit proces wordt beschreven hoe u regels op een verkooporder kunt voorstellen
 1. Op het sneltabblad **Regels** selecteert u **Voorstellen voor regels ophalen**.
 1. Voer in het venster **Regels voorstellen met Copilot** uw prompt in of selecteer er een uit de prompthulp.
 
-## <a name="review-save-discard-or-regenerate-suggestions"></a>Suggesties bekijken, opslaan, weggooien of opnieuw genereren
+## Suggesties bekijken, opslaan, weggooien of opnieuw genereren
 
 Nadat Copilot de artikelen heeft voorgesteld om aan regels toe te voegen, bekijkt u de suggesties en bepaalt u of dit is wat u zoekt:
 
@@ -101,7 +83,7 @@ Er is een veld **Betrouwbaarheid** met de scores **Hoog (80+)**, **Gemiddeld ( 6
 
 Met deze stap bevestigt u dat u de regels naar een verkoopdocument wilt overbrengen. U kunt daar ook de overgedragen regels verwijderen of bewerken, of het hele document verwijderen.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Veelgestelde vragen over verkoopregels voorstellen met Copilot](faq-sales-suggest-sales-lines-with-copilot.md)
 [Copilot- en AI-mogelijkheden configureren](enable-ai.md)

@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 03/06/2024
+ms.date: 06/10/2024
 ms.custom: bap-template
 ms.collection:
   - bap-ai-copilot
@@ -28,15 +28,13 @@ Met Copilot krijgt u snel een tekstsuggestie die automatisch voor u wordt gegene
 
 Copilot is ontworpen om u tijd te besparen en u te helpen creatieve en boeiende tekst te schrijven die uw merk weerspiegelt en consistent is in uw hele productlijn. Begin met het genereren van een suggestie en wijzig vervolgens de voorgestelde tekst indien nodig.
 
+### Beschikbare talen
+
+[!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
+
 ### Vereisten
 
-- De functie voor marketingtekstsuggesties is geactiveerd in uw omgeving. Deze taak wordt meestal gedaan door een beheerder. Ga voor meer informatie naar [Copilot- en AI-mogelijkheden configureren](enable-ai.md).
-- U gebruikt een van de talen die momenteel worden ondersteund door de marketingtekstsuggesties.
-
-  [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
-
-  Om de taal te wijzigen, selecteert u in de rechterbovenhoek het pictogram **Instellingen** ![Instellingen](media/ui-experience/settings_icon_small.png "Pictogram Instellingen voor rolcentrum"). > **Mijn instellingen** > **Taal**. Ga voor meer informatie naar [Basisinstellingen wijzigen](ui-change-basic-settings.md#language).
-- Bekijk de [Veelgestelde vragen voor marketingtekstsuggesties](faqs-marketing-text.md) om te leren hoe AI wordt toegepast.
+De functie voor marketingtekstsuggesties is geactiveerd in uw omgeving. Deze taak wordt meestal gedaan door een beheerder. Ga voor meer informatie naar [Copilot- en AI-mogelijkheden configureren](enable-ai.md).
 
 ### Een eerste concept maken met Copilot
 
@@ -137,6 +135,6 @@ Tekst wordt altijd gegenereerd in de taal die is gedefinieerd in uw [gebruikersi
 
 [Overzicht van suggesties voor marketing](ai-overview.md)  
 [Problemen oplossen met Copilot- en AI-mogelijkheden](ai-copilot-troubleshooting.md)  
-[Veelgestelde vragen over suggesties voor marketingtekst](faqs-marketing-text.md)  
+[Veelgestelde vragen over suggesties voor marketing](faqs-marketing-text.md)  
 [Copilot- en AI-mogelijkheden configureren](enable-ai.md)  
 [Nieuwe artikelen registreren](inventory-how-register-new-items.md)  

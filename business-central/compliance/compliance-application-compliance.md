@@ -5,7 +5,7 @@ author: sorenfriisalexandersen
 ms.author: soalex
 ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.date: 04/25/2023
+ms.date: 06/18/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -24,7 +24,7 @@ Als u [!INCLUDE [prod_short](../includes/prod_short.md)]-extensies ontwikkelt, m
 
 ## Boekhoudprocessen en mechanismen om naleving te ondersteunen
 
-Bedrijven moeten elk jaar aan meer eisen op het gebied van boekhouding voldoen. Afhankelijk van de branche, markten, geografische ligging en finance behoeften kan een organisatie vallen onder algemeen geaccepteerde boekhoudprincipes (GAAP: Generally Accepted Accounting Principles) en een of meer van de volgende:
+Bedrijven moeten elk jaar aan meer eisen op het gebied van boekhouding voldoen. Afhankelijk van de branche, markten, geografische ligging en financiële behoeften kan een organisatie vallen onder algemeen geaccepteerde boekhoudprincipes<!--note from editor: I assume that "local" means that you're not talking about the standard adopted by the SEC in the US. If this is true, you don't want to use the abbreviation because GAAP is an actual standard, which will need to be spelled out with title caps at first mention.--> en een of meer van de volgende:
 
 - De Sarbanes-Oxley Act (SOX), een Amerikaanse wet die in 2002 is aangenomen om investeerders te beschermen door de accuratesse en betrouwbaarheid te vergroten van openbaarmaking door bedrijven.
 - Het gedeelte International Financial Reporting Standards van de International Accounting Standards (IAS/IFRS) van de Europese Unie, die in 2005 zijn ingegaan en waarmee internationale boekhoudstandaards worden beschreven voor herkenning, meting, consolidatie en rapportage.
@@ -41,7 +41,7 @@ Naleving is niet alleen afhankelijk van accurate informatie en correcte boekhoud
 - Financiële gegevens bijhouden met behulp van aangepaste financiële rapporten voor cashflow, inkomsten, balansen, vaste activa, basisschema, belangrijke prestatie-indicatoren en meer.
 - De accuratesse helpen waarborgen met op rollen gebaseerde beveiliging en configureerbare toepassingsmechanismen die ongeldige of dubbele gegevensinvoer voorkomen.
 - Snel en gemakkelijk financiële rapporten genereren in overeenstemming met toepasselijke regelgevingsstandaards.
-- Complete audittrails onderhouden met drill-down en drill-around functionaliteit en wijzigingslogbestanden.
+- Complete audittrails onderhouden met drill-down en drill-through functionaliteit en wijzigingslogbestanden.
 
 ## Controle krijgen over essentiële informatie, processen en rapporten
 
@@ -54,7 +54,7 @@ Geharmoniseerde gegevens, uitgelijnde processen en gemakkelijk te gebruiken hulp
 ### Financiële rapporten aan uw wensen aanpassen
 
 - De structuur van de rekeningschema's van uw bedrijf definiëren op basis van bedrijfsvereisten en toepasselijke regelgevingsstandaarden.
-- Maak rekeningen aan en verwerk complexe processen die verband houden met een scala aan bedrijfsactiviteiten, zoals voorraadwaardering, vreemde valuta's, segmentrapportage en afwijkingen van lokale GAAP's.
+- Maak rekeningen en verwerk complexe processen die verband houden met een scala aan bedrijfsactiviteiten, zoals voorraadwaardering, vreemde valuta's, segmentrapportage en afwijkingen van lokale GAAP's (Generally Accepted Accounting Principles).
 - Controleer het detailniveau voor elke geregistreerde transactie en selecteer gedetailleerde registratie voor bepaalde soorten transacties, zoals vaste activa en schulden.
 - Pas geplande berekeningen en weergaven voor financiële rapportage aan of exporteer de gegevens naar Microsoft Excel voor verdere analyse.
 
@@ -62,9 +62,9 @@ Geharmoniseerde gegevens, uitgelijnde processen en gemakkelijk te gebruiken hulp
 
 - Configureer gegevensvelden om alleen informatie te accepteren in de juiste indeling, zoals het juiste aantal decimalen of alfanumerieke patronen.
 - Help zorgen dat informatie compleet is met toepassingsmechanismen, zoals vereisen dat een leveranciersfactuurnummer wordt ingevoerd voordat een inkooporder kan worden geboekt.
-- Het risico verlagen van onnauwkeurige informatie of onrechtmatig wijzigen en helpen gevoelige informatie te beschermen met toegang op basis van projectrol.
-- Voorkom toegang, verleen alleen-lezen toegang of schakel gebruikers met volledige toegang in zodat ze informatie kunnen toevoegen, bewerken of verwijderen.
-- Gemakkelijk discrepanties vinden en oplossen met behulp van een reconciliatiefunctie waarmee huidige bankrekening- en transactiegegevens worden opgehaald en vergeleken met grootboekposten.
+- Het risico verlagen van onnauwkeurige informatie of onrechtmatig wijzigen en helpen gevoelige informatie te beschermen door toegang te beperken tot informatie op basis van projectrol.
+- Voorkom toegang, verleen alleen-lezen toegang of schakel voor gebruikers volledige toegang in zodat ze informatie kunnen toevoegen, bewerken of verwijderen.
+- U kunt gemakkelijk discrepanties vinden en oplossen met behulp van een reconciliatiefunctie waarmee huidige bankrekening- en transactiegegevens worden opgehaald en vergeleken met grootboekposten.
 - Handmatige of automatische back-ups plannen om gegevens te helpen beschermen tegen elektronische storingen.
 
 ### Snel voldoen aan detectieverzoeken en rapportagevragen
@@ -82,19 +82,19 @@ Geharmoniseerde gegevens, uitgelijnde processen en gemakkelijk te gebruiken hulp
 
 ## Compliance en lokale functionaliteit
 
-Microsoft maakt gelokaliseerde versies van Business Central voor een beperkt aantal markten. Deze lokalisaties concentreren zich hoofdzakelijk op regelgevingsfuncties en financiële gebieden, maar kunnen soms andere delen van de oplossing betreffen. Als u wilt zien wat in de gelokaliseerde versies van Business Central van Microsoft is ingebouwd, raadpleegt u **Lokale functionaliteit** in het menu op deze website en kiest u een land/regio. Meer informatie vindt u bij [Lokale functionaliteit](../about-localization.md).  
+Microsoft maakt gelokaliseerde versies van Business Central voor een beperkt aantal markten. Deze lokalisaties concentreren zich hoofdzakelijk op regelgevingsfuncties en financiële gebieden, maar kunnen soms andere delen van de oplossing betreffen. Als u wilt zien wat in de gelokaliseerde versies van Business Central van Microsoft is ingebouwd, raadpleegt u **Lokale functionaliteit** in het menu op deze website en kiest u een land/regio. Meer informatie vindt u bij [Lokale functionaliteit](../about-localization.md). 
 
-> [!NOTE]  
-> **Sarbanes-Oxley: gegevens en processen valideren**  
-> De Sarbanes-Oxley Act stelt standaarden op voor alle Amerikaanse openbare bedrijfsraden, managementbedrijven en openbare boekhoudfirma's, inclusief evaluatie en openbaarmaking van de geschiktheid van de interne mechanismen van het bedrijf voor financiële rapportage. Het documenteren en controleren van kritieke, handmatige en geautomatiseerde mechanismen doet een serieus beroep op tijd en resources van bedrijven. Business Central is vooral geschikt voor dochterondernemingen van grote organisaties, en kan kleine tot middelgrote bedrijven helpen voldoen aan Sarbanes-Oxley.
+#### Sarbanes-Oxley: gegevens en processen valideren
+ 
+De Sarbanes-Oxley Act stelt standaarden op voor alle Amerikaanse openbare bedrijfsraden, managementbedrijven en openbare boekhoudfirma's, inclusief evaluatie en openbaarmaking van de geschiktheid van de interne mechanismen van het bedrijf voor financiële rapportage. Het documenteren en controleren van kritieke, handmatige en geautomatiseerde mechanismen doet een serieus beroep op tijd en resources van bedrijven. Business Central is vooral geschikt voor dochterondernemingen van grote organisaties, en kan kleine tot middelgrote bedrijven helpen voldoen aan Sarbanes-Oxley.
 
-> [!NOTE]  
-> **IAS/IFRS: herkenning en meting van standaarden**  
-> Afhankelijk van de huidige lokale GAAP's die momenteel in gebruik zijn, is een van de grootste veranderingen op het gebied van herkenning en meting voor IAS/IFRS uitgebreid gebruik van fair-value principes in plaats van historische kosten. [!INCLUDE [prod_short](../includes/prod_short.md)] kan bedrijven helpen reële waarde en NPV-concepten (Net Present Value) te berekenen, die zijn geconcentreerd op huidige en verwachte cashflowstromen, in plaats van historische inkoopprijs. Aan de rapportagekant kan het segmentrapportage bieden op locatie van bedrijfsunit en geografische locatie.
+#### IAS/IFRS: herkenning en meting van standaarden
+  
+Afhankelijk van de huidige lokale GAAP's die momenteel in gebruik zijn, is een van de grootste veranderingen op het gebied van herkenning en meting voor IAS/IFRS uitgebreid gebruik van fair-value principes in plaats van historische kosten. [!INCLUDE [prod_short](../includes/prod_short.md)] kan bedrijven helpen reële waarde en NPV-concepten (Net Present Value) te berekenen, die zijn geconcentreerd op huidige en verwachte cashflowstromen, in plaats van historische inkoopprijs. Aan de rapportagekant kan het segmentrapportage bieden op locatie van bedrijfsunit en geografische locatie.
 
-> [!NOTE]  
-> **Basel II: implicaties voor rapportage en analyse**  
-> Basel II, ontwikkeld door de Bank for International Settlements, helpt zorgen voor veiligheid in het financiële systeem op drie belangrijke gebieden: minimale kapitaalvereisten, controleproces door supervisors en marktdiscipline. Hoewel het akkoord geldt voor financiële instellingen en niet is gericht op kleine en middelgrote bedrijven, kan Basel II enkele implicaties voor deze organisaties hebben op het gebied van rapportage en analyse.
+#### Basel II: implicaties voor rapportage en analyse
+
+Basel II, ontwikkeld door de Bank for International Settlements, helpt zorgen voor veiligheid in het financiële systeem op drie belangrijke gebieden: minimale kapitaalvereisten, controleproces door supervisors en marktdiscipline. Hoewel het akkoord geldt voor financiële instellingen en niet is gericht op kleine en middelgrote bedrijven, kan Basel II enkele implicaties voor deze organisaties hebben op het gebied van rapportage en analyse.
 
 ## Zie ook
 
@@ -102,6 +102,6 @@ Microsoft maakt gelokaliseerde versies van Business Central voor een beperkt aan
 [Servicenaleving](compliance-service-compliance.md)  
 [Certificeringen](compliance-certifications.md)  
 
-## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+## [!INCLUDE[free_trial_md](../includes/free_trial_md.md)]  
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-banner](../includes/footer-banner.md)]

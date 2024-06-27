@@ -1,11 +1,12 @@
 ---
 author: jswymer
 ms.topic: include
-ms.date: 11/01/2023
+ms.date: 06/10/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
-Marketingtekstsuggesties worden alleen ondersteund in de volgende talen en landinstellingen:
+Deze Copilot-functie is alleen gevalideerd in de volgende talen:
 
 |Taal|Landinstellingen|
 |-|-|
@@ -17,3 +18,5 @@ Marketingtekstsuggesties worden alleen ondersteund in de volgende talen en landi
 |Nederlands|nl-NL, nl-BE|
 |Italiaans|it-IT, it-CH|
 |Japans|ja-JP|
+
+Hoewel het in andere talen kan worden gebruikt, functioneert het mogelijk niet zoals bedoeld. De taalkwaliteit kan variëren op basis van de interactie van de gebruiker of systeeminstellingen, wat van invloed kan zijn op de nauwkeurigheid en de gebruikerservaring.

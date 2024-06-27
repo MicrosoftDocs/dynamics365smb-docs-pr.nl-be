@@ -4,9 +4,11 @@ description: 'Lees meer over mogelijkheden en werkscenario''s in Business Centra
 author: jswymer
 ms.topic: landing-page
 ms.devlang: al
-ms.date: 05/22/2023
+ms.date: 05/23/2024
 ms.author: jswymer
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Welkom bij [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -69,19 +71,35 @@ De volgende secties verwijzen naar belangrijke artikelen die u kunnen helpen ver
 - [AL Development Environment](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)
 - [Regels en richtlijnen voor AL-code](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)
 
+## Copilot- en AI-inhoud
+
+- [Overzicht](copilot-overview.md)
+- Functies
+  - [Gegevens analyseren in lijsten met Copilot](analysis-assist.md)
+  - [Bankrekeningen reconciliëren met Copilot](bank-reconciliation-with-copilot.md)
+  - [Chatten met Copilot](chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
+  - [Overzicht van suggesties voor marketing](ai-overview.md)
+  - [Regels op verkooporders voorstellen met Copilot](sales-suggest-sales-lines-with-copilot.md)
+  - [E-documenten toewijzen aan inkooporderregels met Copilot](map-edocuments-with-copilot.md)
+- Beheer
+  - [Copilot- en AI-mogelijkheden configureren](enable-ai.md)
+  - [Veelgestelde vragen over Verantwoorde AI](responsible-ai-overview.md)
+- Ontwikkeling
+  - [Copilot uitbreiden in Business Central](/dynamics365/business-central/dev-itpro/developer/ai-integration-landing-page)
+
 ## Microsoft Learn-training
 
 U vindt gratis e-learning-inhoud voor [!INCLUDE[prod_short](includes/prod_short.md)] in [Microsoft Learn-training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).
 
-U kunt ook video's van nieuwe en veelgebruikte mogelijkheden bekijken in onze videobibliotheek. Zie voor meer informatie [Bezoek onze videobibliotheek](across-videos.md).  
+U kunt ook video's van nieuwe en veelgebruikte mogelijkheden bekijken in onze videobibliotheek. Ga voor meer informatie naar [Bezoek onze videobibliotheek](across-videos.md).  
 
 ## Communityresources
 
 - [Microsoft Dynamics 365 Business Central-communityforum](https://community.dynamics.com/forums/thread/?groupid=e78817ab-a926-4d31-96cc-aef040a4eb04)  
-- [Microsoft Dynamics 365 Business Central in het Dynamics 365-blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)  
+- [Microsoft Dynamics 365 Business Central in het Dynamics 365-blog](https://www.microsoft.com/dynamics-365/blog/business-leader/product/dynamics-365-business-central/)  
 - [Microsoft Dynamics 365-releaseplannen](/dynamics365/release-plans/)  
-- [Microsoft Dynamics 365 Business Central-routekaart](https://dynamics.microsoft.com/roadmap/business-central/)  
-- [Microsoft Partner Network \(vereist Microsoft Partner Network-lidmaatschapsaccount\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)  
+- [Microsoft Dynamics 365 Business Central Releaseplanner](https://releaseplans.microsoft.com/?app=Business+Central&group=dynamics-365&subgroup=dynamics-365-business-central) 
+- [Microsoft Partner Network \(vereist Microsoft Partner Network-lidmaatschapsaccount\)](https://mspartner.microsoft.com)  
 
 ## Meldingen over wijzigingen ontvangen via een RSS-feed
 
@@ -97,15 +115,15 @@ U kunt ook video's van nieuwe en veelgebruikte mogelijkheden bekijken in onze vi
 [[!INCLUDE[prod_short](includes/prod_short.md)] gebruiken als mijn bedrijfsinbox in Outlook](admin-outlook.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] krijgen op uw mobiele apparaat](install-mobile-app.md)  
 [Werken met dimensies](finance-dimensions.md)  
-[Resources voor Help en ondersteuning](product-help-and-support.md)  
+[Bronnen voor Help en ondersteuning](product-help-and-support.md)  
 [Meer leren met behulp van de productdocumentatie](product-help-and-support.md#learn-more-using-the-product-documentation)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]-naleving](compliance/compliance-overview.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]-voorwaarden van online services](compliance/compliance-service-compliance.md#service-terms)  
 [Nieuwe en gewijzigde functies](/dynamics365/business-central/dev-itpro/whatsnew/overview)  
 [Grote updates en kleine updates van Business Central Online](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline)  
 [Dynamics 365-documentatie](/dynamics365/)  
-[Dynamics 365 Business Central op microsoft.com](https://dynamics.microsoft.com/business-central/overview/)  
-[De mogelijkheden van Dynamics 365 Business Central verkennen](https://dynamics.microsoft.com/business-central/capabilities/)  
+[Dynamics 365 Business Central op microsoft.com](https://www.microsoft.com/dynamics-365/products/business-central/)  
+[De mogelijkheden van Dynamics 365 Business Central verkennen](https://www.microsoft.com/en-us/dynamics-365/products/business-central#Features)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 

@@ -1,18 +1,18 @@
 ---
-title: Speciale verkoopprijzen en kortingen registreren
+title: Speciale verkoopprijzen en kortingen vastleggen
 description: Beschrijft hoe u prijs- en kortingsovereenkomsten voor verkoopdocumenten definieert.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 06/13/2023
+ms.date: 05/29/2024
 ms.custom: bap-template
 ms.search.keywords: 'special price, alternate price, pricing'
 ms.search.form: '7022, 7024'
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="record-special-sales-prices-and-discounts"></a>Speciale verkoopprijzen en kortingen registreren
+# Speciale verkoopprijzen en kortingen vastleggen
 
 > [!NOTE]
 > In releasewave 2 van 2020 hebben we nieuwe, gestroomlijnde processen geïntroduceerd voor het instellen en beheren van prijzen en kortingen. Als u een nieuwe klant bent en de meest recente versie gebruikt, gebruikt u de nieuwe ervaring. Als u een bestaande klant bent, hangt of u de nieuwe ervaring gebruikt, af van de vraag of uw beheerder de functie-update **Nieuwe verkoopprijservaring** heeft geactiveerd in **Functiebeheer**. Meer informatie op [Aankomende functies van tevoren inschakelen](/dynamics365/business-central/dev-itpro/administration/feature-management) in de beheer-inhoud.
@@ -47,7 +47,7 @@ Voor verkoopkortingen kunt twee soorten instellen:
 > [!TIP]  
 > Als u niet wilt dat een artikel ooit met korting wordt verkocht, laat u de kortingsvelden op de artikelpagina leeg en neemt u het artikel niet op in instellingen van regelkorting.
 
-## <a name="to-set-up-a-sales-price-for-a-customer"></a>Een verkoopprijs voor een klant instellen
+## Een verkoopprijs voor een klant instellen
 
 Deze stappen verschillen, afhankelijk van of uw beheerder de functie-update **Nieuwe verkoopprijservaring** heeft geactiveerd. Als de functie-update niet is ingeschakeld, volgt u de stappen op het tabblad Huidige ervaring. 
 
@@ -73,7 +73,7 @@ Standaard is de status van nieuwe prijslijsten **Concept**. Conceptprijslijsten 
 
 ---
 
-## <a name="using-sales-and-purchase-price-lists"></a>Verkoop- en inkoopprijslijsten gebruiken
+## Verkoop- en inkoopprijslijsten gebruiken
 
 > [!NOTE]
 > Voor het gebruik van prijslijsten moet uw beheerder de functie-update **Nieuwe verkoopprijservaring** in **Functiebeheer** hebben ingeschakeld. Meer informatie op [Aankomende functies van tevoren inschakelen](/dynamics365/business-central/dev-itpro/administration/feature-management) in de beheer-inhoud.
@@ -82,7 +82,7 @@ Het grootste deel van de nieuwe ervaring met verkoopprijzen is vergelijkbaar met
 
 De velden **Toepassingstype** en **Toepassingsnr.** laten u kiezen waarop een prijslijst van toepassing is, zoals klant of klantprijsgroep. Met **Kolommen weergeven voor** kunt u kolommen weergeven of verbergen die relevant zijn voor het instellen van prijzen, kortingen of prijzen en kortingen.
 
-### <a name="converting-existing-prices-when-you-turn-on-the-pricing-feature-update"></a>Bestaande prijzen converteren wanneer u de update van de prijsfunctie inschakelt
+### Bestaande prijzen converteren wanneer u de update van de prijsfunctie inschakelt
 
 Wanneer u de functie-update **Nieuwe verkoopprijservaring** op de pagina **Functiebeheer** inschakelt, wordt de guide **Gegevensupdatefunctie** geopend. Gebruik de schakelaar **Standaardprijzen gebruiken** als volgt:
 
@@ -109,7 +109,7 @@ Als u veel combinaties hebt, hebt u veel prijslijsten.
 
 Als u de nieuwe prijservaring al hebt ingeschakeld, kunt u handmatig standaardprijslijsten maken of een bestaande prijslijst als standaard opgeven. Om een bestaande prijslijst als standaard in te stellen zet u de schakelaar **Bijwerken van standaardinstellingen toestaan** aan in de prijslijst. Vervolgens stelt u de prijslijst als de standaard in op de pagina **Verkoopinstellingen**, **Inkoopinstellingen** of **Projectinstellingen**.
 
-### <a name="editing-active-price-lists"></a>Actieve prijslijsten bewerken
+### Actieve prijslijsten bewerken
 
 Om mensen in staat te stellen prijzen te bewerken op actieve prijslijsten voor artikelen, resources, klanten, leveranciers of andere entiteiten die prijzen gebruiken, zet u de schakelaar **Bewerken van actieve prijs toestaan** aan op de pagina **Verkoopinstellingen** en **Inkoopinstellingen**.
 
@@ -122,7 +122,7 @@ De pagina **Overzicht van prijzen** geeft een overzicht van alle prijzen over pr
 
 Om nieuwe prijzen toe te voegen gebruikt u op de pagina **Overzicht van prijzen** de actie **Nieuwe regels toevoegen**. De pagina **Prijsvoorstel** wordt geopend en u kunt prijsregels toevoegen door ze voor te stellen op basis van criteria, ze te kopiëren van andere prijslijsten of ze handmatig in te voeren. Daarna kunt u de actie **Prijswijziging doorvoeren** gebruiken om de nieuwe prijzen te vergelijken met andere prijslijsten om duplicaten en verwarring tijdens de prijsberekening te voorkomen.
 
-#### <a name="create-sales-price-lines-based-on-the-unit-price"></a>Verkoopprijsregels maken op basis van de eenheidsprijs
+#### Verkoopprijsregels maken op basis van de eenheidsprijs
 
 1. Kies op de pagina **Prijsvoorstel** de actie **Regels voorstellen**.
 2. Vul op de pagina **Prijsregels - Nieuw maken** in de velden de gewenste gegevens in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -135,7 +135,7 @@ Om nieuwe prijzen toe te voegen gebruikt u op de pagina **Overzicht van prijzen*
 5. Klik op **OK**. Nieuwe regels worden toegevoegd aan de pagina **Prijsvoorstel** met de geselecteerde instellingen en de eenheidsprijzen van de artikelkaarten.
 6. Bewerk de gemaakte regels met de nieuwe eenheidsprijzen of kortingen. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-#### <a name="create-sales-price-lines-based-on-existing-price-lists"></a>Verkoopprijsregels maken op basis van bestaande prijslijsten
+#### Verkoopprijsregels maken op basis van bestaande prijslijsten
 
 1. Kies op de pagina **Prijsvoorstel** de actie **Regels kopiëren**.
 2. Selecteer op de pagina **Prijsregels - Bestaande kopiëren** een bestaande prijslijst in het veld **Van prijslijst**.
@@ -149,7 +149,7 @@ Om nieuwe prijzen toe te voegen gebruikt u op de pagina **Overzicht van prijzen*
 6. Klik op **OK**. Nieuwe regels worden toegevoegd aan de pagina **Prijsvoorstel** met de geselecteerde instellingen.
 7. Bewerk de gemaakte regels met de nieuwe eenheidsprijzen of kortingen. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-copy-sales-prices"></a>Verkoopprijzen kopiëren
+## Verkoopprijzen kopiëren
 
 Deze stappen verschillen, afhankelijk van of uw beheerder de functie-update **Nieuwe verkoopprijservaring** heeft geactiveerd. Als de functie-update niet is ingeschakeld, volgt u de stappen op het tabblad Huidige ervaring.
 
@@ -183,7 +183,7 @@ U kunt de instellingen opgeven die de prijslijst zal gebruiken:
   
 ---
 
-## <a name="to-bulk-update-item-prices"></a>Artikelprijzen bulksgewijs bijwerken
+## Artikelprijzen bulksgewijs bijwerken
 
 Deze stappen verschillen, afhankelijk van of uw beheerder de functie-update **Nieuwe verkoopprijservaring** heeft geactiveerd. Als de functie-update niet is ingeschakeld, volgt u de stappen op het tabblad Huidige ervaring.
 
@@ -221,7 +221,7 @@ Om prijzen voor meerdere artikelen bij te werken moet u een nieuwe prijslijst ma
 
 ---
 
-## <a name="best-price-calculation"></a>Berekening van beste prijs
+## Berekening van beste prijs
 
 Nadat u speciale prijzen en regelkortingen voor verkopen en aankopen hebt vastgelegd, berekent [!INCLUDE[prod_short](includes/prod_short.md)] de beste prijs op verkoop- en inkoopdocumenten en op project- en artikeldagboekregels.
 
@@ -244,7 +244,7 @@ De beste prijs is de laagst prijs met de hoogst regelkorting die toegestaan is o
 
 Als er geen speciale prijs kan worden berekend voor het artikel op de regel, worden de laatste directe kosten of de eenheidsprijs van de artikelkaart ingevoegd.
 
-## <a name="sales-invoice-discounts-and-service-charges"></a>Verkoopfactuurkortingen en administratiekosten
+## Verkoopfactuurkortingen en administratiekosten
 
 Wanneer u factuurkortingen gebruikt, wordt op basis van het totale bedrag op de factuur bepaald welke korting wordt verleend. Op de pagina **Verkoopfactuurkortingen** kunt u ook een bepaald bedrag aan administratiekosten toevoegen aan facturen.  
 
@@ -266,11 +266,11 @@ Naast (of in plaats van) een kortingspercentage kunt u administratiekosten aan e
 
 Zie [Kortingen instellen voor uw klanten](/training/modules/customer-discounts-dynamics-365-business-central/index) voor training in kortingen bij verkopen.
 
-### <a name="calculating-invoice-discounts-on-sales"></a>Factuurkortingen op verkopen berekenen
+### Factuurkortingen op verkopen berekenen
 
 [!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
 
-## <a name="to-set-up-a-sales-line-discount-for-a-customer"></a>Een verkoopregelkorting instellen voor een klant
+## Een verkoopregelkorting instellen voor een klant
 
 Deze stappen verschillen, afhankelijk van of uw beheerder de functie-update **Nieuwe verkoopprijservaring** heeft geactiveerd. Als de functie-update niet is ingeschakeld, volgt u de stappen op het tabblad Huidige ervaring.
 
@@ -302,7 +302,7 @@ Deze stappen verschillen, afhankelijk van of uw beheerder de functie-update **Ni
 
 ---
 
-## <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Een factuurkorting voor een klant instellen
+## Een factuurkorting voor een klant instellen
 
 Nadat u hebt bepaald welke klanten in aanmerking komen voor factuurkortingen, geeft u de factuurkortingscode op de pagina's voor klantenkaarten. Stel vervolgens de voorwaarden voor elke code in.
 
@@ -321,7 +321,7 @@ Ga door met het instellen van de voorwaarden voor de nieuwe verkoopfactuurkortin
 4. Voer in het veld **Korting %** de factuurkorting in als percentage van het factuurbedrag.
 5. Herhaal stap 5 tot en met 7 voor elke valuta waarvoor de klant een andere factuurkorting ontvangt.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Verkopen instellen](sales-setup-sales.md)  
 [Verkoop](sales-manage-sales.md)  

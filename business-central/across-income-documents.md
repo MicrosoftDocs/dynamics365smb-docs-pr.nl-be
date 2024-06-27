@@ -2,25 +2,25 @@
 title: Werken met inkomende documenten
 description: 'U kunt inkomende externe bedrijfsdocumenten, zoals betalingsontvangsten of PDF''s beheren, OCR-taken beheren en elektronische bestanden naar documenten en records omzetten.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice'
-ms.date: 06/14/2022
-ms.author: bholtorf
+ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
 ---
-# <a name="incoming-documents"></a>Inkomende documenten
+# Inkomende documenten
 
 Externe zakelijke documenten kunnen uw bedrijf binnenkomen als e-mailbijlage of als papieren exemplaar dat u kunt scannen. Dit scenario is meestal bij aankopen, waarbij dergelijke inkomende documentbestanden betalingsontvangsten voor kosten of kleine inkopen vertegenwoordigen.
 
 Op de pagina **Inkomende documenten** kunt u verschillende functies gebruiken om onkostenbewijzen te controleren, OCR-taken te beheren en inkomende documentbestanden handmatig of automatisch te converteren naar de relevante documenten of dagboekregels. De externe bestanden kunnen worden gekoppeld in elke procesfase, inclusief naar geboekte documenten en naar de resulterende leverancier, klant en grootboekposten.
 
-## <a name="usage-scenario"></a>Gebruiksscenario
+## Gebruiksscenario
 
 U kunt bestanden of papieren exemplaren die u van uw handelspartners hebt ontvangen, registreren in [!INCLUDE[prod_short](includes/prod_short.md)] en een documentrecord maken. Bijvoorbeeld een inkoop- of verkoopfactuur, creditnota of een dagboekregel.
 
-Upload de ontvangen bestanden - of gebruik de camera van het apparaat om een foto te maken - en maak items om de externe documenten voor te stellen. In PDF- of afbeeldingsbestanden die inkomende documenten vertegenwoordigen, kunt u desgewenst een externe OCR-service (Optical Character Recognition - optische tekenherkenning) elektronische documenten laten genereren die naar documentrecords kunnen worden geconverteerd binnen [!INCLUDE[prod_short](includes/prod_short.md)].
+Upload de ontvangen bestanden - of gebruik de camera van het apparaat om een foto te maken - en maak items om de externe documenten voor te stellen. Met PDF- of afbeeldingsbestanden kunt u desgewenst een externe OCR-service (Optical Character Recognition - optische tekenherkenning) elektronische documenten laten genereren die naar documentrecords kunnen worden geconverteerd binnen [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!NOTE]
 > De OCR-functie wordt geleverd door externe providers. Kies een servicepakket dat past bij uw organisatie en/of land/regio. U vindt services die compatibel zijn met [!INCLUDE[prod_short](includes/prod_short.md)] en details over beschikbare functies op [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).
@@ -30,7 +30,7 @@ Bijvoorbeeld, wanneer u facturen in PDF-indeling van uw leverancier ontvangt, ku
 > [!TIP]
 > Maak inkomende documentrecords in [!INCLUDE[prod_short](includes/prod_short.md)] rechtstreeks vanuit e-mails verzonden door leveranciers met behulp van de Outlook-invoegtoepassing. Zie [Business Central als uw bedrijfsinbox gebruiken in Outlook](work-outlook-addin.md) voor meer informatie.
 
-## <a name="incoming-document-features"></a>Functies voor inkomende documenten
+## Functies voor inkomende documenten
 
 Het proces voor inkomende documenten kan bestaan uit de volgende voornaamste activiteiten:
 
@@ -46,9 +46,9 @@ Het proces voor inkomende documenten kan bestaan uit de volgende voornaamste act
 * Bekijk inkomende documentrecords en de bijlagen ervan vanuit elk inkoop- en verkoopdocument of elke post, of zoek alle grootboekposten zonder inkomende documentrecords op de pagina **Rekeningschema**.
 
 > [!NOTE]
-> Bestanden bij kaarten en documenten op het tabblad **Bijlagen** worden niet opgenomen op de pagina **Inkomende documenten**. Zie voor meer informatie [Bijlagen, koppelingen en notities op kaarten en in documenten beheren](ui-how-add-link-to-record.md).
+> Bestanden gekoppeld aan kaarten en documenten op het tabblad **Bijlagen** worden niet opgenomen op de pagina **Inkomende documenten**. Zie voor meer informatie [Bijlagen, koppelingen en notities op kaarten en in documenten beheren](ui-how-add-link-to-record.md).
 
-| Aan | Zie |
+| Tot | Zie |
 | --- | --- |
 | Stel de functie **Inkomende documenten** in en stel de OCR-service in. |[Inkomende documenten instellen](across-how-setup-income-documents.md) |
 | Maak inkomende documentrecords handmatig of automatisch door een foto te maken van een papieren ontvangstbewijs, bijvoorbeeld. |[Inkomende documentrecords maken](across-how-create-income-document-records.md) |
@@ -57,7 +57,7 @@ Het proces voor inkomende documenten kan bestaan uit de volgende voornaamste act
 | Vanuit de pagina's **Rekeningschema** en **Grootboekposten** zoekt u naar grootboekposten voor geboekte documenten die geen inkomende documentrecords hebben, en koppelt u deze centraal aan bestaande records of maakt u nieuwe records met gekoppelde documentbestanden. |[Geboekte documenten zonder inkomende documentrecords zoeken](across-how-find-posted-documents-without-income-document-records.md) |
 | Krijg beter overzicht krijgen door inkomende documentrecords in te stellen op *Verwerkt* en ze te verwijderen uit de standaardweergave. |[Veel inkomende documentrecords beheren](across-how-manage-many-income-document-records.md) |
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Inkoop](purchasing-manage-purchasing.md)  
 [Geboekte documenten bewerken](across-edit-posted-document.md)  

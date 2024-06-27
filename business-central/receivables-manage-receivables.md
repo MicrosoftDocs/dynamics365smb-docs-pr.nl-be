@@ -1,17 +1,18 @@
 ---
 title: Overzicht van taken om debiteuren te beheren
-description: Dit onderwerp beschrijft taken om tegoeden te beheren en betalingen te vereffenen met klanten- of leveranciersposten.
+description: Dit artikel beschrijft taken om tegoeden te beheren en betalingen te vereffenen met klanten- of leveranciersposten.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: overview
 ms.devlang: al
 ms.search.keywords: 'customer payment, debtor, balance due, AR'
-ms.date: 06/23/2021
-ms.author: bholtorf
+ms.date: 06/10/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="managing-receivables"></a>Tegoeden beheren
+# Tegoeden beheren
 
-Een veel voorkomende stap in het financiële ritme is het reconciliëren van bankrekeningen. Hierbij moet u inkomende betalingen vereffenen met klant- of leveranciersposten, om verkoopfacturen en inkoopcreditnota's te sluiten als betaald.
+Een regelmatige stap in elk financieel ritme is het reconciliëren van bankrekeningen. Om verkoopfacturen en inkoopcreditnota's als betaald af te sluiten, vereffent u binnenkomende betalingen met klant- of leveranciersposten.
 
 Terwijl de meeste klanten in B2B-omgevingen enige tijd na levering betalen, waarbij de geboekte verkoopfacturen open blijven zodat de afdeling Vorderingen deze kan sluiten (vereffenen) wanneer betaling wordt ontvangen, kunnen sommige verkoopfacturen direct worden betaald, bijvoorbeeld met PayPal. Dergelijke facturen worden direct als betaald vereffend wanneer deze worden geboekt en worden daarom niet weergegeven als betalingen die moeten worden verwerkt in Crediteuren. Zie voor meer informatie bijvoorbeeld [Verkopen factureren](sales-how-invoice-sales.md).  
 
@@ -27,20 +28,21 @@ De pagina **Betalingsreconciliatiedagboek** gebruikt automatische overeenkomstlo
 
 Andere aspecten van het beheer van tegoeden omvatten het innen van openstaande saldi, inclusief rentefacturen en aanmaningen en het instellen van bankrekeningen om toe te staan dat betalingen van klanten automatisch van hun rekening worden afgeschreven.
 
-In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.  
+De volgende tabel beschrijft een reeks taken, met koppelingen naar de artikelen waarin deze worden beschreven.  
 
-| Als u dit wilt doen | Zie |
+| Tot | Zie |
 | --- | --- |
-| Vereffen betalingen om klant- of leveranciersposten te openen op basis van een geïmporteerd bankafschriftbestand of een bankfeed en de bankrekening te reconciliëren wanneer alle betalingen zijn vereffend. |[Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
+| Pas betalingen toe op geopende klant- of leveranciersposten op basis van een geïmporteerd bankafschriftbestand of feed. Reconcilieer de bankrekening nadat u alle betalingen heeft toegepast. |[Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
 | Betalingen vereffenen met open klantenposten op basis van een lijst met onbetaalde verkoopdocumenten op de pagina **Betalingsregistratie**. |[Klantbetalingen uit een lijst met onbetaalde verkoopdocumenten reconciliëren](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md) |
 | Boek ontvangsten of terugbetalingen voor klanten in het ontvangstendagboek en vereffen deze met klantposten via het dagboek of via geboekte posten. |[Klantbetalingen reconciliëren met het ontvangstendagboek of vanuit klantenposten](receivables-how-apply-sales-transactions-manually.md) |
 | Klanten te herinneren aan achterstallige bedragen, rente en rentefacturen te berekenen en rekeningen met vorderingen te beheren. |[Openstaande saldi innen](receivables-collect-outstanding-balances.md) |
 |Met instemming van de klant, betalingen rechtstreeks vanaf de bankrekening van de klant innen, alleen in de Euro-valuta.|[Betalingen verzamelen via automatische incasso van SEPA](finance-collect-payments-with-sepa-direct-debit.md)|
 |Blokkeer een klant van worden ingevoerd in documenten of van boeken, bijvoorbeeld vanwege insolventie.|[Klanten blokkeren](receivables-how-block-customers.md)|
-|Stel een tolerantie in waarmee het systeem een factuur sluit hoewel de betaling, inclusief een eventuele korting, het bedrag op de factuur niet volledig dekt.|[Werken met betalingstolerantie en contantkortingstolerantie](finance-payment-tolerance-and-payment-discount-tolerance.md)|
+|Stel een tolerantie in waarmee het systeem een factuur sluit hoewel de betaling, inclusief een eventuele korting, het bedrag op de factuur niet volledig dekt.|[Werken met betalingstoleranties en contantkortingstoleranties](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Voorspellen wanneer betalingen te laat worden gedaan voor verkoopdocumenten. | [De extensie Voorspelling van te late betaling](ui-extensions-late-payment-prediction.md) |
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
+
 [Verkoop](sales-manage-sales.md)  
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

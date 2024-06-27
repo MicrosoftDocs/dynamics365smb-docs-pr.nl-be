@@ -1,60 +1,63 @@
 ---
-title: Artikelkaarten maken voor goederen of services (bevat video)
+title: Artikelkaarten maken voor goederen of services
 description: U maakt artikelkaarten voor services die u als uren verkoopt en voor fysieke producten. Voorbeelden zijn componenten en eindproducten die u vanuit uw voorraad verkoopt.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'item, finished good, component, raw material, assembly item, item substitution'
 ms.search.form: '30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719'
-ms.date: 11/02/2022
-ms.author: bholtorf
+ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Nieuwe artikelen registreren
 
-Artikelen vormen met andere producten de basis van uw bedrijf, de goederen of services waarin u handelt. Elk artikelproduct moet worden geregistreerd als een artikelkaart.
+Artikelen zijn de goederen of diensten die u koopt, opslaat, verkoopt, levert en waarvoor u verantwoording aflegt. Gebruik de pagina **Artikelkaart** om informatie te registreren over de volgende soorten items:
 
-Artikelkaarten bevatten de informatie die is vereist om artikelen te kopen, op te slaan, te verkopen, te leveren en te verantwoorden.
+* **Voorraad** geeft aan dat het artikel een fysieke eenheid is die u beheert en bijhoudt in de voorraad.
+* **Niet-voorraad** zijn fysieke eenheden die u niet beheert of bijhoudt in de inventaris.
+* **Service**artikelen zijn een arbeidstijdeenheid, die doorgaans wordt gebruikt in servicemanagement.
 
-De artikelkaart kan van het type **Voorraad**, **Service** of **Niet-voorraad** zijn om op te geven of het artikel een fysieke voorraadeenheid, een eenheid voor arbeidskosten of een fysieke eenheid die niet in voorraad wordt getraceerd, is. Zie voor meer informatie [Over artikeltypen](inventory-about-item-types.md).
+Ga voor meer informatie over deze typen artikelen naar [Over artikeltypen](inventory-about-item-types.md).
 
-Een artikel kan als bovenliggend artikel met onderliggende artikelen in een stuklijst worden gestructureerd. Zie [Werken met stuklijsten](inventory-how-work-BOMs.md) voor meer informatie over assemblagestuklijsten en productiestuklijsten.
+> [!TIP]
+> Er zijn ook catalogusartikelen, die vergelijkbaar zijn met artikelen die niet op voorraad zijn, omdat het artikelen zijn die u aan klanten aanbiedt, maar die u pas beheert als u ze verkoopt. Ga voor meer informatie naar [Werken met catalogusartikelen](inventory-how-work-nonstock-items.md).  
 
-Als u hetzelfde artikel inkoopt bij meerdere leveranciers, kunt u die leveranciers aan de artikelkaart koppelen. De pagina **Artikel-/leverancierscatalogus** bevat de leveranciers, zodat u gemakkelijk een alternatieve leverancier kunt selecteren.
+## Primaire en alternatieve leveranciers
 
-*Catalogusartikelen* zijn artikelen die u aan uw klanten aanbiedt, maar die u niet in uw systeem wilt beheren tot u ze begint te verkopen. Catalogusartikelen zijn niet hetzelfde als normale artikelen van het type **Niet-voorraad**. Meer informatie op [Werken met catalogusartikelen](inventory-how-work-nonstock-items.md).  
+Als u hetzelfde artikel inkoopt bij meerdere leveranciers, kunt u die leveranciers aan de artikelkaart koppelen. Gebruik de actie **Leveranc.** op de pagina **Artikelkaart** om de pagina **Artikel-/leverancierscatalogus** te openen. Op de pagina worden de leveranciers weergegeven waarbij u het artikel koopt, zodat u eenvoudig een alternatieve leverancier kunt maken of selecteren wanneer u een inkooporder maakt.
 
-> [!NOTE]  
-> Als klantsjablonen voor verschillende klantsoorten bestaan, wordt een pagina automatisch weergegeven wanneer u een nieuwe artikelkaart maakt van waaruit u een geschikte sjabloon kunt selecteren. Als er slechts één artikelsjabloon bestaat, gebruiken nieuwe artikelkaarten altijd deze sjabloon.
+## Artikelsjablonen gebruiken
 
-In de volgende procedure wordt uitgelegd hoe u een geheel nieuwe artikelkaart maakt. U kunt ook nieuwe artikelkaarten maken door bestaande te kopiëren. Zie voor meer informatie [Bestaande items kopiëren om nieuwe items te maken](inventory-how-copy-items.md).  
+Als u de instellingen voor verschillende soorten artikelen opnieuw wilt gebruiken wanneer u nieuwe artikelen maakt, kunt u artikelen opslaan als artikelsjablonen. Artikelsjablonen helpen het proces van het toevoegen van nieuwe artikelen te versnellen en de consistentie in uw artikelgegevens te vergroten. Wanneer u een nieuw artikel registreert, verschijnt er een pagina waarop u een sjabloon kunt kiezen. Nadat u een sjabloon heeft gekozen, worden de instellingen ervan voor u ingevuld op het artikel dat u maakt. Als u slechts één artikelsjabloon hebt, gebruiken nieuwe artikelen altijd deze sjabloon. Ga naar voor meer informatie over het instellen van een artikelsjabloon naar [Een artikelkaart opslaan als artikelsjabloon](#save-an-item-card-as-an-item-template).
 
-<br />
+## Artikelen opnemen in stuklijsten
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
+U kunt hiërarchieën structureren die een hoofdartikel hebben met onderliggende componentartikelen in assemblage- en productiestuklijsten (BOM). Ga voor meer informatie over stuklijsten naar [Werken met stuklijsten](inventory-how-work-BOMs.md).
 
 ## Een nieuwe artikelkaart maken
+
+De volgende video toont hoe u een artikel instelt op de pagina Artikelkaart. U kunt echter ook nieuwe artikelen maken door bestaande te kopiëren. Ga voor meer informatie naar [Bestaande artikelen kopiëren om nieuwe artikelen te maken](inventory-how-copy-items.md).  
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
 
 [!INCLUDE[create_new_item](includes/create_new_item.md)]
 
 > [!NOTE]
-> In het veld **Waarderingsmethode** bepaalt u hoe de eenheidskostprijs van het artikel wordt berekend door de veronderstellingen die worden gemaakt over de stroom van artikelen in het bedrijf. Afhankelijk van het type item zijn vijf waarderingsmethoden beschikbaar. Zie [Ontwerpdetails: Waarderingsmethoden](design-details-costing-methods.md) voor meer informatie.
+> In het veld **Waarderingsmethode** bepaalt u hoe de eenheidskostprijs van het artikel wordt berekend door de veronderstellingen die worden gemaakt over de stroom van artikelen in het bedrijf. Afhankelijk van het type item zijn vijf waarderingsmethoden beschikbaar. Ga voor meer informatie over kosten naar [Ontwerpdetails: kostenberekeningsmethoden](design-details-costing-methods.md).
 >
-> Als u **Gemiddeld** selecteert, worden de eenheidskosten van een artikel berekend als de gemiddelde eenheidskosten op een bepaald moment na een aanschaf. Voorraad wordt gewaardeerd met de aanname dat alle voorraad tegelijkertijd wordt verkocht. Met deze instelling kunt u het veld **Kostprijs** kiezen en zo op de pagina **Overzicht gemiddelde-kostenberekening** de historie bekijken van de transacties waaruit de gemiddelde kostprijs wordt berekend.
+> Als u **Gemiddeld** selecteert, worden de eenheidskosten van een artikel berekend als de gemiddelde eenheidskosten op een bepaald moment na een aanschaf. Voorraad wordt gewaardeerd met de aanname dat alle voorraad tegelijkertijd wordt verkocht. Met deze instelling kunt u het veld **Kostprijs** kiezen en zo op de pagina **Overzicht gemiddelde-kostenberekening** de transacties bekijken die zijn gebruikt om de gemiddelde kostprijs te berekenen.
 
-U kunt speciale prijzen of kortingen weergeven of bewerken die u voor het artikel verleent of die uw leverancier aan u verleent, als aan bepaalde criteria, zoals klant, minimaal orderaantal of einddatum wordt voldaan. U doet dit door de actie **Speciale prijzen instellen** of **Speciale kortingen instellen** te kiezen. Elke rij op de pagina **Verkoopprijzen** vertegenwoordigt bijvoorbeeld een speciale prijs. Elke kolom vertegenwoordigt een criterium dat moet gelden om een klant de speciale prijs te geven die u invoert in het veld **Eenheidsprijs** op de pagina **Verkoopprijzen**. Zie voor meer informatie [Afspraken over prijzen, kortingen en betalingen van verkopen vastleggen](sales-how-record-sales-price-discount-payment-agreements.md) of [Speciale inkoopprijzen en kortingen registreren](purchasing-how-record-purchase-price-discount-payment-agreements.md).
+U kunt speciale prijzen of kortingen gebruiken die u of uw leverancier voor het artikel toekent op basis van bepaalde criteria. Criteria zijn bijvoorbeeld de klant, de minimale bestelhoeveelheid of de einddatum. U stelt speciale prijzen in door de actie **Speciale prijzen instellen** of **Speciale kortingen instellen** te kiezen. Elke rij op de pagina **Verkoopprijzen** vertegenwoordigt bijvoorbeeld een speciale prijs. Elke kolom vertegenwoordigt een criterium dat moet gelden om een klant de speciale prijs te geven die u invoert in het veld **Eenheidsprijs** op de pagina **Verkoopprijzen**. Zie voor meer informatie over prijzen [Afspraken over prijzen, kortingen en betalingen van verkopen vastleggen](sales-how-record-sales-price-discount-payment-agreements.md) of [Speciale inkoopprijzen en kortingen registreren](purchasing-how-record-purchase-price-discount-payment-agreements.md).
 
-Het artikel is nu geregistreerd en de artikelkaart is klaar om voor inkoop- en verkoopdocumenten te worden gebruikt.
+### Een artikelkaart als artikelsjabloon opslaan
 
-Als u deze artikelkaart als sjabloon wilt gebruiken wanneer u nieuwe artikelkaarten maakt, kunt u deze opslaan als een sjabloon. Zie de volgende onderwerpen voor meer informatie.  
+1. Kies op de pagina **Artikelkaart** de actie **Opslaan als sjabloon**. De pagina **Artikelsjabloon** toont de artikelkaart als sjabloon.
+2. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-### De artikelkaart als sjabloon opslaan
-
-1. Kies op de pagina **Artikelkaart** de actie **Opslaan als sjabloon**. De pagina **Artikelsjabloon** opent de weergave van de artikelkaart als sjabloon.
-2. Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Als u sjablonen wilt hergebruiken, kiest u de actie **Dimensies**. De pagina **Dimensiesjablonen** geeft alle dimensiecodes weer die voor het item zijn ingesteld.
-4. Bewerk of typ dimensiecodes die van toepassing zijn op nieuwe artikelkaarten die worden gemaakt met de sjabloon.
-5. Wanneer u de nieuwe artikelsjabloon hebt voltooid, kiest u de knop **OK**.
+> [!TIP]
+> U kunt dimensies voor artikelen ook hergebruiken. Als u sjablonen wilt hergebruiken, kiest u de actie **Dimensies**. De pagina **Dimensiesjablonen** geeft alle dimensiecodes weer die voor het artikel zijn ingesteld. Bewerk of voeg dimensies toe die van toepassing zijn op nieuwe artikelen die u op basis van de sjabloon maakt.
 
 De artikelsjabloon wordt toegevoegd aan de lijst met artikelsjablonen, zodat u deze kunt gebruiken om nieuwe artikelkaarten te maken.
 
@@ -66,7 +69,7 @@ Als u artikelen wilt registreren die in productieorders worden gebruikt, geeft u
 
 Als u hetzelfde artikel bij meerdere leveranciers inkoopt, moet u informatie over elk van deze leveranciers invoeren, bijvoorbeeld informatie over prijzen, levertermijn, kortingen, enzovoort.  
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer het betreffende artikel en kies vervolgens de actie **Bewerken**.  
 3. Kies de actie **Leveranciers**.  
 4. Klik op het veld **Leveranciersnr.** en selecteer vervolgens de leverancier waarvoor u het artikel wilt instellen.  
@@ -81,7 +84,7 @@ U kunt artikelen instellen om vervangingen te hebben, zoals andere artikelen die
 
 ### Een artikelvervanging maken
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.  
 2. Zoek het relevante artikel en kies vervolgens **Artikelnr.** om de artikelkaart te openen.  
 3. Kies de actie **Verwant**, kies dan **Artikel** en vervolgens **Vervangingen** om de pagina **Artikelvervangingspost** te openen.  
 4. Kies het veld **Vervangingsartikelnr.** en selecteer vervolgens het vervangingsartikel uit de lijst.
@@ -125,8 +128,8 @@ Voor voorbeelden van hoe u de velden op het sneltabblad **Planning** gebruikt zi
 [Boekingsgroepen instellen](finance-posting-groups.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
 [Verkoop](sales-manage-sales.md)  
-[Over planningsfunctionaliteit](production-about-planning-functionality.md)  
-[Aanbevolen procedures instellen: Planningsparameters](setup-best-practices-planning-parameters.md)  
+[Informatie over het plannen van functionaliteit](production-about-planning-functionality.md)  
+[Aanbevolen procedures instellen: Planningparameters](setup-best-practices-planning-parameters.md)  
 [Aanbevolen procedures instellen: voorraadplanning](setup-best-practices-supply-planning.md)  
 [Ontwerpdetails: Centrale begrippen van het planningssysteem](design-details-central-concepts-of-the-planning-system.md)  
 [Ontwerpdetails: Vraag en aanbod afstemmen](design-details-balancing-demand-and-supply.md)  

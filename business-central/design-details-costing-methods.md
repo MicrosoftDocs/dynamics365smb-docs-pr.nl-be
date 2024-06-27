@@ -1,15 +1,16 @@
 ---
-title: Ontwerpdetails voor Waarderingsmethoden
+title: Ontwerpdetails voor waarderingsmethoden
 description: Dit onderwerp beschrijft hoe de waarderingsmethode bepaalt of werkelijke of gebudgetteerde waarden worden gekapitaliseerd en gebruikt in de kostenberekening.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.keywords: null
-ms.date: 05/12/2023
 ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: null
+ms.date: 05/29/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="design-details-costing-methods"></a>Ontwerpdetails: Waarderingsmethoden
+# Ontwerpdetails voor waarderingsmethoden
 
 De waarderingsmethode bepaalt of een werkelijke of gebudgetteerde waarde wordt gekapitaliseerd en gebruikt in de kostenberekening. Samen met de boekingsdatum en de volgorde wordt door de waarderingsmethode ook bepaald hoe de kostenstroom wordt vastgelegd.
 
@@ -18,11 +19,11 @@ De waarderingsmethode bepaalt of een werkelijke of gebudgetteerde waarde wordt g
 
 De volgende methoden worden ondersteund in [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
-| Waarderingsmethode | Beschrijving | Gebruik |
+| Waarderingsmethode | Omschrijving | Gebruik |
 |--|--|--|
 | FIFO | De kostprijs van een artikel is de werkelijke waarde van de ontvangst van het artikel dat met de FIFO-regel is geselecteerd.<br /><br /> In voorraadwaardering wordt verondersteld dat de artikelen die als eerste in voorraad worden geplaatst, als eerst worden verkocht. | In ondernemingsomgevingen waar de productkosten stabiel zijn.<br /><br /> (Wanneer de prijzen stijgen, wordt in de balans een grotere waarde weergegeven. Dit betekent dat de belastingschulden toenemen, maar de creditscores en de mogelijkheid om contanten te lenen beter worden.)<br /><br /> Voor artikelen met een beperkte houdbaarheid, omdat de oudste goederen moeten worden verkocht voordat ze hun uiterste houdbaarheidsdatum overschrijden. |
-| LIFO | De kostprijs van een artikel is de werkelijke waarde van de ontvangst van het artikel dat met de LIFO-regel is geselecteerd.<br /><br /> In voorraadwaardering wordt verondersteld dat de artikelen die als laatste in voorraad worden geplaatst, als eerst worden verkocht. | Verboden in veel landen/regio's, aangezien het kan worden gebruikt voor het drukken van winst.<br /><br /> (Wanneer de prijzen stijgen, vermindert de waarde op de resultatenrekening. Dit betekent dat de belastingschulden verminderen, maar de mogelijkheid om contanten te lenen verslechtert.) |
-| Gemiddeld | De kostprijs van een artikel wordt berekend als de gemiddelde kostprijs op elk tijdstip na de inkoop.<br /><br /> Voor voorraadwaardering wordt aangenomen dat alle voorraden tegelijkertijd zijn verkocht. | In ondernemingsomgevingen waar de productkosten instabiel zijn.<br /><br /> Wanneer voorraden worden gestapeld of samengevoegd en niet kunnen worden onderscheiden, zoals chemische producten. |
+| LIFO | De kostprijs van een artikel is de werkelijke waarde van de ontvangst van het artikel dat met de LIFO-regel is geselecteerd.<br /><br /> In voorraadwaardering wordt verondersteld dat de artikelen die als laatste in voorraad worden geplaatst, als eerste worden verkocht. | Verboden in veel landen/regio's, aangezien het kan worden gebruikt voor het drukken van winst.<br /><br /> (Wanneer de prijzen stijgen, vermindert de waarde op de resultatenrekening. Dit betekent dat de belastingschulden verminderen, maar de mogelijkheid om contanten te lenen verslechtert.) |
+| Gemiddelde | De kostprijs van een artikel wordt berekend als de gemiddelde kostprijs op elk tijdstip na de inkoop.<br /><br /> Voor voorraadwaardering wordt aangenomen dat alle voorraden tegelijkertijd zijn verkocht. | In ondernemingsomgevingen waar de productkosten instabiel zijn.<br /><br /> Wanneer voorraden worden gestapeld of samengevoegd en niet kunnen worden onderscheiden, zoals chemische producten. |
 | Specifiek | De kostprijs van een artikel bestaat uit de exacte kosten waarmee de betreffende eenheid is ontvangen. | In productie of handel van gemakkelijk identificeerbare artikelen met tamelijk hoge kostprijs.<br /><br /> Voor artikelen die onder wetgeving vallen.<br /><br /> Voor artikelen met serienummers. |
 | Standaard | De kostprijs van een artikel is vooraf ingesteld op basis van de geschatte prijs.<br /><br /> Wanneer de werkelijke kosten later gerealiseerd zijn, moet de vaste verrekenprijs aan de werkelijke aangepast worden door verschilwaarden. | Waar kostenbeheersing essentieel is.<br /><br /> In herhaalde productie, om de directe materiaal-, arbeids- en productieoverheadkosten te waarderen.<br /><br /> Waar er discipline en personeel zijn om normen na te volgen. |
 
@@ -44,11 +45,11 @@ Waarderingsmethoden verschillen in de manier waarop ze voorraadafnamen waarderen
 ||Algemeen kenmerk|Vereffening/Herwaardering |Herwaardering|Diversen |
 |-|---------|---------|---------|---------|
 |**FIFO**     |Gemakkelijk te begrijpen|Vereffening houdt **het resterende aantal** bij.<br /><br /> De correctie stuurt kosten door op basis van aantalvereffening. |Hiermee worden alleen gefactureerde aantallen geherwaardeerd.<br /><br /> Kan per artikel of per artikelpost worden gedaan.<br /><br /> Kan terug in de tijd worden uitgevoerd.|Als u een negatieve voorraadmutatie antidateert, worden de bestaande posten NIET opnieuw toegepast om een juiste FIFO-kostenstroom te bieden.|
-|**Gemiddelde**     |Gebaseerd op periodeopties: **Dag**/**Week**/**Maand**/**Kwartaal**/**Boekingsperiode**.<br /><br /> Kan worden berekend per artikel of per artikel/vestiging/variant.|Vereffening houdt het **resterende aantal** bij.<br /><br /> De kosten worden berekend en doorgegeven op de **waarderingsdatum**. |Hiermee worden alleen gefactureerde aantallen geherwaardeerd.<br /><br /> Kan alleen per artikel worden gedaan.<br /><br /> Kan terug in de tijd worden uitgevoerd. |Als u een negatieve of een positieve voorraadmutatie antidateert, worden de gemiddelde kosten opnieuw berekend en worden alle betrokken posten aangepast.<br /><br /> Als u de periode of het type berekening wijzigt, moeten alle betrokken posten worden aangepast.|
+|**Gemiddeld**     |Gebaseerd op periodeopties: **Dag**/**Week**/**Maand**/**Kwartaal**/**Boekingsperiode**.<br /><br /> Kan worden berekend per artikel of per artikel/vestiging/variant.|Vereffening houdt het **resterende aantal** bij.<br /><br /> De kosten worden berekend en doorgegeven op de **waarderingsdatum**. |Hiermee worden alleen gefactureerde aantallen geherwaardeerd.<br /><br /> Kan alleen per artikel worden gedaan.<br /><br /> Kan terug in de tijd worden uitgevoerd. |Als u een negatieve of een positieve voorraadmutatie antidateert, worden de gemiddelde kosten opnieuw berekend en worden alle betrokken posten aangepast.<br /><br /> Als u de periode of het type berekening wijzigt, moeten alle betrokken posten worden aangepast.|
 |**Standaard**     |Gemakkelijk te gebruiken, maar vereist gekwalificeerd onderhoud|Vereffening houdt het **resterende aantal** bij.<br /><br /> Vereffening wordt gebaseerd op FIFO.|Hiermee worden gefactureerde en niet-gefactureerde aantallen geherwaardeerd.<br /><br /> Kan per artikel of per artikelpost worden gedaan.<br /><br /> Kan terug in de tijd worden uitgevoerd.|Gebruik de pagina **Standaardvoorstel** om de vaste verrekenprijs regelmatig bij te werken en te berekenen.<br /><br /> Wordt NIET ondersteund per SKU.<br /><br /> Er bestaan geen historische records voor standaardkosten.|
-|**Specifiek**     |Hiervoor is artikeltracering vereist op zowel inkomende als uitgaande transacties.<br /><br /> Meestal gebruikt voor artikelen met een serienummer.|Alle vereffeningen zijn vast.|Hiermee worden alleen gefactureerde aantallen geherwaardeerd.<br /><br /> Kan per artikel of per artikelpost worden gedaan.<br /><br /> Kan terug in de tijd worden uitgevoerd.|U kunt specifieke artikeltracering gebruiken zonder de waarderingsmethode Specifiek te gebruiken. De kosten volgen NIET het lotnummer, maar de kostenveronderstelling van de geselecteerde waarderingsmethode.|
+|**Specifiek**     |Hiervoor is artikeltracering vereist op zowel inkomende als uitgaande transacties.<br /><br /> Meestal gebruikt voor artikelen met een serienummer.|Alle vereffeningen zijn vast.|Hiermee worden alleen gefactureerde aantallen geherwaardeerd.<br /><br /> Kan per artikel of per artikelpost worden gedaan.<br /><br /> Kan terug in de tijd worden uitgevoerd.|U kunt specifieke artikeltracering gebruiken zonder de waarderingsmethode Specifiek te gebruiken. De kosten volgen niet het lotnummer, maar de kostenveronderstelling van de geselecteerde waarderingsmethode.|
 
-## <a name="example"></a>Opmerking
+## Opmerking
 
 In deze sectie worden voorbeelden gegeven van hoe verschillende waarderingsmethoden invloed hebben op de voorraadwaarde.  
 
@@ -66,7 +67,7 @@ De volgende tabel toont de positieve en negatieve voorraadmutaties waarop de voo
 > [!NOTE]  
 > Het resulterende aantal op voorraad is nul. Daarom moet de voorraadwaarde ook nul zijn, ongeacht de waarderingsmethode.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Het effect van waarderingsmethoden op de waardering van positieve voorraadmutaties
+### Het effect van waarderingsmethoden op de waardering van positieve voorraadmutaties  
 
 Voor artikelen met waarderingsmethoden die werkelijke kosten als de waarderingsbasis gebruiken (**FIFO**, **LIFO**, **Gemiddelde** of **Specifiek**), worden positieve voorraadmutaties gewaardeerd tegen de aanschafkosten van het artikel.  
 
@@ -74,11 +75,11 @@ Voor artikelen met waarderingsmethoden die werkelijke kosten als de waarderingsb
 
     Voor artikelen waarvoor de waarderingsmethode **Standaard** wordt gebruikt, worden positieve voorraadmutaties gewaardeerd tegen de huidige vaste verrekenprijs van het artikel.  
 
-#### <a name="standard"></a>Standaard
+#### Standaard  
 
 Voor artikelen waarvoor de waarderingsmethode **Standaard** wordt gebruikt, worden positieve voorraadmutaties gewaardeerd tegen de huidige vaste verrekenprijs van het artikel.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-decreases"></a>Het effect van waarderingsmethoden op de waardering van negatieve voorraadmutaties
+### Het effect van waarderingsmethoden op de waardering van negatieve voorraadmutaties
 
 - **FIFO**  
 
@@ -146,7 +147,7 @@ Voor artikelen waarvoor de waarderingsmethode **Standaard** wordt gebruikt, word
     |01-03-20|-1|-10,00|**1**|5|  
     |01-04-20|-1|-30,00|**3**|6|  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)  
 [Ontwerpdetails: Verschil](design-details-variance.md)  
@@ -156,6 +157,5 @@ Voor artikelen waarvoor de waarderingsmethode **Standaard** wordt gebruikt, word
 [Financiën](finance.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Verklarende woordenlijst in Dynamics 365-bedrijfsprocessen](/dynamics365/guidance/business-processes/glossary)  
-[Het kostenoverzicht van producten en diensten definiëren](/dynamics365/guidance/business-processes/product-service-define-cost-overview)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

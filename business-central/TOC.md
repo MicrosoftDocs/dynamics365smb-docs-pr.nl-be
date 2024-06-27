@@ -200,7 +200,7 @@ ms.service: dynamics-365-business-central
 #### [Aanraak- en penbewegingen](touch-gestures.md)
 ### [Problemen oplossen: toegang tot camera en locatie](ui-troubleshooting-camera-location.md)
 ### [Intelligente inzichten (alleen online)](about-intelligent-cloud.md)
-## Veelgestelde vragen
+## Probleemoplossing en veelgestelde vragen
 ### [Veelgestelde vragen](across-faq.yml)
 ### [Veelgestelde vragen over Chatten met Copilot (preview)](chat-with-copilot-faq.md)
 ### [Veelgestelde vragen over Vertel me](ui-search-faq.md)
@@ -211,6 +211,7 @@ ms.service: dynamics-365-business-central
 ### [Veelgestelde vragen over Teams](teams-faq.md)
 ### [Veelgestelde vragen over elektronische facturering](faq-electronic-invoicing.yml)
 ### [Minimale vereisten](product-requirements.md)
+### [Probleemoplossing in Business Central](/troubleshoot/dynamics-365/business-central/welcome-business-central)
 
 ## Help en ondersteuning
 ### [Resources voor Help en ondersteuning](product-help-and-support.md)
@@ -459,6 +460,11 @@ ms.service: dynamics-365-business-central
 #### [Duurzaamheidsinstellingen](finance-sustainability-setup.md)
 #### [Duurzaamheidsrekeningschema en grootboek](finance-sustainability-accounts-ledger.md)
 #### [Hoe u uitstoot van broeikasgassen vastlegt](finance-sustainability-journal.md)
+#### Duurzaamheidsanalyses
+##### [Ad-hocanalyse van duurzaamheidsgegevens](ad-hoc-analysis-sustainability.md)
+##### [Ingebouwde duurzaamheidsrapporten](sustainability-reports.md)
+#### Duurzaamheids-API's
+##### [Duurzaamheid-API](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json)
 
 ### [Multi-site en internationale organisaties](finance-multi-site-organizations.md)
 #### Financiële gegevens uit meerdere bedrijven consolideren
@@ -600,7 +606,7 @@ ms.service: dynamics-365-business-central
 #### [Overzicht van analyses van vaste activa](fa-analytics-overview.md)
 #### [Ad-hocanalyse van vaste-activagegevens](ad-hoc-analysis-fa.md)
 #### Ingebouwde analysehulpmiddelen voor vaste activa
-##### [Onderhoudskosten controleren](fa-how-maintain.md#to-monitor-maintenance-costs)
+##### [Onderhoudskosten controleren](fa-how-maintain.md#monitor-maintenance-costs)
 ##### [Verzekeringsdekking controleren](fa-how-insure.md#to-monitor-insurance-coverage)
 ##### [Gewijzigde afschrijvingsboekwaarden weergeven](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
 ##### [Buitengebruikstellingsposten weergeven](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
@@ -1857,6 +1863,7 @@ ms.service: dynamics-365-business-central
 #### [Belangrijkste financiële rapporten](finance-reports.md)
 #### [Debiteurenrapporten](receivables-reports.md)
 #### [Crediteurenrapporten](payables-reports.md)
+#### [Duurzaamheidsrapporten](sustainability-reports.md)
 
 ### [Verkooprapporten](sales-reports.md)
 ### [Inkooprapporten](purchase-reports.md)

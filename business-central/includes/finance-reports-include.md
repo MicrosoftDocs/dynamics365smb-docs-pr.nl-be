@@ -1,7 +1,7 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 09/22/2022
+ms.date: 06/12/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -9,10 +9,10 @@ ms.reviewer: bholtorf
 
 In de volgende tabel worden enkele belangrijke financiële rapporten beschreven.
 
-| Rapporteren | Beschrijving | ID | 
+| Rapporteren | Omschrijving | Id |
 |--|--|--|
 | [Proef- en saldibalans](https://businesscentral.dynamics.com?report=6) | Geeft het rekeningschema weer met saldo's en mutaties. U kunt bijvoorbeeld een proef- en saldibalans bekijken voor geselecteerde dimensies of het rapport gebruiken bij het afsluiten van een boekingsperiode of boekjaar. | 6 |
-| [Proef- en saldibalans per periode](https://businesscentral.dynamics.com?report=38) | Geeft het beginsaldo per grootboekrekening, de verplaatsingen in de geselecteerde periode (maand, kwartaal of jaar) en het resulterende eindsaldo weer. <br>Tip: Kan worden gebruikt om winst en verlies weer te geven met een totaal voor elke maand.| 38 |
+| [Proef- en saldibalans per periode](https://businesscentral.dynamics.com?report=38) | Geeft het beginsaldo per grootboekrekening, de verplaatsingen in de geselecteerde periode (maand, kwartaal of jaar) en het resulterende eindsaldo weer. <br>Tip: Het rapport kan worden gebruikt om winst en verlies weer te geven met een totaal voor elke maand.| 38 |
 | [Proef- en saldibalans/budget](https://businesscentral.dynamics.com?report=9) | Geeft een proefbalans weer in vergelijking met een budget. U kunt een proefbalans bekijken voor geselecteerde dimensies. Gebruik dit rapport bij het afsluiten van een boekhoudperiode of boekjaar. | 9 |
 | [Gedetailleerde proef- en saldibalans](https://businesscentral.dynamics.com?report=4) | Geeft een gedetailleerde proefbalans weer voor geselecteerde grootboekrekeningen. Met filters bepaalt u welke rekeningen in de lijst worden opgenomen. Gebruik dit rapport bij het afsluiten van een boekhoudperiode of boekjaar. | 4 |
 | [Proef- en saldibalans/vorig jaar](https://businesscentral.dynamics.com?report=7) | Geeft een proefbalans weer in vergelijking met de cijfers van het vorige jaar. U kunt een proefbalans bekijken voor geselecteerde dimensies. Gebruik dit rapport bij het afsluiten van een boekhoudperiode of boekjaar. *Het vorige jaar* betekent dezelfde periode één jaar geleden. | 7 | 
