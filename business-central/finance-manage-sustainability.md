@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Overzicht van duurzaamheidsbeheer
+# <a name="sustainability-management-overview"></a>Overzicht van duurzaamheidsbeheer
 
 > [!IMPORTANT]
 > Deze functie is beschikbaar in Business Central vanaf **releasewave 1 van 2024**. Alle referentielinks worden ingeschakeld zodra ze beschikbaar zijn.
@@ -49,7 +49,7 @@ Raadpleeg de volgende artikelen om aan de slag te gaan met duurzaamheidsbeheer.
 | **Integraties** |             |
 | [Duurzaamheid-API](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json) | Gebruik dit artikel om te leren hoe u verbonden apps kunt maken die een point-to-point-verbinding tot stand brengen tussen Business Central en niet-Microsoft duurzaamheidsoplossingen of -services met behulp van API's. |
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Duurzaamheidsinstellingen](finance-sustainability-setup.md)    
 [Duurzaamheidsrekeningschema en grootboek](finance-sustainability-accounts-ledger.md)    
