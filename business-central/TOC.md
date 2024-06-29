@@ -2127,6 +2127,7 @@ ms.service: dynamics-365-business-central
 ### [Veelgestelde vragen over het toewijzen van e-documenten aan inkooporders met Copilot](faqs-map-edocuments.md)
 # Verantwoorde AI
 ## [Overzicht](responsible-ai-overview.md)
+## [Veelgestelde vragen over gegevensbeveiliging en privacy voor Copilot](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)
 ## [Veelgestelde vragen over analysehulp (preview)](faqs-analysis-assist.md)
 ## [Veelgestelde vragen over hulp bij bankreconciliatie (preview)](faqs-bank-reconciliation.md)
 ## [Veelgestelde vragen over chatten met Copilot (preview)](faqs-chat-with-copilot.md)
