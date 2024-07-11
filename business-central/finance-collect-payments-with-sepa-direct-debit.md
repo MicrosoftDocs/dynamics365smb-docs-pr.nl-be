@@ -25,7 +25,7 @@ Wanneer betalingen met succes worden verwerkt, zoals aangegeven door uw bank, ku
 > [!NOTE]  
 > Om betalingen te innen via SEPA Incasso, moet de valuta in de verkoopfactuur EURO zijn.  
 
-## <a name="setting-up-sepa-direct-debit"></a>Automatische incasso via SEPA instellen
+## <a name="how-to-set-up-sepa-direct-debit"></a>Automatische incasso via SEPA instellen
 
 Vanuit de pagina **Incasso-opdrachten** kunt u instructies naar uw elektronische bank exporteren om een automatische incasso van de bankrekening van de klant uit te voeren naar uw bankrekening, volgens de SEPA-indeling voor incasso.
 

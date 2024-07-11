@@ -37,7 +37,7 @@ Als u nog geen aangepaste rapportlay-out voor het type document heeft gemaakt, m
 3. Kies op de pagina **Documentlay-outs** op de regel voor een rapportlay-out waarvoor u een aangepaste lay-out wilt gebruiken, het veld **Aangepaste lay-outbeschrijving**.
 4. Selecteer op de pagina **Aangepaste rapportlay-outs** de speciale documentlay-out die u wilt gebruiken voor het type verkoopdocument. Zie voor meer informatie [Aangepaste rapportlay-outs maken en wijzigen](ui-how-create-custom-report-layout.md).
 
-## <a name="to-specify-which-contact-will-receive-which-document-layout-for-a-customer"></a>Opgeven welk contact welke documentlay-out voor een klant ontvangt
+## <a name="to-specify-which-contact-receives-which-document-layout-for-a-customer"></a>Opgeven welk contact welke documentlay-out voor een klant ontvangt
 
 Om tijd te besparen wanneer u documenten per e-mail naar contacten van klanten en leveranciers verzendt, geeft u hun e-mailadressen op in documentlay-outs. U kunt bijvoorbeeld altijd klantafschriften verzenden naar accountantcontacten van klanten, verkooporders naar inkopers van klanten en inkooporders naar verkopers van leveranciers.
 
