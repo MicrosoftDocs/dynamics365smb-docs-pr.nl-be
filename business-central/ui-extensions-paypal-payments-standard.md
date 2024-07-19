@@ -2,20 +2,20 @@
 title: De extensie PayPal Payments Standard gebruiken
 description: Dit artikel beschrijft hoe u de standaardextensie gebruikt om klanten de mogelijkheid te bieden betalingen te doen met PayPal.
 author: brentholtorf
+ms.author: bholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'app, add-in, manifest, customize'
 ms.search.form: '1070, 1071, 1073, 1074'
-ms.date: 12/12/2023
-ms.author: bholtorf
+ms.date: 07/09/2024
+ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="the-paypal-payments-standard-extension"></a>De extensie PayPal Payments Standard
+# De extensie PayPal Payments Standard
 
-Klanten stellen steeds meer eisen aan de klantenservice, zowel met betrekking tot productkwaliteit als met betrekking tot betalings- en leveringsmogelijkheden. De service PayPal Payments Standard helpt u uw klantenservice te verbeteren.
+Met de PayPal Payments Standard-extensie kunt u uw klantenserviceniveau verbeteren door het voor uw klanten gemakkelijker te maken hun rekeningen te betalen.
 
-Als alternatief voor het innen van betalingen door middel van bankoverschrijving of creditcards kunt u klanten aanbieden met hun PayPal-rekening te betalen. Wanneer u een verkoopfactuur verzendt per e-mail, is er een PayPal-koppeling in de e-mailhoofdtekst en in het gekoppelde PDF-document aanwezig. Wanneer klanten de koppeling kiezen, wordt de servicepagina van hun PayPal-rekening geopend waarin de betalingsdetails voor de verkoop worden weergegeven. De klant kan de factuur vervolgens als elke andere PayPal-betaling betalen.
+Als alternatief voor het innen van betalingen via bankoverschrijving of creditering Kaarten kunnen klanten betalen via hun PayPal-rekening. Wanneer u een verkoopfactuur verzendt per e-mail, is er een PayPal-koppeling in de e-mailhoofdtekst en in het gekoppelde PDF-document aanwezig. Als de klant koppelen kiest, wordt de servicepagina voor zijn PayPal-rekening geopend en worden de betalingsgegevens weergegeven. De klant kan de factuur vervolgens als elke andere PayPal-betaling betalen.
 
 De service PayPal Payments Standard biedt de volgende voordelen:
 
@@ -27,9 +27,18 @@ De service PayPal Payments Standard biedt de volgende voordelen:
 * Met de service PayPal Payments Standard bent u geen maandelijkse kosten of installatiekosten kwijt.
 * Omdat het een extensie is, kunt u de service PayPal Payment Standard gemakkelijk inschakelen wanneer en als uw bedrijf het nodig heeft.  
 
-Zie [Klantbetalingen via PayPal inschakelen](sales-how-enable-payment-service-extensions.md) voor meer informatie.
+Voor meer informatie over het instellen van de extensie gaat u naar [Klantbetaling via PayPal inschakelen](sales-how-enable-payment-service-extensions.md).
 
-## <a name="see-also"></a>Zie ook
+## Registreer betalingen automatisch voor zakelijke accounts
+
+[!INCLUDE [prod_short](includes/prod_short.md)] kan betalingen automatisch registreren als u een Business Merchant-account heeft voor het PayPal Commerce Platform. Wanneer uw klanten PayPal koppelen gebruiken om een ​​factuur te betalen, [!INCLUDE [prod_short](includes/prod_short.md)] wordt de invoer gepost en Sluiten het document.
+
+Als u deze mogelijkheid wilt gebruiken, schakelt u op de pagina  **Betalingsregistratie instellen** in [!INCLUDE [prod_short](includes/prod_short.md)] de optie **Betalingen automatisch registrerenin** schakel en verifieer de accounts die u voor de betalingen gaat gebruiken. Als u besluit dat u betalingen niet automatisch wilt registreren, kunt u dit weer uitschakelen.
+
+> [!TIP]
+> Ontwikkelaars kunnen sandbox-accounts gebruiken om de installatie te testen. Wijzig hiervoor de PayPal-URL in **sandbox.paypal.com**. [!INCLUDE [prod_short](includes/prod_short.md)] maakt gebruik van de PayPal's Instant Payment Notification (IPN) via kennisgeving_url.
+
+## Zie ook
 
 [[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 [Verkopen instellen](sales-setup-sales.md)  
