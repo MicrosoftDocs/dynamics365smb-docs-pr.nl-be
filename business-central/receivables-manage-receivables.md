@@ -7,10 +7,10 @@ ms.reviewer: bholtorf
 ms.topic: overview
 ms.devlang: al
 ms.search.keywords: 'customer payment, debtor, balance due, AR'
-ms.date: 06/10/2024
+ms.date: 07/08/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="managing-receivables"></a>Tegoeden beheren
+# Tegoeden beheren
 
 Een regelmatige stap in elk financieel ritme is het reconciliëren van bankrekeningen. Om verkoopfacturen en inkoopcreditnota's als betaald af te sluiten, vereffent u binnenkomende betalingen met klant- of leveranciersposten.
 
@@ -30,7 +30,7 @@ Andere aspecten van het beheer van tegoeden omvatten het innen van openstaande s
 
 De volgende tabel beschrijft een reeks taken, met koppelingen naar de artikelen waarin deze worden beschreven.  
 
-| Tot | Zie |
+| Aan | Zie |
 | --- | --- |
 | Pas betalingen toe op geopende klant- of leveranciersposten op basis van een geïmporteerd bankafschriftbestand of feed. Reconcilieer de bankrekening nadat u alle betalingen heeft toegepast. |[Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
 | Betalingen vereffenen met open klantenposten op basis van een lijst met onbetaalde verkoopdocumenten op de pagina **Betalingsregistratie**. |[Klantbetalingen uit een lijst met onbetaalde verkoopdocumenten reconciliëren](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md) |
@@ -41,8 +41,7 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de artikelen 
 |Stel een tolerantie in waarmee het systeem een factuur sluit hoewel de betaling, inclusief een eventuele korting, het bedrag op de factuur niet volledig dekt.|[Werken met betalingstoleranties en contantkortingstoleranties](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Voorspellen wanneer betalingen te laat worden gedaan voor verkoopdocumenten. | [De extensie Voorspelling van te late betaling](ui-extensions-late-payment-prediction.md) |
 
-## <a name="see-also"></a>Zie ook
-
+## Zie ook
 [Verkoop](sales-manage-sales.md)  
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

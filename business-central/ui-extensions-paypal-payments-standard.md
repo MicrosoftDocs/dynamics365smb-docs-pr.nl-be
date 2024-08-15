@@ -11,11 +11,11 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="the-paypal-payments-standard-extension"></a>De extensie PayPal Payments Standard
+# De extensie PayPal Payments Standard
 
-Met de PayPal Payments Standard-extensie kunt u uw klantenserviceniveau verbeteren door het voor uw klanten gemakkelijker te maken hun rekeningen te betalen.
+Met de extensie PayPal Payments Standard kunt u uw klantenservice verbeteren door het voor uw klanten gemakkelijker te maken hun rekeningen te betalen.
 
-Als alternatief voor het innen van betalingen via bankoverschrijving of creditering Kaarten kunnen klanten betalen via hun PayPal-rekening. Wanneer u een verkoopfactuur verzendt per e-mail, is er een PayPal-koppeling in de e-mailhoofdtekst en in het gekoppelde PDF-document aanwezig. Als de klant koppelen kiest, wordt de servicepagina voor zijn PayPal-rekening geopend en worden de betalingsgegevens weergegeven. De klant kan de factuur vervolgens als elke andere PayPal-betaling betalen.
+Als alternatief voor het innen van betalingen via bankoverschrijving of creditcard Kaarten, kunnen klanten ook betalen via hun PayPal-account. Wanneer u een verkoopfactuur verzendt per e-mail, is er een PayPal-koppeling in de e-mailhoofdtekst en in het gekoppelde PDF-document aanwezig. Als de klant koppelen kiest, wordt de servicepagina voor zijn PayPal-account geopend en worden de betalingsgegevens weergegeven. De klant kan de factuur vervolgens als elke andere PayPal-betaling betalen.
 
 De service PayPal Payments Standard biedt de volgende voordelen:
 
@@ -27,18 +27,18 @@ De service PayPal Payments Standard biedt de volgende voordelen:
 * Met de service PayPal Payments Standard bent u geen maandelijkse kosten of installatiekosten kwijt.
 * Omdat het een extensie is, kunt u de service PayPal Payment Standard gemakkelijk inschakelen wanneer en als uw bedrijf het nodig heeft.  
 
-Voor meer informatie over het instellen van de extensie gaat u naar [Klantbetaling via PayPal inschakelen](sales-how-enable-payment-service-extensions.md).
+Ga naar  [Klantbetaling via PayPal inschakelen voor meer informatie over het instellen van de extensie](sales-how-enable-payment-service-extensions.md).
 
-## <a name="register-payments-automatically-for-business-accounts"></a>Registreer betalingen automatisch voor zakelijke accounts
+## Automatisch betalingen registreren voor zakelijke rekeningen
 
-[!INCLUDE [prod_short](includes/prod_short.md)] kan betalingen automatisch registreren als u een Business Merchant-account heeft voor het PayPal Commerce Platform. Wanneer uw klanten PayPal koppelen gebruiken om een ​​factuur te betalen, [!INCLUDE [prod_short](includes/prod_short.md)] wordt de invoer gepost en Sluiten het document.
+[!INCLUDE [prod_short](includes/prod_short.md)] kunt u betalingen automatisch registreren als u een zakelijk handelsaccount hebt voor het PayPal Commerce Platform. Wanneer uw klanten de PayPal-code koppelen gebruiken om een factuur te betalen, [!INCLUDE [prod_short](includes/prod_short.md)] boekt u de vermeldingen en Sluiten het document.
 
-Als u deze mogelijkheid wilt gebruiken, schakelt u op de pagina  **Betalingsregistratie instellen** in [!INCLUDE [prod_short](includes/prod_short.md)] de optie **Betalingen automatisch registrerenin** schakel en verifieer de accounts die u voor de betalingen gaat gebruiken. Als u besluit dat u betalingen niet automatisch wilt registreren, kunt u dit weer uitschakelen.
+Om deze mogelijkheid te gebruiken, schakelt u op de pagina  **instellingen voor betalingsregistratie** in [!INCLUDE [prod_short](includes/prod_short.md)] de optie  **Betalingen automatisch registreren**  in en verifieert u de rekeningen die u voor de betalingen wilt gebruiken. Als u besluit dat u betalingen niet automatisch wilt registreren, kunt u dit weer uitschakelen.
 
 > [!TIP]
-> Ontwikkelaars kunnen sandbox-accounts gebruiken om de installatie te testen. Wijzig hiervoor de PayPal-URL in **sandbox.paypal.com**. [!INCLUDE [prod_short](includes/prod_short.md)] maakt gebruik van de PayPal's Instant Payment Notification (IPN) via kennisgeving_url.
+> Ontwikkelaars kunnen sandbox-accounts gebruiken om de installatie te testen. Om dat te doen, wijzigt u de PayPal-URL in  **sandbox.paypal.com**. [!INCLUDE [prod_short](includes/prod_short.md)] maakt gebruik van PayPals Instant Payment Notification (IPN) via notify_url.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 [Verkopen instellen](sales-setup-sales.md)  

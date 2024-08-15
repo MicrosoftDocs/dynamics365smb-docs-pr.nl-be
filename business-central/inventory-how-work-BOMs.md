@@ -11,20 +11,20 @@ ms.search.form: null
 ms.date: 06/06/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="work-with-bills-of-material"></a>Werken met stuklijsten
+# Werken met stuklijsten
 
 U gebruikt stuklijsten om bovenliggende artikelen te structureren die door resources of bewerkingsplaatsen moeten worden geassembleerd uit andere artikelen of geproduceerd van onderdelen.
 
-## <a name="assembly-boms-or-production-boms"></a>Assemblagestuklijsten of productiestuklijsten
+## Assemblagestuklijsten of productiestuklijsten
 
 [!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt twee verschillende typen stuklijsten:
 
-| Type stuklijst | Algemene categorie | Opmerking |
+| Type stuklijst | Algemene categorie | Voorbeeld |
 | -------- | ---------------- | ------- |
 | [Assemblagestuklijsten](assembly-how-work-assembly-boms.md) | Magazijn/assemblage | Artikelen die bestaan uit andere artikelen, geassembleerd met basis- of geen resources. |
 | [Productiestuklijsten](production-how-to-create-production-boms.md) | Productie | Artikelen die bestaan uit verschillende componenten en subassemblages, geproduceerd in een werk- of bewerkingsplaats. |
 
-Gebruik assemblageorders voor het maken van eindartikelen van onderdelen in een eenvoudig proces dat kan worden uitgevoerd door een of meer basisbronnen die geen bewerkingsplaatsen of -afdelingen betreffen of waarbij geen bronnen gebruikt worden. Een assemblageproces kan bijvoorbeeld zijn het picken van twee flessen wijn en één pak koffie en deze als een cadeau-item verpakken.  
+U gebruikt assemblageorders om eindproducten te maken van componenten in een eenvoudig proces dat kan worden uitgevoerd door een of meer basisbronnen, die geen machines of werkcentra zijn, of zonder bronnen. Een assemblageproces kan bijvoorbeeld zijn het picken van twee flessen wijn en één pak koffie en deze als een cadeau-item verpakken.  
 
 Een assemblagestuklijst betreft de hoofdgegevens die bepalen welke onderdelen gebruikt worden in een samengesteld eindartikel en welke bronnen gebruikt worden voor het samenstellen van het assemblageartikel. Wanneer u een assemblageartikel en een aantal in een nieuwe assemblageorderkop invoert, worden de assemblageorderregels automatisch op basis van de assemblagestuklijst ingevuld met één assemblageorderregel per onderdeel of bron. Zie voor meer informatie [Assemblagebeheer](assembly-assemble-items.md).
 
@@ -36,14 +36,14 @@ Het concept van bronnen in de productie is veel geavanceerder dan in de assembla
 
 Zowel assemblage- als productieorders kunnen rechtstreeks aan verkooporders worden gekoppeld. U kunt echter alleen assemblageorders gebruiken om het eindartikel rechtstreeks voor een klantverzoek aan de verkooporder te koppelen.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
-[Werken met assemblagestuklijsten](assembly-how-work-assembly-boms.md)  
-[Productiestuklijsten maken](production-how-to-create-production-boms.md)  
-[Nieuwe artikelen registreren](inventory-how-register-new-items.md)  
-[Productvarianten beheren](inventory-item-variants.md)  
-[Voorraad](inventory-manage-inventory.md)  
-[Productie](production-manage-manufacturing.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Werken met assemblage-BOM's](assembly-how-work-assembly-boms.md)    
+[productie-BOM's maken](production-how-to-create-production-boms.md)    
+[Registreer nieuwe items](inventory-how-register-new-items.md)    
+[productvarianten beheren](inventory-item-variants.md)    
+[Voorraad](inventory-manage-inventory.md)    
+[Productie](production-manage-manufacturing.md)    
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,7 +9,7 @@ ms.reviewer: bholtorf
 ms.custom: bap-template
 ---
 
-# <a name="integrate-with-microsoft-dynamics-365-field-service"></a>Integreren met Microsoft Dynamics 365 Field Service
+# Integreren met Microsoft Dynamics 365 Field Service
 
 Serviceorganisaties hebben een front-to-back-toepassing nodig waarin financiën, voorraad en inkoop nauw zijn gekoppeld aan dienstverlening. Ze genereren bij elke transactie financiële gegevens. Elke werkorder vertegenwoordigt kosten en opbrengsten, en elke resource genereert winst en verlies. Klantinteracties voegen posten toe aan het grootboek. Met de integratie tussen [!INCLUDE [prod_short](includes/prod_short.md)] en [!INCLUDE [field-service-short](includes/field-service-short.md)] wordt het complete proces van het beheer van serviceactiviteiten gestroomlijnd en wordt gezorgd voor een soepele informatiestroom tussen de twee systemen.  
 
@@ -19,29 +19,29 @@ De integratie vergemakkelijkt ook de facturering en afhandeling van werkorders i
 
 Door [!INCLUDE [prod_short](includes/prod_short.md)] met [!INCLUDE [field-service-short](includes/field-service-short.md)] te integreren, hoeft u gegevens niet handmatig in te voeren of dubbele inspanningen te leveren. Integratie biedt ook een uitgebreid overzicht van serviceactiviteiten en financiële gegevens, waardoor betere besluitvorming en operationele efficiëntie mogelijk worden.
 
-## <a name="prerequisites"></a>Vereisten
+## Vereisten
 
 Omdat [!INCLUDE [field-service-short](includes/field-service-short.md)] op basis van Dynamics 365 Sales is gebouwd, moet u [een verbinding met Dataverse instellen](/dynamics365/business-central/admin-how-to-set-up-a-dynamics-crm-connection#to-use-the-dataverse-connection-setup-assisted-setup-guide) en [integratie met Dynamics 365 Sales mogelijk maken](/dynamics365/business-central/admin-prepare-dynamics-365-for-sales-for-integration#connection-settings-in-the-setup-guide).
 
-U moet de Field Service Integration-app downloaden van [AppSource](https://go.microsoft.com/fwlink/?linkid=2277917) en installeren [!INCLUDE [prod_short](includes/prod_short.md)].
+U moet de Field Service Integration-app downloaden van  [AppSource](https://go.microsoft.com/fwlink/?linkid=2277917) en deze installeren in [!INCLUDE [prod_short](includes/prod_short.md)].
 
-### <a name="permissions-and-security-roles-for-user-accounts"></a>Machtigingen en beveiligingsrollen voor gebruikersaccounts
+### Machtigingen en beveiligingsrollen voor gebruikersaccounts
 
 Wanneer u de integratieoplossing installeert, worden machtigingen voor het integratiegebruikersaccount geconfigureerd. Als deze machtigingen veranderen, moet u deze mogelijk opnieuw instellen. U kunt dat doen door de integratieoplossing opnieuw te installeren via de pagina **Dynamics 365-verbinding instellen** door **Integratieoplossing opnieuw implementeren** te kiezen. In de volgende gedeelten worden de machtigingen en beveiligingsrollen vermeld die de oplossing voor elke app implementeert.
 
-#### <a name="sales"></a>Verkoop
+#### Verkoop
 
 * Dynamics 365 [!INCLUDE [prod_short](includes/prod_short.md)]-integratiebeheerder
 * Dynamics 365 [!INCLUDE [prod_short](includes/prod_short.md)]-integratiegebruiker
 * Dynamics 365 [!INCLUDE [prod_short](includes/prod_short.md)]-gebruiker van productbeschikbaarheid
 
-#### <a name="business-central"></a>Business Central
+#### Business Central
 
 Gebruikers die projectjournalen boeken, moeten over de volgende machtigingenset beschikken:
 
 * Dynamics 365 Sales-integratie
 
-#### <a name="field-service"></a>Field Service
+#### Field Service
 
 Om de geïntegreerde gegevens te kunnen gebruiken, moeten gebruikers de volgende beveiligingsrol hebben:
 
@@ -62,7 +62,7 @@ Gebruikers moeten deze rol bijvoorbeeld hebben om werkorders te verbinden met [!
 > * U moet over machtigingen voor **Lezen** beschikken voor de tabel **Dynamics 365 Business Central-verbinding** (nav_connection).
 > * U moet over de machtigingen **Lezen**, **Schrijven** en **Verwijderen** beschikken voor de tabel **Standaard Dynamics 365 Business Central-verbinding** (nav_defaultconnection).
 
-### <a name="other-settings-in-field-service"></a>Overige instellingen in Field Service
+### Overige instellingen in Field Service
 
 Breng op de pagina **Field Service-instelling** de volgende wijzigingen aan:
 
@@ -72,11 +72,11 @@ Breng op de pagina **Field Service-instelling** de volgende wijzigingen aan:
 > [!NOTE]
 > Door een verbinding in te stellen met [!INCLUDE [field-service-short](includes/field-service-short.md)] wordt de koppeling tussen resources en producten opgeheven. Om [!INCLUDE [prod_short](includes/prod_short.md)]-artikelen beschikbaar te maken in [!INCLUDE [field-service-short](includes/field-service-short.md)], werkt u het veld **Field Service-producttype** bij zodat het overeenkomt met het veld **Type** voor de artikelen in [!INCLUDE [prod_short](includes/prod_short.md)]. Ga voor meer informatie naar [Een product of service maken](/dynamics365/field-service/create-product-or-service#create-a-product-or-service).
 
-## <a name="set-up-the-integration-in-business-central"></a>De integratie in Business Central instellen
+## De integratie in Business Central instellen
 
 Nadat u verbinding hebt gemaakt met Dataverse en Sales, kunt u uw integratie met [!INCLUDE [field-service-short](includes/field-service-short.md)] instellen.
 
-* Download en installeer de Field Service Integration-app van [AppSource](https://go.microsoft.com/fwlink/?linkid=2277917). Zoek daarna op de pagina **Extensiebeheer** de Field Service Integration-app en kies de actie **Instellen**  voer de ondersteunde installatie guide uit.
+* Download en installeer de Field Service Integration-app vanaf [AppSource](https://go.microsoft.com/fwlink/?linkid=2277917). Zoek vervolgens op de pagina  **Extension Management**  de app Field Service Integration en kies de actie  **Set up** om de ondersteunde installatie guide uit te voeren.
 * Op de pagina **Begeleide instelling** in [!INCLUDE [prod_short](includes/prod_short.md)] kiest u **Integratie met Dynamics 365 Field Service instellen** om de begeleide instelling uit te voeren.
 
 In dit gedeelte worden de belangrijkste instellingen in de guide beschreven.
@@ -98,7 +98,7 @@ Nadat u de instelling hebt voltooid, voert u een volledige synchronisatie uit vi
 * Voor resources die niet zijn geblokkeerd, is **Urenstaat gebruiken** niet geselecteerd, en is **Uur** opgegeven als de maateenheid op de pagina **Dynamics 365 Field Service-integratie instellen**.
 * Serviceartikelen (vereist dat u de Premium-ervaring in [!INCLUDE [prod_short](includes/prod_short.md)] gebruikt).
 
-## <a name="standard-field-service-entity-mapping-for-synchronization"></a>Standaardtoewijzing van Field Service-entiteit voor synchronisatie
+## Standaardtoewijzing van Field Service-entiteit voor synchronisatie
 
 De basis voor de synchronisatie van gegevens is de toewijzing van de tabellen en velden in [!INCLUDE [prod_short](includes/prod_short.md)] aan tabellen en kolommen in Dataverse, zodat de gegevens kunnen worden uitgewisseld. Toewijzing gebeurt via integratietabellen. Ga voor meer informatie over tabeltoewijzingen naar [De tabellen en velden toewijzen voor synchronisatie](/dynamics365/business-central/admin-how-to-modify-table-mappings-for-synchronization).
 
@@ -110,11 +110,11 @@ Integratie met [!INCLUDE [field-service-short](includes/field-service-short.md)]
 * **RESOURCE-BOOKABLERSC** - hiermee worden resources in [!INCLUDE [prod_short](includes/prod_short.md)] toegewezen aan boekbare resources in [!INCLUDE [field-service-short](includes/field-service-short.md)].
 * **SVCITEM-CUSTASSET** - (alleen Premium-ervaring) hiermee worden serviceartikelen in [!INCLUDE [prod_short](includes/prod_short.md)] toegewezen aan klantactiva in [!INCLUDE [field-service-short](includes/field-service-short.md)].
 
-## <a name="use-data-in-both-applications"></a>Gegevens in beide toepassingen gebruiken
+## Gegevens in beide toepassingen gebruiken
 
 In de volgende gedeelten worden de functies beschreven waarbij u de gegevens kunt gebruiken die afkomstig zijn van [!INCLUDE [prod_short](includes/prod_short.md)] en [!INCLUDE [field-service-short](includes/field-service-short.md)].
 
-### <a name="field-service-1"></a>Field Service
+### Field Service
 
 U kunt [werkorders maken](/dynamics365/field-service/create-work-order) met **serviceaccount** en **factureringsaccount** uit [!INCLUDE [prod_short](includes/prod_short.md)]. Voor werkorders moet u **Business Central-projecttaak** selecteren in het veld **Extern project**. Als u een project selecteert, kunt u werkorderproducten en -services synchroniseren met de juiste projecttaak in [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -127,7 +127,7 @@ U kunt artikelen van het type service als **Werkorderservices** toevoegen en de 
 
 U kunt een resource boeken en **Boekingen** koppelen aan werkorderservices met **Boekbare resource** van [!INCLUDE [prod_short](includes/prod_short.md)].
 
-### <a name="business-central-1"></a>Business Central
+### Business Central
 
 Afhankelijk van uw instellingen op de pagina **Field Service-integratie instellen** wordt wanneer werkorders producten en services bevatten, verbruiksinformatie overgedragen en geboekt met behulp van een **Projectdagboek** in [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -142,7 +142,7 @@ Gebruik de pagina **Projectplanningsregels** om het boeken en factureren van ver
 >
 > U kunt een factuur maken voor een artikel van het type **Service** op de factureerbare projectplanningsregel en de budgetprojectplanningsregel gebruiken om de kosten met de resource te registreren.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Integreren met Microsoft Dataverse via gegevenssynchronisatie](admin-common-data-service.md)  
 [De te synchroniseren tabellen en velden toewijzen](admin-how-to-modify-table-mappings-for-synchronization.md)

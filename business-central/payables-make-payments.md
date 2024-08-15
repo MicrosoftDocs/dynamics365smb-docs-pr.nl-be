@@ -7,11 +7,11 @@ ms.reviewer: bholtorf
 ms.topic: overview
 ms.search.keywords: 'print check, vendor payment, creditor, debt, balance due, AP'
 ms.search.form: '254, 256, 1190, 1191, 1227, 1228, 1229'
-ms.date: 05/24/2024
+ms.date: 07/15/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="making-payments"></a>Betalingen uitvoeren
+# Betalingen doen
 
 U betaalt leveranciers of klanten of betaalt vergoedingen aan uw werknemers door betalingsregels te boeken op de pagina **Betalingsdagboek**. Het betalingsjournaal is een algemeen journaal dat is geoptimaliseerd voor het uitvoeren van betalingen en biedt veel krachtige acties. Bijvoorbeeld de actie **Leveranciersbetalingen voorstellen** die de verschuldigde leveranciersbetalingen vindt, en het rapport **Leverancier - Open posten** met een overzicht van verschuldigde leveranciersbetalingen.  
 
@@ -25,17 +25,17 @@ Nadat de betalingen in uw bank worden gemaakt, moet u deze met de relateerde ope
 
 De volgende tabel beschrijft een reeks taken, met koppelingen naar de artikelen waarin deze worden beschreven.
 
-| Tot | Zie |
+| Aan | Zie |
 | --- | --- |
-|Basisfuncties begrijpen van de pagina **Betalingsdagboek**, die is gebaseerd op het diversendagboek, om het boeken van betalingen naar leveranciers of werknemers voor te bereiden.|[Werken met diversendagboeken](ui-work-general-journals.md)|
+|Basisfuncties begrijpen van de pagina **Betalingsdagboek**, die is gebaseerd op het diversendagboek, om het boeken van betalingen naar leveranciers of werknemers voor te bereiden.|[Werken met dagboeken](ui-work-general-journals.md)|
 |Boek betalingen aan leveranciers of werknemers en terugbetalingen aan klanten en vereffen de betalingen optioneel met de gerelateerde niet-betaalde facturen/creditnota's om deze als betaald te sluiten.|[Betalingen en terugbetalingen vastleggen](payables-how-post-payments-refunds.md)|
 | Gebruik een functie op de pagina **Betalingsdagboek** om leveranciersbetalingen voor te stellen volgens geselecteerde criteria, zoals kortingsgeschiktheid, vervaldatum en uw liquiditeit. |[Leveranciersbetalingen voorstellen](payables-how-suggest-vendor-payments.md) |
 | Geef cheques uit voor leveranciersbetalingen of terugbetalingen aan klanten, hetzij als afdrukken, hetzij als automatische cheques. Cheques nietig verklaren voor of na het boeken. |[Chequebetalingen doen](payables-how-work-checks.md) |
-|Elektronische betalingen doen op basis van de EU-norm voor SEPA-krediettransfers.|[Betalingen doen met de extensie AMC Banking 365 Fundamentals of SEPA-kredietoverdracht](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|
+|Doe elektronische betalingen op basis van de EU-norm voor SEPA-krediettransfers.|[Betalingen doen met de extensie AMC Banking 365 Fundamentals of SEPA-kredietoverdracht](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|
 | Een leverancier contant of per cheque betalen en de betaling boeken op het moment dat u de factuur boekt. |[Inkoopfacturen meteen vereffenen](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Om ervoor te zorgen dat uw bank alleen gevalideerde cheques en bedragen vrijgeeft, kunt u deze verzenden in een bestand dat gegevens over de leverancier, cheque en betaling bevat. |[Een Positive Pay-bestand exporteren](finance-how-positive-pay.md) |
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
 [Inkoop](purchasing-manage-purchasing.md)  

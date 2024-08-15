@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'payment journal, print check, vendor payment, customer refund, refund check, creditor, debt, balance due, AP'
 ms.search.form: '256, 233, 624, 1228'
-ms.date: 06/06/2024
+ms.date: 07/17/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="record-payments-and-refunds-in-the-payment-journal"></a>Betalingen en terugbetalingen vastleggen in het betalingsdagboek
+# Betalingen en terugbetalingen vastleggen in het betalingsdagboek
 
-Op de pagina **Betalingsdagboek** legt u betalingen vast die u doet aan leveranciers en terugbetalingen die u doet aan klanten. Wanneer u een betalingsdagboekregel boekt, wordt het betaalde bedrag geregistreerd op de opgegeven bankrekening. U moet vier stappen uitvoeren om de werkelijke geldovermaking vanaf de gerelateerde bankrekening uit te voeren.  
+Op de pagina  **Betalingslogboeken** legt u betalingen vast die u aan leveranciers doet en terugbetalingen die u aan klanten doet. Wanneer u een betalingsdagboekregel boekt, wordt het betaalde bedrag geregistreerd op de opgegeven bankrekening. U moet vier stappen uitvoeren om de werkelijke geldovermaking vanaf de gerelateerde bankrekening uit te voeren.  
 
 Betalingsdagboeken zijn dagboeken die voor het doen van betalingen zijn geoptimaliseerd. U kunt snel handmatig regels toevoegen, u kunt [!INCLUDE[prod_short](includes/prod_short.md)] leveranciersbetalingen laten voorstellen en u kunt de betaling vereffenen met geboekte documenten. Hoewel u betalingen doet, voert u een positief bedrag in het veld **Documentbedrag** in. Afhankelijk van de documentsoort voor de dagboekregel wordt dit bedrag vervolgens naar een negatief bedrag geconverteerd in de onderliggende transacties. Zodoende is het sneller voor u om dagboekregels handmatig toe te voegen. Als u liever negatieve bedragen invoert, kunt u het betalingsdagboek personaliseren om in plaats daarvan het veld **Bedrag** weer te geven. Ga voor meer informatie over het personaliseren van pagina's naar [Begin met personaliseren door de personalisatiemodus te gebruiken](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).  
 
@@ -29,18 +29,18 @@ Betalingsdagboeken zijn dagboeken die voor het doen van betalingen zijn geoptima
 
     Naast registratie dat de betaling wordt verricht kunt u de pagina **Betalingsdagboek** gebruiken om de betaling uit te voeren voor verdere verwerking door uw bank. Ga voor meer informatie naar [Chequebetalingen doen](payables-how-work-checks.md) en [Elektronische betalingen doen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).  
 
-## <a name="to-make-payments-in-the-payment-journal"></a>Betalingen in het betalingsdagboek doen
+## Betalingen in het betalingsdagboek doen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Betalingsdagboeken** in en kies vervolgens de gerelateerde koppeling.
 2. Open de dagboekbatch die u gebruikt voor betalingen.
 3. Als u weet wie u wilt betalen, vult u de velden handmatig in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Als u de betaling wilt vereffenen met de gerelateerde factuur of creditnota, kiest u het veld **Vereffeningsnr.** op de pagina **Leveranciersposten vereffenen**, selecteert u de desbetreffende factuur of creditnota en kiest u vervolgens de knop **OK**.
+4. Om de betaling ook toe te passen op de gerelateerde factuur of creditnota, selecteert u het veld  **Toepassen op documentnr.**, op de pagina  **Leveranciersposten toepassen**, selecteert u de relevante factuur of creditnota en klikt u vervolgens op de knop  **OK** .
 
     Veel velden, zoals **Documentbedrag** en **Vervaldatum** bevatten nu gegevens uit het geselecteerde document.
 5. U kunt ook de actie **Leveranciersbetalingen voorstellen** gebruiken. Alle vereffeningsinformatie en bedragen worden ook ingevoerd op de dagboekregels. Ga voor meer informatie naar [Leveranciersbetalingen voorstellen](payables-how-suggest-vendor-payments.md).
 6. Wanneer u alle betalingsdagboekregels hebt ingevuld, kiest u de actie **Boeken**.
 
-## <a name="to-issue-a-refund-check"></a>Een terugbetalingscheque uitgeven
+## Een terugbetalingscheque uitgeven
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsdagboeken** in en kies de gerelateerde koppeling.
 2. Selecteer **Terugbetaling** in het veld **Documentsoort**.  
@@ -48,19 +48,19 @@ Betalingsdagboeken zijn dagboeken die voor het doen van betalingen zijn geoptima
 4. Selecteer **Klant** in het veld **Rekeningsoort** .  
 5. In het veld **Rekeningnummer** selecteert u het rekeningnummer van de klant waaraan de terugbetalingscheque wordt uitgegeven.  
 6. Voer in het veld **Bedrag** het bedrag in dat u wilt terugbetalen.  
-7. Selecteer in het veld **Tegenrekeningsoort** **Bankrekening**.  
-8. Selecteer in het veld **Tegenrekeningnr.** de bankrekening waarvan de cheque afkomstig zal zijn.  
+7. Selecteer in het veld **Tegenrekeningtype** **Bankrekening**.  
+8. Selecteer in het veld **Bal. Rekeningnr.** de bankrekening waarvan de cheque afkomstig is.  
 9. Kies in het veld **Vereffeningsnr.** selecteer de documenten die een terugbetaling vereisen.  
 10. Wanneer u alle betalingsdagboekregels hebt voltooid, kiest u de actie **Boeken/afdrukken**. Kies dan de actie **Boeken en afdrukken** en kies **Ja**.  
   
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Chequebetalingen doen](payables-how-work-checks.md)  
 [Elektronische betalingen doen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
 [Bankieren instellen](bank-setup-banking.md)  
 [Een Positive Pay-bestand exporteren](finance-how-positive-pay.md)  
-[Werken met diversendagboeken](ui-work-general-journals.md)  
+[Werken met dagboeken](ui-work-general-journals.md)  
 [Uw werkruimte personaliseren](ui-personalization-user.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

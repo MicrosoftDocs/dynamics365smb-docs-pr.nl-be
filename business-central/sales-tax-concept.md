@@ -6,13 +6,13 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'tax, posting, sales tax'
 ms.search.form: '10, 315, 466, 467, 468, 469, 10015, 10016, 10101'
-ms.date: 07/21/2022
+ms.date: 07/11/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="sales-tax-in-the-default-version-of-business-central"></a>Btw in de standaardversie van Business Central
+# Omzetbelasting in de standaardversie van Business Central
 
 **Sales tax** is een belasting die van toepassing is op de aankoop van goederen en diensten voor consumenten en op de verkoop van goederen en diensten voor bedrijven. Idealiter zou omzetbelasting van toepassing moeten zijn op al het eindverbruik met weinig vrijstellingen. Vrijstellingen voor eindverbruik zijn afhankelijk van de lokale autoriteiten, maar in het algemeen moeten transacties tussen bedrijven worden vrijgesteld van sales tax.  
 
@@ -23,11 +23,11 @@ Doorgaans is sales tax van toepassing op de detailhandelverkoop van goederen en 
 > [!IMPORTANT]
 > Hoewel sales tax beschikbaar is in de standaardversie, ondersteunt Microsoft het gebruik van sales tax alleen in de Verenigde Staten en Canada.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
-[Sales tax rapporteren in de Verenigde Staten](localfunctionality/UnitedStates/us-sales-tax.md)  
-[Sales tax rapporteren in Canada](localfunctionality/canada/ca-sales-tax.md)  
-[Financieel beheer](finance.md)
-[Btw aangeven bij de belastingdienst](finance-how-report-vat.md)
+[Omzetbelasting in de VS melden](localfunctionality/UnitedStates/us-sales-tax.md)    
+[Omzetbelasting in Canada melden](localfunctionality/canada/ca-sales-tax.md)    
+[Financieel beheer](finance.md)  
+[Btw rapporteren aan de belastingdienst](finance-how-report-vat.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

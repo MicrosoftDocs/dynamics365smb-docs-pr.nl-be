@@ -7,12 +7,12 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 'Report_4, Report_6, Report_7, Report_9, Report_25, Report_38'
-ms.date: 05/03/2024
+ms.date: 05/20/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="built-in-finance-reports-in-business-central"></a>Ingebouwde financiële rapporten in Business Central
+# Ingebouwde financiële rapporten in Business Central
 
 [!INCLUDE [prod_short](includes/prod_short.md)] bevat verschillende ingebouwde rapporten, traceerfuncties en tools die auditors of controllers helpen die verantwoordelijk zijn voor rapportage aan de financiële afdeling.
 
@@ -20,11 +20,11 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
-## <a name="explore-finance-reports-with-report-explorer"></a>Financiële rapporten verkennen met Rapportverkenner
+## Financiële rapporten verkennen met Rapportverkenner
 
 [!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Debiteurenrapporten en -analyses](receivables-reports.md)  
 [Crediteurenrapporten en -analyses](payables-reports.md)  

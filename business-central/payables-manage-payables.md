@@ -8,10 +8,11 @@ ms.topic: overview
 ms.devlang: al
 ms.search.keywords: 'vendor payment, creditor, debt, balance due, AP'
 ms.search.form: '161, 254, 256, 347, 574, 599, 9002'
-ms.date: 06/06/2024
+ms.date: 07/12/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="managing-payables"></a>Crediteuren beheren
+
+# Crediteuren beheren
 
 Een groot deel van het beheer van uw betalingsverplichtingen is het betalen van uw leveranciers of het vergoeden van kosten die uw werknemers maken. U kunt functies gebruiken om op de pagina **Betalingsdagboek** automatisch betalingsregels toe te voegen voor inkoopfacturen die betaald moeten worden. Als u banktransacties naar uw bank wilt verzenden, kunt u meerdere betalingsdagboekregels naar een bestand exporteren, dat u vervolgens naar uw bank uploadt. U kunt ook betalingen per cheque doen, inclusief deze verzenden als elektronische betalingen.
 
@@ -21,7 +22,7 @@ U kunt ook uitgaande betalingen handmatig vereffenen op de pagina **Betalingsdag
 
 In de volgende tabel wordt een reeks taken beschreven binnen crediteuren, met koppelingen naar de beschrijvende artikelen.
 
-| Tot | Zie |
+| Aan | Zie |
 | --- | --- |
 | Genereer verschuldigde leveranciersbetalingen of werknemersvergoedingen, bereid betalingen via cheques voor en exporteer betalingen naar een bankbestand tijdens het boeken. |[Betalingen uitvoeren](payables-make-payments.md) |
 | Vereffen leveranciersbetalingen automatisch met niet-betaalde inkoopfacturen door een bankafschriftbestand te importeren. |[Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
@@ -29,12 +30,12 @@ In de volgende tabel wordt een reeks taken beschreven binnen crediteuren, met ko
 |Zorg voor correcte voorraadwaardering door artikelkosten toe te voegen, zoals vracht, fysieke verwerking, verzekering en transport, die u maakt wanneer u inkoopt.|[Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden](payables-how-assign-item-charges.md)|
 |Vergoed werknemers voor kosten die zij tijdens zakelijke bezigheden maken door de vergoeding over te maken naar hun bankrekening.|[Kosten van werknemers registreren en terugbetalen](finance-how-record-reimburse-employee-expenses.md)|
 
-## <a name="see-also"></a>Zie ook
-[Inkoop](purchasing-manage-purchasing.md)  
-[Tegoeden beheren](receivables-manage-receivables.md)  
-[Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden](payables-how-assign-item-charges.md)  
-[Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## Zie ook
+[Inkoop](purchasing-manage-purchasing.md)    
+[Beheer van vorderingen](receivables-manage-receivables.md)    
+[gebruik artikelkosten om rekening te houden met extra handelskosten](payables-how-assign-item-charges.md)    
+[Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)    
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

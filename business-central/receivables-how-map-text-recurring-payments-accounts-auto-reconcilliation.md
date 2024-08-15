@@ -1,30 +1,30 @@
 ---
-title: Tekst-aan-rekening koppeling instellen voor periodieke betalingen
+title: Tekst-naar-account toewijzing instellen voor terugkerende betalingen
 description: 'Koppel tekst aan betalingen met bepaalde rekeningen, zodat betalingen naar de rekeningen geboekt worden als u het betalingsreconciliatiedagboek boekt.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'account linking, direct payment posting, automatic payment processing, reconcile payment, recurring expense, recurring cash receipt'
 ms.search.form: '1290, 1294, 1287'
-ms.date: 04/01/2021
+ms.date: 03/06/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Tekst op herhalende betalingen aan rekeningen toewijzen voor automatisch reconciliatie
+# Tekst op terugkerende betalingen toewijzen aan rekeningen voor automatische afstemming
 
 Op de pagina **Toewijzing tekst aan rekening**, die u opent vanuit de pagina **Dagboek betalingsreconciliatie** , kunt u toewijzingen instellen tussen tekst op betalingen en specifieke debet-, credit- en tegenrekeningen zodat dergelijke betalingen worden geboekt naar de opgegeven rekeningen wanneer u het betalingsreconciliatiedagboek boekt.
 
-Er bestaat vergelijkbare functionaliteit om te grote bedragen op de dagboekregels voor betalingreconciliatie op ad-hocbasis te reconciliëren. Zie [Betalingen reconciliëren die niet automatisch kunnen worden vereffend](receivables-how-reconcile-payments-cannot-apply-auto.md) voor meer informatie.
+Er bestaat vergelijkbare functionaliteit om te grote bedragen op de dagboekregels voor betalingreconciliatie op ad-hocbasis te reconciliëren. Zie  [Betalingen afstemmen die niet automatisch kunnen worden toegepast voor meer informatie](receivables-how-reconcile-payments-cannot-apply-auto.md).
 
-Betalingen die worden geboekt op basis van tekst-naar-rekening toewijzingen, worden niet vereffend met openstaande posten, maar worden slechts naar de opgegeven rekeningen geboekt, naast het feit dat er bankrekeningposten worden gemaakt. Toewijzing van tekst aan rekeningen is daarom geschikt voor periodieke ontvangsten of kosten, zoals regelmatige aankopen van autobrandstof of bankkosten en -rente, die regelmatig voorkomen op het bankafschrift en geen gerelateerd bedrijfsdocument nodig hebben. Zie de sectie 'Voorbeeld - tekst-aan-rekening toewijzing voor brandstofkosten' in dit onderwerp voor meer informatie.
+Betalingen die worden geboekt op basis van tekst-naar-rekening toewijzingen, worden niet vereffend met openstaande posten, maar worden slechts naar de opgegeven rekeningen geboekt, naast het feit dat er bankrekeningposten worden gemaakt. Daarom is de tekst-naar-rekening-code toewijzing geschikt voor terugkerende contante ontvangsten of uitgaven, zoals frequente aankopen van autobrandstof of bankkosten en rente, die regelmatig op het bankafschrift voorkomen en geen gerelateerd zakelijk document nodig hebben. Zie voor meer informatie het gedeelte 'Voorbeeld - Tekst-naar-account toewijzing voor brandstofkosten' in dit artikel.
 
 > [!NOTE]  
 >   Betalingen op reconciliatiedagboekregels worden alleen op boeken volgens tekst-naar-rekening toewijzing ingesteld als de automatische vereffeningsfunctie slechts een afstemmingszekerheid van **Laag** of **Normaal** kan bieden. Als de automatische vereffeningsfunctie een afstemmingszekerheid van Hoog oplevert, wordt de betaling automatisch vereffend met een of meer openstaande posten en wordt de betaling niet geboekt naar de rekeningen die zijn opgegeven op de pagina **Toewijzing tekst aan rekening** . Met andere woorden: een afstemmingszekerheid van **Hoog** heeft voorrang op een tekst-aan-rekening toewijzing.
 
 Op een dagboekregel van een betalingsreconciliatie waar de betaling is ingesteld op boeking volgens de tekst-aan-rekening toewijzing, bevat het veld **Zekerheid afstemming** de waarde **Hoog - Toewijzing tekst aan rekening** en bevatten de velden **Rekeningsoort** en **Rekeningnr.** de toegewezen rekeningen.
 
-## <a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Tekst op herhalende betalingen aan rekeningen toewijzen voor automatisch reconciliatie
+## Tekst op herhalende betalingen aan rekeningen toewijzen voor automatisch reconciliatie
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Betalingsreconciliatiedagboeken** in en kies vervolgens de gerelateerde koppeling.
 2. Open een betalingreconciliatiedagboek. Zie voor meer informatie [Betalingen vereffenen met automatische vereffening](receivables-how-reconcile-payments-auto-application.md).
@@ -44,7 +44,7 @@ Op een dagboekregel van een betalingsreconciliatie waar de betaling is ingesteld
 
 De volgende keer dat u een bankafschriftbestand importeert of de actie **Automatisch vereffenen** kiest op de pagina **Dagboek betalingsreconciliatie**, zullen dagboekregels voor de betalingen die de opgegeven toewijzingstekst bevatten, de toegewezen rekeningen bevatten in de velden **Rekeningsoort** en **Rekeningnr.** Het veld **Zekerheid afstemming** bevat **Hoog - Toewijzing tekst aan rekening**. Hiervoor geldt de voorwaarde dat de automatische vereffeningsfunctie slechts een afstemmingszekerheid van **Laag** of **Gemiddeld** kan bieden.
 
-## <a name="example-text-to-account-mapping-for-bank-fees"></a>Voorbeeld: tekst-aan-rekening toewijzing voor bankkosten
+## Voorbeeld: Tekst-naar-rekening toewijzing voor bankkosten
 
 Om uitgaven die verband houden met vergoedingen van een specifieke bank, MyBank, altijd te boeken naar de grootboekrekening voor bankkosten en vergoedingen (rekening 60400), vult u een regel op de pagina **Toewijzing tekst aan rekening** als volgt in.
 
@@ -52,7 +52,7 @@ Om uitgaven die verband houden met vergoedingen van een specifieke bank, MyBank,
 | --- | --- | --- | --- | --- |
 | MyBank |LEEG |60400|Grootboekrekening |LEEG |
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Tegoeden beheren](receivables-manage-receivables.md)  
 [Verkoop](sales-manage-sales.md)  
