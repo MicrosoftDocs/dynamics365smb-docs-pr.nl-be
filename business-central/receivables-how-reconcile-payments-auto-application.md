@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Betalingen afstemmen met behulp van automatische toepassing
+# <a name="reconcile-payments-using-automatic-application"></a>Betalingen afstemmen met behulp van automatische toepassing
 
 De pagina **Betalingsreconciliatiedagboek** specificeert betalingen, zowel inkomend als uitgaand, die zijn geregistreerd als transacties op uw online bankrekening of op een betalingsservice. U kunt de betalingen vereffenen met gerelateerde openstaande klant-, leveranciers- en bankrekeningposten. U vult het journaal in door een bankafschrift te importeren als bankfeed of bestand, of door handmatig transacties in te voeren die u via uw betaalservice uitvoert.
 
@@ -43,7 +43,7 @@ Voor elke dagboekregel op de pagina **Dagboek betalingsreconciliatie** kunt u de
 > [!NOTE]  
 > U kunt het importeren van banktransacties starten op het moment dat u de pagina **Betalingsreconciliatiedagboek** opent voor een bestaand dagboek. In de volgende procedure wordt beschreven hoe u banktransacties importeert op de pagina **Dagboek betalingsreconciliatie** nadat u een nieuw dagboek hebt gemaakt.
 
-## Betalingen reconciliëren met automatische vereffening
+## <a name="to-reconcile-payments-using-automatic-application"></a>Betalingen reconciliëren met automatische vereffening
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Betalingsreconciliatiedagboeken** in en kies vervolgens de gerelateerde koppeling.
 2. Als u in een nieuw betalingsreconciliatiedagboek wilt werken, kiest u de actie **Nieuw dagboek**.
 3. Selecteer op de pagina **Bankrekeninglijst betaling** de bankrekening waarvoor u betalingen wilt vereffenen en kies vervolgens de knop **OK**.
@@ -88,7 +88,7 @@ U kunt de waarde in het veld **Saldo op bankrekening na boeking** met de waarde 
 > [!NOTE]  
 >   Als u de bankrekening niet wilt afstemmen vanaf de pagina  **Betalingsafstemmingsdagboek**, moet u de pagina  **Bankrekeningafstemming**  gebruiken. Zie  [Bankrekeningen afstemmen](bank-how-reconcile-bank-accounts-separately.md) voor meer informatie.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Tegoeden beheren](receivables-manage-receivables.md)  
 [Verkoop](sales-manage-sales.md)  

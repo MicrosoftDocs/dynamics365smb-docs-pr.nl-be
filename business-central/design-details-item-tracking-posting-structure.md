@@ -25,13 +25,13 @@ De tabel **Artikelpostrelatie**, die wordt gebruikt om een geboekte documentrege
   
 De functionaliteit van het bestaande veld **Volgnummer**, waarmee een artikelpost aan een geboekte documentregel wordt gekoppeld, verwerkt de veelvoorkomende één-op-één-relatie wanneer er geen artikeltraceringsnummers bestaan op de geboekte documentregel. Als er artikeltraceringsnummers bestaan, wordt het veld **Volgnummer** leeg gelaten en wordt de één-op-veel relatie verwerkt door de tabel **Artikelpostrelatie**. Als de geboekte documentregel artikeltraceringsnummers heeft, maar slechts betrekking heeft op één artikelpost, verwerkt het veld **Volgnummer** de relatie en wordt geen record gemaakt in de tabel **Artikelpostrelatie**.  
   
-## <a name="codeunits-80-and-90"></a>Codeunits 80 en 90
+## <a name="codeunits-80-sales-post--and-90-purch-post"></a>Codeunits 80 en 90
 Om de artikelposten te splitsen tijdens het boeken, wordt de code in codeunit 80 en 90 omringd door lussen die door globale tijdelijke recordvariabelen lopen. Deze code roept de codeunit 22 aan met een artikeldagboekregel. Deze variabelen zijn geïnitialiseerd wanneer artikeltraceringsnummers aanwezig zijn voor de documentregel. Om de code eenvoudig te houden, wordt deze lusstructuur altijd gebruikt. Als er geen artikeltraceringsnummers bestaan voor de documentregel, wordt één record ingevoegd en wordt de lus slechts eenmaal uitgevoerd.  
   
 ## <a name="posting-the-item-journal"></a>Het artikeldagboek boeken
 Artikeltraceringsnummers worden overgebracht via de reserveringsposten die aan de artikelpost relateren, en de koppeling via artikeltraceringsnummers vindt plaats in codeunit 22. Dit concept werkt op dezelfde manier als wanneer een artikeldagboekregel indirect wordt gebruikt om een verkoop- of inkooporder te boeken als wanneer een artikeldagboekregel rechtstreeks wordt gebruikt. Wanneer het artikeldagboek direct wordt gebruikt, wijst het veld **Bronrij-id** naar de artikeldagboekregel zelf.  
   
-## <a name="code-unit-22"></a>Codeunit 22
+## <a name="code-unit-22--item-jnl-post-line"></a>Codeunit 22
 Codeunits 80 en 90 lussen de aanroep van codeunit 22 door tijdens de factuurboeking van artikeltraceringsnummers en tijdens het factureren van bestaande verzendingen of ontvangsten.  
   
 Tijdens het boeken van aantallen van artikeltraceringsnummers, haalt codeunit 22 artikeltraceringsnummers op van de posten in T337 die betrekking hebben op de boeking. Deze posten worden direct op de artikeldagboekregel geplaatst.  

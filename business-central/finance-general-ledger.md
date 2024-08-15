@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="understanding-the-general-ledger-and-chart-of-accounts"></a>Het grootboek en het rekeningschema begrijpen
+# <a name="understand-the-general-ledger-and-chart-of-accounts"></a>Het grootboek en het rekeningschema begrijpen
 
 In het grootboek (GB) worden uw financiële gegevens opgeslagen en het rekeningschema bevat de rekeningen waarnaar u grootboekposten boekt. [!INCLUDE[prod_short](includes/prod_short.md)] bevat een standaardrekeningschema dat gereed is voor ondersteuning van uw bedrijf.
 

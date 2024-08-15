@@ -11,7 +11,7 @@ ms.date: 07/17/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Chequebetalingen doen
+# <a name="make-check-payments"></a>Chequebetalingen doen
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] kunt u elektronische en handmatige cheques verzenden. Bij beide methoden wordt het betalingsdagboek gebruikt om cheques te verzenden naar leveranciers. Daarnaast kunt u cheques nietig verklaren en chequeposten weergeven.
 
@@ -30,7 +30,7 @@ U kunt met twee soorten cheques betalen. Voor beide soorten moet het veld **Tege
 
 U kunt maximaal 10 facturen op een pagina voor een chequestrook afdrukken. Als een cheque betrekking heeft op meer dan 10 facturen en u de strook afdrukt, maken we de cheque ongeldig op de eerste pagina en drukken we het woord VERNIETIGD op de cheque af. We drukken vervolgens de rest van de facturen en het totale chequebedrag op de tweede pagina af.
 
-## Een leverancier betalen met een automatische cheque
+## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>Een leverancier betalen met een automatische cheque
 
 Hierna wordt beschreven hoe u een leverancier per cheque betaalt. De stappen zijn vergelijkbaar met het terugbetalen van een klant per cheque.
 
@@ -50,13 +50,13 @@ Er worden volledig vereffende leveranciersposten en bankposten gemaakt.
 > [!NOTE]  
 > Als u cheques in meerdere valuta's van verschillende bankrekeningen wilt afdrukken en betalen, moet u de batchverwerking **Cheque afdrukken** voor elke valuta afzonderlijk uitvoeren en de juiste bankrekening opgeven.
 
-## Naar Annuleren afgedrukte cheques die niet zijn geboekt
+## <a name="to-cancel-printed-checks-that-arent-posted"></a>Naar Annuleren afgedrukte cheques die niet zijn geboekt
 
 U kunt niet-geboekte cheques annuleren nadat ze zijn afgedrukt door de actie **Ongeldige cheque** op de pagina **Betalingsdagboek** te gebruiken.
 
 1. Kies op de pagina **Betalingsdagboek** de actie **Ongeldige cheque** en kies vervolgens welke cheques u wilt annuleren.
 
-## Cheques nietig verklaren
+## <a name="to-void-checks"></a>Cheques nietig verklaren
 
 Wanneer chequebetaling is geboekt, kunt u cheques alleen annuleren (nietig verklaren) vanuit de resulterende bankposten.
 
@@ -69,14 +69,14 @@ Wanneer chequebetaling is geboekt, kunt u cheques alleen annuleren (nietig verkl
 4. Schakel het selectievakje **Cheque alleen nietig verklaren** in.
 5. Kies de knop **OK**.
 
-## Een overzicht weergeven van geboekte cheques
+## <a name="to-view-a-summary-of-posted-checks"></a>Een overzicht weergeven van geboekte cheques
 
 Als u geboekte cheques wilt controleren, bijvoorbeeld om meerdere cheques te verifiëren die aan één leverancier zijn betaald, kunt u het rapport **Bank - Cheques Detail** gebruiken.
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bank - Cheques Detail** in en kies vervolgens de gerelateerde koppeling.
 2. Stel filters als relevant in en kies de knop **Voorbeeld**.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Betalingen uitvoeren](payables-make-payments.md)  
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  

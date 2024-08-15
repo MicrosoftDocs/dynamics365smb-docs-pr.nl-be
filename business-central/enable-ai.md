@@ -12,7 +12,7 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# Copilot- en AI-mogelijkheden configureren
+# <a name="configure-copilot-and-ai-capabilities"></a>Copilot- en AI-mogelijkheden configureren
 
 <!--[!INCLUDE[ai-preview](includes/ai-preview.md)]-->
 
@@ -39,12 +39,12 @@ Copilot is een systeemfunctie en een integraal onderdeel van Business Central. N
 
 Als aan een van deze vereisten niet wordt voldaan, is de functie niet beschikbaar voor gebruik.
 
-## Vereisten
+## <a name="prerequisites"></a>Vereisten
 
 - U gebruikt Business Central Online.
 - U bent een [beheerder](#requirements-for-being-an-administrator) in Business Central.
 
-## Gegevensverplaatsing tussen geografieën toestaan
+## <a name="allow-data-movement-across-geographies"></a>Gegevensverplaatsing tussen geografieën toestaan
 
 Deze taak is alleen van toepassing als de schakelaar **Gegevensverplaatsing toestaan** boven aan de pagina **Copilot en AI-mogelijkheden** wordt weergegeven. Als de koppeling **Hoe beheer ik mijn copilotgegevens?** wordt weergegeven in plaats van de optie **Gegevensverplaatsing toestaan**, slaat u deze taak over.
 
@@ -84,7 +84,7 @@ Meanwhile, customers with environments outside the United States can use Copilot
 
 The information in the following table outlines the Azure OpenAI service that's used by the Copilot services based on the geography of their Dynamics 365 environment when they opt-in to share data.-->
 
-## Functies activeren
+## <a name="activate-features"></a>Functies activeren
 
 Alle Copilot- en AI-mogelijkheden zijn standaard actief wanneer ze in preview beschikbaar worden gesteld of algemeen beschikbaar worden. Op de pagina **Copilot- en AI-mogelijkheden** kunt u afzonderlijke functies voor alle gebruikers uit- of weer inschakelen.
 
@@ -99,7 +99,7 @@ Alle Copilot- en AI-mogelijkheden zijn standaard actief wanneer ze in preview be
 <!-- don't review 
 
 <!-- For 2024 there are no AI features governed by **Feature Management**, so this section is not shown
-## Enable feature in Feature Management
+## <a name="enable-feature-in-feature-management"></a>Enable feature in Feature Management
 
 When individual Copilot capabilities are released in Business Central minor updates, these capabilities are optional until the next major update. **Feature Management** is used to turn on or off features that are in preview, like bank reconciliation, and some features that are generally available, like marketing text suggestions. [Learn more about feature management](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
@@ -112,7 +112,7 @@ When individual Copilot capabilities are released in Business Central minor upda
 
    For more information about feature management in general, go to [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).-->
 
-## Gebruikerstoegang verlenen
+## <a name="granting-user-access"></a>Gebruikerstoegang verlenen
 
 Copilot- en AI-mogelijkheden kunnen functionaliteit bieden die bedoeld is voor alle gebruikers in uw organisatie of voor specifieke gebruikersrollen. De meeste Copilot- en AI-mogelijkheden bieden toegangscontrole met behulp van machtigingen en machtigingensets in het machtigingsbeheersysteem van Business Central. [Meer informatie over machtigingen en machtigingensets](ui-define-granular-permissions.md).
 
@@ -129,7 +129,7 @@ In de volgende tabel worden de machtigingen weergegeven die vereist zijn om Copi
 
 Als u toegang tot specifieke niet-Microsoft Copilot- en AI-mogelijkheden wilt verlenen of weigeren, raadpleegt u de documentatie of de uitgever van die functie om te bepalen welke machtigingen vereist zijn.
 
-## Vereisten om beheerder te zijn
+## <a name="requirements-for-being-an-administrator"></a>Vereisten om beheerder te zijn
 
 U moet SUPER-machtigingen hebben in uw Business Central-gebruikersaccount of een van de volgende Business Central-licenties:
 
@@ -141,7 +141,7 @@ U moet SUPER-machtigingen hebben in uw Business Central-gebruikersaccount of een
 
 Business Central biedt nog geen gedetailleerde machtigingen op objectniveau, zodat alleen specifieke beheerders Copilot kunnen configureren.
 
-## Volgende stappen
+## <a name="next-steps"></a>Volgende stappen
 
 Nadat u de functies heeft ingeschakeld en ermee akkoord gaat, bent u klaar om ze uit te proberen. Ga naar de volgende artikelen:
 
@@ -152,7 +152,7 @@ Nadat u de functies heeft ingeschakeld en ermee akkoord gaat, bent u klaar om ze
 - [Bankrekeningen reconciliëren met Copilot](bank-reconciliation-with-copilot.md)
 - [Regels op verkooporders voorstellen met Copilot](sales-suggest-sales-lines-with-copilot.md)
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Problemen oplossen met Copilot- en AI-mogelijkheden](ai-copilot-troubleshooting.md)  
 [Veelgestelde vragen over analysehulp](faqs-analysis-assist.md)  

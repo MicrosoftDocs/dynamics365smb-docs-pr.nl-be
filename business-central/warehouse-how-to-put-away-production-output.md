@@ -33,7 +33,7 @@ De eerste stap bij het opslaan van output is het maken van het inkomende magazij
 > [!NOTE]  
 > U kunt de inkomende magazijnaanvraag ook maken door het veld **Inkomend verzoek maken** te kiezen bij het vernieuwen van de productieorder. Zie voor meer informatie [Productieorders vernieuwen of opnieuw plannen](production-how-to-replan-refresh-production-orders.md).  
 
-### <a name="to-put-output-away-with-an-inventory-put-away"></a>Output opslaan met een voorraadopslag
+### <a name="to-put-away-output-with-an-inventory-put-away"></a>Output opslaan met een voorraadopslag
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadopslag** in en kies vervolgens de gerelateerde koppeling.  
 2. Een nieuwe voorraadopslag maken. Zie voor meer informatie [Artikelen opslaan met voorraadopslag](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
@@ -49,7 +49,7 @@ Wanneer u een voorraadopslag boekt, wordt ervan uitgegaan dat alle bewerkingen w
 
 Als u alleen instel- of bewerkingstijd hoeft te boeken voor de laatste bewerking, stelt u de outputhoeveelheid voor de laatste bewerking in op 0. U kunt ervoor kiezen om de laatste regel helemaal niet te boeken door deze te verwijderen.
 
-## <a name="to-put-assembly-and-production-output-away-in-advanced-warehouse-configurations"></a>Assemblage en productieoutput opslaan in geavanceerde magazijnconfiguraties
+## <a name="to-put-away-assembly-and-production-output-in-advanced-warehouse-configurations"></a>Assemblage en productieoutput opslaan in geavanceerde magazijnconfiguraties
 
 Wanneer u de output van een productie- of assemblageorder boekt in een magazijn dat gestuurde opslag en pick gebruikt, wordt de output in de opslaglocatie geplaatst die is gedefinieerd in de productie- of assemblageorder. Zie [Artikelen verplaatsen in geavanceerde magazijnconfiguraties](warehouse-how-to-move-items-in-advanced-warehousing.md#to-move-items-with-the-warehouse-movement-worksheet) voor meer informatie over de verschillende manieren om artikelen in het magazijn met geavanceerde configuraties te verplaatsen.
 

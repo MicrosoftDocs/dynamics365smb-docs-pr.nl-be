@@ -28,7 +28,7 @@ Voor elk verdeeldoel moet u een verdelingbasis definiëren. De verdelingbasis ka
 
 In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.
 
-## <a name="setting-up-allocation-source-and-targets"></a>Een verdelingsbron en doelen instellen
+## <a name="set-up-allocation-source-and-targets"></a>Een verdelingsbron en doelen instellen
 
 Elke toewijzing bestaat uit een verdelingsbron en een of meer verdeeldoelen. De verdelingsbron definieert welke kosten worden toegerekend. De verdeeldoelen bepalen waaraan de kosten worden toegerekend.  
 
@@ -50,11 +50,11 @@ Elke toewijzing bestaat uit een verdelingsbron en een of meer verdeeldoelen. De 
 > [!NOTE]  
 > Selecteer het selectievakje **Geblokkeerd** om de toewijzingsinstelling te deactiveren.
 
-## <a name="setting-filters-for-dynamic-allocation-bases"></a>Filters instellen voor dynamische toewijzingsgrondslagen
+## <a name="to-set-filters-for-dynamic-allocation-bases"></a>Filters instellen voor dynamische toewijzingsgrondslagen
 
 De methode voor dynamische toewijzing is gebaseerd op wijzigbare waarden. Bijvoorbeeld het aantal werknemers in een kostenplaats, of de verkochte artikelen van een kostenobject in een bepaalde periode. Er zijn negen vooraf gedefinieerde toewijzingsgrondslagen en twaalf dynamische periodes. U stelt verschillende filters in op basis van de toewijzingsgrondslag.  
 
-### <a name="setting-filters"></a>Filters instellen
+### <a name="set-filters"></a>Filters instellen
 
 De volgende tabel laat zien welke filters mogelijk zijn voor de verschillende toewijzingsgrondslagen en welke waarden geldig zijn in de velden **Nr.-filter** en **Groepfilter**. Selecteer <kbd>F1</kbd> in het veld **Datumfiltercode** om gedetailleerde omschrijvingen te lezen.  
 

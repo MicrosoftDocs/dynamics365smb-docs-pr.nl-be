@@ -62,7 +62,7 @@ Volg deze stappen om een standaardwaarde voor een btw-datum in te stellen:
 > [!NOTE]
 > Standaard is de **standaard-btw-datum** gelijk aan de **boekingsdatum**.
 
-### <a name="enabling-or-disabling-the-vat-date-feature"></a>De functie btw-datum in- of uitschakelen
+### <a name="enable-or-disable-the-vat-date-feature"></a>De functie btw-datum in- of uitschakelen
 
 Sommige landen/regio's vereisen dat bedrijven een specifieke btw-datum gebruiken, maar andere landen/regio's niet. Sommige landen/regio's vereisen ook dat bedrijven de btw-datum in specifieke situaties wijzigen nadat ze documenten hebben geboekt, maar andere landen/regio's staan geen wijzigingen in btw-datums toe. Om rekening te houden met verschillende contexten kunt u kiezen of u deze functionaliteit wilt gebruiken en zo ja, in welke mate.
 

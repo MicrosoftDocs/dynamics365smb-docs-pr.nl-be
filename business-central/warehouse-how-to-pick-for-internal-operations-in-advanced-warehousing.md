@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="pick-for-production-assembly-or-jobs-in-advanced-warehouse-configurations"></a>Picken voor productie, assembleren of projecten in geavanceerde magazijnconfiguraties
+# <a name="pick-for-production-assembly-or-projects-in-advanced-warehouse-configurations"></a>Picken voor productie, assembleren of projecten in geavanceerde magazijnconfiguraties
 
 Hoe u materialen voor productie, projecten of assemblageorders verzamelt, is afhankelijk van de vestigingsinstellingen van uw magazijn. Zie voor meer informatie [Magazijnbeheer instellen](warehouse-setup-warehouse.md).
 
@@ -113,7 +113,7 @@ Gebruik **Magazijnpick**-documenten om projectmaterialen in de stroom naar proje
 
 8. Kies de knop **Ok**.  
 
-## <a name="to-pick-items-for-a-productions-order-assembly-order-job"></a>Artikelen picken voor een productieorder, assemblageorder, project
+## <a name="to-pick-items-for-a-production-order-assembly-order-or-project"></a>Artikelen picken voor een productieorder, assemblageorder, project
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Picks** in en kies vervolgens de gerelateerde koppeling.  
 

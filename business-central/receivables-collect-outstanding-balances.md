@@ -11,20 +11,20 @@ ms.date: 07/01/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Openstaande saldi innen
+# <a name="collect-outstanding-balances"></a>Openstaande saldi innen
 
 Tijdens het beheer van tegoeden moet u ook controleren of openstaande bedragen op tijd worden betaald. Als klanten betalingen hebben openstaan, kunt u beginnen met het rapport **Rekeningoverzicht van klant** als een herinnering te sturen. U kunt ook aanmaningen sturen.
 
 Gebruik aanmaningen om klanten te herinneren aan openstaande bedragen. U kunt aanmaningen ook gebruiken om rentefacturen zoals rente en boetes te berekenen en deze op te nemen op de aanmaning. Gebruik rentefacturen als u klanten rente en aanmaningskosten wilt laten betalen zonder ze te herinneren aan openstaande bedragen.
 
-## Afschriften
+## <a name="statements"></a>Afschriften
 
 Vanaf de klantenkaart kunt u een overzicht maken met de transacties van die klant met u. Vervolgens kunt u een PDF-bestand genereren en naar de klant sturen. U kunt ook het rapport **Rekeningoverzicht van klant** gebruiken om uw klanten een overzicht van hun zaken met u te sturen. 
 
 > [!TIP]
 > Indien nodig kunt u de verklaring naar Excel sturen om wijzigingen aan te brengen.  
 
-### Het rekeningoverzichten van de klant verzenden
+### <a name="to-send-the-customer-statement-report"></a>Het rekeningoverzichten van de klant verzenden
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me 10 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningoverzicht van klant** in en kies vervolgens de gerelateerde koppeling.
 2. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -33,11 +33,11 @@ Vanaf de klantenkaart kunt u een overzicht maken met de transacties van die klan
 > [!NOTE]
 > Als u meerdere valuta's gebruikt, wordt het rekeningoverzicht van de klant altijd afgedrukt in de valuta van de klant. De laatste datum in een dagafschriftperiode wordt ook gebruikt als de datum en de vervaldatum van het overzicht, indien verval is opgenomen.
 
-## Aanmaningen
+## <a name="reminders"></a>Aanmaningen
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## Financiële kosten
+## <a name="finance-charges"></a>Financiële kosten
 
 Wanneer een klant niet op de vervaldatum betaalt, kunt u automatisch financieringskosten laten berekenen en deze toevoegen aan de openstaande bedragen op de rekening van de klant. U kunt klanten op de hoogte stellen van de toeslagen door rentefacturen te versturen.  
 
@@ -52,7 +52,7 @@ Nadat u de rentefacturen hebt gemaakt, kunt u ze aanpassen. De tekst die wordt a
 
 Nadat u de rentefacturen hebt gemaakt en eventuele aanpassingen hebt gedaan, kunt u testrapporten afdrukken of de rentefacturen versturen, meestal via e-mail.
 
-### Handmatig rentefacturen maken
+### <a name="to-create-a-finance-charge-memo-manually"></a>Handmatig rentefacturen maken
 
 Een rentefactuur is te vergelijken met een factuur. U kunt een kop handmatig en de regels automatisch invullen of u kunt automatisch rentefacturen voor alle klanten maken.
 
@@ -65,7 +65,7 @@ Een rentefactuur is te vergelijken met een factuur. U kunt een kop handmatig en 
     > Hoewel ze worden vermeld heeft het selecteren van **Betaling** en **Creditnota** als **Documentsoort**-filters geen effect omdat de functie **Rentefactuurregels voorstellen** alleen positieve bedragen verwerkt.
 5. Kies **OK** om de batchverwerking te starten.  
 
-### De rentefactuurteksten bijwerken
+### <a name="to-update-finance-charge-memo-texts"></a>De rentefactuurteksten bijwerken
 
 In sommige gevallen wilt u wellicht de begin- en eindtekst wijzigen die u voor de financieringskostenvoorwaarden hebt ingesteld. Als u dat doet op een moment waarop u de rentefacturen hebt gemaakt, maar nog niet hebt verzonden, kunt u de facturen bijwerken met de gewijzigde tekst.
 
@@ -74,7 +74,7 @@ In sommige gevallen wilt u wellicht de begin- en eindtekst wijzigen die u voor d
 3. Op de pagina **Rentefactuurtekst bijwerken** kunt u een filter instellen als u verschillende facturen wilt bijwerken.
 4. Klik op **OK** om de begin- en eindtekst bij te werken.  
 
-### Rentefacturen verzenden
+### <a name="to-issue-finance-charge-memos"></a>Rentefacturen verzenden
 
 Nadat u de rentefacturen hebt gemaakt en eventuele aanpassingen hebt aangebracht, kunt u testrapporten afdrukken of de rentefacturen versturen.
 
@@ -97,14 +97,14 @@ Daarnaast kunnen btw-posten worden gemaakt als u de rentefactuur verzendt.
 
 De financieringskostennota wordt afgedrukt of als PDF-bijlage naar het opgegeven e-mailadres verzonden.
 
-### Een verzonden rentefactuur annuleren
+### <a name="to-cancel-an-issued-finance-charge-memo"></a>Een verzonden rentefactuur annuleren
 
 Als financiële kostennota's per ongeluk zijn uitgegeven, kunt u ze Annuleren voordat ze opnieuw worden verzonden. U kunt dit één voor één of als batch doen.
 
 1. Selecteer op de pagina **Verzonden rentefacturen** een of meer regels voor verzonden rentefacturen die u wilt annuleren en kies vervolgens de actie **Annuleren**.
 2. Vul op de pagina **Verzonden rentefacturen annuleren** desgewenst de velden in en kies vervolgens de knop **OK**.
 
-### Aanmanings- en renteposten weergeven  
+### <a name="to-view-reminder-and-finance-charge-entries"></a>Aanmanings- en renteposten weergeven
 
 Zodra u een aanmaning verzendt, wordt op de pagina **Aanmanings-/renteposten** een aanmaningspost gemaakt voor elke aanmaningsregel met een klantenpost. U kunt vervolgens in een overzicht weergeven welke aanmaningsposten u voor een bepaalde klant hebt gemaakt.
 
@@ -112,11 +112,11 @@ Zodra u een aanmaning verzendt, wordt op de pagina **Aanmanings-/renteposten** e
 2. Open de desbetreffende klantenkaart en kies vervolgens de actie **Posten**.
 3. Selecteer op de pagina **Klantenposten** de regel met de post waarvan u de aanmaningsposten wilt weergeven, en kies de actie **Aanmanings-/rentefactuurposten**.
 
-## Meerdere rentepercentages
+## <a name="multiple-interest-rates"></a>Meerdere rentepercentages
 
 [!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)] Zie voor meer informatie [Meerdere rentepercentages instellen](finance-how-to-set-up-multiple-interest-rates.md).  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Termijnen, niveaus en tekst van aanmaningen instellen](finance-setup-reminders.md)  
 [Rentefactuurcondities instellen](finance-setup-finance-charges.md)  

@@ -11,7 +11,7 @@ ms.search.form: '103, 104, 108, 488, 489, 490'
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="walkthrough-making-cash-flow-forecasts-using-financial-reports"></a>Overzicht: Cashflowprognoses maken met behulp van financiële rapporten
+# <a name="walkthrough-make-cash-flow-forecasts-using-financial-reports"></a>Overzicht: Cashflowprognoses maken met behulp van financiële rapporten
 
 In dit scenario wordt beschreven hoe u de functie voor financiële rapporten kunt gebruiken om cashflowprognoses te maken in Business Central. Financiële rapporten voeren berekeningen uit die niet rechtstreeks in het schema met cashflowrekeningen kunnen worden uitgevoerd. In de financiële rapporten kunt u subtotalen voor cashflowontvangsten en -betalingen instellen. Deze subtotalen kunnen worden opgenomen in nieuwe totalen die vervolgens kunnen worden gebruikt bij het maken van cashflowprognoses.  
 
@@ -42,11 +42,11 @@ In dit overzicht worden taken gedemonstreerd die worden uitgevoerd door de volge
 
 Ken is controller bij CRONUS die de maandelijkse cashflowprognoses maakt. Ken neemt financiële gegevens, verkoop, inkoop en vaste activa op in de prognoses, die hij presenteert aan CFO Sara voor het zakelijk perspectief.  
 
-## <a name="setting-up-a-new-financial-report-name"></a>Een nieuwe naam voor een financieel rapport instellen
+## <a name="set-up-a-new-financial-report-name"></a>Een nieuwe naam voor een financieel rapport instellen
 
 De naam van het financiële rapport is de naam die u aan de cashflowprognose geeft die een reeks gedefinieerde regels en een kolomdefinitie bevat.  
 
-### <a name="set-up-a-new-financial-report-name"></a>Een nieuwe naam voor een financieel rapport instellen
+### <a name="set-up-a-new-financial-report-name-1"></a>Een nieuwe naam voor een financieel rapport instellen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Financiële rapporten** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies op de pagina **Financiële rapporten** **Nieuw** om een nieuwe naam voor het financiële cashflowrapport te maken.  
@@ -54,11 +54,11 @@ De naam van het financiële rapport is de naam die u aan de cashflowprognose gee
 4. Voer in het veld **Omschrijving** **Cashflowprognose** in.  
 5. Laat de velden **Rijdefinitie** en **Kolomdefinitie** leeg.
 
-## <a name="setting-up-row-definition-lines"></a>Rijdefinitieregels instellen
+## <a name="set-up-row-definition-lines"></a>Rijdefinitieregels instellen
 
 Nadat de naam van een financieel rapport is ingesteld, definieert Ken elke regel in het financiële cashflowrapport. Ken definieert de regels die moeten worden weergegeven in rapporten en daarnaast extra regels die alleen voor het maken van berekeningen dienen.  
 
-### <a name="set-up-row-definition-lines"></a>Rijdefinitieregels instellen
+### <a name="set-up-row-definition-lines-1"></a>Rijdefinitieregels instellen
 
 1. Selecteer op de pagina **Financiële rapporten** het nieuwe financiële rapport **Prognose** dat u hebt gemaakt, en kies vervolgens de actie **Rijdefinitie bewerken**.  
 2. Voer op de pagina **Rijdefinitie** elke regel in zoals deze in de volgende tabel wordt weergegeven.  
@@ -94,7 +94,7 @@ Nadat de naam van een financieel rapport is ingesteld, definieert Ken elke regel
     > [!NOTE]
     > Het rijnummer R10 wordt gebruikt voor het vastleggen van de rekeningtotalen voor tegoeden. Het rijnummer R20 wordt gebruikt voor het berekenen van de som van alle kasontvangsten. Het rijnummer R30 wordt gebruikt voor het vastleggen van de rekeningtotalen voor schulden. Het rijnummer R40 wordt gebruikt voor het berekenen van de som van alle kasvoorschotten. Het rijnummer R50 wordt gebruikt voor het vastleggen van de som van alle kassurplus. Het rijnummer R60 wordt gebruikt voor het vastleggen van de liquide fondsen. Het rijnummer R70 wordt gebruikt voor het berekenen van de verwachte cashflow.
 
-## <a name="setting-up-a-new-column-definition"></a>Een nieuwe kolomindeling instellen
+## <a name="set-up-a-new-column-definition"></a>Een nieuwe kolomindeling instellen
 
 Voordat Ken de cashflowprognose kan afdrukken, moet hij de kolomdefinitie voor de numerieke gegevens maken. In de kolommen bepaalt Ken welke informatie hij van de regels wil gebruiken.
 
@@ -103,7 +103,7 @@ Voordat Ken de cashflowprognose kan afdrukken, moet hij de kolomdefinitie voor d
 - De derde kolom heeft nummer *C30* en de titel **Volledig jaar** en bevat de mutatie in de saldi voor het gehele boekjaar.  
 - Ten slotte wijst Ken de kolomdefinitie toe als de standaardoptie voor het financiële rapport **Prognose**.  
 
-### <a name="set-up-a-new-column-definition"></a>Een nieuwe kolomdefinitie instellen
+### <a name="set-up-a-new-column-definition-1"></a>Een nieuwe kolomdefinitie instellen
 
 1. Selecteer op de pagina **Financiële rapporten** de naam van het nieuwe financiële rapport **Prognose** die u hebt gemaakt. Kies op het tabblad **Start** in de groep **Proces** de optie **Kolomdefinitie bewerken**.
 
@@ -119,7 +119,7 @@ Voordat Ken de cashflowprognose kan afdrukken, moet hij de kolomdefinitie voor d
     |K20|Bedrag tot datum|Saldo op datum|Posten|Nettobedrag|Altijd|  
     |K30|Volledig boekjaar|Volledig boekjaar|Posten|Nettobedrag|Altijd|
 
-## <a name="assigning-the-column-definition-to-the-financial-report-name"></a>De kolomdefinitie toewijzen aan de naam van het financiële rapport
+## <a name="assig-the-column-definition-to-the-financial-report-name"></a>De kolomdefinitie toewijzen aan de naam van het financiële rapport
 
 Ken kan nu de kolomdefinitie toewijzen aan de naam van het financiële rapport.  
 

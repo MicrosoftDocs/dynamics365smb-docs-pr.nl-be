@@ -27,7 +27,7 @@ Er zijn twee manieren om de pagina **Instellingen** te openen: 1) vanuit het ber
 
    ![Instellingen voor Business Central vanuit het berichtvak.](media/teams-settings-command-box.png)
 
-## <a name="see-also"></a>Zie ook
+## <a name="related-information"></a>Zie ook
 
 [Integratieoverzicht van Business Central en Microsoft Teams](across-teams-overview.md)  
 [De [!INCLUDE [prod_short](includes/prod_short.md)]-app installeren voor Microsoft Teams](across-install-app-for-teams.md)  

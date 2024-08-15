@@ -10,7 +10,7 @@ ms.search.keywords: 'customer payment, debtor, balance due, AR'
 ms.date: 07/08/2024
 ms.service: dynamics-365-business-central
 ---
-# Tegoeden beheren
+# <a name="managing-receivables"></a>Tegoeden beheren
 
 Een regelmatige stap in elk financieel ritme is het reconciliëren van bankrekeningen. Om verkoopfacturen en inkoopcreditnota's als betaald af te sluiten, vereffent u binnenkomende betalingen met klant- of leveranciersposten.
 
@@ -41,7 +41,7 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de artikelen 
 |Stel een tolerantie in waarmee het systeem een factuur sluit hoewel de betaling, inclusief een eventuele korting, het bedrag op de factuur niet volledig dekt.|[Werken met betalingstoleranties en contantkortingstoleranties](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Voorspellen wanneer betalingen te laat worden gedaan voor verkoopdocumenten. | [De extensie Voorspelling van te late betaling](ui-extensions-late-payment-prediction.md) |
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 [Verkoop](sales-manage-sales.md)  
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

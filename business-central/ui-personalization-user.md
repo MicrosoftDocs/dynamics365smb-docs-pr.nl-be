@@ -27,7 +27,7 @@ U kunt verschillende wijzigingen aanbrengen, zoals velden, kolommen, acties en h
 > Beheerders kunnen dezelfde indelingswijzigingen maken als gebruikers door het profiel (de rol) aan te passen dat aan meerdere gebruikers is toegewezen. Ga voor meer informatie over pagina's voor rollen naar [Pagina's aanpassen voor rollen](ui-personalization-manage.md)<br /><br />
 Beheerders kunnen ook personalisering van gebruikers overschrijven of uitschakelen en ze kunnen definiëren welke functies zelfs door gebruikers in alle of specifieke bedrijven kunnen worden gezien. Zie [Business Central aanpassen](ui-customizing-overview.md) voor meer informatie.
 
-## <a name="video"></a>Video
+## <a name="video-and-training"></a>Video
 
 De volgende video toont enkele manieren waarop u uw rolcentrum kunt personaliseren.
 

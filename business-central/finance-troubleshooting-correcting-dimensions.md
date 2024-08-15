@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="troubleshooting-and-correcting-dimensions"></a>Dimensieproblemen oplossen en corrigeren
+# <a name="troubleshoot-and-correct-dimensions"></a>Dimensieproblemen oplossen en corrigeren
 
 Financiële rapportage en analyseweergaven zijn vaak gebaseerd op gegevens uit dimensies. Ondanks de voorzorgsmaatregelen die er zijn, doet zich soms een fout voor die tot onnauwkeurigheden kan leiden. In dit artikel worden enkele van de typische fouten beschreven en wordt uitgelegd hoe u dimensietoewijzingen op geboekte transacties kunt corrigeren, zodat financiële rapporten nauwkeurig zijn.
 
@@ -45,14 +45,14 @@ Als u ontdekt dat een onjuiste dimensie is gebruikt voor geboekte grootboekposte
 > [!IMPORTANT]
 > De functies voor het corrigeren van dimensies zijn alleen bedoeld om de financiële rapportage accuraat te maken. Dimensiecorrecties zijn alleen van toepassing op de grootboekboekingen. Ze wijzigen niet de dimensies die zijn toegewezen aan de posten in andere grootboeken voor dezelfde transactie. Er is een mismatch tussen de dimensies die zijn toegewezen in het grootboek en de subgrootboeken.
 
-### <a name="setting-up-dimension-corrections"></a>Dimensiecorrecties instellen
+### <a name="set-up-dimension-corrections"></a>Dimensiecorrecties instellen
 
 Er zijn twee dingen waarmee u rekening moet houden bij het instellen van dimensiecorrecties:
 
 * Zijn er dimensies waarvan u niet wilt dat mensen ze veranderen? Geef op de pagina **Instellingen van dimensiecorrectie** de dimensies op die u wilt blokkeren voor wijzigingen.
 * Wie kan afmetingen wijzigen? Als u personen wilt toestaan wijzigingen aan te brengen, wijst u de machtiging **D365 dimensiecorrectie** toe aan de gebruikers. Met de machtigingen kunnen ze dimensiecorrecties maken, uitvoeren en indien nodig ongedaan maken. Ze kunnen ook geblokkeerde dimensies opgeven. Zie [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md) voor meer informatie. 
 
-### <a name="correcting-a-dimension"></a>Een dimensie corrigeren
+### <a name="correct-a-dimension"></a>Een dimensie corrigeren
 
 U kunt handmatig een of meer grootboekposten selecteren of filters gebruiken om sets met posten te selecteren. Indien nodig kunt u ook dimensies toevoegen of verwijderen. 
 
@@ -82,13 +82,13 @@ U kunt handmatig een of meer grootboekposten selecteren of filters gebruiken om 
 5. Kies om de correctie te valideren **Dimensiewijzigingen valideren**. Zie voor meer informatie [Dimensiecorrecties valideren](finance-troubleshooting-correcting-dimensions.md#validating-dimension-corrections).
 6. Kies **Uitvoeren**.
 
-### <a name="validating-dimension-corrections"></a>Dimensiecorrecties valideren
+### <a name="validate-dimension-corrections"></a>Dimensiecorrecties valideren
 
 Voordat u een correctie uitvoert, is het een goed idee om deze eerst te valideren. Validatie controleert op beperkingen voor het boeken van waarden voor de grootboekrekeningen, beperkingen voor dimensies en of de dimensiewaarden zijn geblokkeerd. Tijdens validatie wordt de status van de correctie ingesteld op **Validatie bezig**. Nadat u een correctie heeft gevalideerd, wordt het resultaat weergegeven in het veld **Validatiestatus**. Als er fouten zijn gevonden, kunt u de actie **Fouten bekijken** gebruiken om ze te onderzoeken. Nadat u een fout heeft gecorrigeerd, moet u de actie **Opnieuw openen** gebruiken om de correctie of een nieuwe validatie uit te voeren.
 
 U kunt een correctie onmiddellijk uitvoeren of deze op een later tijdstip plannen. Als u correcties uitvoert op een grote gegevensset, raden we u aan deze buiten kantooruren te plannen. Zie voor meer informatie [Dimensiecorrecties op grote gegevenssets](finance-troubleshooting-correcting-dimensions.md#dimension-corrections-on-large-data-sets).
 
-### <a name="undoing-a-correction"></a>Een correctie ongedaan maken
+### <a name="undo-a-correction"></a>Een correctie ongedaan maken
 
 Nadat u een dimensie hebt gecorrigeerd en u niet tevreden bent met wat u ziet, kunt u de actie **Ongedaan maken** gebruiken om de vorige waarde opnieuw in te stellen. U kunt echter alleen de meest recente correctie ongedaan maken. Voordat u een correctie ongedaan maakt, kunt u de wijzigingen valideren die door het ongedaan maken worden aangebracht. Validatie is bijvoorbeeld handig als dimensiebeperkingen zijn gewijzigd nadat de correctie is aangebracht.
 
@@ -102,11 +102,11 @@ Wees voorzichtig bij het corrigeren van grote sets posten, bijvoorbeeld sets die
 
 Als **Bijwerken bij boeking** is ingeschakeld voor een analyseweergave, kan [!INCLUDE[prod_short](includes/prod_short.md)] de weergave bijwerken wanneer documenten en dagboeken worden geboekt. U kunt ook weergaven bijwerken met deze instelling ingeschakeld met resultaten van dimensiecorrecties. Schakel hiervoor de schakeloptie **Analyseweergaven bijwerken** in. Het bijwerken van analyseweergaven kan van invloed zijn op de prestaties, vooral bij grote gegevenssets, dus we raden u aan analyseweergaven alleen bij te werken voor kleine gegevenssets.  
 
-### <a name="viewing-historical-dimension-corrections"></a>Historische dimensiecorrecties bekijken
+### <a name="view-historical-dimension-corrections"></a>Historische dimensiecorrecties bekijken
 
 Als een grootboekpost is gecorrigeerd, kunt u de wijziging onderzoeken met de actie **Historie van dimensiecorrecties**.
 
-### <a name="handling-incomplete-corrections"></a>Omgaan met onvolledige correcties
+### <a name="handle-incomplete-corrections"></a>Omgaan met onvolledige correcties
 
 Als een correctie niet wordt voltooid, wordt er een waarschuwing weergegeven op de correctiekaart. Als dat gebeurt, kunt u de actie **Opnieuw instellen** gebruiken om de correctie terug te zetten naar een conceptstatus en de wijzigingen ongedaan te maken. U kunt de correctie dan opnieuw uitvoeren.
 

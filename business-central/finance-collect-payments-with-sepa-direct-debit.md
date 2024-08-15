@@ -10,7 +10,7 @@ ms.date: 07/17/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Betalingen innen met SEPA Automatische Incasso
+# <a name="collect-payments-with-sepa-direct-debit"></a>Betalingen innen met SEPA Automatische Incasso
 
 Met instemming van de klant kunt u betalingen rechtstreeks vanaf de bankrekening van de klant verzamelen volgens de SEPA-indeling.  
 
@@ -25,7 +25,7 @@ Wanneer betalingen succesvol zijn verwerkt, zoals gecommuniceerd door uw bank, k
 > [!NOTE]  
 > Om betalingen te innen via SEPA Incasso, moet de valuta in de verkoopfactuur EURO zijn.  
 
-## Hoe u SEPA automatische incasso instelt
+## <a name="how-to-set-up-sepa-direct-debit"></a>Hoe u SEPA automatische incasso instelt
 
 Vanuit de pagina **Incasso-opdrachten** kunt u instructies naar uw elektronische bank exporteren om een automatische incasso van de bankrekening van de klant uit te voeren naar uw bankrekening, volgens de SEPA-indeling voor incasso.
 
@@ -40,13 +40,13 @@ Voordat u betalingen van klanten elektronisch kunt verwerken door instructies vo
 * Stel de betalingswijze van de klant in.  
 * Stel de machtiging voor automatische incasso in die overeenkomt met uw overeenkomst met de klant voor het incasseren van hun betalingen in een bepaalde overeenkomstperiode.  
 
-### Om uw bankrekening in te stellen voor SEPA-incasso
+### <a name="to-set-up-your-bank-account-for-sepa-direct-debit"></a>Om uw bankrekening in te stellen voor SEPA-incasso
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.  
 2. Open de bankrekening die u wilt gebruiken voor automatische incasso.  
 3. Selecteer op het sneltabblad  **Algemeen** in het veld  **Vervaldatum SEPA-incasso** de optie voor SEPA-incasso.  
 
-### Om de betaalmethode van de klant voor SEPA-incasso in te stellen
+### <a name="to-set-up-the-customers-payment-method-for-sepa-direct-debit"></a>Om de betaalmethode van de klant voor SEPA-incasso in te stellen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsmethoden** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  
@@ -66,7 +66,7 @@ Voordat u betalingen van klanten elektronisch kunt verwerken door instructies vo
 7. Kies het veld **Betalingswijze** en selecteer vervolgens de code voor de betalingswijze die u hebt opgegeven in stap 3.  
 8. Herhaal stap 6 en 7 voor alle klanten die u wilt instellen voor SEPA-incasso.  
 
-#### De incassomachtiging instellen die de instemming van de klant vertegenwoordigt
+#### <a name="to-set-up-the-direct-debit-mandate-that-represents-the-customer-agreement"></a>De incassomachtiging instellen die de instemming van de klant vertegenwoordigt
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Klanten** in en kies vervolgens de gerelateerde koppeling.  
 2. Open het bestand kaart voor de klant die u wilt instellen voor SEPA-incasso's.  
@@ -89,14 +89,14 @@ Voordat u betalingen van klanten elektronisch kunt verwerken door instructies vo
 
  De incassomachtiging wordt automatisch ingevoegd in het veld **Machtigingsnummer voor incasso** wanneer u een verkoopfactuur maakt voor de klant die u in stap 2 hebt geselecteerd. Zie voor meer informatie [Periodieke verkoop- en inkoopregels maken](sales-how-work-standard-lines.md).
 
-## SEPA-verzamelingsposten van automatische incasso maken en exporteren naar een bankbestand
+## <a name="creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>SEPA-verzamelingsposten van automatische incasso maken en exporteren naar een bankbestand
 
 Om de bank het bedrag van de bankrekening van de klant over te laten maken naar de rekening van uw bedrijf, moet u een incasso-opdracht maken met informatie over de bankrekening van de klant, de betreffende verkoopfacturen en de incassomachtiging. Uit de resulterende verzamelingspost van automatische incasso export u vervolgens een XML-bestand dat u naar uw elektronische bank verzendt of uploadt voor verwerking. Betalingen die niet door de bank verwerkt kunnen worden, worden door uw bank aan u gecommuniceerd. U dient de betreffende automatische incasso-opdrachten vervolgens handmatig te weigeren.  
 
  > [!NOTE]  
  > Om betalingen te innen via SEPA Incasso, moet de valuta in de verkoopfactuur EURO zijn.  
 
-### Een incasso-opdracht maken  
+### <a name="to-create-a-direct-debit-collection"></a>Een incasso-opdracht maken
 
  1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Automatische incasso's** in en kies vervolgens de gerelateerde koppeling.  
  2. Kies op de pagina **Automatische incasso's** de actie **Automatische incasso maken**.  
@@ -116,7 +116,7 @@ Om de bank het bedrag van de bankrekening van de klant over te laten maken naar 
 
 Er wordt een automatische incasso-opdracht toegevoegd aan de pagina **Incasso-opdrachten** en er worden een of meer automatische incasso-opdrachtposten gemaakt.  
 
-### Verzamelingposten van automatische incasso exporteren naar een bankbestand
+### <a name="to-export-a-direct-debit-collection-entry-to-a-bank-file"></a>Verzamelingposten van automatische incasso exporteren naar een bankbestand
 
  1. Kies op de pagina **Automatische incasso's** de actie **Automatische incasso-items**.  
  2. Selecteer op de pagina **Automatische incasso-items** het item dat u wilt exporteren en kies de actie **Automatische-incassobestand maken**.  
@@ -126,13 +126,13 @@ Er wordt een automatische incasso-opdracht toegevoegd aan de pagina **Incasso-op
 
  Als het geëxporteerde bestand niet kan worden verwerkt, bijvoorbeeld omdat de klant failliet is, kunt u de automatische incasso-incasso weigeren. Als het geëxporteerde bestand met succes is verwerkt door de bank, worden de verschuldigde betalingen van de betrokken verkoopfacturen automatisch geïnd bij de betrokken klanten. In dat geval kunt u de incasso sluiten.  
 
-### Een incasso-opdrachtpost weigeren  
+### <a name="to-reject-a-direct-debit-collection-entry"></a>Een incasso-opdrachtpost weigeren
 
 * Selecteer op de pagina  **Automatische incasso-incassoposten** de post die niet succesvol is verwerkt en kies vervolgens de actie  **Post afwijzen** .  
 
     De waarde in het veld **Status** op de pagina **Verzamelingsposten van incasso** verandert in **Geweigerd**.  
 
-### Een incasso-opdracht sluiten
+### <a name="to-close-a-direct-debit-collection"></a>Een incasso-opdracht sluiten
 
 * Selecteer op de pagina **Automatische incasso-items** het item dat niet correct is verwerkt en kies de actie **Incasso sluiten**.  
 
@@ -140,13 +140,13 @@ Er wordt een automatische incasso-opdracht toegevoegd aan de pagina **Incasso-op
 
  U kunt nu doorgaan met het boeken van ontvangen betalingen voor de betrokken verkoopfacturen. U kunt dit doen terwijl u, als gewoonlijk, betalingsontvangsten boekt, bijvoorbeeld op de pagina **Betalingsregistratie**, of u kunt de gerelateerde betalingsontvangsten rechtstreeks boeken vanuit de pagina **Verzamelingsposten van incasso**. Zie voor meer informatie [Betalingen verzamelen via automatische incasso van SEPA](finance-collect-payments-with-sepa-direct-debit.md).
 
-## SEPA-betalingsontvangsten via automatische incasso boeken
+## <a name="posting-sepa-direct-debit-payment-receipts"></a>SEPA-betalingsontvangsten via automatische incasso boeken
 
 Wanneer een incasso-opdracht wordt verwerkt door uw bank, kunt u doorgaan met het boeken van de ontvangst van de betaling voor de betrokken verkoopfacturen. Zie voor meer informatie [SEPA-verzamelingsposten van automatische incasso maken en exporteren naar een bankbestand](finance-collect-payments-with-sepa-direct-debit.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file).  
 
 U kunt de betalingsontvangst van de pagina **Incasso-opdrachten** of de pagina **Verzamelingsposten van incasso** direct boeken. U kunt ook het werk aan een andere gebruiker doorgeven door de dagboekregels voor te bereiden.  
 
-### Een betalingsontvangst van een automatische incasso boeken vanuit de pagina Verzamelingen van automatische incasso
+### <a name="to-post-a-direct-debit-payment-receipt-from-the-direct-debit-collections-page"></a>Een betalingsontvangst van een automatische incasso boeken vanuit de pagina Verzamelingen van automatische incasso
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Automatische incasso's** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer een regel voor een verzameling automatische incasso die is geëxporteerd naar een bankbestand en verwerkt door de bank.
@@ -162,7 +162,7 @@ U kunt de betalingsontvangst van de pagina **Incasso-opdrachten** of de pagina *
 
 5. Kies de knop **Ok**.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Tegoeden beheren](receivables-manage-receivables.md)  
 [Servicebeheer](service-service.md)

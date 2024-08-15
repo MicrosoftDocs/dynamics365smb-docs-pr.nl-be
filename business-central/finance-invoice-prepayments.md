@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Vooruitbetalingen factureren
+# <a name="invoicing-prepayments"></a>Vooruitbetalingen factureren
 
 [!INCLUDE [prepayment_def](includes/prepayment_def.md)]
 
@@ -30,7 +30,7 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de artikelen 
 |Een order te maken, vooruitbetalingsbedragen aan te passen en een factuur te verzenden voor vooruitbetalingsbedragen.|[Vooruitbetalingsfacturen maken](finance-how-to-create-prepayment-invoices.md)|  
 |Een aanvullende vooruitbetalingsfactuur te verzenden, voor aanvullende artikelen of voor een aanvullende borgsom op de oorspronkelijke order, of om een creditnota voor een vooruitbetaling te verzenden.|[Vooruitbetalingen storneren](finance-how-to-correct-prepayments.md)|  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Procedure: Vooruitbetalingen verkoop instellen en factureren](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Financiën](finance.md)  

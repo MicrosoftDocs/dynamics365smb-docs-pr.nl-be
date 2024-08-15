@@ -28,7 +28,7 @@ In de volgende secties wordt uitgelegd hoe u:
 3. Voer in het veld **Einddatum** de laatste datum van de voorraadperiode in die u wilt definiëren. Wanneer de periode is afgesloten, kunt u geen voorraadwijzigingen vóór deze datum boeken.  
 4. Typ een beschrijvende naam in het veld **Naam**. Kies de knop **Ok**.  
 
-## <a name="closing-inventory-periods"></a>Voorraadperioden afsluiten
+## <a name="to-close-inventory-periods"></a>Voorraadperioden afsluiten
 
 Het veld **Gesloten** geeft aan of de voorraadperiode afgesloten is voor wijzigingen in voorraadwaarden. U kunt dit veld niet bewerken.  
 

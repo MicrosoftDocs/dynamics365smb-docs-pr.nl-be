@@ -22,7 +22,7 @@ Vaste verrekenprijzen kunnen worden gehanteerd voor artikelen die worden aangevu
 |**Assemblage**|Directe materiaalkosten, directe of vaste arbeidskosten en overheadkosten.|  
 |**Prod.-order**|Directe materiaalkosten, arbeidskosten, uitbestedingskosten en overheadkosten.|  
 
-## <a name="setting-up-standard-costs"></a>Vaste verrekenprijzen instellen
+## <a name="set-up-standard-costs"></a>Vaste verrekenprijzen instellen
 
 Aangezien de vaste verrekenprijs van een geproduceerd of geassembleerd artikel uit meerdere kostenelementen bestaat, zoals materiaal-, capaciteits- en uitbestedingskosten (directe kosten en overheadkosten), moet de vaste verrekenprijs worden vastgelegd voor al deze elementen.  
 
@@ -88,7 +88,7 @@ Onder uitbestedingskosten worden de kosten verstaan die betrekking hebben op ser
 
 Aangezien uitbesteding in feite een externe capaciteit is, stelt u de kosten voor uitbestede services (zowel directe als indirecte kosten) in op de afdelingskaart voor de uitbestedingsbewerking.  
 
-## <a name="updating-standard-costs"></a>De vaste verrekenprijzen aanpassen
+## <a name="update-standard-costs"></a>De vaste verrekenprijzen aanpassen
 
 Om de vaste verrekenprijs van assemblageartikelen bij te werken of te berekenen, gebruikt u de functie van de artikelkaart.  
 

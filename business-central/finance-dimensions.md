@@ -24,7 +24,7 @@ Een ander voorbeeld is een dimensie in te stellen met de naam *Afdeling* en die 
 * Wie het heeft verkocht.
 * Welke klant het heeft gekocht.
 
-## <a name="analyzing-by-dimensions"></a>Analyseren per dimensies
+## <a name="analyze-by-dimensions"></a>Analyseren per dimensies
 
 Dimensies spelen een belangrijke rol in bedrijfsinformatie, zoals bij het definiëren van analyseweergaven. Meer informatie vindt u op [Gegevens analyseren per dimensie](bi-how-analyze-data-dimension.md).
 
@@ -40,7 +40,7 @@ Een dimensieset is een unieke combinatie dimensiewaarden. Deze worden opgeslagen
 
 Wanneer u een dagboekregel, documentkop of documentregel maakt, kunt u een combinatie van dimensiewaarden opgeven. In plaats van elke dimensiewaarde expliciet in de database op te slaan, wordt een dimensieset-id toegewezen aan de dagboekregel, documentkop of documentregel om zo de dimensieset op te geven.  
 
-## <a name="setting-up-dimensions"></a>Dimensies instellen
+## <a name="set-up-dimensions"></a>Dimensies instellen
 
 U kunt dimensies en dimensiewaarden definiëren om dagboeken en documenten te categoriseren, zoals verkooporders en inkooporders. U stelt dimensies op de pagina **Dimensies** in. Op deze pagina maakt u één regel voor elke dimensie, zoals *Project*, *Afdeling*, *District* en *Verkoper*.
 

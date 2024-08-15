@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="analyzing-cash-flow-in-your-company"></a>Cashflow in uw bedrijf analyseren
+# <a name="analyze-cash-flow-in-your-company"></a>Cashflow in uw bedrijf analyseren
 De diagrammen in het rolcentrum Accountant bevatten inzichten aan de hand waarvan u op een onderbouwde manier kunt bepalen wat u met uw contante geld moet doen.  
 
 | Ter beantwoording van vragen als onderstaande | Dit diagram gebruiken. |

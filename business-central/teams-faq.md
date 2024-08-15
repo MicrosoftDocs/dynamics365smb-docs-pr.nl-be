@@ -441,7 +441,7 @@ Op dit moment is Delen met Teams beschikbaar in de desktop-webclient, in het det
 De actie **Delen met teams** is te vinden in het menu **Delen** op alle pagina's, zoals kaart- en documentpagina's, lijst- of werkbladpagina's, inclusief aangepaste pagina's. De actie is niet beschikbaar in dialoogvensters of pagina's die worden weergegeven als dialoogvensters, zoals opzoekpagina's of wizards.
 
 ---
-## <a name="see-also"></a>Zie ook
+## <a name="related-information"></a>Zie ook
 
 Overzicht van integratie tussen [[!INCLUDE [prod_short](includes/prod_short.md)] en Microsoft Teams](across-teams-overview.md)  
 [De [!INCLUDE [prod_short](includes/prod_short.md)]-app installeren voor Microsoft Teams](across-install-app-for-teams.md)  

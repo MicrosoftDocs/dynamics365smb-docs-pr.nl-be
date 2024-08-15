@@ -28,7 +28,7 @@ Wanneer u de verbinding tussen de apps maakt, stelt [!INCLUDE[prod_short](includ
 >
 > Om trage prestaties te voorkomen, kunt u op de pagina **Toewijzingen van integratietabellen** gebeurtenisgebaseerde gegevenssynchronisatie voor elke tabel in- of uitschakelen. Op gebeurtenissen gebaseerde synchronisatie is standaard ingeschakeld, zodat bestaande integraties niet worden beïnvloed. Uw beheerder kan het voor specifieke tabellen in- of uitschakelen.
 
-### <a name="additional-mappings"></a>Aanvullende toewijzingen
+### <a name="add-table-and-field-mappings-to-existing-integration-tables"></a>Aanvullende toewijzingen
 
 Betalingscondities, verzendmethoden en expediteurs kunnen veranderen en het kan belangrijk zijn om deze aan te kunnen passen. Als u de functie **Functie-update: zonder code aan optiesets toewijzen in Dataverse** inschakelt op de pagina [Functiebeheer](https://businesscentral.dynamics.com/?page=2610), kunt u handmatig integratietabeltoewijzingen toevoegen voor betalingsvoorwaarden (BETALINGSVOORWAARDEN), verzendmethoden (VERZENDMETHODE) en expediteurs (EXPEDITEUR). Deze toewijzing kan ervoor zorgen dat uw beleid hetzelfde is voor deze instellingen in [!INCLUDE[prod_short](includes/cds_long_md.md)] en [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 

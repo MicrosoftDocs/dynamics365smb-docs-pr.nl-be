@@ -76,7 +76,7 @@ Zie [Een Business Central-tabblad toevoegen in Teams](across-teams-tab.md) voor 
 3. [!INCLUDE [prod_short](includes/prod_short.md)]-app installeren in Teams. Zie [De [!INCLUDE [prod_short](includes/prod_short.md)]-app installeren voor Microsoft Teams](across-install-app-for-teams.md).
 4. Zodra de app is geïnstalleerd, bent u klaar om te beginnen. Voor meer informatie, zie [Zoeken naar klanten, leveranciers en andere contacten vanuit Microsoft Teams](across-search-contacts-teams.md) en [Records delen in Microsoft Teams](across-working-with-teams.md).
 
-## <a name="see-also"></a>Zie ook
+## <a name="related-information"></a>Zie ook
 
 [Veelgestelde vragen over Teams](teams-faq.md)  
 [Problemen met Teams oplossen](admin-teams-troubleshooting.md)  

@@ -174,7 +174,7 @@ Dit probleem wordt veroorzaakt doordat u de BC-app voor Teams niet hebt geïnsta
 Dit probleem wordt waarschijnlijk veroorzaakt doordat u een lijstweergave hebt gedeeld die een persoonlijke weergave is. Werk in dit geval samen met uw beheerder om rolspecifieke lijstweergaven te maken die de verschillende rollen in het kanaal/de chat beslaan of maak deze weergave voor de hele organisatie zodat iedereen een consistente weergave kan krijgen.
 
 
-## <a name="see-also"></a>Zie ook
+## <a name="related-information"></a>Zie ook
 
 Overzicht van integratie tussen [[!INCLUDE [prod_short](includes/prod_short.md)] en Microsoft Teams](across-teams-overview.md)  
 [De [!INCLUDE [prod_short](includes/prod_short.md)]-app installeren voor Microsoft Teams](across-install-app-for-teams.md)  

@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# De extensie PayPal Payments Standard
+# <a name="the-paypal-payments-standard-extension"></a>De extensie PayPal Payments Standard
 
 Met de extensie PayPal Payments Standard kunt u uw klantenservice verbeteren door het voor uw klanten gemakkelijker te maken hun rekeningen te betalen.
 
@@ -29,7 +29,7 @@ De service PayPal Payments Standard biedt de volgende voordelen:
 
 Ga naar  [Klantbetaling via PayPal inschakelen voor meer informatie over het instellen van de extensie](sales-how-enable-payment-service-extensions.md).
 
-## Automatisch betalingen registreren voor zakelijke rekeningen
+## <a name="register-payments-automatically-for-business-accounts"></a>Automatisch betalingen registreren voor zakelijke rekeningen
 
 [!INCLUDE [prod_short](includes/prod_short.md)] kunt u betalingen automatisch registreren als u een zakelijk handelsaccount hebt voor het PayPal Commerce Platform. Wanneer uw klanten de PayPal-code koppelen gebruiken om een factuur te betalen, [!INCLUDE [prod_short](includes/prod_short.md)] boekt u de vermeldingen en Sluiten het document.
 
@@ -38,7 +38,7 @@ Om deze mogelijkheid te gebruiken, schakelt u op de pagina  **instellingen voor 
 > [!TIP]
 > Ontwikkelaars kunnen sandbox-accounts gebruiken om de installatie te testen. Om dat te doen, wijzigt u de PayPal-URL in  **sandbox.paypal.com**. [!INCLUDE [prod_short](includes/prod_short.md)] maakt gebruik van PayPals Instant Payment Notification (IPN) via notify_url.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 [Verkopen instellen](sales-setup-sales.md)  

@@ -12,7 +12,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# Ingebouwde financiële rapporten in Business Central
+# <a name="built-in-finance-reports-in-business-central"></a>Ingebouwde financiële rapporten in Business Central
 
 [!INCLUDE [prod_short](includes/prod_short.md)] bevat verschillende ingebouwde rapporten, traceerfuncties en tools die auditors of controllers helpen die verantwoordelijk zijn voor rapportage aan de financiële afdeling.
 
@@ -20,11 +20,11 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
-## Financiële rapporten verkennen met Rapportverkenner
+## <a name="explore-finance-reports-with-report-explorer"></a>Financiële rapporten verkennen met Rapportverkenner
 
 [!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Debiteurenrapporten en -analyses](receivables-reports.md)  
 [Crediteurenrapporten en -analyses](payables-reports.md)  

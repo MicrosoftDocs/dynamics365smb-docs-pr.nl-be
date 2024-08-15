@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="setting-up-cost-accounting"></a>Kostenboekhouding instellen
+# <a name="set-up-cost-accounting"></a>Kostenboekhouding instellen
 
 Voordat u begint te werken met kostprijsboekhouding, moet u insteltaken uitvoeren.
 
@@ -24,7 +24,7 @@ Op deze manier maakt u de volgende boekhoudvergelijking:
 
 Wanneer u de grafiek van de kostensoort, de grafiek van de kostenplaatsen en de grafiek van de kostenobjecten in de rapporten afdrukt, kunt u deze relatie analyseren.
 
-## <a name="setting-up-cost-types"></a>Kostensoorten instellen
+## <a name="set-up-cost-types"></a>Kostensoorten instellen
 
 Een kostensoortschema lijkt op het rekeningschema in het grootboek. U kunt het kostensoortschema op de volgende manieren instellen:  
 
