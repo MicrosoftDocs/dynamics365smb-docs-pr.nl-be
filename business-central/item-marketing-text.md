@@ -12,13 +12,13 @@ ms.collection:
 ms.search.form: 5839_Primary
 ---
 
-# Marketingtekst aan artikelen toevoegen
+# <a name="add-marketing-text-to-items"></a>Marketingtekst aan artikelen toevoegen
 
 Voor elk artikel dat is geregistreerd in Business Central, kunt u *marketingtekst* over het artikel schrijven. Hoewel marketingtekst een soort beschrijving is, is het anders dan het veld **Beschrijving** van een artikel. Het veld **Beschrijving** wordt meestal gebruikt als een beknopte weergavenaam om het product snel te identificeren. De marketingtekst daarentegen is een rijkere en beschrijvende tekst. Het doel is het toevoegen van marketing- en promotionele inhoud, ook wel bekend als *kopij*. Deze tekst kan vervolgens bij het artikel worden gepubliceerd als het op een webshop is gepubliceerd, zoals Shopify, of in e-mails of andere communicatie met uw klanten worden geplakt.
 
 Er zijn twee manieren om de marketingtekst te maken. De eenvoudigste manier om aan de slag te gaan, is door Copilot te gebruiken, dat door AI gegenereerde tekst voor u voorstelt. De andere manier is om bij nul te beginnen. 
 
-## <a name=copilot></a>Marketingtekstsuggesties krijgen met Copilot
+## <a name="get-marketing-text-suggestions-with-copilot"></a><a name=copilot></a>Marketingtekstsuggesties krijgen met Copilot
 
 Met Copilot krijgt u snel een tekstsuggestie die automatisch voor u wordt gegenereerd. De door AI gegenereerde tekst is toegesneden op het item en biedt een goed startpunt. De tekst wordt deels gebaseerd op de volgende informatie:
 
@@ -29,15 +29,15 @@ Met Copilot krijgt u snel een tekstsuggestie die automatisch voor u wordt gegene
 
 Copilot is ontworpen om u tijd te besparen en u te helpen creatieve en boeiende tekst te schrijven die uw merk weerspiegelt en consistent is in uw hele productlijn. Begin met het genereren van een suggestie en wijzig vervolgens de voorgestelde tekst indien nodig.
 
-### Beschikbare talen
+### <a name="available-languages"></a>Beschikbare talen
 
 [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
 
-### Vereisten
+### <a name="prerequisites"></a>Vereisten
 
 De functie voor marketingtekstsuggesties is geactiveerd in uw omgeving. Deze taak wordt meestal gedaan door een beheerder. Ga voor meer informatie naar [Copilot- en AI-mogelijkheden configureren](enable-ai.md).
 
-### Een eerste concept maken met Copilot
+### <a name="create-first-draft-with-copilot"></a>Een eerste concept maken met Copilot
 
 Voer de volgende stappen uit om marketingtekst aan een bestaand artikel toe te voegen. Als u wilt weten hoe u een nieuw artikel toevoegt, gaat u naar [Nieuwe artikelen registreren](inventory-how-register-new-items.md).
 
@@ -68,7 +68,7 @@ Voer de volgende stappen uit om marketingtekst aan een bestaand artikel toe te v
 
    U kunt nu meer suggesties krijgen, proberen de suggesties die u krijgt te verbeteren, tekst bewerken en meer. Ga naar [Controleren, bewerken en opslaan](#review-edit-and-save-text) voor details.
 
-### Tekst controleren, bewerken en opslaan
+### <a name="review-edit-and-save-text"></a>Tekst controleren, bewerken en opslaan
 
 Zodra u de eerste versie hebt, moet u deze controleren en wijzigingen aanbrengen in de tekst om deze gereed te maken voor publicatie. Dit werk wordt gedaan in de Copilot-editor, waarmee u meer suggesties kunt krijgen, voorkeuren kunt wijzigen om de suggesties te beïnvloeden en handmatig wijzigingen kunt aanbrengen en de tekst opmaken.
 
@@ -91,7 +91,7 @@ Gebruik de volgende richtlijnen om de marketingtekst af te ronden en op te slaan
    - Als u de tekst wilt opslaan, selecteert u **Behouden**. 
    - Als u niet wilt opslaan, selecteert u de knop weggooien (prullenbak) ![Toont het prullenbakpictogram voor het verwijderen van alle Copilot-voorstellen voor bankrekeningreconciliatie](media/copilot-delete-trash-can.png).
 
-### Tekstsuggesties verbeteren en aanpassen
+### <a name="improve-and-tailor-text-suggestions"></a>Tekstsuggesties verbeteren en aanpassen
 
 Er zijn een paar stappen die u kunt nemen om de tekstsuggesties te verbeteren en aan te passen aan uw persoonlijke of zakelijke voorkeuren.
 
@@ -114,11 +114,11 @@ Er zijn een paar stappen die u kunt nemen om de tekstsuggesties te verbeteren en
 
    Copilot zoekt naar woorden en zinsdelen die verband houden met de categorie en verwerkt deze in de voorgestelde tekst.
 
-### Werken met meerdere talen 
+### <a name="working-with-multiple-languages"></a>Werken met meerdere talen
 
 Tekst wordt altijd gegenereerd in de taal die is gedefinieerd in uw [gebruikersinstellingen](ui-change-basic-settings.md#language). Als uw organisatie in een andere taal werkt en gegevens in Business Central invoert, of als Business Central is verbonden met uw online winkel, zoals met Shopify, kan dit resulteren in het publiceren van inhoud die niet overeenkomt met vergelijkbare marketinginhoud.
 
-## Een geheel nieuwe tekst maken
+## <a name="create-text-from-scratch"></a>Een geheel nieuwe tekst maken
 
 1. Open in Business Central het artikel dat u wilt wijzigen als volgt:
 
@@ -132,7 +132,7 @@ Tekst wordt altijd gegenereerd in de taal die is gedefinieerd in uw [gebruikersi
 3. Wijzig de tekst rechtstreeks in het vak **Marketingtekst** . Gebruik de werkbalk onder aan het vak om tekst op te maken, koppelingen toe te voegen en meer.
 4. Als u klaar bent, selecteert u **Opslaan** om de tekst op te slaan.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Overzicht van suggesties voor marketing](ai-overview.md)  
 [Problemen oplossen met Copilot- en AI-mogelijkheden](ai-copilot-troubleshooting.md)  
