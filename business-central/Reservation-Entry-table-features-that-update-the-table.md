@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Reserveringsinvoertabel - Inleiding
+# <a name="reservation-entry-table---introduction"></a>Reserveringsinvoertabel - Inleiding
 
 In dit technische whitepaper vindt u richtlijnen waarmee u problemen met inconsistente gegevens in de tabel  *Reserveringspost*  (tabel 337) in kunt begrijpen en oplossen Microsoft Dynamics NAV. Het eerste deel is een introductie tot de functies die gegevens in deze tabel genereren of wijzigen. Het bestrijkt ook verschillende velden in de tabel  *Reserveringsinvoer* die het vermelden waard zijn in relatie tot deze functies. Het tweede deel laat aan de hand van voorbeelden zien hoe vermeldingen in de tabel  *Reserveringsvermelding* worden gegenereerd, verwijderd of gewijzigd wanneer overdrachtsorders worden verwerkt of planningsfuncties worden uitgevoerd.
 
@@ -28,9 +28,9 @@ Over het algemeen zijn de gegevens die in de tabel  *Reserveringsinvoer* worden 
 - Planningsparameters op het artikel of de voorraadbeheereenheid kaart
 - Artikeltraceringscode
 
-## Functies die de reserveringsinvoertabel bijwerken
+## <a name="features-that-update-the-reservation-entry-table"></a>Functies die de reserveringsinvoertabel bijwerken
 
-### Beleid voor het volgen van bestellingen
+### <a name="order-tracking-policy"></a>Beleid voor het volgen van bestellingen
 
 Als het veld  **Order Tracking Policy** voor een artikel is ingesteld op None, Microsoft Dynamics NAV worden er nooit reserveringsposten aangemaakt in de tabel  *Reserveringspost*, tenzij het Net Change Plan of Regeneratief Plan, Reservering of Artikel Tracking wordt uitgevoerd. Als ordertracking niet is ingeschakeld, kunt u bovendien reserveringsposten hebben wanneer u het beleid Manufacturing-to-Order of Assembly-to-Order gebruikt.
 
@@ -51,7 +51,7 @@ Door het veld  **Order Tracking Policy** op het artikel in te stellen op Alleen 
 > [!NOTE]  
 > De trackingfunctionaliteit vervangt niet de planningsfunctionaliteit. Deze functionaliteit bekijkt alle artikelen, eisen en voorraden samen om optimale planningsvoorstellen te bieden waarmee u het serviceniveau voor klanten kunt optimaliseren en de voorraadniveaus in evenwicht kunt brengen.
 
-### Reserveringsbeleid
+### <a name="reservation-policy"></a>Reserveringsbeleid
 
 Een reservering bestaat uit een paar records in de tabel *Reserveringsinvoer* met de **Reserveringsstatus** Reservering, die hetzelfde invoernummer delen. Eén record heeft het veld Positief ingeschakeld en verwijst naar de levering. In het andere record is het veld  **Positief** niet ingeschakeld en verwijst naar de vraag. De velden **Brontype**, **Bronref.nr.** en **Bron-ID** markeren de reservering koppelen tussen vraag en aanbod.
 
@@ -122,7 +122,7 @@ Microsoft Dynamics NAV zal het volgende waarschuwingsbericht weergeven:
 
 Hiermee is de demonstratie van de interactie tussen het gebruik van automatische reserveringen en ordertracking afgerond. In de voorbeelden ziet u ook wat er gebeurt als u vervaldatums wijzigt en welke foutmelding wordt weergegeven als er een reserveringsconflict is.
 
-### Planning berekend
+### <a name="planning-calculated"></a>Planning berekend
 
 Als u Gereed plant met behulp van orderplanning, het aanvraagwerkblad of het planningswerkblad, worden er posten gegenereerd in de tabel  *Reserveringspost*  met het veld  **Reserveringsstatus** ingesteld op Tracking, Reservering of Overschot. Er moet altijd een bijpassend paar zijn met hetzelfde invoernummer van positieve en negatieve waarde in het veld  **hoeveelheid (basis)** wanneer de status Tracking of Reservering is. Het veld  **Brontype** is het vraagtype, dat wil zeggen tabel 37 voor de negatieve hoeveelheid en een planningstabel, bijvoorbeeld tabel 246, voor de positieve hoeveelheid. Het veld  **Bron-ID** is PLANNING.
 
@@ -145,7 +145,7 @@ Deze posten worden gegenereerd tijdens het planningsproces en verklaren waar het
 
 In de tabel  *Reserveringspost* is er,.Net als bij de inkoop-, overdrachts- en productieorders, een veld  **Planningsflexibiliteit** . Met dit optieveld definieert u of de levering die door deze leveringsorders wordt vertegenwoordigd, door het planningssysteem wordt meegenomen bij het berekenen van Actieberichten. Als het veld de optie Onbeperkt bevat, wordt de regel door het planningssysteem meegenomen bij het berekenen van Actieberichten. Als het veld de optie Geen bevat, is de regel vast en onveranderlijk en neemt het planningssysteem de regel niet op bij het berekenen van Actieberichten. De functie wordt beheerd in de tabel  *Reserveringsitem* met het gelijknamige veld.
 
-### Herbestel- en productiebeleid
+### <a name="reordering-and-manufacturing-policy"></a>Herbestel- en productiebeleid
 
 Als een planningsfunctie wordt uitgevoerd voor een artikelenset waarvan het bestelbeleid is ingesteld op Bestellen, worden er vermeldingen gemaakt in de tabel Reserveringsvermelding met de reserveringsstatus van het type Reservering in plaats van Tracking. Microsoft Dynamics NAV  *·* 
 
@@ -153,7 +153,7 @@ De velden  **Brontype** en  **Bron-ID** worden op dezelfde manier behandeld als 
 
 Het veld  **Binding** wordt ingevuld om leveringsorders te beheren die aan een specifieke vraag zijn gekoppeld, bijvoorbeeld productieorders die rechtstreeks vanuit een verkooporder worden gemaakt. In dit veld wordt Order-to-Order weergegeven als de invoer specifiek aan vraag of aanbod is gekoppeld (automatische reservering). De vraag kan betrekking hebben op de verkoop of de behoefte aan componenten.
 
-### Itemtracking en reservering van prospects invoeren
+### <a name="item-tracking-and-prospect-reservation-entry"></a>Itemtracking en reservering van prospects invoeren
 
 De reserveringsstatus van de prospect kan worden aangemaakt in de tabel Reserveringsinvoer wanneer u geen ordernetwerkentiteiten gebruikt, dat wil zeggen ordertracering. Microsoft Dynamics NAV  *·*  U kunt bijvoorbeeld op een verbruiksdagboekregel Artikeltracering aan het onderdeel toewijzen. Als het artikel echter al een ordertracering heeft, Microsoft Dynamics NAV kunnen er meer reserveringsitems voor prospects worden aangemaakt. Dit wordt geïllustreerd in VOORBEELD 2 met betrekking tot overdrachtsopdrachten in het tweede deel van dit document.
 
@@ -167,15 +167,15 @@ Omdat de artikelboekposten de artikeltraceringsinformatie bevatten, reserveert d
 
 Voor meer informatie kunt u de Microsoft Dynamics NAV technische whitepapers raadplegen die vermeld staan in de aanvullende bronnen aan het einde van dit document.
 
-### Bronsubtype, onderdrukte actiemelding, actieberichtaanpassing en velden voor annulering niet toestaan
+### <a name="source-subtype-suppressed-action-msg-action-message-adjustment-and-disallow-cancellation-fields"></a>Bronsubtype, onderdrukte actiemelding, actieberichtaanpassing en velden voor annulering niet toestaan
 
 De velden  **Subtype van bron**, **Onderdrukt actiebericht**, **Aanpassing actiebericht** en **Annulering niet toestaan** in de tabel *Reserveringsitem* worden in deze sectie beschreven. Er worden scenario's gegeven om het gebruik van de velden  **Onderdrukt actiebericht**, **Aanpassing actiebericht** en **Annulering niet toestaan** te demonstreren. Het veld  **Aanpassing actiebericht** wordt gebruikt voor de functie Tracking en actiebericht van het ordertrackingbeleid. Het veld  **Annulering niet toestaan** wordt gebruikt voor de functie Assemblage-op-order in Microsoft Dynamics NAV 2013.
 
-#### Bronsubsoort
+#### <a name="source-subtype"></a>Bronsubsoort
 
 Het veld  **Bron-subtype** geeft aan op welk bron-subtype de reserveringsinvoer betrekking heeft. Als de invoer betrekking heeft op een inkoop- of verkoopregel, wordt het veld gekopieerd uit het veld  **documenttype** op de regel. Als het betrekking heeft op een journaalregel, wordt het veld gekopieerd uit het veld  **Invoertype**  op de journaalregel.
 
-#### Genegeerde planningsboodschap
+#### <a name="suppressed-action-msg"></a>Genegeerde planningsboodschap
 
 In het veld  **Onderdrukt actiebericht**  wordt vastgelegd wanneer een bestaande levering al gedeeltelijk is verwerkt, bijvoorbeeld wanneer een inkooporder al gedeeltelijk is ontvangen of wanneer er verbruiken zijn geboekt op een productieorder.
 
@@ -208,7 +208,7 @@ Postnummer 28 in tabel 337 heeft de reserveringsstatus Tracking om de bestaande 
 
 Postnummer 30 betreft de bestaande bestelling die gedeeltelijk is ontvangen met hoeveelheid 2. Als gevolg hiervan is het veld  **Reserveringsstatus** op Overschot ingesteld en wordt het veld  Microsoft Dynamics NAV Aantal (basis) **op** 8 *(resterend saldo) ingesteld en wordt het veld* Onderdrukt actiebericht **ingeschakeld.** 
 
-#### Planningsboodschapaanpassing
+#### <a name="action-message-adjustment"></a>Planningsboodschapaanpassing
 
 In het veld  **Aanpassing actiebericht** wordt de wijziging in de aanbodzijde van de ordertracking weergegeven die ontstaat wanneer u de gerelateerde actieberichten accepteert. Er wordt hier alleen een waarde weergegeven als de functies voor zowel ordertracering als actieberichten actief zijn (het beleid Ordertracering is ingesteld op Tracering en actiebericht). De waarde wordt berekend op basis van de gegevens in de tabel  *Action Message Entry* (tabel 99000849). Het volgende voorbeeld dient ter illustratie:
 1. Open item 80002. Stel het volgende veld in:
@@ -224,7 +224,7 @@ De statusinformatie in tabel 337 wordt weergegeven in de volgende afbeelding.
 6. In tabel 337 is bij boekingsnummer 34 het veld  **Actiebericht Aanpassing**  ingeschakeld voor 5 eenheden met de reserveringsstatus Overschot. Omdat de verkooporder is verhoogd met stap 5, Microsoft Dynamics NAV is deze reservering aangemaakt omdat er meer voorraad nodig is.
 7. Open de pagina  **Planningswerkbladen**  en kies op het tabblad  **Start** in de groep  **Proces** de optie  **Actieberichten ophalen**. Microsoft Dynamics NAV zal voorstellen om de inkooporderhoeveelheid te verhogen van 100 naar 105.
 
-#### Annulering niet toestaan
+#### <a name="disallow-cancellation"></a>Annulering niet toestaan
 
 Het veld  **Annulering niet toestaan** geeft aan dat de reserveringsinvoer de koppelen vertegenwoordigt tussen een verkooporderregel en een assemblageorder. U kunt deze reservering niet verwijderen, omdat deze nodig is om de synchronisatie te behouden die plaatsvindt wanneer een artikel op bestelling wordt geassembleerd. Het volgende voorbeeld dient ter illustratie:
 
@@ -253,7 +253,7 @@ Invoernummer 82 heeft een reserveringsstatus van 9 eenheden van de Assemble Comp
 
 Postnummer 86 heeft een bindende volgorde van bestelling met de reserveringsstatus Reservering. Bovendien is het veld  **Annulering niet toestaan**  ingeschakeld, omdat het assemblagebeleid is ingesteld op Op order assembleren voor het item Assemblage FG. Ten slotte wordt het veld  **Planningsflexibiliteit** op Geen gezet, omdat Microsoft Dynamics NAV de planninglogica de reservering niet kan verwijderen.
 
-#### Beschikbare hoeveelheid om te plukken en te reserveren
+#### <a name="quantity-available-to-pick-and-reservations"></a>Beschikbare hoeveelheid om te plukken en te reserveren
 
 Het veld  **Gereserveerde pick- en verzendhoeveelheid**  in tabel 337 dat bestaat in versies vóór Microsoft Dynamics NAV 2013, beheert de beschikbaarheid van artikelen binnen een beheerd magazijn. In elke installatie van Microsoft Dynamics NAV magazijnbeheer bestaan artikelhoeveelheden zowel als magazijnposten als als artikelgrootboekposten. Deze twee invoertypen bevatten verschillende informatie over waar items zich bevinden en of ze beschikbaar zijn. Met magazijnposten wordt de beschikbaarheid van een artikel per (soort) opslaglocatie gedefinieerd, wat opslaglocatie-inhoud wordt genoemd. Artikelposten definiëren de beschikbaarheid van een artikel op basis van de reservering hiervan voor uitgaande documenten. Er is een speciale functionaliteit in het pickalgoritme om de hoeveelheid te berekenen die beschikbaar is om te picken wanneer de bakinhoud is gekoppeld aan reserveringen. Het pickalgoritme trekt hoeveelheden af die gereserveerd zijn voor andere uitgaande documenten, hoeveelheden op bestaande pickdocumenten en hoeveelheden die zijn gepickt maar nog niet verzonden of verbruikt. Het resultaat wordt weergegeven in het veld  **Beschikbare hoeveelheid om te picken** op de pagina  **Pickwerkblad**, waar het veld dynamisch wordt berekend. De waarde wordt ook berekend wanneer een gebruiker magazijnpicks rechtstreeks vanuit uitgaande documenten zoals verkooporders, productieconsumptie of uitgaande transfers creëert.
 
@@ -301,9 +301,9 @@ Wanneer de magazijnopzet wordt geregistreerd in stap 7, wordt het aanmaken van d
 
 De volgende illustratie is afkomstig uit Microsoft Dynamics NAV 2009 R2.
 
-## Illustraties met behulp van overdrachtsopdrachten en planning
+## <a name="illustrations-using-transfer-orders-and-planning"></a>Illustraties met behulp van overdrachtsopdrachten en planning
 
-### Transferorders
+### <a name="transfer-orders"></a>Transferorders
 
 Wanneer u gebruikmaakt van overdrachtsopdrachten en het artikel is verzonden maar nog niet volledig ontvangen, krijgt u in de tabel  *Reserveringsinvoer* de reserveringsstatus Overschot. De locatiecode is de Transfer-to-locatie.
 
@@ -313,7 +313,7 @@ Wanneer ordertracking is geactiveerd en er geen vraag is (verkooporder of verbru
 
 Dit wordt geïllustreerd in het eerste voorbeeld.
 
-#### Voorbeeld 1
+#### <a name="example-1"></a>Voorbeeld 1
 
 1. Open items 80003 en 80004 en stel het veld  **Trackingbeleid**  in op  *Alleen tracking*. Laat de overige velden op hun standaardwaarden staan.
 2. Open een artikeljournaal en verhoog de voorraad van deze artikelen naar 10 per stuk op locatie ROOD en boek de journaalregels.
@@ -342,7 +342,7 @@ De uitleg voor de volgende velden voor Reserveringsinvoer 43 is als volgt.
 |**Bronsoort**|Tabel 32 van de postenboeking.|  
 |**Bron Ref. Nr.**|Het openstaande Post grootboekpostnummer 322.|
 
-#### Voorbeeld 2
+#### <a name="example-2"></a>Voorbeeld 2
 
 Het volgende voorbeeld illustreert wat er gebeurt als een component tussen locaties wordt verplaatst, maar tegelijkertijd wordt getraceerd tussen een vraagbehoefte en het beschikbare aanbod. De componenten worden overgebracht van locatie ROOD naar BLAUW, waar ze worden verbruikt op een vrijgegeven productieorder. Het onderdeel maakt gebruik van Order Tracking, Order Planning en Item Tracking.
 
@@ -378,7 +378,7 @@ Het geproduceerde item krijgt de uitvoer op locatie BLAUW.
 
 De statusinformatie in tabel 337 wordt weergegeven in de volgende afbeelding.
 
-##### Reserveringsgegevens met nummers 55 en 56
+##### <a name="reservation-entries-with-numbers-55-and-56"></a>Reserveringsgegevens met nummers 55 en 56
 
 Voor de componentbehoefte voor respectievelijk Lot A en Lot B worden ordertrackinglinks gemaakt van de vraag in tabel 5407, Prod. Order Component, naar het aanbod in tabel 32, Item Ledger Entry. De **Reserveringsstatus**  veld bevat Tracking voor alle vier de vermeldingen om aan te geven dat deze dynamische ordertracking is gekoppeld aan vraag en aanbod.
 
@@ -387,7 +387,7 @@ De vraag in tabel 5407, Prod. Order Component, is gekoppeld aan de Source ID van
 > [!NOTE]  
 > Het veld **Lotnr.** is leeg op de vraagregels, omdat de lotnummers niet zijn opgegeven op de materiaalregels van de vrijgegeven productieorder.
 
-##### Reserveringsinvoer met nummer 57
+##### <a name="reservation-entry-with-number-57"></a>Reserveringsinvoer met nummer 57
 
 Vanuit de verkoopvraag in tabel 37, Verkoopregel, wordt een ordertracking koppelen aangemaakt voor het aanbod in tabel 5406, Prod. Orderregel. Het veld  **Reserveringsstatus** bevat Reservering en het veld  **Binding** bevat Order-to-Order. Dit komt doordat de vrijgegeven productieorder specifiek voor de verkooporder is gegenereerd en gekoppeld moet blijven, in tegenstelling tot ordertrackingkoppelingen met de reserveringsstatus Tracking, die dynamisch worden gemaakt en gewijzigd.
 
@@ -405,11 +405,11 @@ Geef voor het totale uitstaande bedrag aan dat het ALLEEN verzonden is.
 
 De statusinformatie in tabel 337 wordt weergegeven in de volgende afbeelding.
 
-##### Reserveringsinschrijvingen met nummer 55 en 56
+##### <a name="reservation-entries-with-number-55-and-56"></a>Reserveringsinschrijvingen met nummer 55 en 56
 
 De ordertrackingposten voor de twee partijen van het onderdeel dat de vraag in tabel 5407 weerspiegelt, zijn gewijzigd van een reserveringsstatus Tracking naar Overschot. De reden is dat de goederen waaraan ze eerder zijn gekoppeld, in tabel 32, zijn gebruikt door de verzending van de transferorder. Werkelijk overschot, zoals in dit geval, is een reflectie van bovenmatig aanbod of vraag die niet-getraceerd blijft. Het is een indicatie van een onevenwicht in het ordernetwerk. Als het niet dynamisch wordt opgelost, genereert het planningssysteem een actiemelding.
 
-##### Reserveringsnummers 59 tot en met 63
+##### <a name="reservation-entry-numbers-59-to-63"></a>Reserveringsnummers 59 tot en met 63
 
 Omdat de twee partijen van het onderdeel op de overdrachtsorder zijn geboekt als verzonden maar nog niet ontvangen, zijn alle gerelateerde positieve ordertrackingposten van het reserveringstype Surplus, wat aangeeft dat ze niet aan enige vraag zijn toegewezen. Voor elk lotnummer heeft één post betrekking op tabel 5741, Transferregel, en één post op de artikelpost op de in-transitlocatie waar de artikelen zich nu bevinden.
 
@@ -434,21 +434,21 @@ Sluiten het Item tracking formulier.
 
 De statusinformatie in tabel 337 wordt weergegeven in de volgende afbeelding.
 
-##### Reserveringsgegevens met nummers 68 en 69
+##### <a name="reservation-entries-with-numbers-68-and-69"></a>Reserveringsgegevens met nummers 68 en 69
 
 Omdat de componentbehoefte is gewijzigd naar de BLAUWE locatie en de levering beschikbaar is als artikelboekposten op de BLAUWE locatie, worden alle ordertrackingposten voor de twee lotnummers nu volledig getraceerd, wat wordt aangegeven door de reserveringsstatus van Tracking. De lotnummers worden niet ingevuld in het veld  **Lotnr.** tegenover de vraag in tabel 5406, **Prod. Orderregel**, omdat we geen lotnummers hebben opgegeven voor het onderdeel op de vrijgegeven productieorder.
 
-##### Reserveringsinvoer met nummers 70 en 71
+##### <a name="reservation-entries-with-numbers-70-and-71"></a>Reserveringsinvoer met nummers 70 en 71
 
 In tabel 337 worden boekingen met de reserveringsstatus Prospect gegenereerd. De reden hiervoor is dat beide lotnummers aan het onderdeel zijn toegewezen in het verbruiksjournaal, maar dat het journaal nog niet is geboekt.
 
 Hiermee is het gedeelte afgerond over hoe ordertrackingposten in de tabel  **Reserveringspost** worden gegenereerd, gewijzigd en verwijderd bij gebruik van meerdere functies in combinatie met overdrachtsorders.
 
-### Planning berekend
+### <a name="planning-calculated-1"></a>Planning berekend
 
 Bij het gebruik van planningsfuncties, dat wil zeggen het  **Aanvraagwerkblad**, **Planningswerkblad** of **Orderplanning**, kunnen reserveringsposten in  **Reserveringspost** tabel 337 worden gewijzigd of toegevoegd, afhankelijk van de planningsuggestie die wordt gegeven door de logica in Microsoft Dynamics NAV. Voorbeeld 3 zal gebruiken **Beleid voor opnieuw bestellen**  Bestellen met **Productiebeleid**  Op bestelling maken van een geproduceerd artikel. Het onderdeel zal gebruiken **Beleid voor opnieuw bestellen**  Vaste bestelhoeveelheid.
 
-#### Voorbeeld 3
+#### <a name="example-3"></a>Voorbeeld 3
 
 1. In de **Productie-opstelling**  kaart, **Component op locatie**  is ROOD ten opzichte van het vorige voorbeeld.
 2. Maak een nieuw bovenliggend Item 70061. Stel de volgende velden in:
@@ -497,17 +497,17 @@ Het veld  **Reserveringsstatus** is Reservering en er wordt een Order-to-Order B
 
 De vraag naar 40 eenheden voor het veld  **Bron-ID** is het verkoopordernummer 1005 en het brontype is  *Verkoopregel* tabel 37. De reserveringsinvoer is afgestemd op de planningssuggestie, Bronreferentienr. 10000, Bron-ID is PLANNING en Brontype is  *Aanvraagregel* tabel 246. Er is dus een evenwicht tussen de vraag van de verkooporder en het aanbod dat de planningsengine aangeeft.
 
-##### Reservering toegangsnummers 73 en 74
+##### <a name="reservation-entry-numbers-73-and-74"></a>Reservering toegangsnummers 73 en 74
 
 Door de batchtaak 'Plan berekenen' uit te voeren, worden de volgende vier vermeldingen gegenereerd met een reserveringsstatus 'Tracking' vanwege de instelling van het bestelbeleid 'Vaste bestelhoeveelheid' voor het onderdeel. De benodigde voorraad voor component Item 70062 wordt aangevuld met de gegeven planningsvoorstellen, Bron Ref. Nr. 20000 en 30000, met Bron-ID ingesteld op PLANNING en Brontype uit  *Aanvraagregel* tabel 246. De componentbehoefte is gecreëerd om te voldoen aan de vraag naar bovenliggend Item 70061 voor totale hoeveelheid (basis) 40. Als gevolg van deze vraag is het veld  **Source Prod. Order Line** 10000, met Source Type de  *Component Need* tabel 99000829.
 
 De reserveringsstatus is niet Surplus, omdat er een ordertracering bestaat tussen de vraag naar bovenliggend artikel 70061 en de levering van component artikel 70062.
 
-##### Reservering toegangsnummers 75 en 76
+##### <a name="reservation-entry-numbers-75-and-76"></a>Reservering toegangsnummers 75 en 76
 
 De laatste twee vermeldingen hebben de reserveringsstatus Overschot, omdat dit niet-getraceerde hoeveelheden zijn die zijn gegenereerd op het planningswerkblad en die betrekking hebben op de bestelparameters Bestelnummer aanwijzen en Bestelhoeveelheid.
 
-## Zie ook  
+## <a name="see-also"></a>Zie ook
 [Ontwerpdetails: Ontwerp van artikeltracering](design-details-item-tracking-design.md)  
 [Ontwerpdetails: Vraag en aanbod afstemmen](design-details-balancing-demand-and-supply.md)  
 [Ontwerpdetails: Reservering, ordertracering en planningsboodschappen](design-details-reservation-order-tracking-and-action-messaging.md)   

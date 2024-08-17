@@ -12,7 +12,7 @@ ms.date: 06/13/2024
 ms.custom: bap-template
 ---
 
-# Bankrekeningen reconciliëren met Copilot (preview)
+# <a name="reconcile-bank-accounts-with-copilot-preview"></a>Bankrekeningen reconciliëren met Copilot (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -20,7 +20,7 @@ In dit artikel wordt uitgelegd hoe u hulp bij het afstemmen van bankrekeningen k
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## Over hulp bij bankrekeningreconciliatie
+## <a name="about-bank-account-reconciliation-assist"></a>Over hulp bij bankrekeningreconciliatie
 
 Hulp bij bankrekeningreconciliatie is een reeks door AI aangedreven functies die u helpen bij het reconciliëren van bankrekeningen. Het biedt twee verschillende taken via Copilot:
 
@@ -36,17 +36,17 @@ Hulp bij bankrekeningreconciliatie is een reeks door AI aangedreven functies die
 
     [Meer informatie over deze taak](#post-unmatched-bank-transaction-amounts-to-suggested-gl-accounts).
 
-## Beschikbare talen
+## <a name="available-languages"></a>Beschikbare talen
 
 [!INCLUDE[bank-recon-assist-language-support](includes/bank-recon-assist-language-support.md)]
 
-## Vereisten
+## <a name="prerequisites"></a>Vereisten
 
 - Hulp bij bankrekeningreconciliatie is geactiveerd. Deze taak moet worden uitgevoerd door een beheerder. [Meer informatie over het configureren van Copilot- en AI-mogelijkheden](enable-ai.md).
 - De bankrekeningen in Business Central die u wilt reconciliëren, zijn gekoppeld aan een online bankrekening of zijn ingesteld met de importindeling voor bankafschriften.
 - U bent bekend met bankrekeningreconciliatie in Business Central, zoals beschreven in [Bankrekeningen reconciliëren](bank-how-reconcile-bank-accounts-separately.md).
 
-## Bankrekeningen reconciliëren met Copilot
+## <a name="reconcile-bank-accounts-with-copilot"></a>Bankrekeningen reconciliëren met Copilot
 
 <!-- Similar to the **Match Automatically** capability on the **Bank Acc. Reconciliation** page, Bank account reconciliation assist can also automatically matches transactions in banks statements with bank entries. The difference is that **Match Automatically** uses a native rules-based algorithm, while Bank account reconciliation assist is based AI technology though Copilot. Bank account reconciliation assist is intended to supplement the **Match Automatically** capability. While **Match Automatically** is fairly successful at matching transactions, there are some instances where it can't&mdash;which is where Bank account reconciliation assist comes. By using the **Reconcile with Copilot** action on **Bank Acc. Reconciliation** page, you can find even more matches.-->
 
@@ -93,7 +93,7 @@ Met deze aanpak gebruikt u Copilot voor een nieuwe bankrekeningreconciliatie die
 1. Bekijk de voorgestelde afstemmingen zoals beschreven in de volgende sectie.
 ---
 
-### Voorgestelde afstemmingen bekijken, opslaan of negeren
+### <a name="review-save-or-discard-proposed-matches"></a>Voorgestelde afstemmingen bekijken, opslaan of negeren
 
 Nadat u Copilot hebt uitgevoerd, toont het venster **Reconciliëren met Copilot** de gedetailleerde resultaten, inclusief eventuele voorgestelde afstemmingen. Op dit moment is er geen afstemming opgeslagen die Copilot heeft voorgesteld. Daarom heeft u de mogelijkheid om de voorstellen te inspecteren en deze naar wens op te slaan of te verwijderen.
 
@@ -117,7 +117,7 @@ In de sectie **Afstemmingsvoorstellen** bekijkt u de voorgestelde afstemmingen r
 - Als u de volledig afgestemde reconciliatie automatisch wilt boeken wanneer u deze opslaat, zet u de optie **Boeken indien volledig vereffend** aan.
 - Als u de afstemmingen wilt opslaan die momenteel worden weergegeven in het venster **Afstemmen met Copilot**, selecteert u **Behouden**.
 
-## Niet-afgestemde banktransactiebedragen boeken naar voorgestelde grootboekrekeningen
+## <a name="post-unmatched-bank-transaction-amounts-to-suggested-gl-accounts"></a>Niet-afgestemde banktransactiebedragen boeken naar voorgestelde grootboekrekeningen
 
 In deze sectie leert u hoe u Copilot kunt gebruiken om niet-gereconcilieerde regelbedragen van bankrekeningafschriften (opgegeven in het veld **Verschil**) te boeken naar een grootboekrekening. Deze taak kan alleen worden uitgevoerd vanuit een bestaande reconciliatie.
 
@@ -153,11 +153,11 @@ In deze sectie leert u hoe u Copilot kunt gebruiken om niet-gereconcilieerde reg
 
          Deze stap bevestigt de overdracht van de momenteel geselecteerde voorstellen vanuit het bankrekeninggrootboek naar de grootboekrekening. Het boekt nieuwe betalingen naar de voorgestelde grootboekrekeningen en past overeenkomstige regels toe op de resulterende bankrekeningposten.
 
-## Volgende stappen
+## <a name="next-steps"></a>Volgende stappen
 
 [Uw bankrekeningreconciliatie valideren](bank-how-reconcile-bank-accounts-separately.md#validate-your-bank-reconciliation)
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Problemen oplossen met Copilot- en AI-mogelijkheden](ai-copilot-troubleshooting.md)  
 [Veelgestelde vragen over verantwoordelijke AI voor hulp bij bankreconciliatie](faqs-bank-reconciliation.md)  

@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Kosten verantwoorden
+# <a name="accounting-for-costs"></a>Kosten verantwoorden
 Kostprijsboekhouding wordt gebruikt om te begrijpen welke kosten er verbonden zijn aan het runnen van een bedrijf. Om aan de slag te gaan met kostprijsboekhouding kunt u de volgende onderwerpen raadplegen.  
 
 |Als u dit wilt doen|Zie|  
@@ -24,7 +24,7 @@ Kostprijsboekhouding wordt gebruikt om te begrijpen welke kosten er verbonden zi
 |Op de hoogte zijn van de processen voor het maken van kostenbudgetten.|[Kostenbudgetten maken](finance-create-cost-budgets.md)|
 |Kostenbudgetposten uit het kostenbudgetregister annuleren.|[Kostenbudgetposten verwijderen](finance-how-to-delete-cost-budget-entries.md)|
 
-## Zie ook  
+## <a name="see-also"></a>Zie ook
 [Financiën](finance.md)  
 [Voorraadkosten beheren](finance-manage-inventory-costs.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
