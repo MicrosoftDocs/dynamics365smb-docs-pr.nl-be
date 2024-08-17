@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 
-# <a name="changing-company-and-other-settings-in-teams"></a>Bedrijf en andere instellingen in Teams wijzigen
+# Bedrijf en andere instellingen in Teams wijzigen
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -27,7 +27,7 @@ Er zijn twee manieren om de pagina **Instellingen** te openen: 1) vanuit het ber
 
    ![Instellingen voor Business Central vanuit het berichtvak.](media/teams-settings-command-box.png)
 
-## <a name="related-information"></a>Zie ook
+## Zie ook
 
 [Integratieoverzicht van Business Central en Microsoft Teams](across-teams-overview.md)  
 [De [!INCLUDE [prod_short](includes/prod_short.md)]-app installeren voor Microsoft Teams](across-install-app-for-teams.md)  

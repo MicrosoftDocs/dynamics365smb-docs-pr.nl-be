@@ -10,7 +10,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# <a name="preparing-closing-statements"></a>Het voorbereiden van afsluitende verklaringen
+# Het voorbereiden van afsluitende verklaringen
 
 [!INCLUDE [prod_short](includes/prod_short.md)] biedt standaardrapporten aan waarmee u de informatie kunt verzamelen die u nodig hebt om de financiële overzichten van uw bedrijf op te stellen. In de volgende tabel worden de rapporten beschreven.  
 
@@ -26,7 +26,7 @@ ms.reviewer: jswymer
 
 Om een rapport te vinden, kiest u de ![gloeilamp die de Vertel het me-functie opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") typt u de naam zoals deze in de tabel wordt weergegeven en kiest u vervolgens de gerelateerde koppeling.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Afsluitingsjaren en -perioden](year-close-years-periods.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

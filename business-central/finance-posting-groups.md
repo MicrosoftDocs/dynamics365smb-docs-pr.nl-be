@@ -11,7 +11,7 @@ ms.date: 02/23/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-posting-groups"></a>Boekingsgroepen instellen
+# Boekingsgroepen instellen
 
 Boekingsgroepen wijzen entiteiten toe aan grootboekrekeningen. Voorbeelden van entiteiten zijn klanten, leveranciers, artikelen, resources en verkoop- en inkoopdocumenten. Boekingsgroepen besparen tijd en helpen fouten voorkomen bij het boeken van transacties. De transactiewaarden gaan naar de rekeningen die in de boekingsgroep zijn opgegeven voor die bepaalde entiteit. De enige voorwaarde is dat u een rekeningschema hebt. Zie [Het rekeningschema instellen](finance-setup-chart-accounts.md) voor meer informatie.  
 
@@ -29,7 +29,7 @@ Boekingsgroepen zijn verdeeld in drie categorieën:
 
 In de volgende secties worden de boekingsgroepen van elke categorie beschreven.  
 
-## <a name="general-posting-groups"></a>Algemene boekingsgroepen
+## Algemene boekingsgroepen
 
 De volgende tabel beschrijft de algemene boekingsgroepen.
 
@@ -39,7 +39,7 @@ De volgende tabel beschrijft de algemene boekingsgroepen.
 | Productboekingsgroepen |Wijs deze groep aan artikelen en resources toe om op te geven wat u verkoopt en wat u koopt. Stel deze boekingsgroepen in op de pagina **Algemene productboekingsgroepen**. Wanneer u dat doet, moet u bedenken hoeveel groepen u nodig hebt om verkoop onder te verdelen per product (artikelen en resources) en inkopen per artikel. Verdeel deze groepen bijvoorbeeld op basis van grondstoffen, detailhandel, resources, capaciteit, enzovoort. |
 | Boekingsgroepinstellingen |Combineer bedrijfs- en productboekingsgroepen en kies de rekeningen waarnaar u wilt boeken. Voor elke combinatie van bedrijfs- en productboekingsgroepen kunt u een set grootboekrekeningen toewijzen. U kunt bijvoorbeeld de verkoop van hetzelfde artikel naar verschillende grootboekrekeningen boeken omdat klanten aan verschillende bedrijfsboekingsgroepen zijn toegewezen. Stel deze configuraties in op de pagina **Boekingsgroepinstellingen**. |
 
-## <a name="specific-posting-groups"></a>Specifieke boekingsgroepen
+## Specifieke boekingsgroepen
 
 In de volgende tabel worden de boekingsgroepen beschreven die specifiek zijn voor soorten gegevens.
 
@@ -51,7 +51,7 @@ In de volgende tabel worden de boekingsgroepen beschreven die specifiek zijn voo
 | Bankboekingsgroepen |Definieer de grootboekposten waarnaar bankrekeningsposten worden geboekt. Hiermee kunnen bijvoorbeeld de processen om transacties te traceren en bankrekeningen te reconciliëren worden vereenvoudigd. Stel deze boekingsgroepen in op de pagina **Bankboekingsgroepen**. We raden aan dat deze grootboekrekeningen het veld **Direct boeken** hebben ingesteld op *Nee*. |
 | VA-boekingsgroep |Definieer rekeningen voor verschillende soorten onkosten en kosten, zoals aanschafkosten, gecumuleerde afschrijvingsbedragen, aanschafkosten bij BGS, gecumuleerde afschrijving bij BGS, winst bij BGS, verlies bij BGS, onderhoudskosten en afschrijvingskosten. Stel deze boekingsgroepen in op de pagina **VA-boekingsgroepen**. |
 
-### <a name="allow-substitute-customer-or-vendor-posting-groups-on-documents"></a>Boekingsgroepen voor vervangende klanten of leveranciers op documenten toestaan
+### Boekingsgroepen voor vervangende klanten of leveranciers op documenten toestaan
 
 U kunt mensen andere boekingsgroepen voor klanten en leveranciers laten kiezen dan de standaardgroepen wanneer ze met verkoop- of inkoopdocumenten en journaals werken.
 
@@ -63,7 +63,7 @@ Nadat u dit hebt ingesteld, kunt u kiezen uit de toegestane vervangende boekings
 
 Bij het vereffenen van bijvoorbeeld een factuur en betaling die zijn geboekt met verschillende boekingsgroepen voor klanten of leveranciers (verschillende grootboekrekeningen), boekt [!INCLUDE[prod_short](includes/prod_short.md)] de bedragen tussen de grootboekrekeningen om ze in evenwicht te brengen.
 
-## <a name="tax-posting-groups"></a>Btw-boekingsgroepen
+## Btw-boekingsgroepen
 
 De volgende tabel beschrijft de algemene btw-gerelateerde boekingsgroepen.
 
@@ -75,7 +75,7 @@ De volgende tabel beschrijft de algemene btw-gerelateerde boekingsgroepen.
 
 Zie [Berekeningen en boekingsmethoden voor btw instellen](finance-setup-vat.md) als in uw land/regio belasting over de toegevoegde waarde (btw) wordt gehanteerd.  
 
-## <a name="example-of-linking-posting-groups"></a>Voorbeeld van het koppelen van boekingsgroepen
+## Voorbeeld van het koppelen van boekingsgroepen
 
 Hier volgt een scenario.  
 
@@ -98,11 +98,11 @@ Wanneer u een verkoopdocument maakt, wordt in de verkoopkoptekst de klantenkaart
 
 Uw instelling bepaalt wanneer de boeking plaatsvindt. Wanneer de boeking plaatsvindt, hangt bijvoorbeeld af van het tijdstip waarop u periodiek activiteiten uitvoert, zoals het boeken van voorraadkosten of het aanpassen van kostenposten.
 
-## <a name="copy-posting-setup-lines"></a>Boekingsinstellingsregels kopiëren
+## Boekingsinstellingsregels kopiëren
 
 Hoe meer product- en bedrijfsboekingsgroepen u hebt, des te meer regels u op de pagina **Boekingsgroepinstellingen** ziet. Hoewel er veel verschillende combinaties van bedrijfs- en productboekingsgroepen kunnen zijn, wordt door verschillende combinaties mogelijk toch naar dezelfde grootboekrekeningen geboekt. Om de hoeveelheid handmatige invoer te beperken, kopieert u de grootboekrekeningen van een bestaande regel op de pagina **Boekingsgroepinstellingen**.
 
-## <a name="set-up-posting-groups-on-the-go"></a>Boekingsgroepen onderweg instellen
+## Boekingsgroepen onderweg instellen
 
 Om gebruikers sneller aan de slag te krijgen, kunnen in [!INCLUDE[prod_short](includes/prod_short.md)] meldingen over ontbrekende grootboekrekeningen worden weergegeven in verschillende boekingsgroepinstellingen. Om deze meldingen te ontvangen, moet u ervoor zorgen dat de melding **Grootboekrekening ontbreekt in boekingsgroep of instelling** is geselecteerd op de pagina **Mijn berichten** die u kunt openen via het veld **Wijzigen wanneer ik berichten ontvang** op de pagina **Mijn instellingen**.  
 
@@ -115,7 +115,7 @@ Op deze manier krijgt u een bericht wanneer u aan een document werkt dat gebruik
 
 Gebruik het veld **Geblokkeerd** op de pagina **Boekingsgroepinstellingen** om te voorkomen dat gebruikers per ongeluk een instelling gebruiken die niet langer relevant is voor nieuwe boekingen. 
 
-## <a name="access-all-fields-and-accounts-when-you-set-up-a-posting-group"></a>Krijg toegang tot alle velden en rekeningen wanneer u een boekingsgroep instelt
+## Krijg toegang tot alle velden en rekeningen wanneer u een boekingsgroep instelt  
 
 Het kan ingewikkeld zijn om boekingsgroepen in te stellen. Omdat sommige typen rekeningen niet vaak worden gebruikt, worden deze in [!INCLUDE [prod_short](includes/prod_short.md)] niet weergegeven als kolommen op de regels. Om het kiezen van de juiste rekeningen iets eenvoudiger te maken, filtert [!INCLUDE [prod_short](includes/prod_short.md)] de rekeningen die u kunt kiezen bij het opzoeken van velden. 
 
@@ -127,7 +127,7 @@ Als u toegang wilt krijgen tot alle rekeningen op de regels en in de veldzoekopd
 > [!NOTE]
 > Het lijkt erop dat de schakelaar **Alle rekeningen weergeven** niet werkt op de pagina **Boekingsgroepinstellingen** . Dat komt doordat [!INCLUDE [prod_short](includes/prod_short.md)] alle rekeningen altijd als kolommen op de regels op die pagina weergeeft.
 
-## <a name="troubleshooting-posting-group-errors"></a>Problemen met boekingsgroepfouten
+## Problemen met boekingsgroepfouten
 
 Boekingsgroepen zijn een van de meer geavanceerde concepten om in te stellen in [!INCLUDE[prod_short](includes/prod_short.md)]. Als ze niet correct zijn ingesteld, kunnen er fouten optreden bij het boeken van documenten of journaalregels. Deze fouten worden bijvoorbeeld meestal veroorzaakt door een fout in de manier waarop grootboekrekeningen worden toegewezen of hoe boekingsgroepen worden gecombineerd.
 
@@ -136,7 +136,7 @@ Wanneer er iets mis is, geeft [!INCLUDE[prod_short](includes/prod_short.md)] de 
 > [!NOTE]
 > De hierboven beschreven foutafhandeling is niet beschikbaar voor artikel-, resource-, werknemers- en vaste-activajournalen, of voor grootboekrekeningen die zijn toegevoegd in lokale versies van boekingsgroepen.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Het grootboek en het rekeningschema](finance-general-ledger.md)  
 [Financiën instellen](finance-setup-finance.md)  
