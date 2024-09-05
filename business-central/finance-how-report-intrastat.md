@@ -62,7 +62,7 @@ Nadat u het **Intrastat-rapport** hebt ingevuld, kunt u de actie **Controlelijst
 
 Voer de **Controlelijst van Intrastat-rapport** uit om Intrastat-regels te controleren voordat deze naar de vereiste indeling worden geëxporteerd. De controle wordt uitgevoerd in het **Intrastat-rapport**.
 
-## <a name="recalculating-weight-or-supplementary-unit-of-measure"></a>Gewicht of aanvullende maateenheid herberekenen
+## <a name="recalculate-weight-or-supplementary-unit-of-measure"></a>Gewicht of aanvullende maateenheid herberekenen
 
 Als u de foutmelding *Totaalgewicht in Intrastat-rapportregel mag niet leeg zijn* hebt gekregen, komt dit waarschijnlijk doordat u het veld **Nettogewicht** voor de gebruikte bron, het artikel of het vaste activum niet hebt ingesteld. Zoek in dit geval naar de kaart van het artikel of het vaste activum en voeg de vereiste waarde toe. Daarna hoeft u alleen het **Intrastat-rapport** opnieuw te openen en deze stappen te volgen:
 

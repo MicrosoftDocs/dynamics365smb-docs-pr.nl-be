@@ -11,7 +11,7 @@ ms.date: 08/19/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Inzicht in WIP-methoden in projectmanagement
+# <a name="understanding-wip-methods-in-project-management"></a>Inzicht in WIP-methoden in projectmanagement
 
 Naarmate een project vordert, worden materialen, resources en overige zaken verbruikt en moeten hiervoor boekingen plaatsvinden op het project. Onderhanden werk (OHW) is een functie waarmee u de financiële waarde van projecten in het grootboek kunt schatten gedurende de projecten. In veel gevallen kunt u kosten voor een project boeken voordat u het project factureert. Als u alleen kosten boekt, is uw financiële overzicht onjuist.
 
@@ -29,7 +29,7 @@ Standaard ondersteunt [!INCLUDE[prod_short](includes/prod_short.md)] de volgende
 
 Exacte formules en grootboek-transacties worden gedefinieerd door de selectie in de velden  [**Erkende kosten**](#recognized-cost) en  [**Erkende verkopen**](#recognized-sales) .
 
-## Een OHW-methode voor een project maken
+## <a name="create-a-project-wip-method"></a>Een OHW-methode voor een project maken
 
 Maak een OHW-methode voor een project taken die voldoet aan de behoeften van uw organisatie en stel deze in als standaard.  
 
@@ -42,7 +42,7 @@ Maak een OHW-methode voor een project taken die voldoet aan de behoeften van uw 
 4. Om deze methode de standaardmethode te maken, kiest u de ![gloeilamp die de Vertel het me-functie opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") Pictogram, voer  **projecten instellen** in en kies vervolgens de gerelateerde koppelen.  
 5. Kies in het veld **Standaard OHW-methode** de methode uit de lijst.
 
-### Erkende kosten
+### <a name="recognized-cost"></a>Erkende kosten
 
 | Erkende kosten | Formule voor erkende kostenberekening | Grootboekposten |
 | --- | --- | ---------- |
@@ -59,7 +59,7 @@ Dt **Erkende kostenrekening** Cr **projectkosten toegepaste rekening**, bedrag: 
 > [!NOTE]
 > Afhankelijk van de selectie in het veld  **gebruikte WIP-boekingsmethode** kunnen de  **Rekening toegepaste artikelkosten**,  **Rekening toegepaste resourcekosten** of  **Rekening toegepaste grootboekkosten** worden gebruikt in plaats van de  **Rekening toegepaste projectkosten**. Zie  [projectboekingsgroepen](projects-how-setup-jobs.md#to-set-general-information-for-projects) voor meer informatie.
 
-### Erkende verkopen
+### <a name="recognized-sales"></a>Erkende verkopen
 
 | Verantwoorde verkoop | Formule voor de berekening van erkende verkopen | Grootboekposten |
 | --- | --- | ---------- |
@@ -74,7 +74,7 @@ Wanneer de projectstatus wordt gewijzigd in Voltooid, draait de  **Bereken WIP**
 
 Dt **project Sales Applied Account** Cr **Recognized Sales Account**, bedrag: **Gefactureerd (Totale prijs)**
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Projectbeheer](projects-manage-projects.md)  
 [Financiën](finance.md)  

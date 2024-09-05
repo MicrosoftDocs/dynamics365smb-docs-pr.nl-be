@@ -12,7 +12,7 @@ ms.search.keywords: 'electronic document, Intrastat, trade, EU, European Union'
 ms.search.form: '308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 4810, 4811, 8451, 12202, 31077'
 ---
 
-# Intrastat-rapportage instellen
+# <a name="set-up-intrastat-reporting"></a>Intrastat-rapportage instellen
 
 Bedrijven uit landen in de Europese Unie (EU) moeten handel met bedrijven uit andere landen/regio's in de EU rapporteren. Bedrijven moeten het goederenverkeer elke maand doorgeven aan de autoriteiten in hun land/regio en de aangifte moet bij de belastingdienst worden ingediend. Intrastat is het systeem dat wordt gebruikt voor het verzamelen van statistische handelsgegevens over goederen binnen deze landen/regio's. Gebruik het Intrastat-rapport voor het voltooien van de periodieke Intrastat-rapportage, het verzamelen, registreren en rapporteren van de handel in goederen conform lokale wetgeving.
 
@@ -28,7 +28,7 @@ Intrastat-rapportage is gebaseerd op de basisregelgeving van de EU die van toepa
 >
 > Lees het artikel over installatie en gebruik van Intrastat van de vorige versie op [Intrastat instellen en rapporteren](finance-how-setup-report-intrastat-v20.md).
 
-## De nieuwe Intrastat-ervaring inschakelen
+## <a name="assisted-setup"></a>De nieuwe Intrastat-ervaring inschakelen
 
 In releasewave 2 van 2022 bevat [!INCLUDE[prod_short](includes/prod_short.md)] een opnieuw ontworpen Intrastat-ervaring die uitgebreide functies biedt. Als de nieuwe Intrastat-functionaliteit niet is ingeschakeld in uw omgeving, kan deze handmatig worden ingeschakeld door een beheerder op de pagina **Functiebeheer**.
 
@@ -45,11 +45,11 @@ In releasewave 2 van 2022 bevat [!INCLUDE[prod_short](includes/prod_short.md)] e
     > [!NOTE]
     > Afhankelijk van uw bedrijfslocatie is het voldoende om de eerder beschreven functie in te schakelen. Voor landen/regio's met specifieke functies voor Intrastat-rapportage moet u naast de kernextensie ook de land/regio-specifieke Intrastat-app inschakelen.
 
-## Intrastat-configuratie
+## <a name="intrastat-configuration"></a>Intrastat-configuratie
 
 Voordat u Intrastat-rapporten kunt gebruiken, moeten er verschillende configuraties worden geïnstalleerd.
 
-### Intrastat-rapportage-instellingen
+### <a name="intrastat-reporting-setup"></a>Intrastat-rapportage-instellingen
 
 Gebruik de pagina **Intrastat-rapportage-instellingen** om het standaardgedrag in te schakelen en in te stellen voor Intrastat-rapportage. U kunt opgeven of u Intrastat moet rapporteren vanuit verzendingen, ontvangsten (aankomsten) of beide, afhankelijk van drempelwaarden die door uw lokale verordeningen zijn ingesteld. U kunt ook standaardtransactiesoorten instellen voor de normale en retourdocumenten, die worden gebruikt voor transactierapportage.
 
@@ -93,7 +93,7 @@ Volgen de stappen om Intrastat-rapportage in te stellen.
 
 6. Voer op het sneltabblad **Nummering** een waarde in het veld **Intrastat-nummers** in.
 
-### Een rapportagebestand instellen
+### <a name="set-up-a-reporting-file"></a>Een rapportagebestand instellen
 
 1. Selecteer het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Definities van gegevensuitwisseling** in en selecteer vervolgens de gerelateerde koppeling.
 2. Selecteer **Nieuw** en voer vervolgens indien nodig op het sneltabblad **Algemeen** de definitie van gegevensuitwisseling, het type gegevensbestand, het kolomscheidingsteken, gerelateerde codeunits, XMLport en andere velden in.
@@ -116,7 +116,7 @@ Volgen de stappen om Intrastat-rapportage in te stellen.
 > [!NOTE]
 > [!INCLUDE[prod_long](includes/prod_long.md)] wordt geleverd met de vooraf geconfigureerde definitie van gegevensuitwisseling voor Intrastat voor alle gelokaliseerde landen/regio's. Voor meer informatie over het maken van een nieuwe definitie van gegevensuitwisseling raadpleegt u [Definities van gegevensuitwisseling instellen](across-how-to-set-up-data-exchange-definitions.md).
 
-### Stel verplichte velden in met de checklist voor Intrastat-rapporten
+### <a name="set-mandatory-fields-with-the-intrastat-report-checklist"></a>Stel verplichte velden in met de checklist voor Intrastat-rapporten
 
 In sommige landen/regio's vereist de belastingdienst dat Intrastat-rapporten bijvoorbeeld de verzendmethode bevatten voor inkopen of andere waarden wanneer de verkoop boven een bepaalde drempel ligt.
 
@@ -140,7 +140,7 @@ Om verplichte velden of waarden op de pagina  **Intrastat-rapport** in te stelle
 >
 > Wees voorzichtig bij het instellen van validatieregels, omdat deze tussen landen/regio's kunnen verschillen.
 
-## Aangepaste codeunits gebruiken in Intrastat-rapporten
+## <a name="use-custom-codeunits-in-intrastat-reporting"></a>Aangepaste codeunits gebruiken in Intrastat-rapporten
 
 Als u de werking van Intrastat wilt wijzigen en de standaardconfiguratie niet voldoende is, kunt u het systeem aanpassen door de standaardfuncties uit te breiden. Als u het Intrastat-gedrag verder moet wijzigen, kunt u uw eigen codeunits ontwikkelen. Wanneer u codeunits maakt, moet u aanvullende wijzigingen aanbrengen om deze te gebruiken. Om het systeem te configureren om uw eigen objecten te gebruiken, volgt u de stappen volgen.
 
@@ -156,7 +156,7 @@ Als u de werking van Intrastat wilt wijzigen en de standaardconfiguratie niet vo
 > [!IMPORTANT]
 > Deze regel moet leeg zijn als u de standaard codeunits gebruikt. U moet alleen een regel maken en configureren als u aangepaste codeunits heeft ontwikkeld.
 
-## Overige Intrastat-configuraties
+## <a name="other-intrastat-configurations"></a>Overige Intrastat-configuraties
 
 Klantenkaarten en leverancierskaarten bevatten het veld **Intrastat-partnertype**, dat dezelfde optiewaarden heeft als het veld **Partnertype**: 
 
@@ -194,21 +194,21 @@ Eventueel kunt u ook het volgende instellen:
 * **Invoer-/uitvoerhavens**: geef op naar welke locaties u artikelen wilt verzenden of wilt ontvangen naar of uit andere landen/regio's. Een luchthaven is een voorbeeld van een invoer-/uitvoerhaven. U voert invoer- of uitvoerhavens in op verkoop- of inkoopdocumenten op het sneltabblad **Buitenlandse handel**. Deze gegevens worden gekopieerd van de artikelposten wanneer u het Intrastat-dagboek maakt.
 * **Aanvullende maateenheid**: de hoeveelheid goederen voor Intrastat-rapportage kan zowel nettogewicht (in kilogram) als een aanvullende eenheid zijn. Als er aanvullende eenheden nodig zijn, moet u deze configureren voor artikelen en vaste activa.
 
-#### Transportmethoden instellen
+#### <a name="set-up-transport-methods"></a>Transportmethoden instellen
 
 1. Selecteer het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Transportmethodes** in en selecteer vervolgens de gerelateerde koppeling.
 2. Vul indien nodig de veldinformatie in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-#### Transactieaardcodes instellen
+#### <a name="set-up-transaction-nature-codes"></a>Transactieaardcodes instellen
 
 1. selecteer het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Transactietypen** in en selecteer vervolgens de gerelateerde koppeling.
 2. Vul indien nodig de veldinformatie in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-### Andere gerelateerde configuraties
+### <a name="other-related-configurations"></a>Andere gerelateerde configuraties
 
 Voordat u de Intrastat-rapportagefunctie gebruikt, moet u velden definiëren op de artikel-, VA-, klant- en leverancierskaart.
 
-#### Artikelkaarten
+#### <a name="item-cards"></a>Artikelkaarten
 
 Volgen de stappen om alle benodigde informatie met betrekking tot Intrastat in te stellen voor artikel Kaarten.
 
@@ -224,7 +224,7 @@ Volgen de stappen om alle benodigde informatie met betrekking tot Intrastat in t
 > [!NOTE]
 > Wanneer u het tariefnummer toevoegt aan een maateenheid die voor het artikel is gedefinieerd, vult [!INCLUDE [prod_short](includes/prod_short.md)] automatisch het veld **Aanvullende maateenheid** in, gebaseerd op de configuratie van het tariefnummer. U kunt de waarde van het veld **Aanvullende maateenheid** naar behoefte wijzigen.
 
-#### Vaste activa instellen voor Intrastat
+#### <a name="set-up-fixed-assets-for-intrastat"></a>Vaste activa instellen voor Intrastat
 
 1. Selecteer het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vaste activa** in en selecteer vervolgens de gerelateerde koppeling.
 2. Selecteer het vaste activum dat u wilt configureren.
@@ -233,7 +233,7 @@ Volgen de stappen om alle benodigde informatie met betrekking tot Intrastat in t
 > [!NOTE]
 > U kunt verschillende maateenheden gebruiken als aanvullende maateenheid. Maar welke **Code van eenheid** u ook kiest, de **Hoeveelheid** ervan in Intrastat-rapporten is altijd 1.
 
-#### Leveranciers instellen voor Intrastat
+#### <a name="set-up-vendors-for-intrastat"></a>Leveranciers instellen voor Intrastat
 
 Voordat u een leverancier kunt opnemen in Intrastat-rapportage, voert u hun informatie in op de pagina **Leverancierskaart**. Geef bijvoorbeeld een **Land/regio-code** en een **Btw-registratienummer** op.
 
@@ -242,7 +242,7 @@ Voordat u een leverancier kunt opnemen in Intrastat-rapportage, voert u hun info
 3. Stel op het sneltabblad **Intrastat** in de velden **Standaardtransactietype**, **Standaardtransactietype - Retouren** en **Standaardtransportmethode** een standaardwaarde voor elk veld in.
 4. Geef op het sneltabblad **Betalingen** in het veld **Intrastat-partnertype** op of de leverancier een persoon of een bedrijf is.
 
-#### Klanten instellen voor Intrastat
+#### <a name="set-up-customers-for-intrastat"></a>Klanten instellen voor Intrastat
 
 Voordat u een klant kunt opnemen in Intrastat-rapportage, voert u hun informatie in op de pagina **Klantenkaart**. U moet bijvoorbeeld een **Land/regio-code** en een **Btw-registratienummer** opgeven.
 
@@ -251,22 +251,22 @@ Voordat u een klant kunt opnemen in Intrastat-rapportage, voert u hun informatie
 3. Stel op het sneltabblad **Intrastat** in de velden **Standaardtransactietype**, **Standaardtransactietype - Retouren** en **Standaardtransportmethode** de standaardwaarde voor elk veld in.
 4. Geef op het sneltabblad **Betalingen** in het veld **Intrastat-partnertype** op of de leverancier een persoon of een bedrijf is.
 
-#### Artikelen en vaste activa uitsluiten van Intrastat-rapportage
+#### <a name="exclude-items-and-fixed-assets-from-intrastat-reporting"></a>Artikelen en vaste activa uitsluiten van Intrastat-rapportage
 
 Als er een reden is om een specifiek artikel of vast activum uit te sluiten van Intrastat-rapportage, wijzigt u de optie op de bijbehorende kaart en schakelt u het veld **Uitsluiten van Intrastat-rapport** in. Gebruik dit veld op de kaart **Artikelsjabloon** om meer artikelen aan te maken die zijn uitgesloten van de Intrastat-rapportage. 
 
-##### Uitsluiten van een artikel voor Intrastat-rapportage
+##### <a name="exclude-an-item-from-intrastat-reporting"></a>Uitsluiten van een artikel voor Intrastat-rapportage
 
 1. Selecteer het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en selecteer vervolgens de gerelateerde koppeling.
 2. Selecteer het artikel dat u wilt configureren en schakel vervolgens op het sneltabblad **Kosten en boeking** het selectievakje **Uitsluiten van Intrastat-rapport** in.
 
-##### Een vast activum uitsluiten van Intrastat-rapportage
+##### <a name="exclude-a-fixed-asset-from-intrastat-reporting"></a>Een vast activum uitsluiten van Intrastat-rapportage
 
 1. Selecteer het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vaste activa** in en selecteer vervolgens de gerelateerde koppeling.
 2. Selecteer het vaste activum dat u wilt configureren.
 3. Selecteer op het sneltabblad **Intrastat** het selectievakje **Uitsluiten van Intrastat-rapport**.
 
-#### Tariefcodes instellen
+#### <a name="set-up-tariff-numbers"></a>Tariefcodes instellen
 
 1. Selecteer het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Tariefcodes** in en selecteer vervolgens de gerelateerde koppeling  
 2. Vul op de pagina **Tariefcodes** de velden in zoals wordt beschreven in de volgende tabel.
@@ -284,19 +284,19 @@ Als er een reden is om een specifiek artikel of vast activum uit te sluiten van 
 >
 > Wanneer u een tariefnummer toevoegt dat een gedefinieerde **Maateenheid** aan het artikel toevoegt, voegt [!INCLUDE [prod_short](includes/prod_short.md)] automatisch een nieuwe maateenheid toe aan de waarde **Artikeleenheden instellen** voor het artikel. Het **Aantal in eenheid** is gebaseerd op het veld **Afrondingsprecisie voor aantal** .
 
-## Automatiseer het proces van het erven van het land van herkomst voor artikelen 
+## <a name="automate-the-process-of-inheriting-the-country-of-origin-for-items"></a>Automatiseer het proces van het erven van het land van herkomst voor artikelen
 
 > [!NOTE]
 > Als de gebruiker de overerving van het  *Land van herkomst* van het inkoopdocument naar de verkoopfactuur wil gebruiken, is dit alleen mogelijk met behulp van  *artikeltraceringsregels*. Anders gebruikt het systeem de standaardwaarde niet.
 
-### Hoe in te stellen  
+### <a name="how-to-set-up"></a>Hoe in te stellen
 
-#### Intrastat-rapport 
+#### <a name="intrastat-report"></a>Intrastat-rapport
 
 1. Selecteer het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Intrastat-rapportage-instellingen** in en selecteer vervolgens de gerelateerde koppeling. 
 2. Selecteer in het veld  **Intrastat-rapportinstellingen** in het veld  **Standaardlandcode voor artikeltracering** de optie  **Inkoopkopteksten** .  
 
-#### Artikel  
+#### <a name="item"></a>Artikel
 
 Om deze geautomatiseerde functie te kunnen gebruiken, moet u artikeltracering voor deze artikelen inschakelen. Dit kan serienummers, partijen of beide zijn. Om itemtracking voor het item in te schakelen, voert u de stappen uit met volgen.
 
@@ -306,7 +306,7 @@ Om deze geautomatiseerde functie te kunnen gebruiken, moet u artikeltracering vo
 4. Wanneer u dit selecteert, kunt u zien hoe de itemtrackingcodes zijn geconfigureerd.
 5. Selecteer degene die je wilt en selecteer **OK**.
 
-### Gebruik het artikel in een van de aankoopdocumenten 
+### <a name="use-the-item-in-any-of-the-purchase-documents"></a>Gebruik het artikel in een van de aankoopdocumenten
 
 Zodra u het artikel selecteert waarvoor een **artikeltrackingcode** is ingeschakeld in de aankoopregel, moet u de stappen volgen uitvoeren.  
 
@@ -325,14 +325,14 @@ Wanneer u met  **Verkoopfactuur** werkt, [!INCLUDE[prod_short](includes/prod_sho
 
 Deze **land-/regiocodes** worden automatisch ingevuld in het veld **land-/regiocode van herkomst** in de **Intrastat-rapportregels**.  
 
-## Land/regio-specifieke Intrastat-instellingen invoeren
+## <a name="enter-countryregion-intrastat-settings"></a>Land/regio-specifieke Intrastat-instellingen invoeren
 
 De Intrastat-vereisten zijn vergelijkbaar in alle lidstaten van de EU, hoewel er belangrijke uitzonderingen zijn. In theorie zouden de regels in alle lidstaten uniform moeten worden toegepast. Er zijn echter verschillen in implementatie omdat sommige lidstaten richtlijnen geven over hoe de algemene beginselen moeten worden toegepast in specifieke situaties (bijvoorbeeld handelsmonsters en retournering van goederen). Deze richtlijnen kunnen verschillende resultaten opleveren voor verschillende situaties. Daardoor kan de informatie die landen/regio's moeten invullen verschillen, evenals de bestandsindeling die ze moeten gebruiken voor rapportage.
 
 > [!NOTE]
 > Als de gebruiker de **Lot No. Information kaart** of **Serie No. Information kaart** voor een specifiek lot of serienummer niet aanmaakt, gebruikt het systeem niet de **Land-/regiocode** uit de aankoopheader, maar gebruikt het systeem in plaats daarvan de **Land-/regiocode** uit het **Artikel** kaart.  
 
-### Oostenrijk
+### <a name="austria"></a>Oostenrijk
 
 Intrastat-rapportage in Oostenrijk vereist twee verschillende bestanden voor ontvangsten en verzendingen. Om te controleren of uw configuratie correct is, voert u de stappen uit met volgen.
 
@@ -344,11 +344,11 @@ Het proces van werken met Intrastat-rapporten is hetzelfde als de globale functi
 
 <!-- ### Belgium-->
 
-### Tsjechische Republiek
+### <a name="czech-republic"></a>Tsjechische Republiek
 
 De nieuwe Intrastat-rapportervaring voor Tsjechië is beschikbaar in releasewave 1 van 2023. In de tussentijd kunt u de functie **Intrastat-dagboek** blijven gebruiken.
 
-### Finland
+### <a name="finland"></a>Finland
 
 In Finland zijn er een paar extra stappen om Intrastat in te stellen. Intrastat-rapportage in Finland vereist twee verschillende bestanden voor ontvangsten en verzendingen. U zult ook zien dat er twee afzonderlijke **Data Exch. Def. Code** waarden zijn geconfigureerd.
 
@@ -366,13 +366,13 @@ Het proces van werken met Intrastat-rapporten is hetzelfde als de globale functi
 
 <!-- ### Germany-->
 
-### Italië
+### <a name="italy"></a>Italië
 
 De nieuwe Intrastat-rapportervaring voor Italië is beschikbaar vanaf februari 2023. In de tussentijd kunt u de functie **Intrastat-dagboek** blijven gebruiken.
 
 <!-- ### France-->
 
-### Zweden
+### <a name="sweden"></a>Zweden
 
 Intrastat-rapportage in Zweden vereist twee verschillende bestanden voor ontvangsten en verzendingen. Om te controleren of uw configuratie correct is, voert u de stappen uit met volgen.
 
@@ -383,7 +383,7 @@ Het proces van werken met Intrastat-rapporten is hetzelfde als in de globale fun
 
 <!-- ### United Kingdom-->
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Intrasta-rapporten in Business Central](finance-how-report-intrastat.md)  
 [Financieel beheer](finance.md)  

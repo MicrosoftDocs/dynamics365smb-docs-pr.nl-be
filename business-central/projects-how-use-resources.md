@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ms.reviewer: bholtorf
 ---
-# Resources gebruiken voor projecten
+# <a name="use-resources-for-projects"></a>Resources gebruiken voor projecten
 
 U legt het gebruik van resources vast in het projectdagboek om kosten, prijzen en de werksoorten bij te houden die zijn gekoppeld aan projecten. Zie voor meer informatie [Gebruik vastleggen voor projecten](projects-how-record-job-usage.md).
 
@@ -20,11 +20,11 @@ U legt het gebruik van resources vast in het projectdagboek om kosten, prijzen e
 
 U kunt ook het verbruik van een resource boeken in een resourcedagboek. Posten die in een resourcedagboek zijn geboekt, werken niet door in het grootboek.
 
-## Resources toewijzen aan projecten
+## <a name="to-assign-resources-to-projects"></a>Resources toewijzen aan projecten
 
 U wijst resources aan projecten toe door projectplanningsregels voor het project te maken. Zie voor meer informatie [Projecten maken](projects-how-create-jobs.md).
 
-## Resourceverbruik voor een project vastleggen
+## <a name="to-record-resource-usage-for-a-project"></a>Resourceverbruik voor een project vastleggen
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projectdagboeken** in en kies vervolgens de gerelateerde koppeling.
 2. Open een relevante projectdagboekbatch en vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -32,7 +32,7 @@ U wijst resources aan projecten toe door projectplanningsregels voor het project
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Projectbeheer](projects-manage-projects.md)  
 [Financiën](finance.md)  

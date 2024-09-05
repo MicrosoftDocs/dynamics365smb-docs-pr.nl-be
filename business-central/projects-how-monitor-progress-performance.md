@@ -12,7 +12,7 @@ ms.search.form: '89, 92, 1010'
 ms.service: dynamics-365-business-central
 ---
 
-# Projectvoortgang en prestaties bewaken
+# <a name="monitor-project-progress-and-performance"></a>Projectvoortgang en prestaties bewaken
 
 Met de functie Onderhanden werk (OHW) kunt u de financiële waarde van lopende projecten in het grootboek schatten.
 
@@ -36,7 +36,7 @@ Als u het resultaat met een andere methode wilt bekijken, wijzigt u de methode e
 4. Om van deze nieuwe methode de standaard te maken, kiest u het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), Pictogram, ga naar  **projectinstellingen** en kies de gerelateerde koppelen.  
 5. Kies in het veld **Standaard OHW-methode** de methode uit de lijst.
 
-## Een OHW-methode voor een project definiëren
+## <a name="define-a-wip-method-for-a-project"></a>Een OHW-methode voor een project definiëren
 
 Wanneer u een nieuw project maakt, moet u opgeven welke OHW-methode voor het project van toepassing is. In sommige gevallen is de OHW-methode voor een project al als standaard ingesteld.
 
@@ -44,7 +44,7 @@ Wanneer u een nieuw project maakt, moet u opgeven welke OHW-methode voor het pro
 2. Kies de actie **Nieuw**. Zie voor meer informatie [Projecten maken](projects-how-create-jobs.md).  
 3. Selecteer op de pagina  **project kaart**  in het veld  **WIP-methode** op het sneltabblad  **Boeking** een WIP-methode uit de lijst. Als er een standaardmethode is gedefinieerd, kunt u indien nodig een andere optie selecteren.  
 
-### Een OHW-methode voor een project definiëren
+### <a name="define-a-wip-method-for-a-project-task"></a>Een OHW-methode voor een project definiëren
 
 U kunt een WIP-methode voor een project taak definiëren, projecttaken uitsluiten van de WIP-berekening of taken groeperen die samen moeten worden berekend.
 
@@ -87,7 +87,7 @@ Je merkt het volgende:
 * Voor *1000* tot en met *1299* wordt WIP apart berekend voor deze groep projecttaken. Houd er echter rekening mee dat twee van de taken, 1010 en 1110, zijn uitgesloten van de WIP-berekening omdat hun projecttype taak  **Posting** is.
 * Voor *1300* t/m *1399* wordt WIP apart berekend voor deze groep projecttaken.
 
-## OHW berekenen
+## <a name="calculate-wip"></a>OHW berekenen
 
 U kunt het WIP-bedrag dat u naar de balansrekeningen voor de rapportage aan het einde van de periode wilt boeken, bepalen met behulp van de batchtaak  **project Calculate WIP** .  
 
@@ -99,7 +99,7 @@ U kunt het WIP-bedrag dat u naar de balansrekeningen voor de rapportage aan het 
 > [!NOTE]  
 > De batchtaak berekent alleen de WIP en plaatst deze niet in grootboek. Om WIP te boeken, voert u de batchtaak  **WIP naar G/L boeken** uit nadat u de WIP hebt berekend. Zie voor meer informatie de volgende procedure.
 
-### Waarschuwingen bekijken
+### <a name="review-warnings"></a>Waarschuwingen bekijken
 
 Als uw WIP-berekening resulteert in het bericht  *WIP is berekend met waarschuwingen*, wilt u de waarschuwingen mogelijk nog eens bekijken.
 
@@ -107,7 +107,7 @@ Als uw WIP-berekening resulteert in het bericht  *WIP is berekend met waarschuwi
 2. Selecteer het project waarvoor u de waarschuwingen wilt bekijken. De schakelaar  **WIP-waarschuwingen** is ingeschakeld voor projecten met WIP-waarschuwingen.
 3. Kies de actie **Waarschuwing weergeven** .
 
-### WIP-items verwijderen
+### <a name="delete-wip-entries"></a>WIP-items verwijderen
 
 Als u verschillende WIP-methoden wilt proberen, krijgt u mogelijk de foutmelding  *Het project taak kan niet worden gewijzigd omdat het project gekoppelde WIP-projectvermeldingen heeft* . Om de WIP-methode te kunnen controleren, verwijdert u bestaande WIP-vermeldingen.
 
@@ -115,7 +115,7 @@ Als u verschillende WIP-methoden wilt proberen, krijgt u mogelijk de foutmelding
 2. Selecteer het project waarvan u de WIP-vermeldingen wilt verwijderen.
 3. Kies de actie **WIP-items verwijderen** .
 
-## OHW boeken
+## <a name="post-wip"></a>OHW boeken
 
 Wanneer u WIP berekent, kunt u deze boeken op de balansrekeningen voor de rapportage aan het einde van de periode. Gebruik de batchtaak  **projectboeking WIP naar G/L** .
 
@@ -123,7 +123,7 @@ Wanneer u WIP berekent, kunt u deze boeken op de balansrekeningen voor de rappor
 2. Vul op de pagina **Project-OHW naar GB boeken** indien nodig de velden in.  
 3. Kies de knop **Ok**.
 
-## Projectvoltooiingsposten berekenen en boeken
+## <a name="calculate-and-post-project-completion-entries"></a>Projectvoltooiingsposten berekenen en boeken
 
 Nadat u alle activiteiten voor een project hebt voltooid, inclusief het boeken van gebruik en facturering, moet u de status van het project bijwerken naar  **Voltooid**. Vervolgens moet u alle WIP die naar grootboek is gepost, ongedaan maken.
 
@@ -140,7 +140,7 @@ Nadat u alle activiteiten voor een project hebt voltooid, inclusief het boeken v
 
      Voor de project WIP grootboek-vermeldingen die zijn gemaakt door het uitvoeren van het batchproject, is het selectievakje  **project voltooid** aangevinkt om aan te geven dat het voltooiingsvermeldingen zijn.
 
-## Projectposten weergeven
+## <a name="view-project-ledger-entries"></a>Projectposten weergeven
 
 Alle posten met betrekking tot een project worden in projectjournalen opgeslagen en sequentieel genummerd, te beginnen met 1. Vanuit het projectjournaal hebt u een overzicht van alle projectposten.
 
@@ -149,7 +149,7 @@ Alle posten met betrekking tot een project worden in projectjournalen opgeslagen
 
 Op de pagina  **projectboekposten**  kunt u de posten bekijken die aan een project zijn gekoppeld.  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Walkthrough - Berekenen van het werk in uitvoering voor een project](walkthrough-calculating-work-in-process-for-a-job.md)    
 [Projecten beheren](projects-manage-projects.md)    

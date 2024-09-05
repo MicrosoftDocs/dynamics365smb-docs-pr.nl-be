@@ -11,7 +11,7 @@ ms.date: 08/19/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Resources instellen voor projecten
+# <a name="set-up-resources-for-projects"></a>Resources instellen voor projecten
 
 Om resourceactiviteiten correct te beheren, moet u resources en de bijbehorende kosten en prijzen instellen. De aan projecten gerelateerde prijzen, kortingen en kostenfactorregels worden ingesteld op de projectkaart. U kunt de kosten en prijzen opgeven voor afzonderlijke resources, resourcegroepen of alle beschikbare resources van het bedrijf.
 
@@ -22,7 +22,7 @@ Bij het maken van de resource geeft u het standaardbedrag per uur op. Als u bijv
 > [!NOTE]
 > U kunt geen externe bronnen voor een specifiek project aanschaffen. Wij raden u aan om in plaats daarvan items van het type Service te gebruiken.
 
-## Een resource instellen
+## <a name="to-set-up-a-resource"></a>Een resource instellen
 
 Maak een kaart per resource die u wilt gebruiken in projecten.
 
@@ -30,7 +30,7 @@ Maak een kaart per resource die u wilt gebruiken in projecten.
 2. Kies de actie **Nieuw**.
 3. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## Een gebruikersgroep instellen
+## <a name="to-set-up-a-resource-group"></a>Een gebruikersgroep instellen
 
 U kunt meerdere resources in één resourcegroep combineren. De capaciteit en budgetten van individuele resources worden bij elkaar opgeteld en vormen de capaciteit en het budget voor de resourcegroep. Het is ook mogelijk om capaciteit op te geven voor de resourcegroepen die los staat van de opgetelde waarden, of een aanvulling hierop vormt.
 
@@ -38,7 +38,7 @@ U kunt meerdere resources in één resourcegroep combineren. De capaciteit en bu
 2. Kies de actie **Nieuw**.
 3. Vul indien nodig de velden in.
 
-## Capaciteit voor een resource instellen
+## <a name="to-set-capacity-for-a-resource"></a>Capaciteit voor een resource instellen
 
 Om te berekenen hoeveel tijd een resource aan projecten kan besteden moet de capaciteit ervan eerst worden ingesteld als beschikbare tijd per periode op de werkagenda. Deze instelling wordt gebruikt als u projectplanningsregels invult die de resource bevatten. Zie voor meer informatie [Projecten maken](projects-how-create-jobs.md).
 
@@ -51,7 +51,7 @@ Om te berekenen hoeveel tijd een resource aan projecten kan besteden moet de cap
 7. Kies de actie **Capaciteit bijwerken**. De pagina **Resourcecapaciteit** wordt bijgewerkt met de ingevoerde capaciteit.
 8. Sluit de pagina.
 
-## Alternatieve resourcekosten instellen
+## <a name="to-set-up-alternate-resource-costs"></a>Alternatieve resourcekosten instellen
 
 Naast de kosten die op de resourcekaart worden opgegeven, kunt u alternatieve kosten voor elke resource instellen. Als een werknemer bijvoorbeeld een hoger uurtarief heeft voor overwerk, kunt u een resourcekostprijs voor het overwerktarief instellen. De alternatieve kostprijs die u voor de resource instelt, vervangt de kostprijs op de resourcekaart wanneer u de resource in het resourcedagboek gebruikt.
 
@@ -63,7 +63,7 @@ Naast de kosten die op de resourcekaart worden opgegeven, kunt u alternatieve ko
 > [!NOTE]
 > Als u resourcekosten wilt instellen die van toepassing zijn op alle resources en resourcegroepen, opent u de pagina  **Resourcekosten**  en vult u de velden in.
 
-## Alternatieve resourceprijzen instellen
+## <a name="to-set-up-alternate-resource-prices"></a>Alternatieve resourceprijzen instellen
 
 Naast de prijs die op de resourcekaart wordt opgegeven, kunt u alternatieve prijzen voor elke resource instellen. Deze alternatieve prijzen kunnen voorwaardelijk zijn. Ze kunnen afhankelijk zijn van of de resource met een bepaald project of werksoort wordt gebruikt.
 
@@ -72,7 +72,7 @@ Naast de prijs die op de resourcekaart wordt opgegeven, kunt u alternatieve prij
 3. Vul op de pagina **Resourceprijzen** indien nodig de velden op een regel in.
 4. Herhaal stap 3 voor elke alternatieve resourceprijs die u wilt instellen.
 
-## Resourceprijzen aanpassen
+## <a name="to-adjust-resource-prices"></a>Resourceprijzen aanpassen
 
 Als u kost- of verkoopprijzen wilt wijzigen voor een groot aantal resources, kunt u een batchverwerking gebruiken.  
 
@@ -82,7 +82,7 @@ Als u kost- of verkoopprijzen wilt wijzigen voor een groot aantal resources, kun
 > [!NOTE]  
 > Deze batchtaak maakt geen alternatieve kosten of prijzen voor resources aan en Aanpassen ook niet. Dit verandert alleen de inhoud van het veld op de resourcekaart voor het veld **Aan te passen prijs** dat u hebt geselecteerd in de batchtaak. De aanpassing wordt onmiddellijk van kracht voor bronnen. Controleer daarom uw aanpassingsfactoren voordat u de batchtaak uitvoert.
 
-## Suggesties voor wijzigingen van resourceprijzen krijgen op basis van bestaande alternatieve prijzen
+## <a name="to-get-resource-price-change-suggestions-based-on-existing-alternate-prices"></a>Suggesties voor wijzigingen van resourceprijzen krijgen op basis van bestaande alternatieve prijzen
 
 Als u al alternatieve bronprijzen voor bepaalde bronnen hebt ingesteld, kunt u een batchtaak gebruiken om meerdere alternatieve bronprijzen in te stellen.
 
@@ -91,7 +91,7 @@ Als u al alternatieve bronprijzen voor bepaalde bronnen hebt ingesteld, kunt u e
 3. Kies de knop **OK**.  
 4. Nadat de batchverwerking is voltooid, bevat de pagina **Resourceprijswijzigingen** de resultaten van de batchverwerking.
 
-## Resourceprijsvoorstellen ophalen op basis van standaardverkoopprijzen
+## <a name="to-get-resource-price-change-suggestions-based-on-standard-prices"></a>Resourceprijsvoorstellen ophalen op basis van standaardverkoopprijzen
 
 Als u meerdere alternatieve resourceprijzen wilt instellen op basis van de standaardverkoopprijzen op de resourcekaarten, kunt u een batchverwerking gebruiken.  
 
@@ -100,7 +100,7 @@ Als u meerdere alternatieve resourceprijzen wilt instellen op basis van de stand
 3. Kies de knop **Ok**.  
 4. Nadat de batchverwerking is voltooid, opent u de pagina **Resourceprijswijzigingen** om de resultaten van de batchverwerking te bekijken.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Projectbeheer instellen](projects-setup-projects.md)  
 [Projectbeheer](projects-manage-projects.md)  

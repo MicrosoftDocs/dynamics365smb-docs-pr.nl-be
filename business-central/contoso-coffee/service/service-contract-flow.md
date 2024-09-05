@@ -21,7 +21,7 @@ Deze procedure demonstreert verschillende kernprocessen:
 - De tijdpost voor de serviceorder voltooien
 - De contractserviceorder boeken en factureren
 
-## <a name="creation-of-service-items"></a>Serviceartikelen maken
+## <a name="create-service-items"></a>Serviceartikelen maken
 
 ### <a name="scenario"></a>Scenario
 
@@ -45,7 +45,7 @@ Susan, de orderverwerker, boekt een verkooporder waarin een artikel wordt verkoc
 
 - Er wordt een serviceartikel gemaakt voor klant 10000
 
-## <a name="invoicing-a-service-contract"></a>Een servicecontract factureren
+## <a name="invoice-a-service-contract"></a>Een servicecontract factureren
 
 ### <a name="scenario-1"></a>Scenario
 

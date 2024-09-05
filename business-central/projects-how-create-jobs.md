@@ -11,7 +11,7 @@ ms.date: 08/19/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Projecten maken
+# <a name="create-projects"></a>Projecten maken
 
 Wanneer u een nieuw project start, moet u een projectkaart maken met geïntegreerde projecttaken en projectplanningsregels, die uit twee lagen wordt gestructureerd.  
 
@@ -24,7 +24,7 @@ Dankzij de laagstructuur kunt u het project in kleinere taken onderverdelen en d
 > [!TIP]
 > Kies de actie **Nieuw project** in het rolcentrum **Projectmanager** om een begeleide instelling te starten die u begeleidt bij de stappen voor het maken van een project met geïntegreerde taken en planningsregels. In de volgende procedure wordt beschreven hoe u handmatig de stappen uitvoert. <!-- For an example of how to create a project manually, go to [Video: How to create a project in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw).-->
 
-## Een projectkaart maken
+## <a name="to-create-a-project-card"></a>Een projectkaart maken
 
 U maakt een projectkaart en maakt vervolgens projecttaakregels en projectplanningsregels hiervoor.
 
@@ -46,7 +46,7 @@ Markeer optioneel acties op het project als geblokkeerd met behulp van het veld 
 |Boeking    |U kunt wel met planningsregels werken, maar het project kan niet worden geboekt. U kunt geen gebruik of verkoop voor het project boeken.|
 |Alle  |Alle acties zijn geblokkeerd.|
 
-## Taken maken voor een project
+## <a name="to-create-tasks-for-a-project"></a>Taken maken voor een project
 
 Een essentieel onderdeel bij het maken van een nieuw project is dat de verschillende taken worden opgegeven die bij het project horen. U geeft taken op door één regel per taak op te geven op het sneltabblad **Taken** op de pagina **Projectkaart**. Elk project moet minimaal één taak hebben.
 
@@ -57,7 +57,7 @@ Een essentieel onderdeel bij het maken van een nieuw project is dat de verschill
 5. Herhaal stap 3 en 4 voor alle taken die u voor het project nodig hebt.
 6. Als u de projecttaken wilt opgeven met informatie over andere projecttaken, kiest u de actie **Projecttaken kopiëren vanuit**, vult u de benodigde velden in en kiest u de knop **OK**.
 
-## Meerdere klanten factureren voor projecttaken
+## <a name="invoice-one-or-more-customers-for-project-tasks"></a>Meerdere klanten factureren voor projecttaken
 
 Soms wijkt de partij die een service ontvangt, af van de partij die de rekening betaalt. Soms moet u ook meerdere klanten factureren voor taken in het project. Gebruik op de pagina **Projectkaart** het veld **Factureringsmethode voor taken** om op te geven of u één klant factureert, of meerdere klanten.
 
@@ -69,7 +69,7 @@ Als u meerdere klanten factureert, kunt u voor elke taak in het project de klant
 * Voeg informatie over externe referenties toe om de communicatie over het project te vereenvoudigen.
 * Overschrijf de standaard financiële voorwaarden van het project.
 
-## Geef een standaardlocatie op voor projectartikelen
+## <a name="specify-a-default-location-for-project-items"></a>Geef een standaardlocatie op voor projectartikelen
 
 U kunt tijd besparen bij het invoeren van gegevens door een standaardlocatie en opslaglocatie voor projecten op te geven op de  pagina **Projectkaart**. Wanneer u projecttaken, projectplanningsregels en projectdagboekregels voor het project aanmaakt, worden de standaardlocatie en de opslaglocatie automatisch toegewezen. U kunt echter indien nodig de locatiecode en de opslaglocatie voor taken en regels wijzigen.
 
@@ -83,7 +83,7 @@ Er zijn een paar dingen die u moet weten over het gebruik van standaardlocaties:
 * Voor projectplanningsregels is de **Locatiecode** gebaseerd op de waarde die is geselecteerd op de projectplanningsregel wanneer u een artikel selecteert. Als er geen bin code is gedefinieerd voor de projecttaak, wordt de opslaglocatie uit de standaard inhoud geselecteerd. U kunt de beide waarden handmatig wijzigen.
 * Voor projectjournaalregels is de **Locatiecode** gebaseerd op de waarde die is geselecteerd op de projectjournaalregel wanneer u een artikel selecteert. Als er geen bin code is gedefinieerd voor de projecttaak, wordt de opslaglocatie uit de standaard inhoud geselecteerd. U kunt de beide waarden handmatig wijzigen.
 
-## Planningsregels voor een project maken
+## <a name="to-create-planning-lines-for-a-project"></a>Planningsregels voor een project maken
 
 U kunt de nieuwe projecttaken op projectplanningsregels verfijnen. Een planningsregel kan worden gebruikt voor het vastleggen van de gegevens die u voor een project wilt bijhouden. U kunt bijvoorbeeld de resources bijhouden die voor het project nodig zijn, of de items die nodig zijn. U heeft bijvoorbeeld een taak om een klant een project te laten goedkeuren. Die taak kan vervolgens worden gekoppeld aan planningsregels voor artikelen, zoals bijeenkomst met de klant en het toewijzen van een resource.  
 
@@ -104,7 +104,7 @@ Een projectplanningsregel kan van de volgende soorten zijn.
 4. Vul op de pagina **Projectplanningsregels** op een nieuwe regel de benodigde velden in.
 5. Herhaal stap 3 en 4 voor alle planningsregels die u voor de projecttaak nodig hebt.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Projectbeheer](projects-manage-projects.md)  
 [Video: Hoe u een project maakt in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
