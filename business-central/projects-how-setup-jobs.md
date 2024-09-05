@@ -5,15 +5,15 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 02/22/2024
+ms.date: 08/19/2024
 ms.custom: bap-template
 ms.search.keywords: project management
 ms.search.form: '211, 463, 1012'
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-projects-prices-and-project-posting-groups"></a>Projecten, prijzen en projectboekingsgroepen instellen
+# Projecten, prijzen en projectboekingsgroepen instellen
 
-Als projectmanager kunt u projecten instellen die alle projecten definiëren die u beheert in [!INCLUDE[prod_short](includes/prod_short.md)]. Gebruik de pagina **Projectinstellingen** om te definiëren hoe u projectfuncties gaat gebruiken.
+Als projectmanager kunt u elk van de projecten die u beheert, instellen [!INCLUDE[prod_short](includes/prod_short.md)]. Gebruik de pagina **Projectinstellingen** om te definiëren hoe u projectfuncties gaat gebruiken.
 
 Geef voor elk project verschillende informatie op:
 
@@ -22,33 +22,15 @@ Geef voor elk project verschillende informatie op:
 * Projectgrootboekrekeningen
 * Projectboekingsgroepen (vereist)
 
-## <a name="to-set-general-information-for-projects"></a>Algemene gegevens voor projecten instellen
+## Algemene gegevens voor projecten instellen
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projectinstellingen** in en kies vervolgens de gerelateerde koppeling.
-2. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
-> Met de schakelaar **Gebruikslink standaard toepassen** op de pagina **Projectinstellingen** wordt aangegeven of projectposten standaard zijn gekoppeld aan projectplanningsregels. Schakel de schakelaar in om deze instelling toe te passen op alle nieuwe projecten. U kunt het bijhouden van het projectgebruik voor een specifiek project in- of uitschakelen door de schakelaar **Gebruikslink toepassen** op de pagina **Projectkaart** aan of uit te zetten.
+> Met de schakelaar **Gebruikslink standaard toepassen** op de pagina **Projectinstellingen** wordt aangegeven of projectposten standaard zijn gekoppeld aan projectplanningsregels. Schakel de schakelaar in om deze instelling toe te passen op alle nieuwe projecten. U kunt het bijhouden van het projectgebruik voor een specifiek project in- of uitschakelen door de schakelaar **Gebruikslink toepassen** op de pagina **Projectkaart** aan of uit te zetten. Met de schakelaar  **gebruiksgebruik koppelen toepassen** wordt ook de mogelijkheden voor magazijnafhandeling, planning, assemblage op bestelling, artikeltracering en reservering voor projecten geactiveerd.
 
-### <a name="specify-a-default-location-for-project-items"></a>Geef een standaardlocatie op voor projectartikelen
-
-U kunt tijd besparen bij het invoeren van gegevens door een standaardlocatie en opslaglocatie voor projecten op te geven op de  pagina **Projectkaart**. Wanneer u projecttaken, projectplanningsregels en projectdagboekregels voor het project aanmaakt, worden de standaardlocatie en de opslaglocatie automatisch toegewezen. U kunt echter indien nodig de locatiecode en de opslaglocatie voor taken en regels wijzigen.
-
-Als u een **Bin Code naar project** op de locatie definieert, wordt de opslaglocatie ingevuld wanneer u de locatiecode selecteert. Als uw magazijnstroom magazijnpicks vereist, kunt u ook andere opslaglocaties definiëren waaruit u artikelen wilt verbruiken.
-
-Deze velden zijn de standaardwaarden wanneer u projecttaken maakt. Bestaande projecttaken veranderen niet.
-
-Er zijn een paar dingen die u moet weten over het gebruik van standaardlocaties:
-
-* Als u voor projecttaken een **Bin Code naar project** op de locatie definieert, wordt de opslaglocatie toegewezen wanneer u de locatiecode selecteert. Als uw magazijnstroom magazijnpicks vereist, kunt u ook andere opslaglocaties definiëren waaruit u artikelen wilt verbruiken.
-* Voor projectplanningsregels is de **Locatiecode** gebaseerd op de waarde die is geselecteerd op de projectplanningsregel wanneer u een artikel selecteert. Als er geen bin code is gedefinieerd voor de projecttaak, wordt de opslaglocatie uit de standaard inhoud geselecteerd. U kunt de beide waarden handmatig wijzigen.
-* Voor projectjournaalregels is de **Locatiecode** gebaseerd op de waarde die is geselecteerd op de projectjournaalregel wanneer u een artikel selecteert. Als er geen bin code is gedefinieerd voor de projecttaak, wordt de opslaglocatie uit de standaard inhoud geselecteerd. U kunt de beide waarden handmatig wijzigen.
-
-### <a name="invoice-multiple-customers-for-project-tasks"></a>Meerdere klanten factureren voor projecttaken
-
-Wanneer bij projecten meerdere klanten betrokken zijn, kan het een uitdaging zijn om de juiste klanten voor de juiste taken te factureren. [!INCLUDE [prod_short](includes/prod_short.md)] maakt facturering minder complex doordat u op elke projecttaakregel de factuur- en orderklanten kunt specificeren, zodat u automatisch facturen voor de juiste klanten kunt genereren. Voor meer informatie over het factureren van meerdere klanten gaat u naar [Een of meer klanten factureren voor projecttaken](projects-how-create-jobs.md#invoice-one-or-more-customers-for-project-tasks).
-
-### <a name="to-set-up-project-usage-tracking"></a>Bijhouden van projectgebruik instellen
+### Bijhouden van projectgebruik instellen
 
 Als u aan een project werkt, wilt u wellicht weten in hoeverre uw gebruik overeenkomt met uw plan. Om gebruik te verkennen kunt u een koppeling tussen uw projectplanningsregels en het werkelijke verbruik maken. Met de koppeling kunt u uw kosten volgen en begrijpen hoeveel werk er nog is. Standaard is het soort projectplanningsregel **Budget**, maar als u het regelsoort **Budget en factureerbaar** gebruikt, heeft dat een soortgelijk effect.
 
@@ -62,7 +44,23 @@ Als u de schakelaar **Gebruikslink standaard toepassen** inschakelt, kunt u gege
 > [!IMPORTANT]
 > Als u geen waarde opgeeft in het veld **Regelsoort** op de projectdagboekregel of inkoopregel, worden er geen projectplanningsregels gemaakt wanneer u het projectdagboek of inkoopdocument boekt.
 
-## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-projects"></a>Prijzen instellen voor resources, artikelen en grootboekrekeningen voor projecten
+### Meerdere klanten factureren voor projecttaken
+
+Wanneer bij projecten meerdere klanten betrokken zijn, kan het een uitdaging zijn om de juiste klanten voor de juiste taken te factureren. [!INCLUDE [prod_short](includes/prod_short.md)] maakt facturering minder complex doordat u op elke projecttaakregel de factuur- en orderklanten kunt specificeren, zodat u automatisch facturen voor de juiste klanten kunt genereren.  Gebruik het veld  **Standaard taak factureringsmethode** om op te geven of u standaard één klant of meerdere klanten factureert. U kunt de factureringsmethode taak voor een specifiek project wijzigen met behulp van het veld **taak Factureringsmethode** op de pagina **project kaart** . Voor meer informatie over het factureren van meerdere klanten gaat u naar [Een of meer klanten factureren voor projecttaken](projects-how-create-jobs.md#invoice-one-or-more-customers-for-project-tasks).
+
+### Synchroniseer de kosten van gebruikte artikelen
+
+De kosten van een artikel (inventariswaarde) dat u aanschaft en later in een project gebruikt, kunnen tijdens de levensduur ervan veranderen. Bijvoorbeeld omdat er vrachtkosten aan de aankoopprijs worden toegevoegd nadat u het gebruik van het artikel hebt geboekt.
+
+In [!INCLUDE [prod_short](includes/prod_short.md)] kunt u handmatig of automatisch Aanpassen artikelkosten berekenen. De aanpassing wordt weerspiegeld in de waardevermeldingen en grootboek. Ga voor meer informatie naar  [Beheer van voorraadkosten](finance-manage-inventory-costs.md)
+
+Ook voor projecten heeft u opties om deze aanpassingen door te voeren.
+
+Om ervoor te zorgen dat de kosten automatisch worden gewijzigd in Aanpassen in een project telkens wanneer de batchtaak **Aanpassen kosten - Artikelposten** wordt uitgevoerd, schakelt u de schakelaar **Automatisch bijwerken van projectartikelkosten** in.
+
+Als u deze optie uit laat staan, vergeet dan niet om de  **Update Job project Cost** taak handmatig of met behulp van een taakwachtrij-item uit te voeren.
+
+## Prijzen instellen voor resources, artikelen en grootboekrekeningen voor projecten
 
 > [!NOTE]
 > In releasewave 2 van 2020 hebben we nieuwe processen uitgebracht voor het instellen en beheren van prijzen en kortingen. Als u een nieuwe klant bent, gebruikt u de nieuwe ervaring. Als u een bestaande klant bent, hangt of u de nieuwe ervaring gebruikt, af van de vraag of uw beheerder de functie-update **Nieuwe verkoopprijservaring** heeft geactiveerd in **Functiebeheer**. Zie voor meer informatie [Aankomende functies van tevoren inschakelen](/dynamics365/business-central/dev-itpro/administration/feature-management).
@@ -71,7 +69,7 @@ U kunt prijzen instellen voor de artikelen, resources en grootboekrekeningen die
 
 #### [Huidige ervaring](#tab/current-experience)
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Project** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Project** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer het betreffende project en kies vervolgens de actie **Resource**, **Artikel** of **Grootboekrekening**.
 3. Vul op de pagina **Resourceprijzen project**, **Artikelprijzen project** of **GB-rekeningprijzen project** de velden zoals nodig in.
 
@@ -79,9 +77,9 @@ Wanneer u een resource, artikel of grootboekrekening voor een project kiest, geb
 
 |Kolom1  |Kolom2  |
 |---------|---------|
-|**Projectresources**|De velden **Projecttaaknr.**, **Werksoort**, **Valutacode**, **Regelkorting %** en **Kostprijsfactor**. De waarde in het veld **Eenheidsprijs** wordt voor de resource gebruikt op projectplanningsregels en projectdagboeken wanneer u een resource invoert of een resource die is toegewezen aan de resourcegroep. Deze prijs overschrijft de prijzen die zijn opgegeven op de pagina **Resourceverkoopprijs/Resourcegroepsprijs**.|
 |**Projectartikelen**|De velden **Projecttaaknr.**, **Valutacode** en **Regelkorting %**. De waarde in het veld **Eenheidsprijs** voor het artikel wordt op de projectplanningsregels en in projectdagboeken gebruikt wanneer dit artikel wordt ingevoerd. Deze prijs overschrijft de normale klantenprijs (het 'beste prijs'-mechanisme) voor artikelen. Als u de normale klantenprijs wilt gebruiken, geeft u geen projectartikelprijzen op voor het project.|
 |**Grootboekrekeningen**|De optionele informatie in de velden **Projecttaaknr.**, **Valutacode**, **Regelkorting %**, **Kostprijsfactor** en **Kostprijs** wordt gebruikt op de projectplanningsregels en in de projectdagboeken wanneer deze grootboekrekening wordt ingevoerd en wordt toegevoegd aan het project. Wanneer u een grootboekrekening kiest, gebruiken projectplanningsregels en projectdagboeken de waarde in het veld **Kostprijs** voor de grootboekkosten.|
+|**Projectresources**|De velden **Projecttaaknr.**, **Werksoort**, **Valutacode**, **Regelkorting %** en **Kostprijsfactor**. De waarde in het veld **Eenheidsprijs** wordt voor de resource gebruikt op projectplanningsregels en projectdagboeken wanneer u een resource invoert of een resource die is toegewezen aan de resourcegroep. Deze prijs overschrijft de prijzen die zijn opgegeven op de pagina **Resourceverkoopprijs/Resourcegroepsprijs**.|
 
 #### [Nieuwe ervaring](#tab/new-experience)
 
@@ -90,17 +88,17 @@ Wanneer u een resource, artikel of grootboekrekening voor een project kiest, geb
 
 ---
 
-## <a name="to-set-up-project-posting-groups"></a>Projectboekingsgroepen instellen
+## Projectboekingsgroepen instellen
 
 Eén aspect van het plannen van projecten is bepalen welke boekingsrekeningen moeten worden gebruikt voor projectwaardering. Om projecten te kunnen boeken, moet u rekeningen instellen voor het boeken voor elke projectboekingsgroep. Een boekingsgroep vertegenwoordigt een koppeling tussen het project en de wijze waarop het moet worden behandeld in het grootboek. Wanneer u een project maakt, geeft u een boekingsgroep op en wordt elk project dat u voor de taak maakt standaard gekoppeld aan die boekingsgroep. Als u echter taken maakt, kunt u de standaardinstellingen overschrijven en een boekingsgroep selecteren die meer geschikt is.  
 
 > [!NOTE]  
 > U moet rekeningen instellen in het rekeningschema voordat u boekingsgroepen instelt. Voor meer informatie raadpleegt u [Het Rekeningschema instellen of wijzigen](finance-setup-chart-accounts.md).  
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projectboekingsgroepen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Projectboekingsgroepen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw** en vul de velden in zoals is beschreven in de volgende tabel.  
 
-| Het veld Rekeningnr. | Omschrijving | Gebruikt in OHW-type |
+| Het veld Rekeningnr. | Beschrijving | Gebruikt in OHW-type |
 | --- | --- |  --- |
 | **Code** |Een ID voor de boekingsgroep. U kunt maximaal 10 tekens inclusief spaties invoeren. | |
 | **Rekening OHW-kosten** |De OHW-rekening voor de berekende kosten van het OHW van het project is een financiële activarekening op de balans. | Toegepaste kosten, Verantwoorde kosten|
@@ -118,7 +116,7 @@ Eén aspect van het plannen van projecten is bepalen welke boekingsrekeningen mo
 | **Rekening verantwoorde kosten** |De kostenrekening die de verantwoorde kosten voor het project bevat. Dit is normaliter een debetkostenrekening. | Verantwoorde kosten|
 | **Rekening verantwoorde omzet** |De resultatenrekening die de verantwoorde resultaten voor het project bevat. Dit is normaliter een creditresultatenrekening. | Verantwoorde verkoop|
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Projectbeheer instellen](projects-setup-projects.md)  
 [Video: Hoe u een project maakt in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
