@@ -1,21 +1,20 @@
 ---
 title: Artikelen en voorraad synchroniseren
 description: Synchronisaties van artikelen instellen en uitvoeren tussen Shopify en Business Central
-ms.date: 04/28/2024
+ms.date: 08/30/2024
 ms.topic: article
 ms.search.form: '30116, 30117, 30126, 30127,'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.collection:
-  - bap-ai-copilot
+ms.custom: bap-template
 ---
 
 # Artikelen en voorraad synchroniseren
 
-De **artikelen** in [!INCLUDE[prod_short](../includes/prod_short.md)] zijn het equivalent van de *producten* in Shopify en omvatten fysieke goederen, digitale downloads, services en cadeaubonnen die u verkoopt. Er zijn twee belangrijke redenen om artikelen te synchroniseren:
+**Artikelen** in [!INCLUDE[prod_short](../includes/prod_short.md)] zijn gelijk aan **producten** in Shopify. Het zijn de fysieke goederen, digitale downloads, diensten en cadeaubonnen die u verkoopt. Er zijn twee belangrijke redenen om artikelen te synchroniseren:
 
-1. Gegevensbeheer gebeurt voornamelijk in [!INCLUDE[prod_short](../includes/prod_short.md)]. U moet alle of sommige gegevens van daaruit exporteren naar Shopify en zichtbaar maken. U kunt de artikelnaam, beschrijving, afbeelding, prijzen, beschikbaarheid, varianten, leveranciersdetails en streepjescodes exporteren. Na het exporteren kunt u de artikelen bekijken of direct zichtbaar maken.
+1. Wanneer u voornamelijk gegevens beheert in [!INCLUDE[prod_short](../includes/prod_short.md)]. U moet alle of sommige gegevens van daaruit exporteren naar Shopify en zichtbaar maken. U kunt de artikelnaam, beschrijving, afbeelding, prijzen, beschikbaarheid, varianten, leveranciersdetails en streepjescodes exporteren. Na het exporteren kunt u de artikelen bekijken of direct zichtbaar maken.
 2. Wanneer een bestelling vanuit Shopify wordt geïmporteerd, is de informatie over artikelen essentieel voor de verdere verwerking van het document in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 De voorgaande twee scenario's zijn altijd ingeschakeld.
@@ -29,10 +28,10 @@ Een derde scenario is het beheren van gegevens in Shopify maar die artikelen in 
 
    De volgende tabel beschrijft de opties.
 
-   |Optie|Omschrijving|
+   |Optie|Beschrijving|
    |------|-----------|
    |**Leeg**| Producten worden geïmporteerd samen met de orders. Producten worden geëxporteerd naar Shopify als een gebruiker de actie **Artikel toevoegen** uitvoert vanuit de pagina **Shopify-producten**. Deze optie is het standaardproces.|
-   |**Naar Shopify**| Selecteer deze optie als u nadat de eerste synchronisatie is geactiveerd door de actie **Artikel toevoegen**, producten handmatig wilt bijwerken met de actie **Product synchroniseren** of via de taakwachtrij voor periodieke updates. Vergeet niet om het veld **Kan Shopify-producten bijwerken** in te schakelen. Als het niet is ingeschakeld, is dat gelijk aan de (standaardverwerkings)optie **Blanco**. Lees meer in de sectie [Artikelen exporteren naar Shopify](synchronize-items.md#export-items-to-shopify).|
+   |**Naar Shopify**| Selecteer deze optie als u nadat de eerste synchronisatie is geactiveerd door de actie **Artikel toevoegen**, producten handmatig wilt bijwerken met de actie **Product synchroniseren** of via de taakwachtrij voor periodieke updates. Vergeet niet om het veld **Kan Shopify-producten bijwerken** in te schakelen. Als het niet is ingeschakeld, is dat gelijk aan de standaardverwerkingsoptie **Leeg**. Lees meer in de sectie [Artikelen exporteren naar Shopify](synchronize-items.md#export-items-to-shopify).|
    |**Van Shopify**| Kies deze optie als u van plan bent producten in bulk te importeren vanuit Shopify; ofwel handmatig met behulp van de actie **Product synchroniseren** of via de taakwachtrij voor periodieke updates. Lees meer in de sectie [Artikelen importeren vanuit Shopify](synchronize-items.md#import-items-from-shopify).|
 
    > [!NOTE]
@@ -42,12 +41,12 @@ Een derde scenario is het beheren van gegevens in Shopify maar die artikelen in 
 
 Eerst importeert u artikelen in bulk vanuit Shopify of samen met bestellingen om ze toe te voegen aan de tabellen **Shopify-product** en **Shopify-variant**. Wijs vervolgens geïmporteerde producten en varianten toe aan artikelen en varianten in [!INCLUDE[prod_short](../includes/prod_short.md)]. Met de volgende instellingen kunt u het proces beheren:
 
-|Veld|Omschrijving|
+|Veld|Beschrijving|
 |------|-----------|
 |**Automatisch onbekende artikelen maken**|Wanneer Shopify-producten en -varianten worden geïmporteerd in [!INCLUDE[prod_short](../includes/prod_short.md)] , probeert de [!INCLUDE[prod_short](../includes/prod_short.md)]-functie altijd eerst de overeenkomende record in de artikellijst te vinden. **SKU-toewijzing** heeft invloed op hoe de matching wordt uitgevoerd en creëert een nieuw artikel en/of een nieuwe artikelvariant. Schakel deze optie in als u een nieuw artikel wilt maken of als er geen overeenkomende record bestaat. Het nieuwe artikel wordt gemaakt met geïmporteerde gegevens en de **Code van artikelsjabloon**. Als deze optie niet is ingeschakeld, moet u handmatig een artikel maken en de actie **Product toewijzen** gebruiken op de pagina **Shopify-producten**.|
 |**Code van artikelsjabloon**|Gebruik dit veld met de schakelaar **Automatisch onbekende artikelen maken**.<br>Kies de sjabloon die u wilt gebruiken voor automatisch gemaakte artikelen.|
 |**SKU-toewijzing**|Kies hoe u de **SKU**-waarde wilt gebruiken die uit Shopify wordt geïmporteerd tijdens het toewijzen en maken van artikelen/varianten. Lees meer in de sectie [Effect van SKU's van Shopify producten en barcodes op het toewijzen en maken van artikelen en varianten in Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).|
-|**SKU-veldscheidingsteken**|Gebruik dit veld samen met **SKU-toewijzing** ingesteld op de optie **[Artikelnr. + variant](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central)**.<br>Definieer een scheidingsteken dat moet worden gebruikt om SKU te splitsen.<br>Als u in Shopify de variant met SKU '1000/001' zou maken, typt u dus '/' in het veld **SKU-veldscheidingsteken** om van het artikelnummer in [!INCLUDE[prod_short](../includes/prod_short.md)] '1000' te maken en de artikelvariantcode '001'. Houd er rekening mee dat als u de variant met SKU '1000/001/111' maakt in Shopify, het artikelnummer in [!INCLUDE[prod_short](../includes/prod_short.md)] '1000' is en de artikelvariantcode '001'. Het gedeelte '111' wordt genegeerd. |
+|**SKU-veldscheidingsteken**|Gebruik dit veld samen met **SKU-toewijzing** ingesteld op de optie **[Artikelnr. + variant](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central)**.<br>Definieer een scheidingsteken dat moet worden gebruikt om SKU te splitsen.<br>Als u in Shopify de variant met SKU '1000/001' zou maken, typt u dus '/' in het veld **SKU-veldscheidingsteken** om van het artikelnummer in [!INCLUDE[prod_short](../includes/prod_short.md)] '1000' te maken en de artikelvariantcode '001'. Als u de variant met SKU '1000/001/111' maakt in Shopify, is het artikelnummer in [!INCLUDE[prod_short](../includes/prod_short.md)] '1000' en is de artikelvariantcode '001'. Het gedeelte '111' wordt genegeerd. |
 |**Prefix voor variant**|Gebruik dit samen met **SKU-toewijzing** ingesteld op de opties **Variant** of **Artikelnr. + variant** als alternatief wanneer de SKU die uit Shopify komt, leeg is.<br>Als u de artikelvariant automatisch wilt maken in [!INCLUDE[prod_short](../includes/prod_short.md)], moet u een waarde invoeren in **Code**. Standaard wordt de waarde gebruikt die is gedefinieerd in het SKU-veld dat wordt geïmporteerd uit Shopify. Als de SKU echter leeg is, wordt een code gegenereerd die begint met het gedefinieerde variantvoorvoegsel en '001'.|
 |**Shopify kan artikelen bijwerken**|Kies deze optie als u artikelen en/of varianten automatisch wilt bijwerken.|
 |**Maateenheid als variant**| Kies deze optie als u wilt dat alle artikeleenheden als afzonderlijke varianten worden geëxporteerd. Personaliseer de pagina om het veld toe te voegen. Meer informatie vindt u in het gedeelte [Maateenheid als variant](synchronize-items.md#unit-of-measure-as-variant).|
@@ -63,12 +62,14 @@ Er zijn meerdere manieren om artikelen te exporteren naar Shopify:
 
 Ongeacht hoe u artikelen exporteert, specifieke artikelinformatie wordt overgebracht naar de Shopify-productlijst, afhankelijk van uw gekozen instellingen voor artikelsynchronisatie.
 
+Voordat een artikel naar Shopify wordt geëxporteerd, controleert de connector of een artikel al bestaat. Eerst wordt gecontroleerd of er een product of variant met een barcode bestaat, omdat deze is gedefinieerd in de invoer **Artikelreferenties** van een barcodetype. Als het veld **SKU-toewijzing** is ingevuld, controleert de connector of er een product of variant is waarbij de SKU is ingevuld. Ga voor meer informatie naar [Effect van Shopify-product-SKU's en barcodes op het toewijzen en maken van artikelen en varianten in Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).
+
 > [!IMPORTANT]
 > Het product wordt alleen toegevoegd aan het verkoopkanaal **Online winkel**. U moet producten publiceren naar andere verkoopkanalen, zoals Shopify POS, vanuit Shopify.
 
 U beheert het proces van het exporteren van artikelen met deze instellingen:
 
-|Veld|Omschrijving|
+|Veld|Beschrijving|
 |------|-----------|
 |**Uitgebreide tekst voor synchronisatieartikel**|Selecteer dit veld om de uitgebreide tekst van het artikel te synchroniseren. Aangezien het zal worden toegevoegd aan het veld **Beschrijving**, kan het HTML-code bevatten. |
 |**Artikelkenmerken synchroniseren**|Selecteer dit veld om de artikelkenmerken te synchroniseren. Kenmerken worden opgemaakt als een tabel en opgenomen in het veld **Beschrijving** in Shopify.|
@@ -97,7 +98,7 @@ De volgende tabel geeft een overzicht van de verschillen tussen de opties in het
 |------|-----------------|------------------|
 |**Leeg**|Het veld SKU wordt niet gebruikt in de routine voor artikeltoewijzing.|Geen effect op het maken van het artikel.<br>Deze optie voorkomt het maken van varianten. In een verkooporder wordt alleen het hoofdartikel gebruikt. Een variant kan nog steeds handmatig worden toegewezen op de pagina **Shopify-product**.|
 |**Artikelnr.**|Kies dit als de SKU het artikelnummer bevat.|Geen effect op het maken van een artikel zonder varianten. Voor een artikel met varianten wordt elke variant als een apart artikel gemaakt.<br>Als Shopify een product heeft met twee varianten en hun SKU's zijn '1000' en '2000', worden in [!INCLUDE[prod_short](../includes/prod_short.md)] twee artikelen gemaakt met de nummers '1000' en '2000'.|
-|**Variantcode**|Het veld SKU wordt niet gebruikt in de routine voor artikeltoewijzing.|Geen effect op het maken van het artikel. Wanneer een artikelvariant wordt gemaakt, wordt de waarde van het veld SKU gebruikt als een code. Als de SKU leeg is, wordt een code gegenereerd met behulp van het veld **Prefix voor variant**.|
+|**Variant**|Het veld SKU wordt niet gebruikt in de routine voor artikeltoewijzing.|Geen effect op het maken van het artikel. Wanneer een artikelvariant wordt gemaakt, wordt de waarde van het veld SKU gebruikt als een code. Als de SKU leeg is, wordt een code gegenereerd met behulp van het veld **Prefix voor variant**.|
 |**Artikelnr. + variant**|Selecteer deze optie als het SKU-veld een artikelnummer bevat en de artikelvariantcode wordt gescheiden door de waarde die is gedefinieerd in het veld **SKU-veldscheidingsteken**.|Wanneer een artikel wordt gemaakt, wordt het eerste deel van de waarde van het SKU-veld aangeduid als **Nr.** Als het veld SKU leeg is, wordt een artikelnummer gegenereerd met behulp van nummerreeksen gedefinieerd in het veld **Artikelsjablooncode** of **Artikelnummers** van de pagina **Voorraadinstellingen**.<br>Wanneer een artikel wordt gemaakt, gebruikt de variantfunctie het tweede deel van de waarde van het SKU-veld als **Code**. Als het veld SKU leeg is, wordt een code gegenereerd met behulp van het veld **Prefix voor variant**.|
 |**Artikelnr. van leverancier**|Kies dit als het veld SKU het leveranciersartikelnummer bevat. In dit geval wordt het veld **Artikelnr. leverancier** niet gebruikt op de pagina **Artikelkaart**, maar wordt het **Artikelnr. van leverancier** uit de **Artikel-/leverancierscatalogus** gebruikt. Als de gevonden *Artikel-/leverancierscatalogus*-record een variantcode bevat, wordt die variantcode gebruikt om de Shopify-variant toe te wijzen.|Als er een corresponderende leverancier bestaat in [!INCLUDE[prod_short](../includes/prod_short.md)], wordt de SKU-waarde gebruikt als het **Artikelnr. van leverancier** op de pagina **Artikelkaart** en als de **Artikelreferentie** van het type *leverancier*. <br>Voorkomt het maken van varianten. Dit is handig wanneer u alleen het hoofdartikel in de verkooporder wilt gebruiken. U kunt nog steeds handmatig een variant toewijzen vanaf de pagina **Shopify-product**.|
 |**Barcode**|Kies dit als het SKU-veld een barcode bevat. Er wordt gezocht onder **Artikelreferenties** van het type *streepjescode*. Als de gevonden artikelreferentierecord een variantcode bevat, wordt deze variantcode gebruikt om de Shopify-variant toe te wijzen.|Geen effect op het maken van het artikel. <br>Voorkomt het maken van varianten. Dit is handig wanneer u alleen het hoofdartikel in de verkooporder wilt gebruiken. U kunt nog steeds handmatig een variant toewijzen vanaf de pagina **Shopify-product**.|
@@ -117,8 +118,8 @@ De volgende tabel geeft een overzicht van het effect van het veld **Barcode**.
 |------|-----------------|-----------------|
 |Status|Volgens het veld **Status voor gemaakte producten** op de **Shopify-winkelkaart**. Lees meer in de sectie [Ad-hocupdates van Shopify-producten](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Niet gebruikt.|
 |Title | **Beschrijving**. Als de taalcode is gedefinieerd en er een corresponderende artikelvertaling bestaat, wordt de artikelvertaling gebruikt in plaats van de beschrijving.|**Beschrijving**|
-|Varianttitel | **Variantcode**.|**Beschrijving** van variant|
-|Omschrijving|Combineert uitgebreide teksten, marketingtekst en kenmerken als u de corresponderende schakelaars op de Shopify-winkelkaart inschakelt. Respecteert de taalcode.|Niet gebruikt.|
+|Varianttitel | **Variantcode**.<br>De reden om **Code** en niet **Beschrijving** te gebruiken is omdat Shopify unieke varianttitels per product vereist. In [!INCLUDE[prod_short](../includes/prod_short.md)] is de **Code** uniek, terwijl **Beschrijving** dat niet is. Niet-unieke beschrijvingen zullen tot problemen leiden tijdens het exporteren van producten.|**Beschrijving** van variant|
+|Beschrijving|Combineert uitgebreide teksten, marketingtekst en kenmerken als u de corresponderende schakelaars op de Shopify-winkelkaart inschakelt. Respecteert de taalcode.|Niet gebruikt.|
 |SEO-paginatitel|Vaste waarde: leeg. Lees meer in de sectie [Ad-hocupdates van Shopify-producten](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Niet gebruikt.|
 |SEO-metabeschrijving|Vaste waarde: leeg. Lees meer in de sectie [Ad-hocupdates van Shopify-producten](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Niet gebruikt.|
 |Media|**Afbeelding**. Lees meer in de sectie [Artikelafbeeldingen synchroniseren](synchronize-items.md#sync-item-images)|**Afbeelding**|
@@ -151,9 +152,9 @@ Om deze mogelijkheid in te schakelen gebruikt u de velden **Maateenheid als vari
 
 **Opmerkingen over Maateenheid als variant**
 
-* Wanneer het product wordt geïmporteerd in [!INCLUDE[prod_short](../includes/prod_short.md)], maakt de connector maateenheden. U moet **Aantal per maateenheid** bijwerken.
-* Als u te maken hebt met een matrix van varianten, bijvoorbeeld Kleur en Maateenheid, en u producten wilt importeren, moet u *Artikelnr. + Variantcode* instellen in het veld **SKU-toewijzing** en zorgen dat het veld **SKU** in Shopify dezelfde waarde heeft voor alle maateenheden en het artikelnummer en de variantcode bevat.
-* De beschikbaarheid wordt berekend per artikel/artikelvariant en niet per maateenheid in [!INCLUDE[prod_short](../includes/prod_short.md)]. Dit betekent dat dezelfde beschikbaarheid wordt toegewezen aan elke variant die de maateenheid vertegenwoordigt (met betrekking tot **Aantal per maateenheid**), wat kan leiden tot gevallen waarin de beschikbare hoeveelheid in Shopify is niet juist. Voorbeeld: Artikel dat wordt verkocht per stuk en per doos van 6. De voorraad in [!INCLUDE[prod_short](../includes/prod_short.md)] is 6 stuks. Artikel geëxporteerd naar Shopify als Product met twee varianten. Zodra de voorraadsynchronisatie is uitgevoerd, is het voorraadniveau in Shopify 6 voor varaint stuks en 1 voor variant doos. De koper kan in de winkel zien dat het product in beide opties beschikbaar is en een bestelling plaatsen voor 1 DOOS. De volgende koper zal zien dat DOOS niet beschikbaar is, maar er zijn nog 6 STUKS. Dit wordt opgelost na de volgende voorraadsynchronisatie.
+* Als u te maken hebt met een matrix van varianten, bijvoorbeeld Kleur en Maateenheid, en u producten wilt importeren in [!INCLUDE[prod_short](../includes/prod_short.md)], moet u *Artikelnr. + Variantcode* instellen in het veld **SKU-toewijzing** en zorgen dat het veld **SKU** in Shopify dezelfde waarde heeft voor alle maateenheden en het artikelnummer en de variantcode bevat.
+* De beschikbaarheid wordt berekend per artikel/artikelvariant en niet per maateenheid in [!INCLUDE[prod_short](../includes/prod_short.md)]. Dit betekent dat dezelfde beschikbaarheid wordt toegewezen aan elke variant die de maateenheid vertegenwoordigt (met betrekking tot **Aantal per maateenheid**), wat kan leiden tot gevallen waarin de beschikbare hoeveelheid in Shopify is niet juist. Voorbeeld: Artikel dat wordt verkocht per stuk en per doos van 6. De voorraad in [!INCLUDE[prod_short](../includes/prod_short.md)] is 6 stuks. Artikel geëxporteerd naar Shopify als Product met twee varianten. Zodra de voorraadsynchronisatie is uitgevoerd, is het voorraadniveau in Shopify 6 voor varaint stuks en 1 voor variant doos. De koper kan in de winkel zien dat het product in beide opties beschikbaar is en een bestelling plaatsen voor 1 DOOS. De volgende koper zal zien dat DOOS niet beschikbaar is, maar er zijn nog 6 STUKS. Dit wordt opgelost bij de volgende voorraadsynchronisatie.
+* U kunt de optie Maateenheid niet toevoegen aan bestaande producten met varianten (het specifieke resultaat is afhankelijk van andere instellingen, zoals **SKU toewijzing**).
 
 ### URL en voorbeeld-URL
 
@@ -236,12 +237,14 @@ Afbeeldingssynchronisatie kan op de hieronder beschreven twee manieren worden ge
 
 ## Prijzen synchroniseren met Shopify
 
-U beheert het proces van het exporteren van prijzen met deze instellingen:
+De Connector kan één hoofdprijs en één niet-afgeprijsde prijs naar verzenden Shopify. De prijzen worden weergegeven in de velden  **Prijs** en **Vergelijken op prijs** op de pagina  Shopify product (Shopify Variant).
 
-|Veld|Omschrijving|
+In de volgende tabel worden de instellingen beschreven die u kunt gebruiken om het proces van het definiëren en exporteren van prijzen te beheren.
+
+|Veld|Beschrijving|
 |------|-----------|
-|**Klantenprijsgroep**|Bepaal de prijs voor een artikel in Shopify. De verkoopprijs van deze klantenprijsgroep wordt genomen. Als er geen groep is gespecificeerd, wordt de prijs op de artikelkaart gebruikt.|
-|**Klantenkortingsgroep**|Bepaal de korting die moet worden gebruikt voor het berekenen van de prijs van een artikel in Shopify. Gereduceerde prijzen worden opgeslagen in het veld **Prijs** en de volledige prijs wordt opgeslagen in het veld **Prijs vergelijken**.|
+|**Klantenprijsgroep**|Bepaal de prijs voor een artikel in Shopify. De verkoopprijs van deze klantenprijsgroep wordt genomen. Als er geen groep is gespecificeerd, wordt de prijs op de artikelkaart gebruikt. De Connector gebruikt niet de klantprijsgroep van de klant.|
+|**Klantenkortingsgroep**|Bepaal de korting die moet worden gebruikt voor het berekenen van de prijs van een artikel in Shopify. Gereduceerde prijzen worden opgeslagen in het veld **Prijs** en de volledige prijs wordt opgeslagen in het veld **Prijs vergelijken**. De Connector maakt geen gebruik van de kortingsgroep van de klant.|
 |**Regelkorting toestaan**|Hiermee wordt opgegeven of u een regelkorting toestaat bij het berekenen van prijzen voor Shopify. Deze instelling is alleen van toepassing op prijzen van het artikel. Prijzen voor de klantprijsgroep hebben hun eigen schakelaar op regels.|
 |**Prijzen inclusief btw**|Specificeert of prijsberekeningen voor Shopify btw bevatten. Meer informatie op [Belastingen instellen](setup-taxes.md).|
 |**Btw-bedrijfsboekingsgroepen**|Hiermee wordt opgegeven welke btw-bedrijfsboekingsgroep wordt gebruikt om de prijzen te berekenen in Shopify. Dit moet de groep zijn die u gebruikt voor binnenlandse klanten. Meer informatie op [Belastingen instellen](setup-taxes.md).|
@@ -259,6 +262,27 @@ U kunt prijzen voor gesynchroniseerde artikelen exporteren op de twee hieronder 
 * Bij het bepalen van een prijs gebruikt [!INCLUDE[prod_short](../includes/prod_short.md)] 'laagste prijs'-logica. De logica voor de laagste prijs negeert echter de eenheidsprijs die is gedefinieerd op de artikelkaart als er een prijs is gedefinieerd in de prijsgroep. Dit geldt zelfs als de eenheidsprijs van de artikelkaartprijs lager is.
 * Om prijzen te berekenen, maakt de connector een tijdelijke verkoopofferte voor het artikel met een hoeveelheid van 1 en gebruikt standaard prijsberekeningslogica. Alleen prijzen en kortingen die gelden voor hoeveelheid 1 worden gebruikt. U kunt geen verschillende prijzen of kortingen exporteren op basis van hoeveelheid.
 * De connector verzendt een verzoek om prijzen bij te werken in Shopify als de prijs in [!INCLUDE[prod_short](../includes/prod_short.md)] is veranderd. Als u bijvoorbeeld producten en prijzen synchroniseert en vervolgens de prijs wijzigt in Shopify, heeft het kiezen van de actie **Prijzen synchroniseren met Shopify** geen enkele invloed op de prijs in Shopify, aangezien de nieuwe prijs, berekend door de connector, hetzelfde is als de prijs die is opgeslagen in de Shopify-variant vanuit een vorige synchronisatie. De **Prijs vergelijken** wordt alleen bijgewerkt als de hoofdprijs is gewijzigd.
+
+### Prijssynchronisatie voor B2B
+
+[!INCLUDE [shopify-preview](../includes/shopify-preview.md)]
+
+Als u  Shopify B2B gebruikt, kunt u de Connector configureren om prijzen te synchroniseren voor  Shopify catalogi die gekoppeld zijn aan B2B-klanten.
+
+#### Synchroniseer catalogi van de Shopify
+
+1. Selecteer het ![Lampje dat de functie Vertel me opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Shopify-catalogi** in en selecteer de gerelateerde koppeling.
+2. Selecteer **Catalogi ophalen**.
+
+U hebt alleen toegang tot catalogi die gekoppeld zijn aan B2B-bedrijven. Voor meer informatie, zie [B2B-bedrijven](synchronize-customers.md#b2b-companies). Houd er rekening mee dat catalogi geen producten bevatten. U beheert de catalogusinhoud in  Shopify Admin.
+
+#### Synchroniseer prijzen voor B2B-catalogus
+
+1. Selecteer het ![Lampje dat de functie Vertel me opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Shopify-catalogi** in en selecteer de gerelateerde koppeling.
+2. Selecteer het item waarvoor u prijzen wilt definiëren en exporteren.
+3. Gebruik de beschikbare instellingen om te configureren hoe prijzen worden gedefinieerd. De instellingen zijn vergelijkbaar met de instellingen die worden gebruikt voor de synchronisatie van de velden  **Prijs** en **Vergelijken op prijs** in het  Shopify product (Shopify Variant).
+4. Schakel de schakelaar **Prijzen synchroniseren** in.
+5. Kies **Prijzen synchroniseren** en wacht tot de synchronisatie van de prijzen is voltooid.
 
 ## Voorraad synchroniseren met Shopify
 
@@ -281,13 +305,13 @@ U kunt afbeeldingssynchronisatie op de hieronder beschreven twee manieren initia
 
 ### Voorraad synchroniseren vanaf de pagina Shopify-winkel
 
-1. Ga naar het pictogram zoeken ![Lampje dat de functie Vertel me opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Shopify-winkels** in en kies vervolgens de gerelateerde koppeling.
+1. Ga naar de zoekfunctie  ![Lightbulb waarmee de functie Vertel het me wordt geopend.](../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Shopify-winkels** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de winkel waarvoor u voorraad wilt synchroniseren om de pagina **Shopify-winkelkaart** te openen.
 3. Kies de actie **Voorraad synchroniseren**.
 
 ### Voorraad synchroniseren vanaf de pagina Shopify-producten
 
-1. Ga naar het pictogram zoeken ![Lampje dat de functie Vertel me opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Shopify-producten** in en kies de gerelateerde koppeling.
+1. Ga naar de zoekfunctie  ![Lightbulb waarmee de functie Vertel het me wordt geopend.](../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Shopify-producten** in en kies de gerelateerde koppeling.
 2. Kies de actie **Voorraad synchroniseren**.
 
 ### Opmerkingen over voorraad
@@ -306,6 +330,14 @@ Er zijn tien stuks van artikel A beschikbaar en twee openstaande verkooporders. 
 |------|-----------------|-----------------|
 |Dinsdag|9|Voorraad tien minus verkooporder ingesteld op verzending op maandag|
 |Vrijdag|7|Voorraad tien minus beide verkooporders|
+
+####  Voorbeeld van berekening van vrije voorraad (niet gereserveerd)
+
+Er zijn tien stuks van artikel A beschikbaar en drie openstaande verkooporders. Eén order met hoeveelheid *1* gereserveerd vanuit de artikelpost, één met hoeveelheid *2* niet gereserveerd, en één met hoeveelheid *3* gereserveerd vanuit een inkooporder. Voor deze methode is de datum van synchronisatie niet belangrijk.
+
+|Waarde gebruikt om het voorraadniveau bij te werken|Opmerking|
+|-----------------|-----------------|
+|9|Voorraad 10 minus de verkooporder met gereserveerde voorraad uit de artikelpost. Andere verkooporders worden genegeerd.|
 
 ### Twee benaderingen om afhandeling te beheren
 

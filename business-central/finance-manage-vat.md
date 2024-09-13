@@ -6,13 +6,14 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: VAT
 ms.search.form: '118, 472, 737, 743'
-ms.date: 01/31/2023
+ms.date: 08/29/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="vat-management-overview"></a>Overzicht van btw-beheer
-Btw is een indirecte belasting op het verbruik van goederen en diensten. Btw wordt geheven in elke fase van de toeleveringsketen waar waarde wordt toegevoegd vanaf de eerste productie tot aan het verkooppunt. Om aan de slag te gaan met btw-beheer kunt u de volgende onderwerpen raadplegen.  
+
+# Overzicht van btw-beheer
+Btw is een indirecte belasting op het verbruik van goederen en diensten. Btw wordt geheven in elke fase van de toeleveringsketen waar waarde wordt toegevoegd vanaf de eerste productie tot aan het verkooppunt. Wilt u aan de slag met btw-beheer? Bekijk dan de volgende artikelen.  
 
 |  Artikel  |  Beschrijving  |  
 |--------|--------------|  
@@ -27,11 +28,12 @@ Btw is een indirecte belasting op het verbruik van goederen en diensten. Btw wor
 | [Een btw-aangifte instellen](finance-how-setup-vat-statement.md) | Dit artikel bevat informatie om ervoor te zorgen dat u weet hoe u een btw-aangiftesjabloon en -namen kunt instellen om te voldoen aan de veranderende vereisten van de belastingdienst.|
 | [Wijzigingen in btw-tarieven beheren](finance-how-use-vat-rate-change-tool.md) | In dit artikel wordt uitgelegd hoe u de tool voor het wijzigen van btw-tarieven voor Dynamics 365 Business Central kunt gebruiken om btw-tarieven te wijzigen op basis van lokale wetgeving.|
 | [Btw-nummers valideren](finance-how-validate-vat-registration-number.md) | In dit artikel wordt uitgelegd hoe u Business Central-validatie gebruikt voor btw-registratienummers en andere bedrijfsinformatie voor uw contacten, klanten en leveranciers, op basis van de VIES btw-nummervalidatieservice van de Europese Unie.|
+| [Meerdere btw-registratienummers](finance-how-use-multiple-vat-registrations.md) | Ontdek hoe u meerdere btw-registratienummers (als alternatief btw-tarief) kunt instellen voor uw klanten die in verschillende landen actief zijn. |
 
 
-## <a name="see-also"></a>Zie ook
-[Financiën](finance.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## Zie ook 
+[Financiën](finance.md)    
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
