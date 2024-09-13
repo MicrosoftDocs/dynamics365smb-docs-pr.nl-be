@@ -10,11 +10,11 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Analyseren van duurzaamheidsposten met financiële rapporten 
+# <a name="analyzing-sustainability-entries-with-financial-reports"></a>Analyseren van duurzaamheidsposten met financiële rapporten
 
 Met de functie  *Financiële rapporten*  krijgt u inzicht in de financiële gegevens die in uw rekeningschema (COA) worden weergegeven. U kunt financiële rapporten instellen om cijfers in grootboekrekeningen (GB) te analyseren en grootboekposten te vergelijken met budgetposten. Maar u kunt met dezelfde functie ook statistische en duurzaamheidsgegevens analyseren en zelfs alle drie de soorten gegevens combineren.  
 
-## Vereisten voor financiële rapportage  
+## <a name="prerequisites-for-financial-reporting"></a>Vereisten voor financiële rapportage
 
 Om financiële rapporten op te stellen, moet u inzicht hebben in de structuur van de gegevens die u wilt analyseren. Er zijn een aantal belangrijke concepten waar u waarschijnlijk op moet letten voordat u uw financiële rapporten opstelt: 
 
@@ -36,7 +36,7 @@ Om financiële rapporten op te stellen, moet u inzicht hebben in de structuur va
 > [!NOTE]
 > Meer informatie over het gebruik van financiële rapporten met financiële gegevens en rekeningschema's vindt u hier [Financiële rapporten maken met behulp van financiële gegevens en rekeningcategorieën](bi-how-work-account-schedule.md).   
 
-## Een nieuw financieel rapport maken  
+## <a name="create-a-new-financial-report"></a>Een nieuw financieel rapport maken
 
 Als u snel uw eigen financiële rapporten wilt maken, kunt u beginnen met een bestaand rapport te kopiëren, zoals hieronder is beschreven in stap drie. 
 
@@ -65,7 +65,7 @@ Om een rijdefinitie, volgen te maken of te bewerken, volgt u deze stappen:
 > [!NOTE]
 > Er is geen versiebeheer voor rijdefinities. Wanneer u rijdefinitie wijzigt, wordt de oude versie vervangen en worden uw wijzigingen opgeslagen in de database. 
 
-### Analyseren van duurzaamheidsgegevens  
+### <a name="analyzing-sustainability-data"></a>Analyseren van duurzaamheidsgegevens
 
 1. Voer het **rijnummer in.** Om uw ruwe gegevens te identificeren en **Beschrijving** toe te voegen als tekst die op de regel van het financiële rapport zal verschijnen. 
 2. Selecteer in de kolom Totaaltype de optie  **Onderhoudsrekeningen** .   
@@ -75,14 +75,14 @@ Om een rijdefinitie, volgen te maken of te bewerken, volgt u deze stappen:
    2. **Koolstofheffing** als u het financiële equivalent (koolstofheffing) wilt rapporteren vanuit het veld **Koolstofheffing** in de **Duurzaamheidsposten**. 
 5. Als u  **Formule** als **Totaaltype** kiest, kunt u wiskundige formules gebruiken in de **Totaalkolom** .  
 
-### Statistische gegevens analyseren
+### <a name="analyzing-statistical-data"></a>Statistische gegevens analyseren
 
 1. Voer het **rijnummer in.** Om uw rij te identificeren en  **Beschrijving** toe te voegen als een tekst die op de regel van het financiële rapport zal verschijnen. 
 2. Selecteer in de kolom  **Totaaltype** de optie  **Statistische rekeningen** .   
 3. Selecteer in het veld  **Totaal** een of meer duurzaamheidsrekeningen met behulp van alle toepasselijke filters. 
 4. Als u  **Formule** als **Totaaltype** kiest, kunt u wiskundige formules gebruiken in de kolom **Totaal** .  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Overzicht Duurzaamheidsmanagement](finance-manage-sustainability.md)    
 [Duurzaamheidsrapporten en analyses in Business Central](sustainability-reports.md)   

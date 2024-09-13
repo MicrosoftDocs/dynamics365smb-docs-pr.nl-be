@@ -12,7 +12,7 @@ ms.date: 08/29/2024
 ms.custom: bap-template
 ---
 
-# Bankdeposito's aanmaken
+# <a name="create-bank-deposits"></a>Bankdeposito's aanmaken
 
 > [!NOTE]
 > De mogelijkheid om bankdeposito's aan te maken is nieuw in [!INCLUDE [prod_short](includes/prod_short.md)] 2022 releasewave 1 voor veel land-/regioversies. Als u  [!INCLUDE [prod_short](includes/prod_short.md)] vóór die release in de Verenigde Staten, Canada of Mexico gebruikte, maakt u mogelijk gebruik van de eerdere mogelijkheden. U kunt doorgaan, maar in een toekomstige release zullen de nieuwe mogelijkheden de oude vervangen. Als u de nieuwe functies die in dit artikel worden beschreven wilt gaan gebruiken, kan uw beheerder naar de pagina **Functiebeheer** gaan en **Functie-update: Gestandaardiseerde bankreconciliatie en -stortingen** inschakelen.  
@@ -31,17 +31,17 @@ Nadat u de stortingsinformatie en regels hebt ingevuld, moet u deze boeken. Bij 
 
 Het rapport **Bankstorting** geeft de stortingen van klanten en leveranciers weer met het oorspronkelijke stortingsbedrag, het bedrag van de storting dat nog openstaat en het toegepaste bedrag. Het rapport toont ook het totale geboekte stortingsbedrag dat moet worden gereconcilieerd.
 
-## Voordat u begint
+## <a name="before-you-start"></a>Voordat u begint
 
 Er zijn enkele zaken die moeten worden ingesteld voordat u bankstortingen kunt gebruiken. U moet een nummerreeks en een dagboeksjabloon bij de hand hebben. U moet ook aangeven of u bankstortingen als een lump-sum bedrag wilt boeken. Dat wil zeggen, als een totaal van alle bedragen op de stortingsregels. Anders wordt elke regel als een afzonderlijke post geboekt. Het boeken van een storting als een enkele bankpost kan het gemakkelijker maken om bankreconciliatie uit te voeren.
 
-### Nummerreeksen en lump-sum stortingen
+### <a name="number-series-and-lump-sum-deposits"></a>Nummerreeksen en lump-sum stortingen
 
 U moet een nummerreeks instellen voor bankstortingen en vervolgens de reeks opgeven in het veld **Bankstortingnrs.** op de pagina **Verkoopinstellingen**. Ga voor meer informatie over nummerreeksen naar [Nummerreeksen maken](ui-create-number-series.md).
 
 Ook op de pagina **Verkoopinstellingen** zet u de schakelaar **Bankstortingen als lump-sum boeken** aan om stortingen te boeken als lump-sum bedragen in plaats van als afzonderlijke regels. Door een storting als een lump-sum bedrag te boeken wordt één bankpost voor het volledige bedrag van de storting wordt gemaakt, waardoor het gemakkelijker wordt om bankreconciliatie uit te voeren.
 
-### Grootboeksjablonen voor bankstortingen
+### <a name="general-journal-templates-for-bank-deposits"></a>Grootboeksjablonen voor bankstortingen
 
 U moet ook een dagboeksjabloon voor stortingen maken. Met dagboeken kunt u naar grootboek-, bank-, klant- en leveranciersrekeningen en rekeningen voor vaste activa boeken. De dagboeksjablonen ontwerpen het dagboek dat past bij het doel van uw werk. Dat wil zeggen, de velden in de journaalsjabloon zijn precies de velden die u nodig hebt.
 
@@ -49,14 +49,14 @@ De stortingen zijn kasontvangsten, dus u wilt uw nummerreeks wellicht opnieuw ge
 
 U moet ook een batchtaak voor de sjabloon maken. Als u een batchtaak wilt maken, gaat u naar de pagina **Fin. dagboeksjablonen** en kiest u de actie **Batches**. Ga voor meer informatie over batches naar [Journaalsjablonen en batches gebruiken](ui-work-general-journals.md#use-journal-templates-and-batches).
 
-## Dimensies op bankstortingsregels
+## <a name="dimensions-on-bank-deposit-lines"></a>Dimensies op bankstortingsregels
 
 De regels op de bankstorting gebruiken de standaardafmetingen die u hebt opgegeven in de velden  **Afdelingscode** en  **Klantgroepcode** . Wanneer u  **Klant** of **Leverancier** selecteert in het veld **Accounttype**, vervangen de dimensies voor de klant of leverancier de standaardwaarden. U kunt indien nodig de dimensies op de regels wijzigen.
 
 > [!TIP]
 > Dimensie op regels worden ingesteld volgens de standaarddimensieprioriteiten. Regeldimensies hebben voorrang boven kopdimensies. U kunt conflicten voorkomen door regels te maken die prioriteit geven aan het gebruik van een dimensie, afhankelijk van de bron. Als u wilt wijzigen hoe de prioriteiten voor dimensies worden vastgesteld, kunt u hun rangschikking wijzigen op de pagina **Standaarddimensieprioriteiten**. Zie [Standaarddimensieprioriteiten instellen](finance-dimensions.md#to-set-up-default-dimension-priorities) voor meer informatie.
 
-## Een bankstorting maken
+## <a name="create-a-bank-deposit"></a>Een bankstorting maken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") pictogram, voer **Bankstortingen** in en kies vervolgens de gerelateerde koppeling.
 2. Kies **Nieuw** om de pagina **Bankstorting** te openen.
@@ -100,13 +100,13 @@ De regels op de bankstorting gebruiken de standaardafmetingen die u hebt opgegev
     > [!TIP]
     > Voordat u de storting verricht, kunt u de actie  **Testrapport** gebruiken om uw gegevens te controleren. In het rapport wordt aangegeven of er problemen zijn, zoals ontbrekende gegevens, waardoor het plaatsen van berichten onmogelijk is.  
 
-## Geboekte bankstortingen zoeken
+## <a name="find-posted-bank-deposits"></a>Geboekte bankstortingen zoeken
 
 De pagina **Geboekte bankstortingen** toont de eerdere stortingen van uw bedrijf. In de lijst kunt u de opmerkingen en dimensies bekijken die bij de stortingen zijn opgegeven. U kunt de bankstorting openen om meer details te bekijken, en van daaruit kunt u verder onderzoek doen. Zo kunt u bijvoorbeeld de actie **Posten zoeken** kiezen om de geboekte bankposten te bekijken. Vanuit de bankpost kunt u de bijbehorende geboekte grootboekpost vinden.
 
 Als u alle grootboekposten voor de geboekte stortingsregels wilt opzoeken, gaat u naar de pagina **Grootboekjournaal** en gebruikt u de actie **Grootboek**. De actie toont alle grootboek-vermeldingen, inclusief de vermeldingen voor klanten en leveranciers.
 
-## Een geboekte bankstorting tegenboeken
+## <a name="reverse-a-posted-bank-deposit"></a>Een geboekte bankstorting tegenboeken
 
 Er zijn een aantal manieren om een geboekte bankstorting terug te boeken:
 
@@ -116,7 +116,7 @@ Er zijn een aantal manieren om een geboekte bankstorting terug te boeken:
 > [!NOTE]
 > U kunt alleen een register tegenboeken dat een enkele type posten bevat. Dat wil zeggen dat het register alleen klantgegevens of leveranciersgegevens mag bevatten, maar niet beide. Als een register beide bevat, moet u de storting handmatig tegenboeken.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Financiën](finance.md)  
 [Financiën instellen](finance.md)  

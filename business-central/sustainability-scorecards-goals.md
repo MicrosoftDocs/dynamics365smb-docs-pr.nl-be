@@ -12,11 +12,11 @@ ms.service: dynamics-365-business-central
 ms.reviewer: solsen
 ---
 
-# Duurzaamheidsscorecards en doelstellingenoverzicht
+# <a name="sustainability-scorecards-and-goals-overview"></a>Duurzaamheidsscorecards en doelstellingenoverzicht
 
 Dit artikel biedt richtlijnen voor het maken van scorecards en doelen en voor het bijwerken van de status van doelen. Met scorecards en doelen kunnen organisaties duurzaamheidsstatistieken verzamelen en deze vergelijken met belangrijke bedrijfsdoelstellingen. Doelen kunnen worden gecreëerd op basis van huidige en streefwaarden, zodat gebruikers de voortgang van de huidige emissies kunnen vergelijken met voorgaande perioden.  
 
-## Maak een scorekaart  
+## <a name="create-a-scorecard"></a>Maak een scorekaart
 
 Om een nieuwe  *Sustainability Scorecard* te maken, volgt u de volgende stappen: volgen
 
@@ -26,7 +26,7 @@ Om een nieuwe  *Sustainability Scorecard* te maken, volgt u de volgende stappen:
 
 > [LET OP!] In het veld  **Eigenaar**  kunt u alleen gebruikers selecteren die het veld  **Duurzaamheidsmanager** in de tabel  **gebruikersinstellingen** hebben geselecteerd. 
 
-## Doelen creëren  
+## <a name="create-goals"></a>Doelen creëren
 
 Om een nieuw  *Duurzaamheidsdoel* te creëren, volgen de stappen:
 
@@ -49,7 +49,7 @@ Als u veel doelen op de pagina hebt, kunt u de actie  **Mijn doelen weergeven** 
 > [!NOTE]
 > Gebruikers kunnen verschillende combinaties van doelen instellen voor het hele bedrijf, specifieke landen of regio's en een verantwoordelijkheidscentrum voor één Duurzaamheidsscorecard *.* Gebruikers kunnen ook verschillende periodes gebruiken voor hetzelfde trackingmodel. 
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Duurzaamheidsinstellingen](finance-sustainability-setup.md)    
 [Duurzaamheidsrekeningschema en grootboek](finance-sustainability-accounts-ledger.md)    

@@ -11,14 +11,14 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Meerdere btw-registratienummers 
+# <a name="multiple-vat-registration-numbers"></a>Meerdere btw-registratienummers
 
 Voor bedrijven met magazijnen in meerdere EU-landen kan het beheren van de btw (belasting over de toegevoegde waarde) een uitdaging zijn, omdat elke magazijnlocatie een ander btw-nummer vereist om te voldoen aan de specifieke regelgeving van elk land. In dit artikel vindt u informatie over deze vereiste en wordt de functionaliteit voor meerdere btw-registratienummers uitgelegd. Met deze functionaliteit kunnen gebruikers belastingregistratienummers instellen voor klanten in verschillende landen/regio's.  
 
 > [!NOTE]
 > De functionaliteit *Meerdere btw-nummers voor klanten* is alleen beschikbaar vanaf Business Central 2024 releasewave 2 (versie 25).
 
-## Hoe u de alternatieve btw-registratienummers instelt  
+## <a name="how-to-set-up-the-alternative-vat-registration-numbers"></a>Hoe u de alternatieve btw-registratienummers instelt
 
 Om de alternatieve btw-registratienummers voor verschillende landen/regio's in te stellen, voert u de volgende stappen uit: volgen 
 
@@ -40,11 +40,11 @@ Om een alternatief adres voor uw klant aan te maken, volgt u de volgende stappen
 8. Er verschijnt een waarschuwing dat u een nieuw btw-nummer moet toevoegen. Om dit te doen, moet u de actie  **Toevoegen** in de melding selecteren. De pagina  **Alternatieve btw-registratie voor klanten** wordt geopend. 
 9. Op deze pagina wordt uw **Klantnummer ingevuld.** En de  **btw-land-/regiocode**. U hoeft dus alleen de instellingen toe te voegen die u wilt gebruiken. 
 
-## Werken met de verkoopdocumenten   
+## <a name="work-with-the-sales-documents"></a>Werken met de verkoopdocumenten
 
 U kunt een nieuwe [verkoopfactuur](sales-how-invoice-sales.md) of [verkooporder](sales-how-sell-products.md) aanmaken in [!INCLUDE[prod_short](includes/prod_short.md)]. Als u een verzendadres moet gebruiken dat verschilt van het adres van de klant en dat zich in een ander land bevindt, volgt u de volgende stappen: volgen  
 
-### Alternatief verzendadres  
+### <a name="alternate-shipping-address"></a>Alternatief verzendadres
 
 1. Vouw het sneltabblad **Verzending en facturering** uit.   
 2. Selecteer in het veld Verzendadres de optie  **Alternatief verzendadres** . 
@@ -59,7 +59,7 @@ U kunt een nieuwe [verkoopfactuur](sales-how-invoice-sales.md) of [verkooporder]
 7. Zodra u bevestigt, worden de waarden overschreven met de waarden uit de instellingen van de  **Alternatieve btw-registratie voor klanten** . U kunt alle btw-gerelateerde velden controleren die zich onder het sneltabblad  **Factuurgegevens** bevinden.  
 8. U boekt het document.  
 
-### Aangepast adres  
+### <a name="custom-address"></a>Aangepast adres
 
 Als u het verzendadres niet hebt geconfigureerd, maar toch een ander verzendadres wilt gebruiken, kunt u deze optie gebruiken.  
 
@@ -69,7 +69,7 @@ Als u het verzendadres niet hebt geconfigureerd, maar toch een ander verzendadre
 4. Zodra u de land-/regiocode wijzigt zodat deze overeenkomt met de **btw-land-/regiocode** van de **Alternatieve btw-registratie van klanten**, verschijnt de dialoogvensterpagina **Alternatieve btw-registratie van klanten bevestigen**  met een lijst met velden die zijn gewijzigd. 
 5. [!INCLUDE[prod_short](includes/prod_short.md)] wijzigt ook alle btw-gerelateerde velden die zich onder het sneltabblad  **factuurdetails**  bevinden.  
 
-### Werk zonder verzending 
+### <a name="work-with-no-shipment"></a>Werk zonder verzending
 
 Als er geen verzending als proces is, kunt u nog steeds gebruikmaken van de instellingen van de  **Alternatieve btw-registratie voor klanten** .
 
@@ -77,11 +77,11 @@ In de verkooporder of factuur vindt u de  **btw-land-/regiocode** onder het snel
 
 In deze situatie kunt u een verkoopfactuur boeken met het juiste **btw-registratienummer** voor uw klant, zelfs als u geen artikelen met dit document verzendt. 
 
-### Werken met de verkoopcreditnota  
+### <a name="work-with-the-sales-credit-memo"></a>Werken met de verkoopcreditnota
 
 Zodra u de factuur boekt met een **verzendadres** of **btw-land-/regiocode** met andere boekingsgegevens, haalt de corrigerende **Verkoopcreditnota** de waarden uit de **geboekte verkoopfactuur** koptekst, terwijl deze waarden worden overgenomen uit de **Alternatieve btw-registratie van de klant**. Er zijn dus geen andere acties vereist. 
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Overzicht btw-beheer](finance-manage-vat.md)    
 [Omzetbelasting instellen](finance-setup-vat.md)    

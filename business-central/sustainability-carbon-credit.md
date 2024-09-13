@@ -12,13 +12,13 @@ ms.service: dynamics-365-business-central
 ms.reviewer: solsen
 ---
 
-# Werken met koolstofkrediet  
+# <a name="work-with-carbon-credit"></a>Werken met koolstofkrediet
 
 Wanneer bedrijven om verschillende redenen hun uitstoot niet kunnen verminderen, kunnen ze koolstofkredieten kopen om hun uitstoot te compenseren. Door koolstofkredieten te kopen, kan een bedrijf nog steeds dezelfde hoeveelheid gassen uitstoten en toch CO2-neutraal blijven. Deze credits worden gekocht bij gespecialiseerde leveranciers, waardoor emissiereducties worden gestimuleerd.  
 
 Over het algemeen zijn koolstofkredieten vergunningen waarmee de eigenaar een bepaalde hoeveelheid koolstofdioxide (CO₂) of andere broeikasgassen (BKG's) mag uitstoten. Eén koolstofkrediet vertegenwoordigt doorgaans het recht om één ton CO₂ of een equivalente hoeveelheid van een ander broeikasgas uit te stoten. Daarom is het belangrijk om deze optie voor sommige organisaties mogelijk te maken.  
 
-## Stel de koolstofkrediet in  
+## <a name="set-up-the-carbon-credit"></a>Stel de koolstofkrediet in
 
 Koolstofkrediet in [!INCLUDE[prod_short](includes/prod_short.md)] kan worden ingesteld als het **item**. Om het **item** in te stellen als een koolstofkrediet, volgen volgt u de volgende stappen:
   
@@ -32,9 +32,9 @@ Koolstofkrediet in [!INCLUDE[prod_short](includes/prod_short.md)] kan worden ing
 > [!NOTE]
 > U kunt elk type item, of het nu inventaris, service of niet-inventaris is, instellen als een CO2-krediet.  
 
-## Om koolstofkrediet te kopen 
+## <a name="to-purchase-carbon-credit"></a>Om koolstofkrediet te kopen
 
-### Inkoopdocumenten 
+### <a name="purchase-documents"></a>Inkoopdocumenten
 
 Om met aankoopgerelateerde documenten te werken, volgt u de volgende stappen: volgen
 
@@ -49,7 +49,7 @@ Om met aankoopgerelateerde documenten te werken, volgt u de volgende stappen: vo
 > [!NOTE]
 > Hoewel koolstofkredieten de waarde van de inzendingen zullen verlagen, zult u een positieve hoeveelheid waarde zien in de **CO2-uitstoot**. Maar zodra u het document post, ziet u een waarde met een negatieve log in de **Sustainability Ledger Entry** met de **GHG Credit** als een **document Type**.  
 
-### Duurzaamheidsdagboeken 
+### <a name="sustainability-journals"></a>Duurzaamheidsdagboeken
 
 Om te werken met **Sustainability Journal** volgen zijn de volgende stappen nodig:  
 
@@ -60,7 +60,7 @@ Om te werken met **Sustainability Journal** volgen zijn de volgende stappen nodi
 5. Selecteer  **Handmatige invoer** en voer de waarde die u als koolstofkrediet wilt boeken in het veld  **Emissie CO2** in.  
 6. Boek het dagboek.   
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Financiën](finance.md)    
 [Duurzaamheidsposten vastleggen](finance-sustainability-journal.md)    

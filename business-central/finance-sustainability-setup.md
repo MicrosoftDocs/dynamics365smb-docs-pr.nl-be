@@ -12,13 +12,13 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Opzet van de duurzaamheidsmodule 
+# <a name="sustainability-module-setup"></a>Opzet van de duurzaamheidsmodule
 
 Om de Duurzaamheidsmodule goed te laten werken moet u eerst een aantal basisbedieningen en instructies instellen die betrekking hebben op de gehele functionaliteit.
 
 Om de duurzaamheidsmodule in te stellen volgt u deze stappen:
 
-## Rolcentrum  
+## <a name="role-center"></a>Rolcentrum
 
 Voor personen die primair verantwoordelijk zijn voor duurzaamheidsprocessen, is het raadzaam om het rolcentrum  *Duurzaamheidsmanager*  te gebruiken. Om dit rolcentrum te configureren, voert u de volgende stappen uit: volgen  
 
@@ -29,7 +29,7 @@ Voor personen die primair verantwoordelijk zijn voor duurzaamheidsprocessen, is 
 
 Het rolcentrum *Duurzaamheidsmanager* faciliteert efficiënt beheer van alle belangrijke gebieden die verband houden met duurzaamheid. Het omvat de belangrijkste duurzaamheidskenmerken, evenals financiële en inkoopprocessen. Bovendien biedt het inzicht in de belangrijkste KPI's op het gebied van duurzaamheid.
 
-## Duurzaamheidsinstellingen  
+## <a name="sustainability-setup"></a>Duurzaamheidsinstellingen
 
 1. Selecteer het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Duurzaamheidsinstelling** in en kies vervolgens de gerelateerde koppeling.
 2. Configureer op het sneltabblad **Algemeen** de vereiste velden met betrekking tot de duurzaamheidsmodule.
@@ -72,7 +72,7 @@ Het rolcentrum *Duurzaamheidsmanager* faciliteert efficiënt beheer van alle bel
     | **Afrondingsprecisie voor uitstoot** | Geef de grootte op van het interval dat moet worden gebruikt voor het afronden van uitstoothoeveelheden wanneer u rapporteert aan autoriteiten. |
     | **Type afronding van uitstoot** | Geef op hoe het programma uitstootbedragen afrondt wanneer u rapporteert aan de autoriteiten. De volgende opties zijn beschikbaar: **Dichtstbijzijnd**, **Omhoog** en **Omlaag**. |
 
-## Uitstootkosten   
+## <a name="emission-fees"></a>Uitstootkosten
 
 Om interne CO2-heffingen bij te houden of uw emissies te berekenen met behulp van CO2-equivalenten, moet u de pagina  **Emissieheffingen**  configureren. Om deze informatie in te stellen, voert u de volgende stappen uit: volgen  
 
@@ -89,7 +89,7 @@ Om interne CO2-heffingen bij te houden of uw emissies te berekenen met behulp va
 
 Als u de  **emissierechten** niet hebt geconfigureerd voordat u uw duurzaamheidsposten hebt geboekt en u uw koolstofheffingen en CO2e met terugwerkende kracht wilt berekenen, moet u de actie  **emissierechten berekenen** uitvoeren om de waarden in de  **duurzaamheidsposten** bij te werken.  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Financiën](finance.md)    
 [Overzicht van duurzaamheidsbeheer](finance-manage-sustainability.md)    

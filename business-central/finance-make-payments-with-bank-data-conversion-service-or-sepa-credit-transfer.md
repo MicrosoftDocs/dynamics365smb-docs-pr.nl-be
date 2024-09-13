@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Betalingen uitvoeren met de AMC banking 365 fundamentals-extensie of SEPA-overschrijving
+# <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer"></a>Betalingen uitvoeren met de AMC banking 365 fundamentals-extensie of SEPA-overschrijving
 
 Op de pagina  **Betalingsjournalen** kunt u betalingen aan uw leveranciers verwerken door een bestand te exporteren met de betalingsgegevens uit de journaalregels. Vervolgens kunt u het bestand uploaden naar uw elektronische banksite waar de gerelateerde overboekingen worden verwerkt. [!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt het SEPA Credit Transfer-formaat, maar in uw land/regio zijn mogelijk andere formaten voor elektronische betalingen beschikbaar.
 
@@ -22,7 +22,7 @@ Op de pagina  **Betalingsjournalen** kunt u betalingen aan uw leveranciers verwe
 
 Nadat u hebt gecontroleerd of de bank de betalingen heeft verwerkt, kunt u de betalingsjournaalregels boeken.  
 
-## De AMC Banking 365 Fundamentals extensie instellen
+## <a name="setting-up-the-amc-banking-365-fundamentals-extension"></a>De AMC Banking 365 Fundamentals extensie instellen
 
 Activeer de AMC Banking 365 Fundamentals extensie om:
 
@@ -31,7 +31,7 @@ Activeer de AMC Banking 365 Fundamentals extensie om:
 
 Zie voor meer informatie [De extensie AMC Banking 365 Fundamentals gebruiken](ui-extensions-amc-banking.md).
 
-## SEPA-overschrijving instellen
+## <a name="setting-up-sepa-credit-transfer"></a>SEPA-overschrijving instellen
 
 Op de pagina  **Betalingslogboeken** kunt u betalingen exporteren naar een bestand. Vervolgens kunt u het bestand uploaden naar uw elektronische bank voor verwerking van de bijbehorende geldtransfers. [!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt het SEPA Credit Transfer-formaat, maar in uw land/regio zijn mogelijk andere formaten voor elektronische betalingen beschikbaar.  
 
@@ -50,7 +50,7 @@ Voordat u elektronische betaling kunt verwerken door betalingsbestanden te expor
 > [!TIP]
 > Dit artikel is van toepassing op de generieke versie van [!INCLUDE [prod_short](includes/prod_short.md)]. In uw land of regio zijn mogelijk extra verplichte velden toegevoegd aan de verschillende pagina's. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-### Een bankrekening instellen voor SEPA-kredietoverboekingen
+### <a name="to-set-up-a-bank-account-for-sepa-credit-transfer"></a>Een bankrekening instellen voor SEPA-kredietoverboekingen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer de bankrekening waarvan u betalingsbestanden in het SEPA-overschrijvingsformaat wilt exporteren.
@@ -68,7 +68,7 @@ Voordat u elektronische betaling kunt verwerken door betalingsbestanden te expor
 6. Kies op het sneltabblad  **Overboeking** in het veld  **Exportformaat betaling**  het SEPA-formaat dat u wilt gebruiken.  
 7. Geef in het veld  **IBAN** het internationale bankrekeningnummer voor de rekening op.  
 
-### Een leverancierskaart instellen voor SEPA-kredietoverboekingen
+### <a name="to-set-up-a-vendor-card-for-sepa-credit-transfer"></a>Een leverancierskaart instellen voor SEPA-kredietoverboekingen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies vervolgens de gerelateerde koppeling.  
 2. Open het bestand kaart van de leverancier die u elektronisch betaalt door betalingsbestanden te exporteren in het SEPA-overschrijvingsformaat.  
@@ -77,24 +77,24 @@ Voordat u elektronische betaling kunt verwerken door betalingsbestanden te expor
 
     Als u nog geen bank rekeningengroep voor deze leverancier heeft, kunt u dat nu doen. Zie voor meer informatie [Bankrekeningen van leveranciers instellen voor het exporteren van bankbestanden](bank-how-setup-bank-accounts.md#to-set-up-vendor-bank-accounts-for-export-of-bank-files). De waarde in het veld **Bankrekeningcode van voorkeur** wordt gekopieerd naar het veld **Bankrekening ontvanger** op de pagina **Betalingsdagboek**.  
 
-### Het betalingsdagboek instellen om betalingsbestanden te exporteren
+### <a name="to-set-the-payment-journal-up-to-export-payment-files"></a>Het betalingsdagboek instellen om betalingsbestanden te exporteren
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Betalingsdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de vervolgkeuzeknop in het veld **Batchnaam**.  
 3. Kies op de pagina **Algemene journaalbatches** de actie **Lijst bewerken**.  
 4. Selecteer het selectievakje  **Betalingsexport toestaan**  op de regel voor het betalingsjournaal dat u gebruikt om betalingen te exporteren.  
 
-### De definitie van gegevensuitwisseling voor een of meer betalingstypen verbinden met de relevante betalingsmethode(n)
+### <a name="to-connect-the-data-exchange-definition-for-one-or-more-payment-types-with-the-relevant-payment-method-or-methods"></a>De definitie van gegevensuitwisseling voor een of meer betalingstypen verbinden met de relevante betalingsmethode(n)
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsmethoden** in en kies vervolgens de gerelateerde koppeling.  
 2. Op de pagina **Betalingsmethoden** selecteert u de betalingswijze die wordt gebruikt om betalingen te exporteren en vervolgens kiest u het veld **Regeldefinitie betalingsexport**.  
 3. Selecteer op de pagina **Regeldefinities betalingsexport** de code die u hebt opgegeven in het veld **Code** op het sneltabblad **Regeldefinities** in stap 4 van de sectie 'De opmaak van regels en kolommen in het bestand beschrijven' van [Definities voor gegevensuitwisseling instellen](across-how-to-set-up-data-exchange-definitions.md).  
 
-## Het betalingsjournaal voorbereiden
+## <a name="preparing-the-payment-journal"></a>Het betalingsjournaal voorbereiden
 
 Vul het betalingsdagboek met regels voor verschuldigde betalingen aan leveranciers, met de mogelijkheid boekingsdatums in te voegen op basis van de vervaldatum van de verwante inkoopdocumenten. Zie [Betalingsverplichtingen beheren](payables-manage-payables.md) voor meer informatie.
 
-## Betalingen exporteren naar een bankbestand
+## <a name="exporting-payments-to-a-bank-file"></a>Betalingen exporteren naar een bankbestand
 
 Wanneer u klaar bent om betalingen aan uw leveranciers of vergoedingen aan uw werknemers te doen, kunt u een bestand exporteren met de betalingsgegevens op de regels op de pagina  **Betalingsjournalen** . Vervolgens kunt u het bestand uploaden naar uw bank voor verwerking van de betreffende overboekingen.
 
@@ -105,7 +105,7 @@ De extensie AMC Banking 365 Fundamentals is beschikbaar in de algemene versie va
 
 Gebruik de pagina  **Kredietoverschrijvingsregisters** om de betalingsbestanden te bekijken die uit het betalingsjournaal zijn geëxporteerd. Vanaf deze pagina kunt u ook betalingsbestanden opnieuw exporteren als er technische fouten zijn opgetreden of als er bestandswijzigingen zijn opgetreden. Houd er echter rekening mee dat geëxporteerde EFT-bestanden niet op deze pagina worden weergegeven en niet opnieuw kunnen worden geëxporteerd.  
 
-### Betalingen naar een bankbestand exporteren
+### <a name="to-export-payments-to-a-bank-file"></a>Betalingen naar een bankbestand exporteren
 
 De volgende stappen beschrijven hoe u een leverancier per cheque betaalt. De stappen zijn vergelijkbaar met het terugbetalen van een klant per cheque.
 
@@ -137,7 +137,7 @@ De volgende stappen beschrijven hoe u een leverancier per cheque betaalt. De sta
 
 Het bankbetalingsbestand wordt geëxporteerd naar de door u opgegeven locatie. U kunt het uploaden naar uw elektronische bankrekening en de daadwerkelijke betalingen verrichten. Vervolgens kunt u de geëxporteerde betalingsdagboekregels boeken.
 
-### Plannen wanneer geëxporteerde betalingen worden geboekt
+### <a name="to-plan-when-to-post-exported-payments"></a>Plannen wanneer geëxporteerde betalingen worden geboekt
 
 Als u geen betalingsjournaalregel voor een geëxporteerde betaling wilt boeken, kunt u de journaalregel gewoon verwijderen. Bijvoorbeeld omdat u wacht op de bevestiging dat de bank de transactie heeft verwerkt. Wanneer u later een betalingsjournaalregel aanmaakt om het resterende bedrag te betalen, wordt in het veld  **Totaal geëxporteerd bedrag**  weergegeven hoeveel van het betalingsbedrag al is geëxporteerd. U kunt ook gedetailleerde gegevens vinden over het geëxporteerde totaal door de knop **Krediettransferregisterposten** te kiezen om details over geëxporteerde betalingsbestanden te bekijken.
 
@@ -148,7 +148,7 @@ Als u geen betalingen wilt boeken totdat de bank de verwerking ervan heeft beves
 
 Als u informatie over geëxporteerde gegevens wilt bekijken, kiest u de actie **Historie betalingsexport**.
 
-### Betalingen naar een bankbestand opnieuw exporteren
+### <a name="to-re-export-payments-to-a-bank-file"></a>Betalingen naar een bankbestand opnieuw exporteren
 
 U kunt betalingsbestanden opnieuw exporteren vanuit de pagina **Krediettransferregisters**. Voordat u betalingsjournaalregels verwijdert of boekt, kunt u het betalingsbestand ook opnieuw exporteren vanuit de **Betalingsjournaals**  pagina door deze opnieuw te exporteren. Als u de betalingsjournaalregels na uw export verwijdert of boekt, kunt u hetzelfde betalingsbestand opnieuw exporteren vanuit de **Kredietoverdrachtsregisters**  pagina. Selecteer de regel voor de batch kredietoverboekingen die u opnieuw wilt exporteren, en gebruik vervolgens de actie **Betalingen opnieuw exporteren naar bestand**.
 
@@ -158,11 +158,11 @@ U kunt betalingsbestanden opnieuw exporteren vanuit de pagina **Krediettransferr
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Krediettransferregisters** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer een betalingexport die u opnieuw wilt exporteren en kies de actie **Betalingen opnieuw exporteren naar bestand**.
 
-## Het boeken van de betalingen
+## <a name="posting-the-payments"></a>Het boeken van de betalingen
 
 Nadat uw bank de elektronische betaling heeft verwerkt, boekt u de betalingen. Zie voor meer informatie [Betalingen doen](payables-make-payments.md).
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [De AMC Banking 365 Fundamentals-extensie gebruiken](ui-extensions-amc-banking.md)  
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
